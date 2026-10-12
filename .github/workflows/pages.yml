@@ -26,7 +26,7 @@ jobs:
         run: >-
           curl --fail --location --retry 3
           --output bundle.zip
-          "https://github.com/${{ github.repository }}/releases/download/v1.0.2/tashi-in-tibet.zip"
+          "https://github.com/${{ github.repository }}/releases/download/v1.0.3/tashi-in-tibet.zip"
 
       - name: Verify and extract the published game
         run: |
@@ -36,7 +36,7 @@ jobs:
           import zipfile
 
           archive = Path('bundle.zip')
-          expected = '77bc075b8ee02b286c4e37d99882e2f9f8bca485ca12edb84c095319540add49'
+          expected = 'affc0e7dcf73a1d3588b724d53ceacdd7f87efa1dae2c2b076b06b27273100bb'
           if hashlib.sha256(archive.read_bytes()).hexdigest() != expected:
               raise SystemExit('The game archive checksum does not match.')
 
