@@ -10,7 +10,7 @@
 
 ## Публикация
 
-Полная сборка находится в архиве `tashi-in-tibet.zip` релиза `v1.0`. GitHub Actions проверяет контрольную сумму архива и публикует игровые HTML-файлы, папки `assets` и `licenses` через GitHub Pages.
+Полная сборка находится в архиве `tashi-in-tibet.zip` релиза `v1.0.1`. GitHub Actions проверяет контрольную сумму архива и публикует игровые HTML-файлы, папки `assets` и `licenses` через GitHub Pages.
 
 Для повторной публикации откройте Actions → Publish Tashi to GitHub Pages → Run workflow и выберите ветку `main`. При обновлении сборки нужно указать новый архив релиза и его SHA-256 в `.github/workflows/pages.yml`.
 
