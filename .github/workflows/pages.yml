@@ -32,7 +32,7 @@ jobs:
         run: >-
           curl --fail --location --retry 3
           --output update.zip
-          "https://github.com/${{ github.repository }}/releases/download/v1.0.4/tashi-update.zip"
+          "https://github.com/${{ github.repository }}/releases/download/v1.0.5/tashi-update.zip"
       - name: Verify and extract the published game
         run: |
           python3 - <<'PY'
@@ -66,7 +66,7 @@ jobs:
                   target.parent.mkdir(parents=True, exist_ok=True)
                   target.write_bytes(bundle.read(item))
           patch = Path('update.zip')
-          if hashlib.sha256(patch.read_bytes()).hexdigest() != '8636314a49f953a51e4b5bc725aa70ab3f77e9bdb48e9a611edcfc54d01291ba':
+          if hashlib.sha256(patch.read_bytes()).hexdigest() != '99d4c04828cc9d017b68419a8c6b85b35d7eab27924c4e01ee236622b78e62e1':
               raise SystemExit('The update checksum does not match.')
           with zipfile.ZipFile(patch) as bundle:
               for item in bundle.infolist():
