@@ -1,0 +1,78 @@
+name: Publish Tashi to GitHub Pages
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download the game archive
+        run: >-
+          curl --fail --location --retry 3
+          --output bundle.zip
+          "https://github.com/${{ github.repository }}/releases/download/v1.0/tashi-in-tibet.zip"
+
+      - name: Verify and extract the published game
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path, PurePosixPath
+          import hashlib
+          import zipfile
+
+          archive = Path('bundle.zip')
+          expected = 'cef00ff1afbaba70ea5066f967c4281e8a54b5d02639fefc06e9d5269fc20ec2'
+          if hashlib.sha256(archive.read_bytes()).hexdigest() != expected:
+              raise SystemExit('The game archive checksum does not match.')
+
+          output = Path('dist')
+          output.mkdir(exist_ok=True)
+          with zipfile.ZipFile(archive) as bundle:
+              for item in bundle.infolist():
+                  name = item.filename
+                  if not item.flag_bits & 0x800:
+                      try:
+                          name = name.encode('cp437').decode('utf-8')
+                      except UnicodeError:
+                          pass
+                  relative = PurePosixPath(name)
+                  if relative.is_absolute() or '..' in relative.parts:
+                      raise SystemExit('Unsafe archive path.')
+                  if item.is_dir():
+                      continue
+                  if name not in ('index.html', 'characters-preview.html') and not name.startswith(('assets/', 'licenses/')):
+                      continue
+                  target = output.joinpath(*relative.parts)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(bundle.read(item))
+          (output / '.nojekyll').touch()
+          if not (output / 'index.html').is_file():
+              raise SystemExit('The game entry point is missing.')
+          print(f'Prepared {sum(path.is_file() for path in output.rglob("*"))} files for publication.')
+          PY
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy the site
+        id: deployment
+        uses: actions/deploy-pages@v5
