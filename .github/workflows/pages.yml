@@ -1,8 +1,9 @@
 name: Publish Tashi to GitHub Pages
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [main]
+    paths: [.github/workflows/pages.yml]
   workflow_dispatch:
 
 permissions:
