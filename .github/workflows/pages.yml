@@ -70,12 +70,18 @@ jobs:
           --output tashi-reception-main.zip
           "https://github.com/${{ github.repository }}/releases/download/v1.0.7/tashi-reception-main.zip"
 
+      - name: Download tashi-objects-main.zip
+        run: >-
+          curl --fail --location --retry 3
+          --output tashi-objects-main.zip
+          "https://github.com/${{ github.repository }}/releases/download/v1.0.7/tashi-objects-main.zip"
+
       - name: Verify and assemble the game
         run: |
           python3 - <<'PY'
           from pathlib import Path, PurePosixPath
           import hashlib, json, zipfile
-          packages = [["bundle.zip", "77bc075b8ee02b286c4e37d99882e2f9f8bca485ca12edb84c095319540add49"], ["tashi-update.zip", "1ee7e65bc00f5b7bb6b2c0ebfb3bd46a3d47f7fb058716b8ed0c359b2427fb3e"], ["tashi-art-1.zip", "4384077955a35b91d492d316cd49431d239c3331e166e8fa76c35ebafb116183"], ["tashi-art-2.zip", "e741b2038738483cd14e0217a3d5ec17665b5c549c0b8e0f8460929f5ec550d3"], ["tashi-captions-main.zip", "f717f73c9a6c7894ad5617412afca8efc7b9c91aaebf5d884b8ced69aa6608fe"], ["tashi-room-main.zip", "80bec6c82a4ab317929994569d3d5fa93a13fdaadeba1114e5ac2fd5b0f3680f"], ["tashi-loading-main.zip", "411eccc80278951cdf5333f366fa706c74c84faad70e718cc40681ad0bcef6f3"], ["tashi-reception-main.zip", "7a93e5c26ddeb432ae313c60051d9c67d757a95121a5fef5c9aa9250ff0fd57c"]]
+          packages = [["bundle.zip", "77bc075b8ee02b286c4e37d99882e2f9f8bca485ca12edb84c095319540add49"], ["tashi-update.zip", "1ee7e65bc00f5b7bb6b2c0ebfb3bd46a3d47f7fb058716b8ed0c359b2427fb3e"], ["tashi-art-1.zip", "4384077955a35b91d492d316cd49431d239c3331e166e8fa76c35ebafb116183"], ["tashi-art-2.zip", "e741b2038738483cd14e0217a3d5ec17665b5c549c0b8e0f8460929f5ec550d3"], ["tashi-captions-main.zip", "f717f73c9a6c7894ad5617412afca8efc7b9c91aaebf5d884b8ced69aa6608fe"], ["tashi-room-main.zip", "80bec6c82a4ab317929994569d3d5fa93a13fdaadeba1114e5ac2fd5b0f3680f"], ["tashi-loading-main.zip", "411eccc80278951cdf5333f366fa706c74c84faad70e718cc40681ad0bcef6f3"], ["tashi-reception-main.zip", "7a93e5c26ddeb432ae313c60051d9c67d757a95121a5fef5c9aa9250ff0fd57c"], ["tashi-objects-main.zip", "54467b7a8b3157a6367293825f806264f9d9b0a71b0755dd028e52f05a124b05"]]
           output = Path('dist')
           output.mkdir(exist_ok=True)
           for number, (name, expected) in enumerate(packages):
