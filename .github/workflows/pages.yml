@@ -130,6 +130,91 @@ jobs:
           print('Prepared', sum(p.is_file() for p in output.rglob('*')), 'files for publication.')
           PY
 
+      - name: Fix bath exit and narrow screen controls
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json,sys
+          
+          OLD_HYGIENE="""let hygieneStart=null,hygieneKey=null;function hygieneActive(){if(!task.visualDone||!['brushteeth','washface','washhands','bath','shower'].includes(task.visual))return false;const key=task.id+':'+task.visual;if(key!==hygieneKey){hygieneKey=key;hygieneStart=frame;}const active=frame-hygieneStart<65;if(!active&&['bath','shower'].includes(task.visual)){fox.y=fox.ty=Math.max(170,fox.y);}return active;}"""
+          NEW_HYGIENE="""let hygieneStart=null,hygieneKey=null,hygieneExitDone=false;
+           function hygieneActive(){
+            if(!task.visualDone||!['brushteeth','washface','washhands','bath','shower'].includes(task.visual))return false;
+            const key=task.id+':'+task.visual;
+            if(key!==hygieneKey){hygieneKey=key;hygieneStart=frame;hygieneExitDone=false;}
+            const age=frame-hygieneStart;
+            if(task.visual==='bath'){
+             if(age>=65&&!hygieneExitDone){
+              fox.x=fox.tx=128;fox.y=fox.ty=184;walkRoute=[];hygieneExitDone=true;
+             }
+             return age<70;
+            }
+            if(age>=65&&task.visual==='shower')fox.y=fox.ty=Math.max(170,fox.y);
+            return age<65;
+           }
+           function leavingBath(){return task.visual==='bath'&&hygieneKey===task.id+':bath'&&frame-hygieneStart>=65&&frame-hygieneStart<70;}
+           function drawFox(){
+            let opacity=1;
+            if(scene==='bathroom'&&task.visual==='bath'&&task.visualDone){
+             hygieneActive();const age=frame-hygieneStart;
+             if(age>=60&&age<65)opacity=(65-age)/5;
+             else if(age>=65&&age<70)opacity=(age-65)/5;
+            }
+            g.save();g.globalAlpha*=opacity;drawFoxBody();g.restore();
+           }"""
+          
+          HUD_CSS="""
+          /* Keep the narrow HUD in one explicit grid after the phone rules. */
+          @media(max-width:600px){
+           #game-app .game-hud{grid-template-columns:32px minmax(0,1fr) auto!important;grid-template-areas:"brand week actions" "season season time";gap:4px 8px;align-items:center}
+           #game-app .game-hud .brand{grid-area:brand!important}
+           #game-app #week{grid-area:week!important;min-width:0}
+           #game-app .header-actions{grid-area:actions!important;justify-self:end;flex-wrap:nowrap;min-width:94px}
+           #game-app .game-time{grid-area:time!important;align-self:center;justify-self:end;margin:0;min-width:72px;max-width:110px}
+           #game-app #clock-phase{white-space:normal;overflow-wrap:anywhere;line-height:1.2}
+           #game-app #clock-phase .phase-bo{display:block;white-space:normal;margin-left:0;line-height:1.5}
+           #game-app #hud-season{grid-area:season!important;min-width:0;width:auto;justify-content:flex-start;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+           #game-app #hud-season [lang=bo]{overflow-wrap:anywhere}
+           #game-app .game-hud .header-actions button{flex:0 0 44px;width:44px;min-width:44px;height:44px;padding:6px}
+          }
+          """
+          
+          def apply(root,build):
+              root=Path(root);before={}
+              for name in ['assets/js/game-09.js','assets/styles.css','index.html','assets/manifest.json']:
+                  p=root/name;before[name]=hashlib.sha256(p.read_bytes()).hexdigest()
+                  if p.is_symlink():raw=p.read_bytes();p.unlink();p.write_bytes(raw)
+              p=root/'assets/js/game-09.js';s=p.read_text();assert s.count(OLD_HYGIENE)==1
+              s=s.replace(OLD_HYGIENE,NEW_HYGIENE)
+              assert s.count(' function drawFox(){')==2
+              at=s.rindex(' function drawFox(){');s=s[:at]+s[at:].replace(' function drawFox(){',' function drawFoxBody(){',1)
+              old="if(v==='bath'){GameArtV2.sprite(g,'hygiene',frame%80<60?0:1,fox.x-25,fox.y-46,50,46);return;}"
+              assert s.count(old)==1;s=s.replace(old,"if(v==='bath'&&!leavingBath()){GameArtV2.sprite(g,'hygiene',frame%80<60?0:1,fox.x-25,fox.y-46,50,46);return;}")
+              p.write_text(s)
+              p=root/'assets/styles.css';p.write_text(p.read_text()+HUD_CSS)
+              previous,new=('1.0.7.8','1.0.7.9')if build=='main'else('dev-1.0.5.8','dev-1.0.5.9')
+              p=root/'index.html';s=p.read_text();assert s.count(previous)==(32 if build=='main'else 33);s=s.replace(previous,new);p.write_text(s)
+              p=root/'assets/manifest.json';m=json.loads(p.read_text());m['htmlBytes']=(root/'index.html').stat().st_size;m['scriptBytes']=sum(q.stat().st_size for q in (root/'assets/js').glob('game-*.js'))
+              for name,meta in m['resources'].items():
+                  q=root/name
+                  if name in before:meta.update(bytes=q.stat().st_size,sha256=hashlib.sha256(q.read_bytes()).hexdigest())
+              p.write_text(json.dumps(m,ensure_ascii=False,separators=(',',':'))+'\n')
+              return {'build':build,'version':new,'before':before,'after':{name:hashlib.sha256((root/name).read_bytes()).hexdigest()for name in before}}
+          
+          
+          expected={'build': 'main', 'version': '1.0.7.9', 'before': {'assets/js/game-09.js': '2e62d07fe22527e1e88b3af583cf5bd8f00a88b294b95e9b0bf7aa338528f524', 'assets/styles.css': 'ef85550c06b61d34e9afbd3297dcbea6b09e45ad35eb35843b9dada5177fb582', 'index.html': 'b4109da9c9331820e1a3321447ac79298b1460f24fc42b086a888991f60ae5dd', 'assets/manifest.json': '6186dfd4065a1f483ac776de66985f8a29f55edddb1130ea423d8161e6cd7ef1'}, 'after': {'assets/js/game-09.js': '28e12071e97afa24f2d8192127ef3ce2932e64e3dbdf9fce579c082dfa692874', 'assets/styles.css': 'b95dd69ce0a13213595e801b6564d82fc28362bda5167a2fc3aeb54cf1e64d79', 'index.html': 'c330c5ee2403a743b5aecb3a16e0a03293ed9a18aa88522b903486dc151546b6', 'assets/manifest.json': '8d9be62fa1cff8640e8db73b2f3df18e4e033b07054448ed47dfd1bb24b00494'}}
+          root=Path('dist')
+          for name,expected_sha in expected['before'].items():
+              assert hashlib.sha256((root/name).read_bytes()).hexdigest()==expected_sha,name
+          actual=apply(root,'main')
+          assert actual==expected,actual
+          manifest=json.loads((root/'assets/manifest.json').read_text())
+          for name,meta in manifest['resources'].items():
+              data=(root/name).read_bytes()
+              assert len(data)==meta['bytes'] and hashlib.sha256(data).hexdigest()==meta['sha256'],name
+          print('Bath and responsive HUD verified:',expected['version'])
+          PY
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
@@ -141,3 +226,4 @@ jobs:
       - name: Deploy the site
         id: deployment
         uses: actions/deploy-pages@v5
+
