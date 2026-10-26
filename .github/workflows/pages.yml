@@ -215,6 +215,165 @@ jobs:
           print('Bath and responsive HUD verified:',expected['version'])
           PY
 
+      - name: Correct scene composition and animations
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          expected={'build': 'main', 'version': '1.0.7.10', 'previousVersion': '1.0.7.9', 'before': {'assets/js/game-00.js': '074921182720f1b8adf33dd60c6c559c85442edd0e7c78138483b1ca6b5e1eea', 'assets/js/game-08.js': 'ebafda593fc09c332677c1a330abd5ee9076e1eb1551a3506e2919ba74e2c26c', 'assets/js/game-09.js': '28e12071e97afa24f2d8192127ef3ce2932e64e3dbdf9fce579c082dfa692874', 'index.html': 'c330c5ee2403a743b5aecb3a16e0a03293ed9a18aa88522b903486dc151546b6', 'assets/manifest.json': '8d9be62fa1cff8640e8db73b2f3df18e4e033b07054448ed47dfd1bb24b00494'}, 'after': {'assets/js/game-00.js': '5feb19dc73b2d730638e4694ea1aa0128591060dc63f5f8090255363d87ae7f3', 'assets/js/game-08.js': '9e62d539d6f78a4b02e4e74f0879690efdc712bbb4953bcaab00ebc3fb2c5662', 'assets/js/game-09.js': 'c748b352dc03611ff1044a8af4c2c1a0e8da3960efc49e4b1d64f8c157b5de95', 'index.html': 'e77f3242a896b5209ce0be305ee386122b57a3c62ffafb83cf759c036540c8b5', 'assets/manifest.json': '3347739a66d82cc457244151e40732818be5b839916acc7ae825f0a86caad90a'}, 'verifiedResources': 493}
+          root=Path('dist')
+          for name,digest in expected['before'].items():
+              assert hashlib.sha256((root/name).read_bytes()).hexdigest()==digest,name
+          from pathlib import Path
+          
+          ROOT=Path('.')
+          def edit(s,old,new,n=1):
+           assert s.count(old)==n,(old[:120],s.count(old),n)
+           return s.replace(old,new)
+          
+          for build in ['dist']:
+           p=ROOT/build/'assets/js/game-00.js';s=p.read_text()
+           s=edit(s,"'usha-food':[359,193]","'usha-food':[382,169]")
+           p.write_text(s)
+           p=ROOT/build/'assets/js/game-09.js';s=p.read_text()
+           s=edit(s,"const target=ushaCareEvent.kind==='feed'?[382,193]:[401,193]", "const target=GameHomeLayout.anchors[ushaCareEvent.kind==='feed'?'usha-food':'usha-water']")
+           s=edit(s,"if(key!==hygieneKey){hygieneKey=key;hygieneStart=frame;hygieneExitDone=false;}\n  const age=frame-hygieneStart;", """if(key!==hygieneKey){hygieneKey=key;hygieneStart=null;hygieneExitDone=false;}
+            if(hygieneStart===null){
+             const destination=task.visual==='bath'?[49,132]:task.visual==='shower'?[295,139]:[111,139];
+             if(Math.abs(fox.tx-fox.x)+Math.abs(fox.ty-fox.y)>2||Math.hypot(fox.x-destination[0],fox.y-destination[1])>2)return true;
+             hygieneStart=frame;
+            }
+            const age=frame-hygieneStart;""")
+           s=edit(s,"hygieneActive();const age=frame-hygieneStart;\n   if(age>=60", "hygieneActive();const age=hygieneStart===null?-1:frame-hygieneStart;\n   if(age>=60")
+           s=edit(s,"const brushing=combined?frame%100<55:v==='brushteeth';\n    if(v!=='washhands'||combined){GameArtV2.sprite(g,'hygiene',brushing?4:5,fox.x-22,fox.y-51,44,51);return;}", """const brushing=combined?frame-hygieneStart<32:v==='brushteeth';
+              const faceWash=v==='washface'||v==='washhands'&&!combined&&/умываюсь|мою лицо/.test(task.ru||'');
+              if(v!=='washhands'||combined||faceWash){GameArtV2.sprite(g,'hygiene',brushing?4:5,fox.x-22,fox.y-51,44,51);return;}""")
+           s=edit(s,"const combined=/чищу зубы.*умываюсь/.test(task.ru||'');\n   if((v==='washface'||combined&&frame%100>=55)&&frame%100<92){g.save();", """const combined=/чищу зубы.*умываюсь/.test(task.ru||''),age=frame-hygieneStart;
+             const faceWash=v==='washface'||v==='washhands'&&!combined&&/умываюсь|мою лицо/.test(task.ru||'');
+             if(v==='washhands'&&!combined&&!faceWash&&!/вода не идёт/i.test(task.ru||'')){
+              const sway=Math.sin(age*.5)*1.2;
+              g.save();g.fillStyle='#f2f2e3';g.strokeStyle='#9b8b70';g.lineWidth=.35;
+              for(const [dx,dy,r] of [[-3+sway,-22,1.6],[1-sway,-21,1.5],[3+sway,-23,1.1],[-1,-24,.9]]){g.beginPath();g.arc(fox.x+dx,fox.y+dy,r,0,Math.PI*2);g.fill();g.stroke();}
+              g.strokeStyle='#a4d3d0';g.lineWidth=.45;g.beginPath();g.moveTo(99,70);g.lineTo(99,78);g.stroke();g.restore();
+             }
+             if((faceWash||combined&&age>=32)&&age<62){g.save();""")
+           old="if(v==='washwindow'){const xx=111+(frame%16)*3,yy=35+Math.floor(frame%8/2)*5;edged(xx,yy,11,7,'#ece5d2','#90b9b3');R(xx-3,yy+3,5,3,'#d5a67b');for(const [dx,dy]of [[-6,12],[5,18],[13,11]])R(xx+dx,yy+dy,1,3,'#addbd4');line(115,28,12,'#e8f7e8');line(153,49,9,'#e8f7e8');return}"
+           new="""if(v==='washwindow'){
+             if(Math.abs(fox.tx-fox.x)+Math.abs(fox.ty-fox.y)>2)return;
+             const sway=Math.sin(frame*.20),hx=fox.x+11+sway*3,hy=fox.y-45+Math.cos(frame*.20)*2;
+             const garment=(GameClothing.colours('home',task)||['red','green'])[0];
+             g.save();g.lineCap='round';g.lineJoin='round';g.beginPath();g.moveTo(fox.x+10,fox.y-24);g.quadraticCurveTo(fox.x+16,fox.y-29,hx,hy);g.strokeStyle='#664b3e';g.lineWidth=5.2;g.stroke();g.strokeStyle=colours[garment]||'#a15345';g.lineWidth=3.6;g.stroke();
+             g.fillStyle='#d9be97';g.strokeStyle='#735b49';g.lineWidth=.4;g.beginPath();g.ellipse(hx,hy,2.4,2.1,0,0,Math.PI*2);g.fill();g.stroke();
+             g.fillStyle='#f0ead9';g.strokeStyle='#97b8b1';g.lineWidth=.5;g.beginPath();g.roundRect(hx-2,hy-4,6,5,1);g.fill();g.stroke();g.restore();return;
+            }"""
+           s=edit(s,old,new)
+           s=edit(s,"if(v==='stay'){R(61,119,78,19,'#af9365');item('bag',146,122);return}","if(v==='stay')return;")
+           anchor="if(anchors[place]?.[id])[x,y]=anchors[place][id];"
+           s=edit(s,anchor,anchor+"if(place==='home'&&id==='window'&&task.visual==='washwindow')[x,y]=[122,108];")
+           p.write_text(s)
+           p=ROOT/build/'assets/js/game-08.js';s=p.read_text()
+           s=edit(s,"function tick(d,{scene='home',now=Date.now(),minute=null,visible=true,stimulus=null}={}){", "function tick(d,{scene='home',now=Date.now(),minute=null,visible=true,stimulus=null,blockedBowls=null}={}){")
+           s=edit(s,"  if(d.ai.until){\n   if(now<d.ai.until)return false;", "  if(d.ai.until){\n   // Do not consume food or water while Tashi is still at the bowl.\n   if(scene==='home'&&blockedBowls?.[d.activity]){d.ai.until+=seconds*1000;return false;}\n   if(now<d.ai.until)return false;")
+           s=edit(s,"if(scene==='home'&&d.water>0&&d.needs.hydrated<.6){d.activity='drink';", "if(scene==='home'&&d.water>0&&d.needs.hydrated<.6){if(blockedBowls?.drink)return false;d.activity='drink';")
+           s=edit(s,"if(scene==='home'&&d.food>0&&d.needs.sated<.65){d.activity='eat';", "if(scene==='home'&&d.food>0&&d.needs.sated<.65){if(blockedBowls?.eat)return false;d.activity='eat';")
+           s=edit(s,"if(!careVisual?.pending&&binding?.d===d&&GameUsha.tick(d,{scene,minute:binding.minute(),visible:!document.hidden,stimulus}))binding.onChange();", """const blockedBowls=home?Object.fromEntries(['eat','drink'].map(kind=>[kind,Math.hypot(fox.x-USHA_HOME_LAYOUT[kind].x,fox.y-USHA_HOME_LAYOUT[kind].y)<48])):null;
+            if(!careVisual?.pending&&binding?.d===d&&GameUsha.tick(d,{scene,minute:binding.minute(),visible:!document.hidden,stimulus,blockedBowls}))binding.onChange();""")
+           old="if(atBowl&&d.activity==='drink'&&position&&position.x<bowlGoal.x-2)goal.y=bowlGoal.approachY;"
+           new="""// Wait until Tashi has finished at the bowls before approaching them.
+            const careBlocked=atBowl&&Math.hypot(fox.x-bowlGoal.x,fox.y-bowlGoal.y)<48;
+            if(careBlocked){goal.x=USHA_HOME_LAYOUT.rest.x;goal.y=USHA_HOME_LAYOUT.rest.y;}
+            if(atBowl&&!careBlocked&&d.activity==='drink'&&position&&position.x<bowlGoal.x-2)goal.y=bowlGoal.approachY;
+            // Returning from the water bowl uses the clear lane above the food bowl.
+            if(home&&position&&position.x>USHA_HOME_LAYOUT.food.x-18&&goal.x<USHA_HOME_LAYOUT.food.x-18&&position.y>164){
+             goal.x=position.y>168?position.x:USHA_HOME_LAYOUT.food.x-19;goal.y=164;
+            }"""
+           s=edit(s,old,new)
+           old="let x=position.x,y=position.y,key=d.activity==='belly'?'belly'"
+           s=edit(s,old,"let x=position.x,y=position.y,key=careBlocked?'idle':d.activity==='belly'?'belly'")
+           p.write_text(s)
+          print('Applied care, hygiene, hotel and window fixes')
+          
+          from pathlib import Path
+          ROOT=Path('.')
+          def edit(s,old,new,n=1):
+           assert s.count(old)==n,(old[:120],s.count(old),n)
+           return s.replace(old,new)
+          
+          for build in ['dist']:
+           p=ROOT/build/'assets/js/game-08.js';s=p.read_text()
+           old="""if(task.expeditionPlace){const pool=regionalBySite.get(task.expeditionPlace)||[],offset=(state.residents?.walks?.[walkKey(scene,task)]||0)%Math.max(1,pool.length);"""
+           new="""if(['home','bathroom','kitchen','phone','citymap','bus','plane','train','exp-car','exp-hotel-room'].includes(scene))return [];
+            if(task.expeditionPlace){const pool=regionalBySite.get(task.expeditionPlace)||[],offset=(state.residents?.walks?.[walkKey(scene,task)]||0)%Math.max(1,pool.length);"""
+           s=edit(s,old,new)
+           s=edit(s,"if(!api||['object','travel','intro','expedition-preview'].includes(task.type))return;\n  const state=api.getState(),minute=api.minute(),people=visible(state,scene,minute,task);drawn=[];", "if(!api||['object','travel','intro','expedition-preview'].includes(task.type))return;\n  const state=api.getState(),minute=api.minute(),people=visible(state,scene,minute,task);drawn=[];")
+           s=edit(s,"function draw({g,scene,task,hotspot,hotspots,visiblePeople,width,frame}){\n  if(!api||['object','travel','intro','expedition-preview'].includes(task.type))return;", "function draw({g,scene,task,hotspot,hotspots,visiblePeople,width,frame,hero}){\n  if(!api||['object','travel','intro','expedition-preview'].includes(task.type))return;")
+           s=edit(s,"const positions=task.expeditionPlace?[[163,195],[213,195],[69,193],[294,192]]:scene==='festival'", "const positions=task.expeditionPlace?[[163,195],[213,195],[69,193],[294,192]]:['city-quarter-2','city-quarter-6'].includes(scene)?[[196,190],[247,190],[299,186]]:scene==='festival'")
+           s=edit(s,"&&!drawn.some(k=>Math.hypot(k.x-x,k.y-y)<46));", "&&!drawn.some(k=>Math.hypot(k.x-x,k.y-y)<46)&&(!hero||Math.abs(x-hero.x)>34||Math.abs(y-hero.y)>22));")
+           old="objects.forEach((x,i)=>{const px=23+(i%5)*54,py=45+Math.floor(i/5)*56;"
+           new="""// A real shelf supports the upper row of objects against the wall.
+            g.save();const shelf=g.createLinearGradient(0,86,0,91);shelf.addColorStop(0,'#b78e63');shelf.addColorStop(.35,'#8f6646');shelf.addColorStop(1,'#65462f');g.fillStyle=shelf;g.fillRect(20,86.5,270,4);g.strokeStyle='#d7b68e';g.lineWidth=.5;g.beginPath();g.moveTo(20,87);g.lineTo(290,87);g.stroke();g.restore();
+            objects.forEach((x,i)=>{const px=23+(i%5)*54,py=45+Math.floor(i/5)*56;"""
+           s=edit(s,old,new)
+           old="""function posters(g,{task,hotspot}){const works=CULTURE_DATA.works.filter(w=>w.scene===task.scene);works.forEach((w,i)=>{const x=51+i*66,y=27;g.save();g.shadowColor='#49362b55';g.shadowBlur=1.8;g.fillStyle='#f2e4c7';g.strokeStyle='#806749';g.lineWidth=.8;g.fillRect(x,y,57,83);g.strokeRect(x,y,57,83);g.restore();GameArtV2.sprite(g,'gallery',i,x+4,y+5,49,46);g.save();g.fillStyle='#3f4d3d';g.font='bold 5px serif';g.textAlign='center';g.fillText(w.title[GameLocale.language==='en'?'en':'ru'],x+28,y+60,51);g.font='4.4px sans-serif';g.fillText(w.time,x+28,y+72);g.restore();hotspot('work-poster-'+w.id,'Афиша · '+w.title.ru,x+28,y+41,57,83,'བརྡ་ཁྱབ།');});}"""
+           new="""function posters(g,{task,hotspot}){const works=CULTURE_DATA.works.filter(w=>w.scene===task.scene);works.forEach((w,i)=>{const x=51+i*66,y=29,k=.64;g.save();g.translate(x,y);g.scale(k,k);g.shadowColor='#49362b55';g.shadowBlur=1.8;g.fillStyle='#f2e4c7';g.strokeStyle='#806749';g.lineWidth=.8;g.fillRect(0,0,57,83);g.strokeRect(0,0,57,83);g.shadowBlur=0;GameArtV2.sprite(g,'gallery',i,4,5,49,46);g.fillStyle='#3f4d3d';g.font='bold 5px serif';g.textAlign='center';g.fillText(w.title[GameLocale.language==='en'?'en':'ru'],28,60,51);g.font='4.4px sans-serif';g.fillText(w.time,28,72);g.restore();hotspot('work-poster-'+w.id,'Афиша · '+w.title.ru,x+28*k,y+41*k,57*k,83*k,'བརྡ་ཁྱབ།');});}"""
+           s=edit(s,old,new)
+           p.write_text(s)
+          
+           p=ROOT/build/'assets/js/game-09.js';s=p.read_text()
+           replacements=[
+           ("npc(173,123,kind==='bank'?'banker':'staff');counter(16,104,291,50)","npc(173,123,kind==='bank'?'banker':'staff',{occludeBelow:kind==='bank'?118:104});counter(16,104,291,50)"),
+           ("function tickets(){room();npc(213,86,'staff');", "function tickets(){room();npc(213,86,'administrator',{occludeBelow:77});"),
+           ("npc(231,135,'police');counter(172,116,134,44)","npc(231,116,'police',{occludeBelow:102});counter(172,116,134,44)"),
+           ("npc(178,143,'colleague');counter(119,124,181,41)","npc(178,128,'colleague',{occludeBelow:113});counter(119,124,181,41)"),
+           ("npc(246,135);counter(189,116,113,49)","npc(246,135,'staff',{occludeBelow:114.5});counter(189,116,113,49)"),
+           ("npc(274,148,'staff');counter(231,129,76,46);item('receipt',254,112)","npc(274,148,'staff',{occludeBelow:127});counter(231,129,76,46);item('receipt',254,112)"),
+           ("R(281,29,3,155,'#7f9180');R(272,157,31,10,'#877b59');npc(284,143,'boss');", "R(281,29,3,155,'#7f9180');R(272,157,31,10,'#877b59');npc(273,180,'boss');"),
+           ("npc(145,87,'friend');npc(218,84,'colleague');P([[82,100],[107,50],[124,100]],'#7e9b71')", "P([[82,100],[107,50],[124,100]],'#7e9b71')"),
+           ("npc(22,103,'staff');item('paper',28,112);hotspot('staff','Билетёр',29,85,33,43);hotspot('ticket','Билет',38,124,25,23);hotspot('stage',theatre?'Театральная сцена':'Экран',164,72,189,72);npc(151,133,'friend');hotspot('friend','Друг в зале',159,113,33,43)", "npc(8,185,'administrator');item('paper',20,174,.6);hotspot('staff','Билетёр',18,164,33,43);hotspot('ticket','Билет',28,182,25,23);hotspot('stage',theatre?'Театральная сцена':'Экран',164,72,189,72);npc(274,185,'friend');hotspot('friend','Друг в зале',284,164,33,43)"),
+           ("GameResidents.draw({g,scene:physicalScene(),task,hotspot,hotspots,visiblePeople,width:size.width,frame})", "GameResidents.draw({g,scene:physicalScene(),task,hotspot,hotspots,visiblePeople,width:size.width,frame,hero:fox})"),
+           ("const place=physicalScene(t,t.scene);\n  return ({home:", "const place=physicalScene(t,t.scene);\n  if(place==='exp-car')return [75,174];\n  return ({home:"),
+           ("g.save();g.globalAlpha*=opacity;drawFoxBody();g.restore();", "g.save();g.globalAlpha*=opacity;if(physicalScene()==='exp-car'){g.beginPath();g.rect(0,0,sceneSize().width,159);g.clip();}drawFoxBody();g.restore();")
+           ]
+           for old,new in replacements:s=edit(s,old,new)
+           old="for(let i=0;i<bankQueue;i++)GameArtV2.resident(g,['elder','driver','friend'][i],80+i*33,136,34,55);"
+           new="for(let i=0;i<bankQueue;i++){const x=[35,196,251][i];if(Math.abs(fox.x-(x+17))<38&&Math.abs(fox.y-191)<26)continue;GameArtV2.resident(g,['elder','driver','friend'][i],x,136,34,55);}"
+           s=edit(s,old,new)
+           old="if(bird){x=16+(i%4)*68;y=i<4?43:94;w=40;h=34;}"
+           new="""if(bird){const positions={sparrow:[65,78,15,13],pigeon:[83,76,18,15],parrot:[151,54,26,25],eagle:[194,14,33,30],owl:[29,110,21,27],peacock:[64,107,34,31],crane:[160,104,31,34],duck:[235,114,25,21]};[x,y,w,h]=positions[a.id]||[16+(i%4)*68,i<4?43:94,28,25];}"""
+           s=edit(s,old,new)
+           marker=" function drawScene(place=scene){"
+           new=""" // Some scenic photographs end in water or a steep drop. A low stone
+           // viewing terrace gives characters one continuous, walkable foreground.
+           function scenicTerrace(place=physicalScene(),t=task){return place.startsWith('exp-')&&!['exp-car','exp-trail','exp-hotel-room'].includes(place)&&!t.travelIndoor&&(t.expeditionStop||0)===0&&['lumbini','yanglesho','punakha','tso-pema','taktsang'].includes(t.expeditionPlace);}
+           function drawScenicTerrace(place){if(!scenicTerrace(place))return;const im=GameArtV2.source('street-background');if(!im?.naturalWidth)return;const h=im.naturalHeight,w=im.naturalWidth;g.save();g.imageSmoothingEnabled=true;g.drawImage(im,0,h*.78,w,h*.22,0,176,320,24);g.strokeStyle='#695642';g.lineWidth=1.3;g.beginPath();g.moveTo(0,176);g.lineTo(320,176);g.stroke();g.strokeStyle='#e2d1ae';g.lineWidth=.5;g.beginPath();g.moveTo(0,177);g.lineTo(320,177);g.stroke();g.restore();}
+           function drawScene(place=scene){"""
+           s=edit(s,marker,new)
+           s=edit(s,"GameExpeditionArt.draw(g,place,task);GameCountrySites.drawReturnDoor", "GameExpeditionArt.draw(g,place,task);drawScenicTerrace(place);GameCountrySites.drawReturnDoor")
+           s=edit(s,"  fox.tx=x;fox.ty=y;walkRoute=[];", "  if(scenicTerrace(place,task))y=Math.max(179,Math.min(196,y));\n  fox.tx=x;fox.ty=y;walkRoute=[];")
+           p.write_text(s)
+          print('Applied per-scene grounding, scale and character placement fixes')
+          
+          p=root/'index.html'
+          s=p.read_text()
+          assert s.count('1.0.7.9')==32
+          p.write_text(s.replace('1.0.7.9','1.0.7.10'))
+          p=root/'assets/manifest.json'
+          m=json.loads(p.read_text())
+          m['htmlBytes']=(root/'index.html').stat().st_size
+          m['scriptBytes']=sum(q.stat().st_size for q in (root/'assets/js').glob('game-*.js'))
+          for name,meta in m['resources'].items():
+              if name in expected['before']:
+                  q=root/name
+                  meta.update(bytes=q.stat().st_size,sha256=hashlib.sha256(q.read_bytes()).hexdigest())
+          p.write_text(json.dumps(m,ensure_ascii=False,separators=(',',':'))+'\n')
+          for name,digest in expected['after'].items():
+              assert hashlib.sha256((root/name).read_bytes()).hexdigest()==digest,name
+          for name,meta in m['resources'].items():
+              data=(root/name).read_bytes()
+              assert len(data)==meta['bytes'] and hashlib.sha256(data).hexdigest()==meta['sha256'],name
+          print('Visual corrections verified:',expected['version'])
+          PY
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
