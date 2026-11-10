@@ -9,7 +9,7 @@ letters = {x['base']: x['name'] for x in corpus['letters']}
 vowels = {'ི': 'gigu', 'ུ': 'zhabkyu', 'ེ': 'drengbu', 'ོ': 'naro'}
 plans = {}
 results = set()
-# Existing recordings with the voiced root sound used after a prefix. These
+# Existing recordings with the voiced root sound used after a prefix or head. These
 # are audio references only: the learner-facing label remains the actual root.
 VOICED_ROOT_AUDIO = {'ག': 'རྒ', 'ཇ': 'རྗ', 'ད': 'རྡ', 'བ': 'སྦ', 'ཛ': 'རྫ'}
 
@@ -50,7 +50,10 @@ def plan(syllable, p):
     if head:
         letter(head)
         current += head + lower(root)
-        letter(root)
+        if root in VOICED_ROOT_AUDIO:
+            result(VOICED_ROOT_AUDIO[root], 'stack-root', letters[root])
+        else:
+            letter(root)
         marker('@tags', 'ta')
         result(current, 'superscript')
     else:

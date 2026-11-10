@@ -36,7 +36,8 @@
   "wordCount": 500,
   "structuralFailureCount": 0,
   "structuralFailures": [],
-  "contextualRootAudioReviewCount": 37,
+  "contextualRootAudioReviewCount": 0,
+  "contextualStackRootAudioUsedCount": 37,
   "phoneticCertification": false,
   "plans": [
     {
@@ -71,6 +72,7 @@
       ],
       "teacherText": "ཀ་གི་གུ་ཀི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -105,6 +107,7 @@
       ],
       "teacherText": "ཀ་ན་རོ་ཀོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -140,6 +143,7 @@
       ],
       "teacherText": "ཐ་ག་ཐག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -157,6 +161,7 @@
       ],
       "teacherText": "བ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -226,6 +231,7 @@
       ],
       "teacherText": "ག་འོག་ཏ་ན་རོ་གཏོ་ང་གཏོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -303,6 +309,7 @@
       ],
       "teacherText": "ཀ་ཡ་བཏགས་ཀྱ་ན་རོ་ཀྱོ་ག་ཀྱོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -363,6 +370,7 @@
       ],
       "teacherText": "ཀ་ར་བཏགས་ཀྲ་བ་ཀྲབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -397,6 +405,7 @@
       ],
       "teacherText": "པ་ན་རོ་པོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -414,6 +423,7 @@
       ],
       "teacherText": "ཁ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -448,6 +458,7 @@
       ],
       "teacherText": "ཁ་ཞབས་ཀྱུ་ཁུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -500,6 +511,7 @@
       ],
       "teacherText": "ས་གི་གུ་སི་མ་སིམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -569,6 +581,7 @@
       ],
       "teacherText": "ག་འོག་ཅ་ན་རོ་གཅོ་ད་གཅོད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -621,6 +634,7 @@
       ],
       "teacherText": "ག་འོག་ས་ང་གསང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -656,6 +670,7 @@
       ],
       "teacherText": "ཆ་ད་ཆད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -733,6 +748,7 @@
       ],
       "teacherText": "བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -768,6 +784,7 @@
       ],
       "teacherText": "པ་ར་པར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -818,6 +835,7 @@
       ],
       "teacherText": "མ་འོག་ཆ་ཞབས་ཀྱུ་མཆུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -833,9 +851,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -903,7 +922,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "རྡུང",
@@ -918,9 +938,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ད",
+          "kind": "result",
+          "text": "རྡ",
           "label": "da",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -980,7 +1001,8 @@
       ],
       "teacherText": "ར་ད་བཏགས་རྡ་ཞབས་ཀྱུ་རྡུ་ང་རྡུང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "ལག",
@@ -1015,6 +1037,7 @@
       ],
       "teacherText": "ལ་ག་ལག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1050,6 +1073,7 @@
       ],
       "teacherText": "ཁ་ག་ཁག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1085,6 +1109,7 @@
       ],
       "teacherText": "ཁ་བ་ཁབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1154,6 +1179,7 @@
       ],
       "teacherText": "ག་འོག་ཟ་འགྲེང་བུ་གཟེ་ར་གཟེར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1189,6 +1215,7 @@
       ],
       "teacherText": "ཁ་ར་ཁར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1241,6 +1268,7 @@
       ],
       "teacherText": "ཐ་ཞབས་ཀྱུ་ཐུ་ག་ཐུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1293,6 +1321,7 @@
       ],
       "teacherText": "ཁ་ཞབས་ཀྱུ་ཁུ་ལ་ཁུལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1327,6 +1356,7 @@
       ],
       "teacherText": "ཁ་འགྲེང་བུ་ཁེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1379,6 +1409,7 @@
       ],
       "teacherText": "བ་འོག་ཟ་ང་བཟང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1431,6 +1462,7 @@
       ],
       "teacherText": "ཁ་ན་རོ་ཁོ་ང་ཁོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1490,6 +1522,7 @@
       ],
       "teacherText": "ཁ་ར་བཏགས་ཁྲ་ན་རོ་ཁྲོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1507,6 +1540,7 @@
       ],
       "teacherText": "ཟ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1567,6 +1601,7 @@
       ],
       "teacherText": "ཁ་ཡ་བཏགས་ཁྱ་བ་ཁྱབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1598,9 +1633,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             1
           ]
@@ -1678,7 +1714,8 @@
       ],
       "teacherText": "བ་འོག་ས་ག་བཏགས་བསྒ་ར་བཏགས་བསྒྲ་ག་ས་བསྒྲགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "ཁྲི",
@@ -1737,6 +1774,7 @@
       ],
       "teacherText": "ཁ་ར་བཏགས་ཁྲ་གི་གུ་ཁྲི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1814,6 +1852,7 @@
       ],
       "teacherText": "ཁ་ར་བཏགས་ཁྲ་གི་གུ་ཁྲི་ད་ཁྲིད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1849,6 +1888,7 @@
       ],
       "teacherText": "ག་ང་གང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1884,6 +1924,7 @@
       ],
       "teacherText": "ཡ་ང་ཡང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1936,6 +1977,7 @@
       ],
       "teacherText": "མ་འགྲེང་བུ་མེ་ད་མེད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1953,6 +1995,7 @@
       ],
       "teacherText": "པ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -1997,6 +2040,7 @@
       ],
       "teacherText": "ག་ང་ས་གངས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2049,6 +2093,7 @@
       ],
       "teacherText": "ཤ་ཞབས་ཀྱུ་ཤུ་ད་ཤུད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2118,6 +2163,7 @@
       ],
       "teacherText": "ག་འོག་ཅ་གི་གུ་གཅི་ག་གཅིག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2152,6 +2198,7 @@
       ],
       "teacherText": "པ་ཞབས་ཀྱུ་པུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2221,6 +2268,7 @@
       ],
       "teacherText": "ག་འོག་ཅ་གི་གུ་གཅི་ན་གཅིན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2273,6 +2321,7 @@
       ],
       "teacherText": "ག་འོག་ཏ་ན་གཏན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2333,8 +2382,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྗ་ག་ས་འཇགས།",
+      "teacherText": "འ་འོག་ཇ་ག་ས་འཇགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2404,6 +2454,7 @@
       ],
       "teacherText": "ག་འོག་ཏ་གི་གུ་གཏི་ང་གཏིང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2456,6 +2507,7 @@
       ],
       "teacherText": "ར་གི་གུ་རི་ང་རིང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2508,6 +2560,7 @@
       ],
       "teacherText": "ཕ་ན་རོ་ཕོ་ད་ཕོད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2559,8 +2612,9 @@
           ]
         }
       ],
-      "teacherText": "ག་འོག་རྡ་ན་གདན།",
+      "teacherText": "ག་འོག་ད་ན་གདན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2630,6 +2684,7 @@
       ],
       "teacherText": "ག་འོག་ན་ན་རོ་གནོ་ད་གནོད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2665,6 +2720,7 @@
       ],
       "teacherText": "ག་བ་གབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2717,6 +2773,7 @@
       ],
       "teacherText": "ག་འོག་ཙ་ང་གཙང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2734,6 +2791,7 @@
       ],
       "teacherText": "མ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2786,6 +2844,7 @@
       ],
       "teacherText": "ག་འོག་ཞ་ན་གཞན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2836,6 +2895,7 @@
       ],
       "teacherText": "ག་འོག་ཞ་གི་གུ་གཞི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2905,6 +2965,7 @@
       ],
       "teacherText": "ག་འོག་ཞ་ཞབས་ཀྱུ་གཞུ་ང་གཞུང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -2974,6 +3035,7 @@
       ],
       "teacherText": "ག་འོག་ཞ་ཞབས་ཀྱུ་གཞུ་ག་གཞུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3008,6 +3070,7 @@
       ],
       "teacherText": "ག་ཞབས་ཀྱུ་གུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3077,6 +3140,7 @@
       ],
       "teacherText": "ག་འོག་ཞ་ན་རོ་གཞོ་ག་གཞོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3146,6 +3210,7 @@
       ],
       "teacherText": "ག་འོག་ཞ་ན་རོ་གཞོ་ན་གཞོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3180,6 +3245,7 @@
       ],
       "teacherText": "ན་ཞབས་ཀྱུ་ནུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3249,6 +3315,7 @@
       ],
       "teacherText": "ག་འོག་ཟ་ན་རོ་གཟོ་ང་གཟོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3284,6 +3351,7 @@
       ],
       "teacherText": "ག་ར་གར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3336,6 +3404,7 @@
       ],
       "teacherText": "ག་འོག་ཤ་ག་གཤག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3405,6 +3474,7 @@
       ],
       "teacherText": "བ་འོག་ཅ་ན་རོ་བཅོ་ས་བཅོས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3457,6 +3527,7 @@
       ],
       "teacherText": "ག་འོག་ཤ་མ་གཤམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3474,6 +3545,7 @@
       ],
       "teacherText": "ལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3543,6 +3615,7 @@
       ],
       "teacherText": "ག་འོག་ས་ན་རོ་གསོ་ལ་གསོལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3604,6 +3677,7 @@
       ],
       "teacherText": "ཚ་གི་གུ་ཚི་ག་ས་ཚིགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3673,6 +3747,7 @@
       ],
       "teacherText": "ག་འོག་ས་ན་རོ་གསོ་ས་གསོས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3717,6 +3792,7 @@
       ],
       "teacherText": "ཡ་ང་ས་ཡངས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3769,6 +3845,7 @@
       ],
       "teacherText": "ག་ཞབས་ཀྱུ་གུ་ག་གུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3821,6 +3898,7 @@
       ],
       "teacherText": "ག་ཞབས་ཀྱུ་གུ་ར་གུར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3873,6 +3951,7 @@
       ],
       "teacherText": "ག་ཞབས་ཀྱུ་གུ་ས་གུས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3917,6 +3996,7 @@
       ],
       "teacherText": "ཞ་བ་ས་ཞབས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -3951,6 +4031,7 @@
       ],
       "teacherText": "ག་ན་རོ་གོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4003,6 +4084,7 @@
       ],
       "teacherText": "ར་གི་གུ་རི་མ་རིམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4055,6 +4137,7 @@
       ],
       "teacherText": "ག་ན་རོ་གོ་ང་གོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4107,6 +4190,7 @@
       ],
       "teacherText": "ཆ་འགྲེང་བུ་ཆེ་ན་ཆེན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4159,6 +4243,7 @@
       ],
       "teacherText": "ག་ན་རོ་གོ་མ་གོམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4236,6 +4321,7 @@
       ],
       "teacherText": "ག་ཡ་བཏགས་གྱ་ན་རོ་གྱོ་ང་གྱོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4288,6 +4374,7 @@
       ],
       "teacherText": "ག་ཞབས་ཀྱུ་གུ་ན་གུན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4330,6 +4417,7 @@
       ],
       "teacherText": "ག་ར་བཏགས་གྲ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4345,9 +4433,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -4432,7 +4521,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ་ར་བཏགས་སྒྲ་གི་གུ་སྒྲི་ག་སྒྲིག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "གྲངས",
@@ -4501,6 +4591,7 @@
       ],
       "teacherText": "ག་ར་བཏགས་གྲ་ང་ས་གྲངས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4536,6 +4627,7 @@
       ],
       "teacherText": "ཚ་ད་ཚད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4595,6 +4687,7 @@
       ],
       "teacherText": "ག་ར་བཏགས་གྲ་གི་གུ་གྲི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4654,6 +4747,7 @@
       ],
       "teacherText": "ག་ར་བཏགས་གྲ་ཞབས་ཀྱུ་གྲུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4731,6 +4825,7 @@
       ],
       "teacherText": "ག་ར་བཏགས་གྲ་ཞབས་ཀྱུ་གྲུ་ང་གྲུང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4790,6 +4885,7 @@
       ],
       "teacherText": "ག་ར་བཏགས་གྲ་ཝ་ཟུར་གྲྭ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4867,6 +4963,7 @@
       ],
       "teacherText": "ག་ལ་བཏགས་གླ་གི་གུ་གླི་ང་གླིང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4901,6 +4998,7 @@
       ],
       "teacherText": "བ་ཞབས་ཀྱུ་བུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -4960,6 +5058,7 @@
       ],
       "teacherText": "ག་ལ་བཏགས་གླ་ཞབས་ཀྱུ་གླུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5037,6 +5136,7 @@
       ],
       "teacherText": "ག་ལ་བཏགས་གླ་འགྲེང་བུ་གླེ་ན་གླེན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5096,6 +5196,7 @@
       ],
       "teacherText": "ག་ལ་བཏགས་གླ་ན་རོ་གློ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5173,6 +5274,7 @@
       ],
       "teacherText": "ག་ལ་བཏགས་གླ་ན་རོ་གློ་ག་གློག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5190,6 +5292,7 @@
       ],
       "teacherText": "ང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5205,9 +5308,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -5275,7 +5379,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ལ་རྒྱལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "ངན",
@@ -5310,6 +5415,7 @@
       ],
       "teacherText": "ང་ན་ངན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5344,6 +5450,7 @@
       ],
       "teacherText": "ང་ན་རོ་ངོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5359,9 +5466,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -5421,7 +5529,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ན་རོ་རྒོ་ལ་རྒོལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "ཆང",
@@ -5456,6 +5565,7 @@
       ],
       "teacherText": "ཆ་ང་ཆང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5473,6 +5583,7 @@
       ],
       "teacherText": "ས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5508,6 +5619,7 @@
       ],
       "teacherText": "ཆ་བ་ཆབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5523,9 +5635,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -5610,7 +5723,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ་ར་བཏགས་སྒྲ་ན་རོ་སྒྲོ་ག་སྒྲོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "ཆམ",
@@ -5645,6 +5759,7 @@
       ],
       "teacherText": "ཆ་མ་ཆམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5680,6 +5795,7 @@
       ],
       "teacherText": "ཆ་ར་ཆར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5714,6 +5830,7 @@
       ],
       "teacherText": "ཆ་ཞབས་ཀྱུ་ཆུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5766,6 +5883,7 @@
       ],
       "teacherText": "ཆ་ན་རོ་ཆོ་ས་ཆོས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5783,6 +5901,7 @@
       ],
       "teacherText": "ཇ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5818,6 +5937,7 @@
       ],
       "teacherText": "ཇ་ག་ཇག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5870,6 +5990,7 @@
       ],
       "teacherText": "ཉ་གི་གུ་ཉི་ན་ཉིན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5922,6 +6043,7 @@
       ],
       "teacherText": "ག་ཞབས་ཀྱུ་གུ་ང་གུང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -5956,6 +6078,7 @@
       ],
       "teacherText": "མ་ན་རོ་མོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6008,6 +6131,7 @@
       ],
       "teacherText": "ཉ་གི་གུ་ཉི་ས་ཉིས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6111,6 +6235,7 @@
       ],
       "teacherText": "བ་འོག་ར་ཙ་བཏགས་བརྩ་འགྲེང་བུ་བརྩེ་ག་ས་བརྩེགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6163,6 +6288,7 @@
       ],
       "teacherText": "ཉ་ཞབས་ཀྱུ་ཉུ་ང་ཉུང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6215,6 +6341,7 @@
       ],
       "teacherText": "ཉ་འགྲེང་བུ་ཉེ་ས་ཉེས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6292,8 +6419,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྫ་ཞབས་ཀྱུ་འཛུ་ག་ས་འཛུགས།",
+      "teacherText": "འ་འོག་ཛ་ཞབས་ཀྱུ་འཛུ་ག་ས་འཛུགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6328,6 +6456,7 @@
       ],
       "teacherText": "ཉ་ན་རོ་ཉོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6380,6 +6509,7 @@
       ],
       "teacherText": "ཉ་ན་རོ་ཉོ་བ་ཉོབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6414,6 +6544,7 @@
       ],
       "teacherText": "ཉ་འགྲེང་བུ་ཉེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6458,6 +6589,7 @@
       ],
       "teacherText": "ཐ་བ་ས་ཐབས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6510,6 +6642,7 @@
       ],
       "teacherText": "ཤ་འགྲེང་བུ་ཤེ་ས་ཤེས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6562,6 +6695,7 @@
       ],
       "teacherText": "ཐ་ཞབས་ཀྱུ་ཐུ་ང་ཐུང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6614,6 +6748,7 @@
       ],
       "teacherText": "ཐ་ན་རོ་ཐོ་ག་ཐོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6666,6 +6801,7 @@
       ],
       "teacherText": "ཐ་ན་རོ་ཐོ་ན་ཐོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6718,6 +6854,7 @@
       ],
       "teacherText": "ཐ་ན་རོ་ཐོ་བ་ཐོབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6735,6 +6872,7 @@
       ],
       "teacherText": "ད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6752,6 +6890,7 @@
       ],
       "teacherText": "ག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6787,6 +6926,7 @@
       ],
       "teacherText": "ར་ང་རང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6829,6 +6969,7 @@
       ],
       "teacherText": "ལ་ཏ་བཏགས་ལྟ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6881,6 +7022,7 @@
       ],
       "teacherText": "ད་འོག་ཀ་འ་དཀའ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6916,6 +7058,7 @@
       ],
       "teacherText": "ང་ལ་ངལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -6993,6 +7136,7 @@
       ],
       "teacherText": "མ་ཡ་བཏགས་མྱ་ན་རོ་མྱོ་ང་མྱོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7028,6 +7172,7 @@
       ],
       "teacherText": "ལ་ས་ལས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7097,6 +7242,7 @@
       ],
       "teacherText": "ད་འོག་ཀ་ན་རོ་དཀོ་ན་དཀོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7191,6 +7337,7 @@
       ],
       "teacherText": "ད་འོག་ཀ་ཡ་བཏགས་དཀྱ་ཞབས་ཀྱུ་དཀྱུ་ས་དཀྱུས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7242,8 +7389,9 @@
           ]
         }
       ],
-      "teacherText": "ད་འོག་རྒ་ག་དགག།",
+      "teacherText": "ད་འོག་ག་ག་དགག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7286,6 +7434,7 @@
       ],
       "teacherText": "བ་ཡ་བཏགས་བྱ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7337,8 +7486,9 @@
           ]
         }
       ],
-      "teacherText": "ད་འོག་རྒ་འ་དགའ།",
+      "teacherText": "ད་འོག་ག་འ་དགའ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7388,8 +7538,9 @@
           ]
         }
       ],
-      "teacherText": "ད་འོག་རྒ་འགྲེང་བུ་དགེ།",
+      "teacherText": "ད་འོག་ག་འགྲེང་བུ་དགེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7405,9 +7556,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -7450,7 +7602,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ན་རྒན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "དགོང",
@@ -7518,8 +7671,9 @@
           ]
         }
       ],
-      "teacherText": "ད་འོག་རྒ་ན་རོ་དགོ་ང་དགོང།",
+      "teacherText": "ད་འོག་ག་ན་རོ་དགོ་ང་དགོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7579,6 +7733,7 @@
       ],
       "teacherText": "ད་ར་བཏགས་དྲ་ན་རོ་དྲོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7656,8 +7811,9 @@
           ]
         }
       ],
-      "teacherText": "ད་འོག་རྒ་ན་རོ་དགོ་ང་ས་དགོངས།",
+      "teacherText": "ད་འོག་ག་ན་རོ་དགོ་ང་ས་དགོངས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7693,6 +7849,7 @@
       ],
       "teacherText": "ད་ག་དག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7754,6 +7911,7 @@
       ],
       "teacherText": "ཐ་ཞབས་ཀྱུ་ཐུ་ག་ས་ཐུགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7822,8 +7980,9 @@
           ]
         }
       ],
-      "teacherText": "བ་འོག་རྡ་འགྲེང་བུ་བདེ་ན་བདེན།",
+      "teacherText": "བ་འོག་ད་འགྲེང་བུ་བདེ་ན་བདེན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7858,6 +8017,7 @@
       ],
       "teacherText": "ཞ་ཞབས་ཀྱུ་ཞུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7910,6 +8070,7 @@
       ],
       "teacherText": "ས་འགྲེང་བུ་སེ་ལ་སེལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -7967,8 +8128,9 @@
           ]
         }
       ],
-      "teacherText": "ད་འོག་རྒ་ར་བཏགས་དགྲ།",
+      "teacherText": "ད་འོག་ག་ར་བཏགས་དགྲ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8037,8 +8199,9 @@
           ]
         }
       ],
-      "teacherText": "ད་འོག་ཝ་ཞབས་ཀྱུ་དབུ་ལ་དབུལ།",
+      "teacherText": "ད་འོག་བ་ཞབས་ཀྱུ་དབུ་ལ་དབུལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8091,6 +8254,7 @@
       ],
       "teacherText": "ད་འོག་མ་ག་དམག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8143,6 +8307,7 @@
       ],
       "teacherText": "ད་འོག་མ་འ་དམའ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8177,6 +8342,7 @@
       ],
       "teacherText": "བ་ན་རོ་བོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8254,8 +8420,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་སྦ་འགྲེང་བུ་འབེ་བ་ས་འབེབས།",
+      "teacherText": "འ་འོག་བ་འགྲེང་བུ་འབེ་བ་ས་འབེབས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8290,6 +8457,7 @@
       ],
       "teacherText": "ད་འགྲེང་བུ་དེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8325,6 +8493,7 @@
       ],
       "teacherText": "ན་ས་ནས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8377,6 +8546,7 @@
       ],
       "teacherText": "ད་འགྲེང་བུ་དེ་ང་དེང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8412,6 +8582,7 @@
       ],
       "teacherText": "ས་ང་སང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8446,6 +8617,7 @@
       ],
       "teacherText": "ད་ན་རོ་དོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8506,6 +8678,7 @@
       ],
       "teacherText": "ས་ན་བཏགས་སྣ་ང་སྣང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8565,6 +8738,7 @@
       ],
       "teacherText": "ད་ར་བཏགས་དྲ་གི་གུ་དྲི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8600,6 +8774,7 @@
       ],
       "teacherText": "ན་ང་ནང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8652,6 +8827,7 @@
       ],
       "teacherText": "ཟ་ན་རོ་ཟོ་ག་ཟོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8711,6 +8887,7 @@
       ],
       "teacherText": "ཕ་ཡ་བཏགས་ཕྱ་གི་གུ་ཕྱི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8804,8 +8981,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྡ་ར་བཏགས་འདྲ་འགྲེང་བུ་འདྲེ་ན་འདྲེན།",
+      "teacherText": "འ་འོག་ད་ར་བཏགས་འདྲ་འགྲེང་བུ་འདྲེ་ན་འདྲེན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8823,6 +9001,7 @@
       ],
       "teacherText": "ཤ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8875,6 +9054,7 @@
       ],
       "teacherText": "ན་ཞབས་ཀྱུ་ནུ་བ་ནུབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8960,6 +9140,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་ཡ་བཏགས་སྐྱ་ར་སྐྱར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -8995,6 +9176,7 @@
       ],
       "teacherText": "ཕ་ན་ཕན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9039,6 +9221,7 @@
       ],
       "teacherText": "ཕ་མ་ས་ཕམས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9074,6 +9257,7 @@
       ],
       "teacherText": "ཕ་ར་ཕར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9126,6 +9310,7 @@
       ],
       "teacherText": "ཕ་ཞབས་ཀྱུ་ཕུ་ར་ཕུར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9160,6 +9345,7 @@
       ],
       "teacherText": "ཕ་ན་རོ་ཕོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9237,6 +9423,7 @@
       ],
       "teacherText": "ཕ་ཡ་བཏགས་ཕྱ་ཞབས་ཀྱུ་ཕྱུ་ག་ཕྱུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9279,6 +9466,7 @@
       ],
       "teacherText": "ཕ་ར་བཏགས་ཕྲ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9331,6 +9519,7 @@
       ],
       "teacherText": "བ་འོག་ཀ་ག་བཀག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9450,6 +9639,7 @@
       ],
       "teacherText": "བ་འོག་ས་ཀ་བཏགས་བསྐ་ཡ་བཏགས་བསྐྱ་གི་གུ་བསྐྱི་ལ་བསྐྱིལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9502,6 +9692,7 @@
       ],
       "teacherText": "བ་འོག་ཀ་འ་བཀའ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9604,6 +9795,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་ཡ་བཏགས་སྐྱ་ན་རོ་སྐྱོ་ན་སྐྱོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9673,6 +9865,7 @@
       ],
       "teacherText": "བ་འོག་ཀ་ན་རོ་བཀོ་ད་བཀོད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9767,6 +9960,7 @@
       ],
       "teacherText": "བ་འོག་ཀ་ར་བཏགས་བཀྲ་འགྲེང་བུ་བཀྲེ་ན་བཀྲེན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9802,6 +9996,7 @@
       ],
       "teacherText": "བ་ང་བང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9851,8 +10046,9 @@
           ]
         }
       ],
-      "teacherText": "བ་འོག་རྡ་འགྲེང་བུ་བདེ།",
+      "teacherText": "བ་འོག་ད་འགྲེང་བུ་བདེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9905,6 +10101,7 @@
       ],
       "teacherText": "བ་འོག་ཙ་ན་བཙན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -9974,6 +10171,7 @@
       ],
       "teacherText": "ག་འོག་ན་ན་རོ་གནོ་ན་གནོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10042,8 +10240,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྫ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ།",
+      "teacherText": "འ་འོག་ཛ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10113,6 +10312,7 @@
       ],
       "teacherText": "བ་འོག་ཙ་ན་རོ་བཙོ་ག་བཙོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10182,6 +10382,7 @@
       ],
       "teacherText": "བ་འོག་ཞ་ཞབས་ཀྱུ་བཞུ་ར་བཞུར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10232,6 +10433,7 @@
       ],
       "teacherText": "བ་འོག་ཟ་ན་རོ་བཟོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10301,6 +10503,7 @@
       ],
       "teacherText": "བ་འོག་ཟ་ན་རོ་བཟོ་ད་བཟོད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10336,6 +10539,7 @@
       ],
       "teacherText": "བ་ར་བར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10367,9 +10571,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ད",
+          "kind": "result",
+          "text": "རྡ",
           "label": "da",
+          "stage": "stack-root",
           "focus": [
             1
           ]
@@ -10394,7 +10599,8 @@
       ],
       "teacherText": "བ་འོག་ར་ད་བཏགས་བརྡ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "བསམ",
@@ -10446,6 +10652,7 @@
       ],
       "teacherText": "བ་འོག་ས་མ་བསམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10505,6 +10712,7 @@
       ],
       "teacherText": "བ་ལ་བཏགས་བླ་ན་རོ་བློ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10580,6 +10788,7 @@
       ],
       "teacherText": "བ་འོག་ས་ཀ་བཏགས་བསྐ་ན་རོ་བསྐོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10632,6 +10841,7 @@
       ],
       "teacherText": "བ་འོག་ཞ་ག་བཞག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10726,6 +10936,7 @@
       ],
       "teacherText": "བ་འོག་ས་ཀ་བཏགས་བསྐ་ན་རོ་བསྐོ་ར་བསྐོར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10743,6 +10954,7 @@
       ],
       "teacherText": "ར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10820,6 +11032,7 @@
       ],
       "teacherText": "བ་འོག་ས་ལ་བཏགས་བསླ་བ་བསླབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10872,6 +11085,7 @@
       ],
       "teacherText": "ལ་ན་རོ་ལོ་ན་ལོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -10941,6 +11155,7 @@
       ],
       "teacherText": "བ་ཡ་བཏགས་བྱ་མ་ས་བྱམས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11000,6 +11215,7 @@
       ],
       "teacherText": "བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11060,6 +11276,7 @@
       ],
       "teacherText": "བ་ར་བཏགས་བྲ་ག་བྲག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11094,6 +11311,7 @@
       ],
       "teacherText": "ལ་འགྲེང་བུ་ལེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11128,6 +11346,7 @@
       ],
       "teacherText": "ལ་ན་རོ་ལོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11205,6 +11424,7 @@
       ],
       "teacherText": "བ་ར་བཏགས་བྲ་འགྲེང་བུ་བྲེ་ལ་བྲེལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11222,6 +11442,7 @@
       ],
       "teacherText": "ཚ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11281,6 +11502,7 @@
       ],
       "teacherText": "བ་ར་བཏགས་བྲ་ན་རོ་བྲོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11358,6 +11580,7 @@
       ],
       "teacherText": "བ་ལ་བཏགས་བླ་ན་རོ་བློ་ས་བློས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11461,6 +11684,7 @@
       ],
       "teacherText": "མ་འོག་ཁ་ར་བཏགས་མཁྲ་འགྲེང་བུ་མཁྲེ་ག་ས་མཁྲེགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11510,8 +11734,9 @@
           ]
         }
       ],
-      "teacherText": "མ་འོག་རྒ་ན་རོ་མགོ།",
+      "teacherText": "མ་འོག་ག་ན་རོ་མགོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11614,8 +11839,9 @@
           ]
         }
       ],
-      "teacherText": "མ་འོག་རྒ་ཡ་བཏགས་མགྱ་ན་རོ་མགྱོ་ག་ས་མགྱོགས།",
+      "teacherText": "མ་འོག་ག་ཡ་བཏགས་མགྱ་ན་རོ་མགྱོ་ག་ས་མགྱོགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11651,6 +11877,7 @@
       ],
       "teacherText": "མ་ང་མང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11703,6 +11930,7 @@
       ],
       "teacherText": "མ་འོག་ང་ར་མངར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11772,6 +12000,7 @@
       ],
       "teacherText": "མ་འོག་ཆ་ན་རོ་མཆོ་ད་མཆོད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11840,8 +12069,9 @@
           ]
         }
       ],
-      "teacherText": "མ་འོག་རྗ་ཞབས་ཀྱུ་མཇུ་ག་མཇུག།",
+      "teacherText": "མ་འོག་ཇ་ཞབས་ཀྱུ་མཇུ་ག་མཇུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11894,6 +12124,7 @@
       ],
       "teacherText": "མ་འོག་ཉ་མ་མཉམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11928,6 +12159,7 @@
       ],
       "teacherText": "ད་ཞབས་ཀྱུ་དུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -11997,6 +12229,7 @@
       ],
       "teacherText": "མ་འོག་ཐ་གི་གུ་མཐི་ལ་མཐིལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12047,6 +12280,7 @@
       ],
       "teacherText": "མ་འོག་ཐ་ཞབས་ཀྱུ་མཐུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12097,6 +12331,7 @@
       ],
       "teacherText": "མ་འོག་ཐ་ན་རོ་མཐོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12166,6 +12401,7 @@
       ],
       "teacherText": "མ་འོག་ཐ་ན་རོ་མཐོ་ང་མཐོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12181,9 +12417,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -12233,7 +12470,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "མདའ",
@@ -12284,8 +12522,9 @@
           ]
         }
       ],
-      "teacherText": "མ་འོག་རྡ་འ་མདའ།",
+      "teacherText": "མ་འོག་ད་འ་མདའ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12354,8 +12593,9 @@
           ]
         }
       ],
-      "teacherText": "མ་འོག་རྡ་ཞབས་ཀྱུ་མདུ་ད་མདུད།",
+      "teacherText": "མ་འོག་ད་ཞབས་ཀྱུ་མདུ་ད་མདུད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12424,8 +12664,9 @@
           ]
         }
       ],
-      "teacherText": "མ་འོག་རྡ་ཞབས་ཀྱུ་མདུ་ན་མདུན།",
+      "teacherText": "མ་འོག་ད་ཞབས་ཀྱུ་མདུ་ན་མདུན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12494,8 +12735,9 @@
           ]
         }
       ],
-      "teacherText": "མ་འོག་རྡ་ན་རོ་མདོ་ག་མདོག།",
+      "teacherText": "མ་འོག་ད་ན་རོ་མདོ་ག་མདོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12548,6 +12790,7 @@
       ],
       "teacherText": "མ་འོག་ཚ་ན་མཚན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12583,6 +12826,7 @@
       ],
       "teacherText": "མ་ར་མར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12617,6 +12861,7 @@
       ],
       "teacherText": "མ་གི་གུ་མི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12669,6 +12914,7 @@
       ],
       "teacherText": "ཆ་ན་རོ་ཆོ་ག་ཆོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12721,6 +12967,7 @@
       ],
       "teacherText": "ཚ་ཞབས་ཀྱུ་ཚུ་ད་ཚུད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12755,6 +13002,7 @@
       ],
       "teacherText": "མ་འགྲེང་བུ་མེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12807,6 +13055,7 @@
       ],
       "teacherText": "མ་ན་རོ་མོ་ས་མོས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12876,6 +13125,7 @@
       ],
       "teacherText": "མ་འོག་ཐ་ཞབས་ཀྱུ་མཐུ་ན་མཐུན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12911,6 +13161,7 @@
       ],
       "teacherText": "ཚ་ག་ཚག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12946,6 +13197,7 @@
       ],
       "teacherText": "ཚ་བ་ཚབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -12998,6 +13250,7 @@
       ],
       "teacherText": "ཚ་ཞབས་ཀྱུ་ཚུ་བ་ཚུབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13050,6 +13303,7 @@
       ],
       "teacherText": "ཚ་ཞབས་ཀྱུ་ཚུ་ར་ཚུར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13102,6 +13356,7 @@
       ],
       "teacherText": "ཚ་འགྲེང་བུ་ཚེ་མ་ཚེམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13154,6 +13409,7 @@
       ],
       "teacherText": "ཚ་ན་རོ་ཚོ་ང་ཚོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13206,6 +13462,7 @@
       ],
       "teacherText": "ཚ་ན་རོ་ཚོ་ན་ཚོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13258,6 +13515,7 @@
       ],
       "teacherText": "ཚ་ན་རོ་ཚོ་ར་ཚོར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13292,6 +13550,7 @@
       ],
       "teacherText": "ཚ་ཝ་ཟུར་ཚྭ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13309,6 +13568,7 @@
       ],
       "teacherText": "ཝ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13386,6 +13646,7 @@
       ],
       "teacherText": "ཕ་ར་བཏགས་ཕྲ་ཞབས་ཀྱུ་ཕྲུ་ག་ཕྲུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13421,6 +13682,7 @@
       ],
       "teacherText": "ཚ་ང་ཚང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13481,6 +13743,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་ད་སྐད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13533,6 +13796,7 @@
       ],
       "teacherText": "ཞ་འགྲེང་བུ་ཞེ་ན་ཞེན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13585,6 +13849,7 @@
       ],
       "teacherText": "ཁ་ན་རོ་ཁོ་ག་ཁོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13619,6 +13884,7 @@
       ],
       "teacherText": "ཞ་ཝ་ཟུར་ཞྭ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13671,6 +13937,7 @@
       ],
       "teacherText": "ག་འོག་ཡ་འ་གཡའ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13723,6 +13990,7 @@
       ],
       "teacherText": "ཟ་ཞབས་ཀྱུ་ཟུ་ག་ཟུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13800,6 +14068,7 @@
       ],
       "teacherText": "འ་འོག་ཁ་ཡ་བཏགས་འཁྱ་ག་འཁྱག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13886,6 +14155,7 @@
       ],
       "teacherText": "འ་འོག་ཁ་ཡ་བཏགས་འཁྱ་ག་ས་འཁྱགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -13989,6 +14259,7 @@
       ],
       "teacherText": "འ་འོག་ཁ་ར་བཏགས་འཁྲ་འགྲེང་བུ་འཁྲེ་ག་ས་འཁྲེགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14038,8 +14309,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྒ་ན་རོ་འགོ།",
+      "teacherText": "འ་འོག་ག་ན་རོ་འགོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14133,8 +14405,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྒ་ཡ་བཏགས་འགྱ་འགྲེང་བུ་འགྱེ་ད་འགྱེད།",
+      "teacherText": "འ་འོག་ག་ཡ་བཏགས་འགྱ་འགྲེང་བུ་འགྱེ་ད་འགྱེད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14228,8 +14501,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྒ་ར་བཏགས་འགྲ་གི་གུ་འགྲི་ག་འགྲིག།",
+      "teacherText": "འ་འོག་ག་ར་བཏགས་འགྲ་གི་གུ་འགྲི་ག་འགྲིག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14323,8 +14597,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྒ་ར་བཏགས་འགྲ་ཞབས་ཀྱུ་འགྲུ་ལ་འགྲུལ།",
+      "teacherText": "འ་འོག་ག་ར་བཏགས་འགྲ་ཞབས་ཀྱུ་འགྲུ་ལ་འགྲུལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14394,6 +14669,7 @@
       ],
       "teacherText": "ར་ཏ་བཏགས་རྟ་ག་ས་རྟགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14468,8 +14744,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྒ་ར་བཏགས་འགྲ་ན་རོ་འགྲོ།",
+      "teacherText": "འ་འོག་ག་ར་བཏགས་འགྲ་ན་རོ་འགྲོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14522,6 +14799,7 @@
       ],
       "teacherText": "ས་ན་རོ་སོ་ང་སོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14574,6 +14852,7 @@
       ],
       "teacherText": "འ་འོག་ཆ་མ་འཆམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14635,6 +14914,7 @@
       ],
       "teacherText": "འ་འོག་ཆ་མ་ས་འཆམས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14685,6 +14965,7 @@
       ],
       "teacherText": "འ་འོག་ཆ་གི་གུ་འཆི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14736,8 +15017,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྗ་མ་འཇམ།",
+      "teacherText": "འ་འོག་ཇ་མ་འཇམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14806,8 +15088,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྗ་གི་གུ་འཇི་བ་འཇིབ།",
+      "teacherText": "འ་འོག་ཇ་གི་གུ་འཇི་བ་འཇིབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14860,6 +15143,7 @@
       ],
       "teacherText": "འ་འོག་ཐ་བ་འཐབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14937,8 +15221,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྡ་འགྲེང་བུ་འདེ་མ་ས་འདེམས།",
+      "teacherText": "འ་འོག་ད་འགྲེང་བུ་འདེ་མ་ས་འདེམས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -14970,9 +15255,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             1
           ]
@@ -15067,7 +15353,8 @@
       ],
       "teacherText": "བ་འོག་ས་ག་བཏགས་བསྒ་ར་བཏགས་བསྒྲ་ཞབས་ཀྱུ་བསྒྲུ་ག་ས་བསྒྲུགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "འདྲ",
@@ -15124,8 +15411,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་རྡ་ར་བཏགས་འདྲ།",
+      "teacherText": "འ་འོག་ད་ར་བཏགས་འདྲ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15178,6 +15466,7 @@
       ],
       "teacherText": "ཤ་ཞབས་ཀྱུ་ཤུ་ས་ཤུས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15236,6 +15525,7 @@
       ],
       "teacherText": "འ་འོག་ཕ་ཡ་བཏགས་འཕྱ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15313,6 +15603,7 @@
       ],
       "teacherText": "ས་མ་བཏགས་སྨ་ན་རོ་སྨོ་ད་སྨོད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15390,6 +15681,7 @@
       ],
       "teacherText": "འ་འོག་ཕ་ར་བཏགས་འཕྲ་ལ་འཕྲལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15483,8 +15775,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་སྦ་ཡ་བཏགས་འབྱ་ན་རོ་འབྱོ་ར་འབྱོར།",
+      "teacherText": "འ་འོག་བ་ཡ་བཏགས་འབྱ་ན་རོ་འབྱོ་ར་འབྱོར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15578,8 +15871,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་སྦ་ར་བཏགས་འབྲ་ཞབས་ཀྱུ་འབྲུ་ག་འབྲུག།",
+      "teacherText": "འ་འོག་བ་ར་བཏགས་འབྲ་ཞབས་ཀྱུ་འབྲུ་ག་འབྲུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15630,6 +15924,7 @@
       ],
       "teacherText": "འ་འོག་ཚ་ན་རོ་འཚོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15699,6 +15994,7 @@
       ],
       "teacherText": "འ་འོག་ཚ་ན་རོ་འཚོ་ང་འཚོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15768,6 +16064,7 @@
       ],
       "teacherText": "འ་འོག་ཚ་ན་རོ་འཚོ་ལ་འཚོལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15820,6 +16117,7 @@
       ],
       "teacherText": "འ་ན་རོ་འོ་ས་འོས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15854,6 +16152,7 @@
       ],
       "teacherText": "ས་འགྲེང་བུ་སེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15889,6 +16188,7 @@
       ],
       "teacherText": "ཡ་ར་ཡར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -15904,9 +16204,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -15974,7 +16275,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ས་རྒྱས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "ཡི",
@@ -16008,6 +16310,7 @@
       ],
       "teacherText": "ཡ་གི་གུ་ཡི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16042,6 +16345,7 @@
       ],
       "teacherText": "ག་འགྲེང་བུ་གེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16094,6 +16398,7 @@
       ],
       "teacherText": "ཡ་གི་གུ་ཡི་ག་ཡིག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16146,6 +16451,7 @@
       ],
       "teacherText": "ཡ་གི་གུ་ཡི་ན་ཡིན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16181,6 +16487,7 @@
       ],
       "teacherText": "ད་ང་དང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16233,6 +16540,7 @@
       ],
       "teacherText": "མ་གི་གུ་མི་ན་མིན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16285,6 +16593,7 @@
       ],
       "teacherText": "ཡ་ན་རོ་ཡོ་ང་ཡོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16336,8 +16645,9 @@
           ]
         }
       ],
-      "teacherText": "འ་འོག་སྦ་བ་འབབ།",
+      "teacherText": "འ་འོག་བ་བ་འབབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16382,6 +16692,7 @@
       ],
       "teacherText": "ར་ག་ས་རགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16397,9 +16708,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "བ",
+          "kind": "result",
+          "text": "སྦ",
           "label": "ba",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -16442,7 +16754,8 @@
       ],
       "teacherText": "ས་བ་བཏགས་སྦ་ས་སྦས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "རབ",
@@ -16477,6 +16790,7 @@
       ],
       "teacherText": "ར་བ་རབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16529,6 +16843,7 @@
       ],
       "teacherText": "ར་གི་གུ་རི་ག་རིག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16563,6 +16878,7 @@
       ],
       "teacherText": "ར་འགྲེང་བུ་རེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16632,6 +16948,7 @@
       ],
       "teacherText": "བ་འོག་ཞ་གི་གུ་བཞི་ན་བཞིན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16692,6 +17009,7 @@
       ],
       "teacherText": "བ་ཡ་བཏགས་བྱ་ས་བྱས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16726,6 +17044,7 @@
       ],
       "teacherText": "ར་ན་རོ་རོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16803,6 +17122,7 @@
       ],
       "teacherText": "ར་ཀ་བཏགས་རྐ་ཞབས་ཀྱུ་རྐུ་བ་རྐུབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16863,6 +17183,7 @@
       ],
       "teacherText": "ཀ་ཡ་བཏགས་ཀྱ་ག་ཀྱག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -16948,6 +17269,7 @@
       ],
       "teacherText": "ར་ཀ་བཏགས་རྐ་ཡ་བཏགས་རྐྱ་ལ་རྐྱལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -17050,6 +17372,7 @@
       ],
       "teacherText": "ར་ཀ་བཏགས་རྐ་ཡ་བཏགས་རྐྱ་ན་རོ་རྐྱོ་ང་རྐྱོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -17102,6 +17425,7 @@
       ],
       "teacherText": "ཆ་ཞབས་ཀྱུ་ཆུ་ང་ཆུང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -17117,9 +17441,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -17196,7 +17521,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་ས་རྒྱགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "རྒྱན",
@@ -17211,9 +17537,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -17281,7 +17608,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ན་རྒྱན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "རྒྱབ",
@@ -17296,9 +17624,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -17366,7 +17695,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་བ་རྒྱབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "རྗེན",
@@ -17381,9 +17711,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ཇ",
+          "kind": "result",
+          "text": "རྗ",
           "label": "ja",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -17443,7 +17774,8 @@
       ],
       "teacherText": "ར་ཇ་བཏགས་རྗ་འགྲེང་བུ་རྗེ་ན་རྗེན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "རྙིང",
@@ -17520,6 +17852,7 @@
       ],
       "teacherText": "ར་ཉ་བཏགས་རྙ་གི་གུ་རྙི་ང་རྙིང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -17597,6 +17930,7 @@
       ],
       "teacherText": "ར་ཉ་བཏགས་རྙ་འགྲེང་བུ་རྙེ་ད་རྙེད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -17639,6 +17973,7 @@
       ],
       "teacherText": "ར་ཏ་བཏགས་རྟ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -17716,6 +18051,7 @@
       ],
       "teacherText": "ར་ཏ་བཏགས་རྟ་ཞབས་ཀྱུ་རྟུ་ལ་རྟུལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -17731,9 +18067,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ད",
+          "kind": "result",
+          "text": "རྡ",
           "label": "da",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -17793,7 +18130,8 @@
       ],
       "teacherText": "ར་ད་བཏགས་རྡ་འགྲེང་བུ་རྡེ་བ་རྡེབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "རྣག",
@@ -17853,6 +18191,7 @@
       ],
       "teacherText": "ར་ན་བཏགས་རྣ་ག་རྣག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -17930,6 +18269,7 @@
       ],
       "teacherText": "ར་ཙ་བཏགས་རྩ་གི་གུ་རྩི་ས་རྩིས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18007,6 +18347,7 @@
       ],
       "teacherText": "ར་ཙ་བཏགས་རྩ་ཞབས་ཀྱུ་རྩུ་བ་རྩུབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18084,6 +18425,7 @@
       ],
       "teacherText": "ར་ཙ་བཏགས་རྩ་ན་རོ་རྩོ་ད་རྩོད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18099,9 +18441,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ཛ",
+          "kind": "result",
+          "text": "རྫ",
           "label": "dza",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -18161,7 +18504,8 @@
       ],
       "teacherText": "ར་ཛ་བཏགས་རྫ་ཞབས་ཀྱུ་རྫུ་ས་རྫུས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "རྫོར",
@@ -18176,9 +18520,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ཛ",
+          "kind": "result",
+          "text": "རྫ",
           "label": "dza",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -18238,7 +18583,8 @@
       ],
       "teacherText": "ར་ཛ་བཏགས་རྫ་ན་རོ་རྫོ་ར་རྫོར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "རླུང",
@@ -18315,6 +18661,7 @@
       ],
       "teacherText": "ར་ལ་བཏགས་རླ་ཞབས་ཀྱུ་རླུ་ང་རླུང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18392,6 +18739,7 @@
       ],
       "teacherText": "ར་ལ་བཏགས་རླ་ན་རོ་རློ་ན་རློན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18461,6 +18809,7 @@
       ],
       "teacherText": "ག་འོག་ཡ་ཞབས་ཀྱུ་གཡུ་ག་གཡུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18505,6 +18854,7 @@
       ],
       "teacherText": "ལ་ག་ས་ལགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18540,6 +18890,7 @@
       ],
       "teacherText": "ལ་ན་ལན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18557,6 +18908,7 @@
       ],
       "teacherText": "ཀ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18651,6 +19003,7 @@
       ],
       "teacherText": "བ་འོག་ར་ཙ་བཏགས་བརྩ་ན་རོ་བརྩོ་ན་བརྩོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18686,6 +19039,7 @@
       ],
       "teacherText": "ཅ་ན་ཅན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18738,6 +19092,7 @@
       ],
       "teacherText": "ལ་ཞབས་ཀྱུ་ལུ་ད་ལུད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18790,6 +19145,7 @@
       ],
       "teacherText": "ཏ་ན་རོ་ཏོ་ག་ཏོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18842,6 +19198,7 @@
       ],
       "teacherText": "ལ་ན་རོ་ལོ་ག་ལོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18911,6 +19268,7 @@
       ],
       "teacherText": "ལ་ན་རོ་ལོ་འ་ན་རོ་འོ་ལོའོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -18997,6 +19355,7 @@
       ],
       "teacherText": "ལ་ཀ་བཏགས་ལྐ་ཞབས་ཀྱུ་ལྐུ་ག་ས་ལྐུགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19074,6 +19433,7 @@
       ],
       "teacherText": "ལ་ཀ་བཏགས་ལྐ་ན་རོ་ལྐོ་ག་ལྐོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19134,6 +19494,7 @@
       ],
       "teacherText": "ར་ང་བཏགས་རྔ་ན་རྔན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19203,6 +19564,7 @@
       ],
       "teacherText": "ལ་ཅ་བཏགས་ལྕ་ག་ས་ལྕགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19218,9 +19580,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ཇ",
+          "kind": "result",
+          "text": "རྗ",
           "label": "ja",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -19280,7 +19643,8 @@
       ],
       "teacherText": "ལ་ཇ་བཏགས་ལྗ་གི་གུ་ལྗི་ད་ལྗིད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "ལྡོག",
@@ -19295,9 +19659,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ད",
+          "kind": "result",
+          "text": "རྡ",
           "label": "da",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -19357,7 +19722,8 @@
       ],
       "teacherText": "ལ་ད་བཏགས་ལྡ་ན་རོ་ལྡོ་ག་ལྡོག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "ཕྱོགས",
@@ -19443,6 +19809,7 @@
       ],
       "teacherText": "ཕ་ཡ་བཏགས་ཕྱ་ན་རོ་ཕྱོ་ག་ས་ཕྱོགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19503,6 +19870,7 @@
       ],
       "teacherText": "ལ་ཧ་བཏགས་ལྷ་ན་ལྷན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19580,6 +19948,7 @@
       ],
       "teacherText": "ལ་ཧ་བཏགས་ལྷ་ཞབས་ཀྱུ་ལྷུ་ག་ལྷུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19649,6 +20018,7 @@
       ],
       "teacherText": "བ་འོག་ཙ་གི་གུ་བཙི་ར་བཙིར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19684,6 +20054,7 @@
       ],
       "teacherText": "ཤ་ར་ཤར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19718,6 +20089,7 @@
       ],
       "teacherText": "ཤ་ཞབས་ཀྱུ་ཤུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19779,6 +20151,7 @@
       ],
       "teacherText": "ཤ་ཞབས་ཀྱུ་ཤུ་ག་ས་ཤུགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19831,6 +20204,7 @@
       ],
       "teacherText": "ཤ་ཞབས་ཀྱུ་ཤུ་ལ་ཤུལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19865,6 +20239,7 @@
       ],
       "teacherText": "ཤ་ན་རོ་ཤོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19917,6 +20292,7 @@
       ],
       "teacherText": "ཤ་ན་རོ་ཤོ་ར་ཤོར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -19969,6 +20345,7 @@
       ],
       "teacherText": "ཡ་ན་རོ་ཡོ་མ་ཡོམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20030,6 +20407,7 @@
       ],
       "teacherText": "ས་འགྲེང་བུ་སེ་མ་ས་སེམས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20090,6 +20468,7 @@
       ],
       "teacherText": "ཁ་ར་བཏགས་ཁྲ་ལ་ཁྲལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20140,6 +20519,7 @@
       ],
       "teacherText": "ག་འོག་ས་ན་རོ་གསོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20174,6 +20554,7 @@
       ],
       "teacherText": "ས་ན་རོ་སོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20209,6 +20590,7 @@
       ],
       "teacherText": "ཤ་ད་ཤད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20278,6 +20660,7 @@
       ],
       "teacherText": "ག་ར་བཏགས་གྲ་ག་ས་གྲགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20330,6 +20713,7 @@
       ],
       "teacherText": "ང་ཞབས་ཀྱུ་ངུ་ས་ངུས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20382,6 +20766,7 @@
       ],
       "teacherText": "པ་ན་རོ་པོ་ས་པོས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20434,6 +20819,7 @@
       ],
       "teacherText": "ཅ་ན་རོ་ཅོ་ར་ཅོར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20451,6 +20837,7 @@
       ],
       "teacherText": "ཆ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20520,6 +20907,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་བ་ས་སྐབས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20580,6 +20968,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་མ་སྐམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20657,6 +21046,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་ཞབས་ཀྱུ་སྐུ་མ་སྐུམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20768,6 +21158,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་ཡ་བཏགས་སྐྱ་གི་གུ་སྐྱི་ག་ས་སྐྱིགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20870,6 +21261,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་ཡ་བཏགས་སྐྱ་གི་གུ་སྐྱི་ད་སྐྱིད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20954,6 +21346,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་ཡ་བཏགས་སྐྱ་ན་རོ་སྐྱོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -20985,9 +21378,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ཇ",
+          "kind": "result",
+          "text": "རྗ",
           "label": "ja",
+          "stage": "stack-root",
           "focus": [
             1
           ]
@@ -21048,7 +21442,8 @@
       ],
       "teacherText": "བ་འོག་ར་ཇ་བཏགས་བརྗ་ན་རོ་བརྗོ་ད་བརྗོད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྐྱོར",
@@ -21150,6 +21545,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་ཡ་བཏགས་སྐྱ་ན་རོ་སྐྱོ་ར་སྐྱོར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -21165,9 +21561,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -21192,7 +21589,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྒམ",
@@ -21207,9 +21605,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -21252,7 +21651,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ་མ་སྒམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྒུག",
@@ -21267,9 +21667,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -21329,7 +21730,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ་ཞབས་ཀྱུ་སྒུ་ག་སྒུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྒེའུ",
@@ -21344,9 +21746,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -21423,7 +21826,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ་འགྲེང་བུ་སྒེ་འ་ཞབས་ཀྱུ་འུ་སྒེའུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "ཁུང",
@@ -21475,6 +21879,7 @@
       ],
       "teacherText": "ཁ་ཞབས་ཀྱུ་ཁུ་ང་ཁུང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -21527,6 +21932,7 @@
       ],
       "teacherText": "ཡ་ན་རོ་ཡོ་ལ་ཡོལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -21542,9 +21948,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -21586,7 +21993,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ་ན་རོ་སྒོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྒོམ",
@@ -21601,9 +22009,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -21663,7 +22072,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ་ན་རོ་སྒོ་མ་སྒོམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྒྲ",
@@ -21678,9 +22088,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -21730,7 +22141,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ་ར་བཏགས་སྒྲ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "འཁོར",
@@ -21799,6 +22211,7 @@
       ],
       "teacherText": "འ་འོག་ཁ་ན་རོ་འཁོ་ར་འཁོར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -21814,9 +22227,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -21901,7 +22315,8 @@
       ],
       "teacherText": "ས་ག་བཏགས་སྒ་ར་བཏགས་སྒྲ་ཞབས་ཀྱུ་སྒྲུ་བ་སྒྲུབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྔ",
@@ -21943,6 +22358,7 @@
       ],
       "teacherText": "ས་ང་བཏགས་སྔ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22012,6 +22428,7 @@
       ],
       "teacherText": "ས་ང་བཏགས་སྔ་ག་ས་སྔགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22089,6 +22506,7 @@
       ],
       "teacherText": "ས་ང་བཏགས་སྔ་ན་རོ་སྔོ་ན་སྔོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22166,6 +22584,7 @@
       ],
       "teacherText": "ས་ཉ་བཏགས་སྙ་གི་གུ་སྙི་ང་སྙིང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22181,9 +22600,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ཇ",
+          "kind": "result",
+          "text": "རྗ",
           "label": "ja",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -22225,7 +22645,8 @@
       ],
       "teacherText": "ར་ཇ་བཏགས་རྗ་འགྲེང་བུ་རྗེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྟེང",
@@ -22302,6 +22723,7 @@
       ],
       "teacherText": "ས་ཏ་བཏགས་སྟ་འགྲེང་བུ་སྟེ་ང་སྟེང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22379,6 +22801,7 @@
       ],
       "teacherText": "ས་ཏ་བཏགས་སྟ་ན་རོ་སྟོ་ང་སྟོང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22394,9 +22817,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ད",
+          "kind": "result",
+          "text": "རྡ",
           "label": "da",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -22456,7 +22880,8 @@
       ],
       "teacherText": "ས་ད་བཏགས་སྡ་ཞབས་ཀྱུ་སྡུ་ག་སྡུག།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "བསྔལ",
@@ -22533,6 +22958,7 @@
       ],
       "teacherText": "བ་འོག་ས་ང་བཏགས་བསྔ་ལ་བསྔལ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22610,6 +23036,7 @@
       ],
       "teacherText": "ས་ན་བཏགས་སྣ་ན་རོ་སྣོ་ན་སྣོན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22712,6 +23139,7 @@
       ],
       "teacherText": "ས་ཀ་བཏགས་སྐ་ཡ་བཏགས་སྐྱ་འགྲེང་བུ་སྐྱེ་ད་སྐྱེད།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22789,6 +23217,7 @@
       ],
       "teacherText": "ས་པ་བཏགས་སྤ་ཞབས་ཀྱུ་སྤུ་ས་སྤུས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22824,6 +23253,7 @@
       ],
       "teacherText": "ཞ་ན་ཞན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22910,6 +23340,7 @@
       ],
       "teacherText": "ས་པ་བཏགས་སྤ་ན་རོ་སྤོ་བ་ས་སྤོབས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -22995,6 +23426,7 @@
       ],
       "teacherText": "ས་པ་བཏགས་སྤ་ཡ་བཏགས་སྤྱ་ང་སྤྱང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23097,6 +23529,7 @@
       ],
       "teacherText": "ས་པ་བཏགས་སྤ་ཡ་བཏགས་སྤྱ་གི་གུ་སྤྱི་ར་སྤྱིར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23149,6 +23582,7 @@
       ],
       "teacherText": "བ་འོག་ཏ་ང་བཏང།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23233,6 +23667,7 @@
       ],
       "teacherText": "ས་པ་བཏགས་སྤ་ར་བཏགས་སྤྲ་ན་རོ་སྤྲོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23248,9 +23683,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "བ",
+          "kind": "result",
+          "text": "སྦ",
           "label": "ba",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -23310,7 +23746,8 @@
       ],
       "teacherText": "ས་བ་བཏགས་སྦ་ན་རོ་སྦོ་མ་སྦོམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྦྱིན",
@@ -23325,9 +23762,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "བ",
+          "kind": "result",
+          "text": "སྦ",
           "label": "ba",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -23412,7 +23850,8 @@
       ],
       "teacherText": "ས་བ་བཏགས་སྦ་ཡ་བཏགས་སྦྱ་གི་གུ་སྦྱི་ན་སྦྱིན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "སྨིན",
@@ -23489,6 +23928,7 @@
       ],
       "teacherText": "ས་མ་བཏགས་སྨ་གི་གུ་སྨི་ན་སྨིན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23549,6 +23989,7 @@
       ],
       "teacherText": "ས་ར་བཏགས་སྲ་བ་སྲབ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23608,6 +24049,7 @@
       ],
       "teacherText": "ས་ལ་བཏགས་སླ་འགྲེང་བུ་སླེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23625,6 +24067,7 @@
       ],
       "teacherText": "ཧ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23660,6 +24103,7 @@
       ],
       "teacherText": "ཧ་མ་ཧམ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23712,6 +24156,7 @@
       ],
       "teacherText": "ཧ་ཞབས་ཀྱུ་ཧུ་ར་ཧུར།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23746,6 +24191,7 @@
       ],
       "teacherText": "ཨ་ཨ་ཆུང་ཨཱ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23780,6 +24226,7 @@
       ],
       "teacherText": "ཨ་ཞབས་ཀྱུ་ཨུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23841,6 +24288,7 @@
       ],
       "teacherText": "ཚ་ཞབས་ཀྱུ་ཚུ་ག་ས་ཚུགས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23875,6 +24323,7 @@
       ],
       "teacherText": "ཀ་ཞབས་ཀྱུ་ཀུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23909,6 +24358,7 @@
       ],
       "teacherText": "ཀ་འགྲེང་བུ་ཀེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23943,6 +24393,7 @@
       ],
       "teacherText": "ཁ་གི་གུ་ཁི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -23977,6 +24428,7 @@
       ],
       "teacherText": "ཁ་ན་རོ་ཁོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24011,6 +24463,7 @@
       ],
       "teacherText": "ག་གི་གུ་གི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24045,6 +24498,7 @@
       ],
       "teacherText": "ང་གི་གུ་ངི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24079,6 +24533,7 @@
       ],
       "teacherText": "ང་ཞབས་ཀྱུ་ངུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24113,6 +24568,7 @@
       ],
       "teacherText": "ང་འགྲེང་བུ་ངེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24130,6 +24586,7 @@
       ],
       "teacherText": "ཅ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24164,6 +24621,7 @@
       ],
       "teacherText": "ཅ་གི་གུ་ཅི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24198,6 +24656,7 @@
       ],
       "teacherText": "ཅ་ཞབས་ཀྱུ་ཅུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24232,6 +24691,7 @@
       ],
       "teacherText": "ཅ་འགྲེང་བུ་ཅེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24266,6 +24726,7 @@
       ],
       "teacherText": "ཅ་ན་རོ་ཅོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24300,6 +24761,7 @@
       ],
       "teacherText": "ཆ་གི་གུ་ཆི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24334,6 +24796,7 @@
       ],
       "teacherText": "ཆ་འགྲེང་བུ་ཆེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24368,6 +24831,7 @@
       ],
       "teacherText": "ཆ་ན་རོ་ཆོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24402,6 +24866,7 @@
       ],
       "teacherText": "ཇ་གི་གུ་ཇི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24436,6 +24901,7 @@
       ],
       "teacherText": "ཇ་ཞབས་ཀྱུ་ཇུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24470,6 +24936,7 @@
       ],
       "teacherText": "ཇ་འགྲེང་བུ་ཇེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24504,6 +24971,7 @@
       ],
       "teacherText": "ཇ་ན་རོ་ཇོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24521,6 +24989,7 @@
       ],
       "teacherText": "ཉ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24555,6 +25024,7 @@
       ],
       "teacherText": "ཉ་གི་གུ་ཉི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24589,6 +25059,7 @@
       ],
       "teacherText": "ཉ་ཞབས་ཀྱུ་ཉུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24606,6 +25077,7 @@
       ],
       "teacherText": "ཏ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24640,6 +25112,7 @@
       ],
       "teacherText": "ཏ་གི་གུ་ཏི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24674,6 +25147,7 @@
       ],
       "teacherText": "ཏ་ཞབས་ཀྱུ་ཏུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24708,6 +25182,7 @@
       ],
       "teacherText": "ཏ་འགྲེང་བུ་ཏེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24742,6 +25217,7 @@
       ],
       "teacherText": "ཏ་ན་རོ་ཏོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24759,6 +25235,7 @@
       ],
       "teacherText": "ཐ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24793,6 +25270,7 @@
       ],
       "teacherText": "ཐ་གི་གུ་ཐི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24827,6 +25305,7 @@
       ],
       "teacherText": "ཐ་ཞབས་ཀྱུ་ཐུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24861,6 +25340,7 @@
       ],
       "teacherText": "ཐ་འགྲེང་བུ་ཐེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24895,6 +25375,7 @@
       ],
       "teacherText": "ཐ་ན་རོ་ཐོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24929,6 +25410,7 @@
       ],
       "teacherText": "ད་གི་གུ་དི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24946,6 +25428,7 @@
       ],
       "teacherText": "ན།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -24980,6 +25463,7 @@
       ],
       "teacherText": "ན་གི་གུ་ནི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25014,6 +25498,7 @@
       ],
       "teacherText": "ན་འགྲེང་བུ་ནེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25048,6 +25533,7 @@
       ],
       "teacherText": "ན་ན་རོ་ནོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25082,6 +25568,7 @@
       ],
       "teacherText": "པ་གི་གུ་པི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25116,6 +25603,7 @@
       ],
       "teacherText": "པ་འགྲེང་བུ་པེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25133,6 +25621,7 @@
       ],
       "teacherText": "ཕ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25167,6 +25656,7 @@
       ],
       "teacherText": "ཕ་གི་གུ་ཕི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25201,6 +25691,7 @@
       ],
       "teacherText": "ཕ་ཞབས་ཀྱུ་ཕུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25235,6 +25726,7 @@
       ],
       "teacherText": "ཕ་འགྲེང་བུ་ཕེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25269,6 +25761,7 @@
       ],
       "teacherText": "བ་གི་གུ་བི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25303,6 +25796,7 @@
       ],
       "teacherText": "བ་འགྲེང་བུ་བེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25337,6 +25831,7 @@
       ],
       "teacherText": "མ་ཞབས་ཀྱུ་མུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25354,6 +25849,7 @@
       ],
       "teacherText": "ཙ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25388,6 +25884,7 @@
       ],
       "teacherText": "ཙ་གི་གུ་ཙི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25422,6 +25919,7 @@
       ],
       "teacherText": "ཙ་ཞབས་ཀྱུ་ཙུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25456,6 +25954,7 @@
       ],
       "teacherText": "ཙ་འགྲེང་བུ་ཙེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25490,6 +25989,7 @@
       ],
       "teacherText": "ཙ་ན་རོ་ཙོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25524,6 +26024,7 @@
       ],
       "teacherText": "ཚ་གི་གུ་ཚི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25558,6 +26059,7 @@
       ],
       "teacherText": "ཚ་ཞབས་ཀྱུ་ཚུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25592,6 +26094,7 @@
       ],
       "teacherText": "ཚ་འགྲེང་བུ་ཚེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25626,6 +26129,7 @@
       ],
       "teacherText": "ཚ་ན་རོ་ཚོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25643,6 +26147,7 @@
       ],
       "teacherText": "ཛ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25677,6 +26182,7 @@
       ],
       "teacherText": "ཛ་གི་གུ་ཛི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25711,6 +26217,7 @@
       ],
       "teacherText": "ཛ་ཞབས་ཀྱུ་ཛུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25745,6 +26252,7 @@
       ],
       "teacherText": "ཛ་འགྲེང་བུ་ཛེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25779,6 +26287,7 @@
       ],
       "teacherText": "ཛ་ན་རོ་ཛོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25813,6 +26322,7 @@
       ],
       "teacherText": "ཝ་གི་གུ་ཝི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25847,6 +26357,7 @@
       ],
       "teacherText": "ཝ་ཞབས་ཀྱུ་ཝུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25881,6 +26392,7 @@
       ],
       "teacherText": "ཝ་འགྲེང་བུ་ཝེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25915,6 +26427,7 @@
       ],
       "teacherText": "ཝ་ན་རོ་ཝོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25932,6 +26445,7 @@
       ],
       "teacherText": "ཞ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -25966,6 +26480,7 @@
       ],
       "teacherText": "ཞ་གི་གུ་ཞི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26000,6 +26515,7 @@
       ],
       "teacherText": "ཞ་འགྲེང་བུ་ཞེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26034,6 +26550,7 @@
       ],
       "teacherText": "ཞ་ན་རོ་ཞོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26068,6 +26585,7 @@
       ],
       "teacherText": "ཟ་གི་གུ་ཟི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26102,6 +26620,7 @@
       ],
       "teacherText": "ཟ་ཞབས་ཀྱུ་ཟུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26136,6 +26655,7 @@
       ],
       "teacherText": "ཟ་འགྲེང་བུ་ཟེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26170,6 +26690,7 @@
       ],
       "teacherText": "ཟ་ན་རོ་ཟོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26187,6 +26708,7 @@
       ],
       "teacherText": "འ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26221,6 +26743,7 @@
       ],
       "teacherText": "འ་གི་གུ་འི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26255,6 +26778,7 @@
       ],
       "teacherText": "འ་ཞབས་ཀྱུ་འུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26289,6 +26813,7 @@
       ],
       "teacherText": "འ་འགྲེང་བུ་འེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26323,6 +26848,7 @@
       ],
       "teacherText": "འ་ན་རོ་འོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26340,6 +26866,7 @@
       ],
       "teacherText": "ཡ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26374,6 +26901,7 @@
       ],
       "teacherText": "ཡ་ཞབས་ཀྱུ་ཡུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26408,6 +26936,7 @@
       ],
       "teacherText": "ཡ་འགྲེང་བུ་ཡེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26442,6 +26971,7 @@
       ],
       "teacherText": "ཡ་ན་རོ་ཡོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26476,6 +27006,7 @@
       ],
       "teacherText": "ར་གི་གུ་རི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26510,6 +27041,7 @@
       ],
       "teacherText": "ར་ཞབས་ཀྱུ་རུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26544,6 +27076,7 @@
       ],
       "teacherText": "ལ་གི་གུ་ལི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26578,6 +27111,7 @@
       ],
       "teacherText": "ལ་ཞབས་ཀྱུ་ལུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26612,6 +27146,7 @@
       ],
       "teacherText": "ཤ་གི་གུ་ཤི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26646,6 +27181,7 @@
       ],
       "teacherText": "ཤ་འགྲེང་བུ་ཤེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26680,6 +27216,7 @@
       ],
       "teacherText": "ས་གི་གུ་སི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26714,6 +27251,7 @@
       ],
       "teacherText": "ས་ཞབས་ཀྱུ་སུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26748,6 +27286,7 @@
       ],
       "teacherText": "ཧ་གི་གུ་ཧི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26782,6 +27321,7 @@
       ],
       "teacherText": "ཧ་ཞབས་ཀྱུ་ཧུ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26816,6 +27356,7 @@
       ],
       "teacherText": "ཧ་འགྲེང་བུ་ཧེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26850,6 +27391,7 @@
       ],
       "teacherText": "ཧ་ན་རོ་ཧོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26867,6 +27409,7 @@
       ],
       "teacherText": "ཨ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26901,6 +27444,7 @@
       ],
       "teacherText": "ཨ་གི་གུ་ཨི།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26935,6 +27479,7 @@
       ],
       "teacherText": "ཨ་འགྲེང་བུ་ཨེ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26969,6 +27514,7 @@
       ],
       "teacherText": "ཨ་ན་རོ་ཨོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
+      "contextualRootAudioUsed": false,
       "reviewContextualRoot": false
     },
     {
@@ -26984,9 +27530,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             0
           ]
@@ -27053,7 +27600,8 @@
       ],
       "teacherText": "ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ན་རོ་རྒྱོ།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     },
     {
       "syllable": "བསྒྲིམས",
@@ -27084,9 +27632,10 @@
           ]
         },
         {
-          "kind": "symbol",
-          "text": "ག",
+          "kind": "result",
+          "text": "རྒ",
           "label": "ga",
+          "stage": "stack-root",
           "focus": [
             1
           ]
@@ -27181,7 +27730,8 @@
       ],
       "teacherText": "བ་འོག་ས་ག་བཏགས་བསྒ་ར་བཏགས་བསྒྲ་གི་གུ་བསྒྲི་མ་ས་བསྒྲིམས།",
       "recordedPronunciation": "not-certified-by-structural-audit",
-      "reviewContextualRoot": true
+      "contextualRootAudioUsed": true,
+      "reviewContextualRoot": false
     }
   ],
   "words": [
@@ -27556,7 +28106,7 @@
         "གཏན",
         "འཇགས"
       ],
-      "teacherText": "ག་འོག་ཏ་ན་གཏན། འ་འོག་རྗ་ག་ས་འཇགས།"
+      "teacherText": "ག་འོག་ཏ་ན་གཏན། འ་འོག་ཇ་ག་ས་འཇགས།"
     },
     {
       "word": "གཏིང་",
@@ -27604,7 +28154,7 @@
       "syllables": [
         "གདན"
       ],
-      "teacherText": "ག་འོག་རྡ་ན་གདན།"
+      "teacherText": "ག་འོག་ད་ན་གདན།"
     },
     {
       "word": "གདན་རྒྱག་",
@@ -27612,7 +28162,7 @@
         "གདན",
         "རྒྱག"
       ],
-      "teacherText": "ག་འོག་རྡ་ན་གདན། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
+      "teacherText": "ག་འོག་ད་ན་གདན། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
     },
     {
       "word": "གནོད་པ་",
@@ -28201,7 +28751,7 @@
         "ཉེས",
         "འཛུགས"
       ],
-      "teacherText": "ཉ་འགྲེང་བུ་ཉེ་ས་ཉེས། འ་འོག་རྫ་ཞབས་ཀྱུ་འཛུ་ག་ས་འཛུགས།"
+      "teacherText": "ཉ་འགྲེང་བུ་ཉེ་ས་ཉེས། འ་འོག་ཛ་ཞབས་ཀྱུ་འཛུ་ག་ས་འཛུགས།"
     },
     {
       "word": "ཉེས་འཛུགས་བྱེད་",
@@ -28210,7 +28760,7 @@
         "འཛུགས",
         "བྱེད"
       ],
-      "teacherText": "ཉ་འགྲེང་བུ་ཉེ་ས་ཉེས། འ་འོག་རྫ་ཞབས་ཀྱུ་འཛུ་ག་ས་འཛུགས། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
+      "teacherText": "ཉ་འགྲེང་བུ་ཉེ་ས་ཉེས། འ་འོག་ཛ་ཞབས་ཀྱུ་འཛུ་ག་ས་འཛུགས། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
     },
     {
       "word": "ཉོ་བ་",
@@ -28382,7 +28932,7 @@
         "དགག",
         "བྱ"
       ],
-      "teacherText": "ད་འོག་རྒ་ག་དགག། བ་ཡ་བཏགས་བྱ།"
+      "teacherText": "ད་འོག་ག་ག་དགག། བ་ཡ་བཏགས་བྱ།"
     },
     {
       "word": "དགག་བྱ་བྱེད་",
@@ -28391,7 +28941,7 @@
         "བྱ",
         "བྱེད"
       ],
-      "teacherText": "ད་འོག་རྒ་ག་དགག། བ་ཡ་བཏགས་བྱ། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
+      "teacherText": "ད་འོག་ག་ག་དགག། བ་ཡ་བཏགས་བྱ། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
     },
     {
       "word": "དགའ་པོ་",
@@ -28399,7 +28949,7 @@
         "དགའ",
         "པོ"
       ],
-      "teacherText": "ད་འོག་རྒ་འ་དགའ། པ་ན་རོ་པོ།"
+      "teacherText": "ད་འོག་ག་འ་དགའ། པ་ན་རོ་པོ།"
     },
     {
       "word": "དགའ་བ་",
@@ -28407,7 +28957,7 @@
         "དགའ",
         "བ"
       ],
-      "teacherText": "ད་འོག་རྒ་འ་དགའ། བ།"
+      "teacherText": "ད་འོག་ག་འ་དགའ། བ།"
     },
     {
       "word": "དགེ་རྒན་",
@@ -28415,7 +28965,7 @@
         "དགེ",
         "རྒན"
       ],
-      "teacherText": "ད་འོག་རྒ་འགྲེང་བུ་དགེ། ར་ག་བཏགས་རྒ་ན་རྒན།"
+      "teacherText": "ད་འོག་ག་འགྲེང་བུ་དགེ། ར་ག་བཏགས་རྒ་ན་རྒན།"
     },
     {
       "word": "དགོང་དྲོ་",
@@ -28423,7 +28973,7 @@
         "དགོང",
         "དྲོ"
       ],
-      "teacherText": "ད་འོག་རྒ་ན་རོ་དགོ་ང་དགོང། ད་ར་བཏགས་དྲ་ན་རོ་དྲོ།"
+      "teacherText": "ད་འོག་ག་ན་རོ་དགོ་ང་དགོང། ད་ར་བཏགས་དྲ་ན་རོ་དྲོ།"
     },
     {
       "word": "དགོངས་དག་ཐུགས་བདེན་ཞུ་",
@@ -28434,7 +28984,7 @@
         "བདེན",
         "ཞུ"
       ],
-      "teacherText": "ད་འོག་རྒ་ན་རོ་དགོ་ང་ས་དགོངས། ད་ག་དག། ཐ་ཞབས་ཀྱུ་ཐུ་ག་ས་ཐུགས། བ་འོག་རྡ་འགྲེང་བུ་བདེ་ན་བདེན། ཞ་ཞབས་ཀྱུ་ཞུ།"
+      "teacherText": "ད་འོག་ག་ན་རོ་དགོ་ང་ས་དགོངས། ད་ག་དག། ཐ་ཞབས་ཀྱུ་ཐུ་ག་ས་ཐུགས། བ་འོག་ད་འགྲེང་བུ་བདེ་ན་བདེན། ཞ་ཞབས་ཀྱུ་ཞུ།"
     },
     {
       "word": "དགོངས་སེལ་ཞུ་",
@@ -28443,14 +28993,14 @@
         "སེལ",
         "ཞུ"
       ],
-      "teacherText": "ད་འོག་རྒ་ན་རོ་དགོ་ང་ས་དགོངས། ས་འགྲེང་བུ་སེ་ལ་སེལ། ཞ་ཞབས་ཀྱུ་ཞུ།"
+      "teacherText": "ད་འོག་ག་ན་རོ་དགོ་ང་ས་དགོངས། ས་འགྲེང་བུ་སེ་ལ་སེལ། ཞ་ཞབས་ཀྱུ་ཞུ།"
     },
     {
       "word": "དགྲ་",
       "syllables": [
         "དགྲ"
       ],
-      "teacherText": "ད་འོག་རྒ་ར་བཏགས་དགྲ།"
+      "teacherText": "ད་འོག་ག་ར་བཏགས་དགྲ།"
     },
     {
       "word": "དབུལ་པོ་",
@@ -28458,7 +29008,7 @@
         "དབུལ",
         "པོ"
       ],
-      "teacherText": "ད་འོག་ཝ་ཞབས་ཀྱུ་དབུ་ལ་དབུལ། པ་ན་རོ་པོ།"
+      "teacherText": "ད་འོག་བ་ཞབས་ཀྱུ་དབུ་ལ་དབུལ། པ་ན་རོ་པོ།"
     },
     {
       "word": "དམག་",
@@ -28490,7 +29040,7 @@
         "འབེབས",
         "གཏོང"
       ],
-      "teacherText": "ད་འོག་མ་འ་དམའ། འ་འོག་སྦ་འགྲེང་བུ་འབེ་བ་ས་འབེབས། ག་འོག་ཏ་ན་རོ་གཏོ་ང་གཏོང།"
+      "teacherText": "ད་འོག་མ་འ་དམའ། འ་འོག་བ་འགྲེང་བུ་འབེ་བ་ས་འབེབས། ག་འོག་ཏ་ན་རོ་གཏོ་ང་གཏོང།"
     },
     {
       "word": "དེ་ནས་",
@@ -28547,7 +29097,7 @@
         "ཕྱི",
         "འདྲེན"
       ],
-      "teacherText": "ན་ང་ནང། ཟ་ན་རོ་ཟོ་ག་ཟོག། ཕ་ཡ་བཏགས་ཕྱ་གི་གུ་ཕྱི། འ་འོག་རྡ་ར་བཏགས་འདྲ་འགྲེང་བུ་འདྲེ་ན་འདྲེན།"
+      "teacherText": "ན་ང་ནང། ཟ་ན་རོ་ཟོ་ག་ཟོག། ཕ་ཡ་བཏགས་ཕྱ་གི་གུ་ཕྱི། འ་འོག་ད་ར་བཏགས་འདྲ་འགྲེང་བུ་འདྲེ་ན་འདྲེན།"
     },
     {
       "word": "ནང་ཤ་",
@@ -28665,7 +29215,7 @@
         "ནང",
         "འདྲེན"
       ],
-      "teacherText": "ཕ་ཡ་བཏགས་ཕྱ་གི་གུ་ཕྱི། ཟ་ན་རོ་ཟོ་ག་ཟོག། ན་ང་ནང། འ་འོག་རྡ་ར་བཏགས་འདྲ་འགྲེང་བུ་འདྲེ་ན་འདྲེན།"
+      "teacherText": "ཕ་ཡ་བཏགས་ཕྱ་གི་གུ་ཕྱི། ཟ་ན་རོ་ཟོ་ག་ཟོག། ན་ང་ནང། འ་འོག་ད་ར་བཏགས་འདྲ་འགྲེང་བུ་འདྲེ་ན་འདྲེན།"
     },
     {
       "word": "ཕྱུག་པོ་",
@@ -28764,7 +29314,7 @@
         "བདེ",
         "བ"
       ],
-      "teacherText": "བ་འོག་རྡ་འགྲེང་བུ་བདེ། བ།"
+      "teacherText": "བ་འོག་ད་འགྲེང་བུ་བདེ། བ།"
     },
     {
       "word": "བཙན་གནོན་",
@@ -28780,7 +29330,7 @@
         "བཙན",
         "འཛུལ"
       ],
-      "teacherText": "བ་འོག་ཙ་ན་བཙན། འ་འོག་རྫ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ།"
+      "teacherText": "བ་འོག་ཙ་ན་བཙན། འ་འོག་ཛ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ།"
     },
     {
       "word": "བཙན་འཛུལ་བྱེད་",
@@ -28789,7 +29339,7 @@
         "འཛུལ",
         "བྱེད"
       ],
-      "teacherText": "བ་འོག་ཙ་ན་བཙན། འ་འོག་རྫ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
+      "teacherText": "བ་འོག་ཙ་ན་བཙན། འ་འོག་ཛ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
     },
     {
       "word": "བཙོག་པ་",
@@ -28853,7 +29403,7 @@
         "བར",
         "འཛུལ"
       ],
-      "teacherText": "བ་ར་བར། འ་འོག་རྫ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ།"
+      "teacherText": "བ་ར་བར། འ་འོག་ཛ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ།"
     },
     {
       "word": "བར་འཛུལ་བྱེད་",
@@ -28862,7 +29412,7 @@
         "འཛུལ",
         "བྱེད"
       ],
-      "teacherText": "བ་ར་བར། འ་འོག་རྫ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
+      "teacherText": "བ་ར་བར། འ་འོག་ཛ་ཞབས་ཀྱུ་འཛུ་ལ་འཛུལ། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
     },
     {
       "word": "བརྡ་",
@@ -29021,7 +29571,7 @@
       "syllables": [
         "མགོ"
       ],
-      "teacherText": "མ་འོག་རྒ་ན་རོ་མགོ།"
+      "teacherText": "མ་འོག་ག་ན་རོ་མགོ།"
     },
     {
       "word": "མགྱོགས་པོ་",
@@ -29029,7 +29579,7 @@
         "མགྱོགས",
         "པོ"
       ],
-      "teacherText": "མ་འོག་རྒ་ཡ་བཏགས་མགྱ་ན་རོ་མགྱོ་ག་ས་མགྱོགས། པ་ན་རོ་པོ།"
+      "teacherText": "མ་འོག་ག་ཡ་བཏགས་མགྱ་ན་རོ་མགྱོ་ག་ས་མགྱོགས། པ་ན་རོ་པོ།"
     },
     {
       "word": "མང་པོ་",
@@ -29069,7 +29619,7 @@
       "syllables": [
         "མཇུག"
       ],
-      "teacherText": "མ་འོག་རྗ་ཞབས་ཀྱུ་མཇུ་ག་མཇུག།"
+      "teacherText": "མ་འོག་ཇ་ཞབས་ཀྱུ་མཇུ་ག་མཇུག།"
     },
     {
       "word": "མཇུག་ལ་",
@@ -29077,7 +29627,7 @@
         "མཇུག",
         "ལ"
       ],
-      "teacherText": "མ་འོག་རྗ་ཞབས་ཀྱུ་མཇུ་ག་མཇུག། ལ།"
+      "teacherText": "མ་འོག་ཇ་ཞབས་ཀྱུ་མཇུ་ག་མཇུག། ལ།"
     },
     {
       "word": "མཉམ་དུ་",
@@ -29140,7 +29690,7 @@
       "syllables": [
         "མདའ"
       ],
-      "teacherText": "མ་འོག་རྡ་འ་མདའ།"
+      "teacherText": "མ་འོག་ད་འ་མདའ།"
     },
     {
       "word": "མདུད་པ་",
@@ -29148,7 +29698,7 @@
         "མདུད",
         "པ"
       ],
-      "teacherText": "མ་འོག་རྡ་ཞབས་ཀྱུ་མདུ་ད་མདུད། པ།"
+      "teacherText": "མ་འོག་ད་ཞབས་ཀྱུ་མདུ་ད་མདུད། པ།"
     },
     {
       "word": "མདུད་པ་རྒྱག་",
@@ -29157,14 +29707,14 @@
         "པ",
         "རྒྱག"
       ],
-      "teacherText": "མ་འོག་རྡ་ཞབས་ཀྱུ་མདུ་ད་མདུད། པ། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
+      "teacherText": "མ་འོག་ད་ཞབས་ཀྱུ་མདུ་ད་མདུད། པ། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
     },
     {
       "word": "མདུན་",
       "syllables": [
         "མདུན"
       ],
-      "teacherText": "མ་འོག་རྡ་ཞབས་ཀྱུ་མདུ་ན་མདུན།"
+      "teacherText": "མ་འོག་ད་ཞབས་ཀྱུ་མདུ་ན་མདུན།"
     },
     {
       "word": "མདོག་ཉེས་པོ་",
@@ -29173,7 +29723,7 @@
         "ཉེས",
         "པོ"
       ],
-      "teacherText": "མ་འོག་རྡ་ན་རོ་མདོ་ག་མདོག། ཉ་འགྲེང་བུ་ཉེ་ས་ཉེས། པ་ན་རོ་པོ།"
+      "teacherText": "མ་འོག་ད་ན་རོ་མདོ་ག་མདོག། ཉ་འགྲེང་བུ་ཉེ་ས་ཉེས། པ་ན་རོ་པོ།"
     },
     {
       "word": "མཚན་མོ་",
@@ -29206,7 +29756,7 @@
         "དགེ",
         "བ"
       ],
-      "teacherText": "མ་གི་གུ་མི། ད་འོག་རྒ་འགྲེང་བུ་དགེ། བ།"
+      "teacherText": "མ་གི་གུ་མི། ད་འོག་ག་འགྲེང་བུ་དགེ། བ།"
     },
     {
       "word": "མི་ཚུད་པ་",
@@ -29238,7 +29788,7 @@
         "མེ",
         "མདའ"
       ],
-      "teacherText": "མ་འགྲེང་བུ་མེ། མ་འོག་རྡ་འ་མདའ།"
+      "teacherText": "མ་འགྲེང་བུ་མེ། མ་འོག་ད་འ་མདའ།"
     },
     {
       "word": "མེ་མདའ་རྒྱག་",
@@ -29247,7 +29797,7 @@
         "མདའ",
         "རྒྱག"
       ],
-      "teacherText": "མ་འགྲེང་བུ་མེ། མ་འོག་རྡ་འ་མདའ། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
+      "teacherText": "མ་འགྲེང་བུ་མེ། མ་འོག་ད་འ་མདའ། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
     },
     {
       "word": "མོ་",
@@ -29587,7 +30137,7 @@
       "syllables": [
         "འགོ"
       ],
-      "teacherText": "འ་འོག་རྒ་ན་རོ་འགོ།"
+      "teacherText": "འ་འོག་ག་ན་རོ་འགོ།"
     },
     {
       "word": "འགོ་འཛུགས་",
@@ -29595,14 +30145,14 @@
         "འགོ",
         "འཛུགས"
       ],
-      "teacherText": "འ་འོག་རྒ་ན་རོ་འགོ། འ་འོག་རྫ་ཞབས་ཀྱུ་འཛུ་ག་ས་འཛུགས།"
+      "teacherText": "འ་འོག་ག་ན་རོ་འགོ། འ་འོག་ཛ་ཞབས་ཀྱུ་འཛུ་ག་ས་འཛུགས།"
     },
     {
       "word": "འགྱེད་",
       "syllables": [
         "འགྱེད"
       ],
-      "teacherText": "འ་འོག་རྒ་ཡ་བཏགས་འགྱ་འགྲེང་བུ་འགྱེ་ད་འགྱེད།"
+      "teacherText": "འ་འོག་ག་ཡ་བཏགས་འགྱ་འགྲེང་བུ་འགྱེ་ད་འགྱེད།"
     },
     {
       "word": "འགྲིག་པ་",
@@ -29610,7 +30160,7 @@
         "འགྲིག",
         "པ"
       ],
-      "teacherText": "འ་འོག་རྒ་ར་བཏགས་འགྲ་གི་གུ་འགྲི་ག་འགྲིག། པ།"
+      "teacherText": "འ་འོག་ག་ར་བཏགས་འགྲ་གི་གུ་འགྲི་ག་འགྲིག། པ།"
     },
     {
       "word": "འགྲུལ་རྒྱག་",
@@ -29618,7 +30168,7 @@
         "འགྲུལ",
         "རྒྱག"
       ],
-      "teacherText": "འ་འོག་རྒ་ར་བཏགས་འགྲ་ཞབས་ཀྱུ་འགྲུ་ལ་འགྲུལ། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
+      "teacherText": "འ་འོག་ག་ར་བཏགས་འགྲ་ཞབས་ཀྱུ་འགྲུ་ལ་འགྲུལ། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
     },
     {
       "word": "འགྲུལ་རྟགས་",
@@ -29626,7 +30176,7 @@
         "འགྲུལ",
         "རྟགས"
       ],
-      "teacherText": "འ་འོག་རྒ་ར་བཏགས་འགྲ་ཞབས་ཀྱུ་འགྲུ་ལ་འགྲུལ། ར་ཏ་བཏགས་རྟ་ག་ས་རྟགས།"
+      "teacherText": "འ་འོག་ག་ར་བཏགས་འགྲ་ཞབས་ཀྱུ་འགྲུ་ལ་འགྲུལ། ར་ཏ་བཏགས་རྟ་ག་ས་རྟགས།"
     },
     {
       "word": "འགྲོ་སོང་",
@@ -29634,7 +30184,7 @@
         "འགྲོ",
         "སོང"
       ],
-      "teacherText": "འ་འོག་རྒ་ར་བཏགས་འགྲ་ན་རོ་འགྲོ། ས་ན་རོ་སོ་ང་སོང།"
+      "teacherText": "འ་འོག་ག་ར་བཏགས་འགྲ་ན་རོ་འགྲོ། ས་ན་རོ་སོ་ང་སོང།"
     },
     {
       "word": "འཆམ་",
@@ -29674,14 +30224,14 @@
         "འཇམ",
         "པོ"
       ],
-      "teacherText": "འ་འོག་རྗ་མ་འཇམ། པ་ན་རོ་པོ།"
+      "teacherText": "འ་འོག་ཇ་མ་འཇམ། པ་ན་རོ་པོ།"
     },
     {
       "word": "འཇིབ་",
       "syllables": [
         "འཇིབ"
       ],
-      "teacherText": "འ་འོག་རྗ་གི་གུ་འཇི་བ་འཇིབ།"
+      "teacherText": "འ་འོག་ཇ་གི་གུ་འཇི་བ་འཇིབ།"
     },
     {
       "word": "འཇིབ་རྒྱག་",
@@ -29689,7 +30239,7 @@
         "འཇིབ",
         "རྒྱག"
       ],
-      "teacherText": "འ་འོག་རྗ་གི་གུ་འཇི་བ་འཇིབ། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
+      "teacherText": "འ་འོག་ཇ་གི་གུ་འཇི་བ་འཇིབ། ར་ག་བཏགས་རྒ་ཡ་བཏགས་རྒྱ་ག་རྒྱག།"
     },
     {
       "word": "འཐབ་ར་",
@@ -29714,7 +30264,7 @@
         "འདེམས",
         "བསྒྲུགས"
       ],
-      "teacherText": "འ་འོག་རྡ་འགྲེང་བུ་འདེ་མ་ས་འདེམས། བ་འོག་ས་ག་བཏགས་བསྒ་ར་བཏགས་བསྒྲ་ཞབས་ཀྱུ་བསྒྲུ་ག་ས་བསྒྲུགས།"
+      "teacherText": "འ་འོག་ད་འགྲེང་བུ་འདེ་མ་ས་འདེམས། བ་འོག་ས་ག་བཏགས་བསྒ་ར་བཏགས་བསྒྲ་ཞབས་ཀྱུ་བསྒྲུ་ག་ས་བསྒྲུགས།"
     },
     {
       "word": "འདེམས་བསྒྲུགས་བྱེད་",
@@ -29723,7 +30273,7 @@
         "བསྒྲུགས",
         "བྱེད"
       ],
-      "teacherText": "འ་འོག་རྡ་འགྲེང་བུ་འདེ་མ་ས་འདེམས། བ་འོག་ས་ག་བཏགས་བསྒ་ར་བཏགས་བསྒྲ་ཞབས་ཀྱུ་བསྒྲུ་ག་ས་བསྒྲུགས། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
+      "teacherText": "འ་འོག་ད་འགྲེང་བུ་འདེ་མ་ས་འདེམས། བ་འོག་ས་ག་བཏགས་བསྒ་ར་བཏགས་བསྒྲ་ཞབས་ཀྱུ་བསྒྲུ་ག་ས་བསྒྲུགས། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
     },
     {
       "word": "འདྲ་ཤུས་",
@@ -29731,7 +30281,7 @@
         "འདྲ",
         "ཤུས"
       ],
-      "teacherText": "འ་འོག་རྡ་ར་བཏགས་འདྲ། ཤ་ཞབས་ཀྱུ་ཤུ་ས་ཤུས།"
+      "teacherText": "འ་འོག་ད་ར་བཏགས་འདྲ། ཤ་ཞབས་ཀྱུ་ཤུ་ས་ཤུས།"
     },
     {
       "word": "འཕྱ་བ་",
@@ -29764,7 +30314,7 @@
         "འབྱོར",
         "བ"
       ],
-      "teacherText": "འ་འོག་སྦ་ཡ་བཏགས་འབྱ་ན་རོ་འབྱོ་ར་འབྱོར། བ།"
+      "teacherText": "འ་འོག་བ་ཡ་བཏགས་འབྱ་ན་རོ་འབྱོ་ར་འབྱོར། བ།"
     },
     {
       "word": "འབྲུག་སྐད་",
@@ -29772,7 +30322,7 @@
         "འབྲུག",
         "སྐད"
       ],
-      "teacherText": "འ་འོག་སྦ་ར་བཏགས་འབྲ་ཞབས་ཀྱུ་འབྲུ་ག་འབྲུག། ས་ཀ་བཏགས་སྐ་ད་སྐད།"
+      "teacherText": "འ་འོག་བ་ར་བཏགས་འབྲ་ཞབས་ཀྱུ་འབྲུ་ག་འབྲུག། ས་ཀ་བཏགས་སྐ་ད་སྐད།"
     },
     {
       "word": "འཚོ་བ་",
@@ -29813,7 +30363,7 @@
         "འོས",
         "འདེམས"
       ],
-      "teacherText": "འ་ན་རོ་འོ་ས་འོས། འ་འོག་རྡ་འགྲེང་བུ་འདེ་མ་ས་འདེམས།"
+      "teacherText": "འ་ན་རོ་འོ་ས་འོས། འ་འོག་ད་འགྲེང་བུ་འདེ་མ་ས་འདེམས།"
     },
     {
       "word": "འོས་འདེམས་བྱེད་",
@@ -29822,7 +30372,7 @@
         "འདེམས",
         "བྱེད"
       ],
-      "teacherText": "འ་ན་རོ་འོ་ས་འོས། འ་འོག་རྡ་འགྲེང་བུ་འདེ་མ་ས་འདེམས། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
+      "teacherText": "འ་ན་རོ་འོ་ས་འོས། འ་འོག་ད་འགྲེང་བུ་འདེ་མ་ས་འདེམས། བ་ཡ་བཏགས་བྱ་འགྲེང་བུ་བྱེ་ད་བྱེད།"
     },
     {
       "word": "ཡང་པོ་",
@@ -29913,7 +30463,7 @@
         "ཡོང",
         "འབབ"
       ],
-      "teacherText": "ཡ་ན་རོ་ཡོ་ང་ཡོང། འ་འོག་སྦ་བ་འབབ།"
+      "teacherText": "ཡ་ན་རོ་ཡོ་ང་ཡོང། འ་འོག་བ་བ་འབབ།"
     },
     {
       "word": "རགས་",

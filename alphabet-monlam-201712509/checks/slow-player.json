@@ -6,7 +6,9 @@
   "tempoSwitchRestartsSameReading": true,
   "staleDownloadCancelled": true,
   "voiceSwitchCancelsPlayback": true,
+  "voicedStackRootRepeatedConsistently": true,
+  "brdaLetterNamesPreserved": true,
   "browserPlaybackRateAlwaysOne": true,
   "learnerProgressUnchanged": true,
-  "sourceFetches": 43
+  "sourceFetches": 51
 }
