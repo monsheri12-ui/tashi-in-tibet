@@ -1,0 +1,50 @@
+{
+  "pa": {
+    "source": "jorlok-khyags-pa-continuous.wav",
+    "sourceSpeechText": "འ་འོག་ཁ་ཡ་བཏགས་ཁྱ་ག་ས་འཁྱགས། པ།",
+    "interval": [
+      2.17,
+      2.53
+    ],
+    "target": "པ",
+    "voice": "male",
+    "qualityConfirmation": "user confirmed clean pa"
+  },
+  "khridByed": {
+    "word": "ཁྲིད་བྱེད་",
+    "source": "accepted final syllable clips from the spelling playback",
+    "parts": [
+      "m0183",
+      "m0364"
+    ],
+    "seconds": 0.940375
+  },
+  "tshongWa": {
+    "text": "འཚོང་བ",
+    "source": "tshong-wa-repeat-candidate.wav",
+    "synthesisText": "འཚོང་བ། འཚོང་བ།",
+    "interval": [
+      0.17,
+      0.665
+    ],
+    "voice": "male",
+    "originalIssue": "Additional quiet vowel after a 400 ms pause, also present in two ASR outputs",
+    "status": "installed-locally",
+    "newAsr": "ཚོང་བ་",
+    "phoneticNativeReview": false
+  },
+  "dkaLasKhagPo": {
+    "text": "དཀའ་ལས་ཁག་པོ",
+    "source": "dka-las-khag-po-repeat-candidate.wav",
+    "synthesisText": "དཀའ་ལས་ཁག་པོ། དཀའ་ལས་ཁག་པོ།",
+    "interval": [
+      0.18,
+      1.08
+    ],
+    "voice": "male",
+    "originalIssue": "Additional quiet vowel after a pause, present in two ASR outputs",
+    "status": "installed-locally",
+    "newAsr": "དཀའ་ལས་ཁག་པོ།",
+    "phoneticNativeReview": false
+  }
+}

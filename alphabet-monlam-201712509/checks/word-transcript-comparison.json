@@ -1,0 +1,6910 @@
+{
+  "wordsWithTranscripts": 500,
+  "batches": 37,
+  "phoneticTranscriptionMatches": 318,
+  "speechOrRecognitionDifferences": 182,
+  "phoneticCertification": false,
+  "limits": "Batch ASR may merge or miss words, spell homophones differently, or invent syllables. A mismatch is a review candidate, not a confirmed pronunciation error. These transcripts describe the original bank, before the current repairs.",
+  "words": [
+    {
+      "word": "ཀི་",
+      "id": "m0031",
+      "batch": 0,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཀི",
+            "phone": "ki",
+            "wordId": "m0031",
+            "word": "ཀི་"
+          },
+          "recognized": {
+            "bo": "སྐྱིད",
+            "phone": "kyi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཀོ་ཐག་",
+      "id": "m0151",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཀོ་བ་",
+      "id": "m0152",
+      "batch": 0,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བ",
+            "phone": "ba",
+            "wordId": "m0152",
+            "word": "ཀོ་བ་"
+          },
+          "recognized": {
+            "bo": "བོ",
+            "phone": "bo"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཀོ་བ་གཏོང་",
+      "id": "m0153",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཀྱོག་ཀྱོག་",
+      "id": "m0154",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཀྲབ་པོ་",
+      "id": "m0155",
+      "batch": 0,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཀྲབ",
+            "phone": "trap",
+            "wordId": "m0155",
+            "word": "ཀྲབ་པོ་"
+          },
+          "recognized": {
+            "bo": "སྲོད",
+            "phone": "sö"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་",
+      "id": "m0002",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་ཁུ་སིམ་པོ་",
+      "id": "m0156",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་གཅོད་",
+      "id": "m0157",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་གཏོང་",
+      "id": "m0158",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་གསང་པོ་",
+      "id": "m0159",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་ཆད་",
+      "id": "m0160",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་ཆད་བྱེད་",
+      "id": "m0161",
+      "batch": 0,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0161",
+            "word": "ཁ་ཆད་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ཆད",
+            "phone": "ché"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་པར་",
+      "id": "m0162",
+      "batch": 0,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་མཆུ་",
+      "id": "m0163",
+      "batch": 1,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་རྒྱག་",
+      "id": "m0164",
+      "batch": 1,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་རྡུང་གཏོང་",
+      "id": "m0165",
+      "batch": 1,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཏོང",
+            "phone": "tong",
+            "wordId": "m0165",
+            "word": "ཁ་རྡུང་གཏོང་"
+          },
+          "recognized": {
+            "bo": "སྡོང",
+            "phone": "dong"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁ་ལག་",
+      "id": "m0166",
+      "batch": 1,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁག་",
+      "id": "m0167",
+      "batch": 1,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཁག",
+            "phone": "khak",
+            "wordId": "m0167",
+            "word": "ཁག་"
+          },
+          "recognized": {
+            "bo": "ཁ",
+            "phone": "kha"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁག་ཁག་",
+      "id": "m0168",
+      "batch": 1,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁག་པོ་",
+      "id": "m0169",
+      "batch": 1,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཁག",
+            "phone": "khak",
+            "wordId": "m0169",
+            "word": "ཁག་པོ་"
+          },
+          "recognized": {
+            "bo": "ཁ",
+            "phone": "kha"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0169",
+            "word": "ཁག་པོ་"
+          },
+          "recognized": {
+            "bo": "ཁོ",
+            "phone": "kho"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁབ་",
+      "id": "m0170",
+      "batch": 1,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁབ་གཟེར་",
+      "id": "m0171",
+      "batch": 1,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཟེར",
+            "phone": "zer",
+            "wordId": "m0171",
+            "word": "ཁབ་གཟེར་"
+          },
+          "recognized": {
+            "bo": "བསིར",
+            "phone": "sir"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁབ་རྒྱག་",
+      "id": "m0172",
+      "batch": 1,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཁབ",
+            "phone": "khap",
+            "wordId": "m0172",
+            "word": "ཁབ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "ཁ",
+            "phone": "kha"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁར་ཐུག་",
+      "id": "m0173",
+      "batch": 1,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁུལ་",
+      "id": "m0174",
+      "batch": 1,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཁུལ",
+            "phone": "khül",
+            "wordId": "m0174",
+            "word": "ཁུལ་"
+          },
+          "recognized": {
+            "bo": "ཁུའི",
+            "phone": "khü"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁེ་པོ་",
+      "id": "m0175",
+      "batch": 1,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁེ་བཟང་",
+      "id": "m0176",
+      "batch": 1,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཁེ",
+            "phone": "khé",
+            "wordId": "m0176",
+            "word": "ཁེ་བཟང་"
+          },
+          "recognized": {
+            "bo": "ཁ",
+            "phone": "kha"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བཟང",
+            "phone": "zang",
+            "wordId": "m0176",
+            "word": "ཁེ་བཟང་"
+          },
+          "recognized": {
+            "bo": "སང",
+            "phone": "sang"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁོང་ཁྲོ་",
+      "id": "m0177",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁོང་ཁྲོ་ཟ་བ་",
+      "id": "m0178",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁྱབ་བསྒྲགས་",
+      "id": "m0179",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁྱབ་བསྒྲགས་བྱེད་",
+      "id": "m0180",
+      "batch": 2,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བསྒྲགས",
+            "phone": "drak",
+            "wordId": "m0180",
+            "word": "ཁྱབ་བསྒྲགས་བྱེད་"
+          },
+          "recognized": {
+            "bo": "སྒྲིག",
+            "phone": "drik"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0180",
+            "word": "ཁྱབ་བསྒྲགས་བྱེད་"
+          },
+          "recognized": {
+            "bo": "གྱིས",
+            "phone": "gyi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁྲི་",
+      "id": "m0181",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁྲི་རྒྱག་",
+      "id": "m0182",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁྲིད་",
+      "id": "m0183",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཁྲིད་བྱེད་",
+      "id": "m0184",
+      "batch": 2,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0184",
+            "word": "ཁྲིད་བྱེད་"
+          },
+          "recognized": {
+            "bo": "གྱིས",
+            "phone": "gyi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གང་ཡང་",
+      "id": "m0185",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གང་ཡང་མེད་པ་",
+      "id": "m0186",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གངས་",
+      "id": "m0187",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གངས་ཤུད་",
+      "id": "m0188",
+      "batch": 2,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གངས་ཤུད་གཏོང་",
+      "id": "m0189",
+      "batch": 2,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤུད",
+            "phone": "shü",
+            "wordId": "m0189",
+            "word": "གངས་ཤུད་གཏོང་"
+          },
+          "recognized": {
+            "bo": "ཞུས",
+            "phone": "zhü"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཅིག་པ་",
+      "id": "m0190",
+      "batch": 3,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཅིག་པུ་",
+      "id": "m0191",
+      "batch": 3,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པུ",
+            "phone": "pu",
+            "wordId": "m0191",
+            "word": "གཅིག་པུ་"
+          },
+          "recognized": {
+            "bo": "པོ",
+            "phone": "po"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཅིན་པ་",
+      "id": "m0192",
+      "batch": 3,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཅིན་པ་གཏོང་",
+      "id": "m0193",
+      "batch": 3,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཅིན",
+            "phone": "chin",
+            "wordId": "m0193",
+            "word": "གཅིན་པ་གཏོང་"
+          },
+          "recognized": {
+            "bo": "ཅིམ",
+            "phone": "chim"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཏན་འཇགས་",
+      "id": "m0194",
+      "batch": 3,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཏིང་",
+      "id": "m0195",
+      "batch": 3,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཏིང་མེད་པ་",
+      "id": "m0196",
+      "batch": 3,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཏིང་རིང་པོ་",
+      "id": "m0197",
+      "batch": 3,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཏིང",
+            "phone": "ting",
+            "wordId": "m0197",
+            "word": "གཏིང་རིང་པོ་"
+          },
+          "recognized": {
+            "bo": "སྟེང",
+            "phone": "teng"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རིང",
+            "phone": "ring",
+            "wordId": "m0197",
+            "word": "གཏིང་རིང་པོ་"
+          },
+          "recognized": {
+            "bo": "རི",
+            "phone": "ri"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0197",
+            "word": "གཏིང་རིང་པོ་"
+          },
+          "recognized": {
+            "bo": "མགོ",
+            "phone": "go"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཏོང་",
+      "id": "m0198",
+      "batch": 3,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཏོང་ཕོད་པོ་",
+      "id": "m0199",
+      "batch": 3,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཕོད",
+            "phone": "pö",
+            "wordId": "m0199",
+            "word": "གཏོང་ཕོད་པོ་"
+          },
+          "recognized": {
+            "bo": "ཕོལ",
+            "phone": "pöl"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གདན་",
+      "id": "m0200",
+      "batch": 3,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གདན་རྒྱག་",
+      "id": "m0201",
+      "batch": 3,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གནོད་པ་",
+      "id": "m0202",
+      "batch": 3,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གབ་པ་",
+      "id": "m0203",
+      "batch": 4,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གབ",
+            "phone": "gap",
+            "wordId": "m0203",
+            "word": "གབ་པ་"
+          },
+          "recognized": {
+            "bo": "སྐུད",
+            "phone": "kü"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཙང་མ་",
+      "id": "m0204",
+      "batch": 4,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཞན་",
+      "id": "m0205",
+      "batch": 4,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཞི་གཞུང་པོ་",
+      "id": "m0206",
+      "batch": 4,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཞུང",
+            "phone": "zhung",
+            "wordId": "m0206",
+            "word": "གཞི་གཞུང་པོ་"
+          },
+          "recognized": {
+            "bo": "བྱུང",
+            "phone": "jung"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0206",
+            "word": "གཞི་གཞུང་པོ་"
+          },
+          "recognized": {
+            "bo": "སྒོ",
+            "phone": "go"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཞུག་གུ་",
+      "id": "m0207",
+      "batch": 4,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཞོག་",
+      "id": "m0208",
+      "batch": 4,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཞོན་ནུ་",
+      "id": "m0209",
+      "batch": 4,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཞོན་པ་",
+      "id": "m0210",
+      "batch": 4,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཞོན",
+            "phone": "zhön",
+            "wordId": "m0210",
+            "word": "གཞོན་པ་"
+          },
+          "recognized": {
+            "bo": "གཞུན",
+            "phone": "zhün"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཟེར་",
+      "id": "m0211",
+      "batch": 4,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཟེར་རྒྱག་",
+      "id": "m0212",
+      "batch": 4,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཟེར",
+            "phone": "zer",
+            "wordId": "m0212",
+            "word": "གཟེར་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "གཟིག",
+            "phone": "zik"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཟོང་",
+      "id": "m0213",
+      "batch": 4,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཟོང",
+            "phone": "zong",
+            "wordId": "m0213",
+            "word": "གཟོང་"
+          },
+          "recognized": {
+            "bo": "ཟུང",
+            "phone": "zung"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གར་པོ་",
+      "id": "m0214",
+      "batch": 4,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གར",
+            "phone": "gar",
+            "wordId": "m0214",
+            "word": "གར་པོ་"
+          },
+          "recognized": {
+            "bo": "དཀར",
+            "phone": "kar"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཤག་བཅོས་",
+      "id": "m0215",
+      "batch": 4,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཤག་བཅོས་བྱེད་",
+      "id": "m0216",
+      "batch": 5,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0216",
+            "word": "གཤག་བཅོས་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ཀྱིས",
+            "phone": "kyi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གཤམ་ལ་",
+      "id": "m0217",
+      "batch": 5,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གསོལ་ཚིགས་",
+      "id": "m0218",
+      "batch": 5,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གསོལ་ཚིགས་གཏོང་",
+      "id": "m0219",
+      "batch": 5,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གསོས་",
+      "id": "m0220",
+      "batch": 5,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གསོས",
+            "phone": "sö",
+            "wordId": "m0220",
+            "word": "གསོས་"
+          },
+          "recognized": {
+            "bo": "གསོལ",
+            "phone": "söl"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གསོས་པ་",
+      "id": "m0221",
+      "batch": 5,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གསོས",
+            "phone": "sö",
+            "wordId": "m0221",
+            "word": "གསོས་པ་"
+          },
+          "recognized": {
+            "bo": "གསོལ",
+            "phone": "söl"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གུ་ཡངས་པོ་",
+      "id": "m0222",
+      "batch": 5,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གུག་གུག་",
+      "id": "m0223",
+      "batch": 5,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "གུག",
+            "phone": "guk",
+            "wordId": "m0223",
+            "word": "གུག་གུག་"
+          },
+          "recognized": null
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གུག",
+            "phone": "guk",
+            "wordId": "m0223",
+            "word": "གུག་གུག་"
+          },
+          "recognized": {
+            "bo": "སྒུར",
+            "phone": "gur"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གུར་",
+      "id": "m0224",
+      "batch": 5,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གུར་རྒྱག་",
+      "id": "m0225",
+      "batch": 5,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གུས་ཞབས་",
+      "id": "m0226",
+      "batch": 5,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གུས་ཞབས་བྱེད་",
+      "id": "m0227",
+      "batch": 5,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0227",
+            "word": "གུས་ཞབས་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ཀྱིས",
+            "phone": "kyi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གོ་རིམ་མེད་པ་",
+      "id": "m0228",
+      "batch": 5,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གོང་ཆེན་པོ་",
+      "id": "m0229",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གོམ་པ་",
+      "id": "m0230",
+      "batch": 6,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གོམ",
+            "phone": "gom",
+            "wordId": "m0230",
+            "word": "གོམ་པ་"
+          },
+          "recognized": {
+            "bo": "དགོན",
+            "phone": "gön"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གྱོང་གུན་",
+      "id": "m0231",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གྲ་སྒྲིག་བྱེད་",
+      "id": "m0232",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གྲངས་ཚད་མེད་པ་",
+      "id": "m0233",
+      "batch": 6,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཚད",
+            "phone": "tsé",
+            "wordId": "m0233",
+            "word": "གྲངས་ཚད་མེད་པ་"
+          },
+          "recognized": {
+            "bo": "རྫས",
+            "phone": "dzé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གྲི་",
+      "id": "m0234",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གྲུ་",
+      "id": "m0235",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གྲུ་གཏོང་",
+      "id": "m0236",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གྲུང་པོ་",
+      "id": "m0237",
+      "batch": 6,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གྲུང",
+            "phone": "drung",
+            "wordId": "m0237",
+            "word": "གྲུང་པོ་"
+          },
+          "recognized": {
+            "bo": "གྲོང",
+            "phone": "drong"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གྲྭ་པ་",
+      "id": "m0238",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གྲྭ་པ་བྱེད་",
+      "id": "m0239",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གླིང་བུ་གཏོང་",
+      "id": "m0240",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གླུ་",
+      "id": "m0241",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གླུ་གཏོང་",
+      "id": "m0242",
+      "batch": 6,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གླེན་པ་",
+      "id": "m0243",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གློ་",
+      "id": "m0244",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གློ་རྒྱག་",
+      "id": "m0245",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "གློག་རྒྱག་",
+      "id": "m0246",
+      "batch": 7,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0246",
+            "word": "གློག་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒྱ",
+            "phone": "gya"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ང་རྒྱལ་",
+      "id": "m0247",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ང་རྒྱལ་བྱེད་",
+      "id": "m0248",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ངན་",
+      "id": "m0249",
+      "batch": 7,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ངན",
+            "phone": "ngen",
+            "wordId": "m0249",
+            "word": "ངན་"
+          },
+          "recognized": {
+            "bo": "ཉན",
+            "phone": "nyen"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ངོ་མ་",
+      "id": "m0250",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ངོ་རྒོལ་",
+      "id": "m0251",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ངོ་རྒོལ་བྱེད་",
+      "id": "m0252",
+      "batch": 7,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒོལ",
+            "phone": "göl",
+            "wordId": "m0252",
+            "word": "ངོ་རྒོལ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "དགོན",
+            "phone": "gön"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ངོ་རྒོལ་རྒྱག་",
+      "id": "m0253",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆང་ས་",
+      "id": "m0254",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆབ་སྒྲོག་",
+      "id": "m0255",
+      "batch": 7,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆབ་སྒྲོག་རྒྱག་",
+      "id": "m0256",
+      "batch": 7,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0256",
+            "word": "ཆབ་སྒྲོག་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒྱགྰ",
+            "phone": "gyaga(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆམ་པ་",
+      "id": "m0257",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆམ་པ་རྒྱག་",
+      "id": "m0258",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆར་པ་",
+      "id": "m0259",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆུ་",
+      "id": "m0052",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆུ་གཏོང་",
+      "id": "m0260",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆུ་རྒྱག་",
+      "id": "m0261",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆེན་པོ་",
+      "id": "m0262",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཆོས་",
+      "id": "m0263",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཇ་",
+      "id": "m0007",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཇ་གཏོང་",
+      "id": "m0264",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཇག་པ་",
+      "id": "m0265",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཇག་པ་རྒྱག་",
+      "id": "m0266",
+      "batch": 8,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པ",
+            "phone": "pa",
+            "wordId": "m0266",
+            "word": "ཇག་པ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "དཔེ",
+            "phone": "pé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཉིན་གུང་",
+      "id": "m0267",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཉིན་མོ་",
+      "id": "m0268",
+      "batch": 8,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཉིས་བརྩེགས་",
+      "id": "m0269",
+      "batch": 9,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བརྩེགས",
+            "phone": "tsek",
+            "wordId": "m0269",
+            "word": "ཉིས་བརྩེགས་"
+          },
+          "recognized": {
+            "bo": "རྩིས",
+            "phone": "tsi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཉུང་ཉུང་",
+      "id": "m0270",
+      "batch": 9,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཉུང་བ་",
+      "id": "m0271",
+      "batch": 9,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཉུང",
+            "phone": "nyung",
+            "wordId": "m0271",
+            "word": "ཉུང་བ་"
+          },
+          "recognized": {
+            "bo": "མྱོང",
+            "phone": "nyong"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཉེས་འཛུགས་",
+      "id": "m0272",
+      "batch": 9,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འཛུགས",
+            "phone": "dzuk",
+            "wordId": "m0272",
+            "word": "ཉེས་འཛུགས་"
+          },
+          "recognized": {
+            "bo": "རྫོགས",
+            "phone": "dzok"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཉེས་འཛུགས་བྱེད་",
+      "id": "m0273",
+      "batch": 9,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "འཛུགས",
+            "phone": "dzuk",
+            "wordId": "m0273",
+            "word": "ཉེས་འཛུགས་བྱེད་"
+          },
+          "recognized": null
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0273",
+            "word": "ཉེས་འཛུགས་བྱེད་"
+          },
+          "recognized": {
+            "bo": "རྫོགས",
+            "phone": "dzok"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཉོ་བ་",
+      "id": "m0274",
+      "batch": 9,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཉོ",
+            "phone": "nyo",
+            "wordId": "m0274",
+            "word": "ཉོ་བ་"
+          },
+          "recognized": {
+            "bo": "གྱིས",
+            "phone": "gyi"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བ",
+            "phone": "ba",
+            "wordId": "m0274",
+            "word": "ཉོ་བ་"
+          },
+          "recognized": {
+            "bo": "མྱོང",
+            "phone": "nyong"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཉོབ་པོ་",
+      "id": "m0275",
+      "batch": 9,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཉོབ",
+            "phone": "nyop",
+            "wordId": "m0275",
+            "word": "ཉོབ་པོ་"
+          },
+          "recognized": {
+            "bo": "མྱོ",
+            "phone": "nyo"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཐག་ཉེ་",
+      "id": "m0276",
+      "batch": 9,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཐག་རིང་",
+      "id": "m0277",
+      "batch": 9,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཐབས་ཤེས་",
+      "id": "m0278",
+      "batch": 9,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཐུང་",
+      "id": "m0279",
+      "batch": 9,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཐུང",
+            "phone": "tung",
+            "wordId": "m0279",
+            "word": "ཐུང་"
+          },
+          "recognized": {
+            "bo": "མཐོང",
+            "phone": "tong"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཐུང་ཐུང་",
+      "id": "m0280",
+      "batch": 9,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཐུང",
+            "phone": "tung",
+            "wordId": "m0280",
+            "word": "ཐུང་ཐུང་"
+          },
+          "recognized": {
+            "bo": "མཐོང",
+            "phone": "tong"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཐུང",
+            "phone": "tung",
+            "wordId": "m0280",
+            "word": "ཐུང་ཐུང་"
+          },
+          "recognized": {
+            "bo": "མཐོང",
+            "phone": "tong"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཐོག་",
+      "id": "m0281",
+      "batch": 9,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཐོག་རྒྱག་",
+      "id": "m0282",
+      "batch": 9,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཐོན་པ་",
+      "id": "m0283",
+      "batch": 10,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཐོབ་པ་",
+      "id": "m0284",
+      "batch": 10,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ད་ག་རང་",
+      "id": "m0285",
+      "batch": 10,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ད་ལྟ་",
+      "id": "m0286",
+      "batch": 10,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དཀའ་ངལ་མྱོང་",
+      "id": "m0287",
+      "batch": 10,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "མྱོང",
+            "phone": "nyong",
+            "wordId": "m0287",
+            "word": "དཀའ་ངལ་མྱོང་"
+          },
+          "recognized": {
+            "bo": "ཉུང",
+            "phone": "nyung"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དཀའ་པོ་བྱེད་",
+      "id": "m0288",
+      "batch": 10,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "དཀའ",
+            "phone": "ka",
+            "wordId": "m0288",
+            "word": "དཀའ་པོ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "དཀར",
+            "phone": "kar"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0288",
+            "word": "དཀའ་པོ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ཆེ",
+            "phone": "ché"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དཀའ་ལས་",
+      "id": "m0289",
+      "batch": 10,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དཀའ་ལས་ཁག་པོ་",
+      "id": "m0290",
+      "batch": 10,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "insertion",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0290",
+            "word": "དཀའ་ལས་ཁག་པོ་"
+          },
+          "recognized": {
+            "bo": "ཨུན",
+            "phone": "ün"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དཀའ་ལས་རྒྱག་",
+      "id": "m0291",
+      "batch": 10,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "དཀའ",
+            "phone": "ka",
+            "wordId": "m0291",
+            "word": "དཀའ་ལས་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "དཀང",
+            "phone": "kang"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དཀོན་པོ་",
+      "id": "m0292",
+      "batch": 10,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དཀྱུས་མ་",
+      "id": "m0293",
+      "batch": 10,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དགག་བྱ་",
+      "id": "m0294",
+      "batch": 10,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དགག་བྱ་བྱེད་",
+      "id": "m0295",
+      "batch": 10,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དགའ་པོ་",
+      "id": "m0296",
+      "batch": 11,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དགའ་བ་",
+      "id": "m0297",
+      "batch": 11,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དགེ་རྒན་",
+      "id": "m0298",
+      "batch": 11,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དགོང་དྲོ་",
+      "id": "m0299",
+      "batch": 11,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དགོངས་དག་ཐུགས་བདེན་ཞུ་",
+      "id": "m0300",
+      "batch": 11,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བདེན",
+            "phone": "den",
+            "wordId": "m0300",
+            "word": "དགོངས་དག་ཐུགས་བདེན་ཞུ་"
+          },
+          "recognized": {
+            "bo": "རྟེན",
+            "phone": "ten"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དགོངས་སེལ་ཞུ་",
+      "id": "m0301",
+      "batch": 11,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "insertion",
+          "expected": {
+            "bo": "ཞུ",
+            "phone": "zhu",
+            "wordId": "m0301",
+            "word": "དགོངས་སེལ་ཞུ་"
+          },
+          "recognized": {
+            "bo": "བོའོ",
+            "phone": "bo"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དགྲ་",
+      "id": "m0302",
+      "batch": 11,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དབུལ་པོ་",
+      "id": "m0303",
+      "batch": 11,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0303",
+            "word": "དབུལ་པོ་"
+          },
+          "recognized": {
+            "bo": "བོ",
+            "phone": "bo"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དམག་",
+      "id": "m0304",
+      "batch": 11,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "དམག",
+            "phone": "mak",
+            "wordId": "m0304",
+            "word": "དམག་"
+          },
+          "recognized": {
+            "bo": "མ",
+            "phone": "ma"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དམག་རྒྱག་",
+      "id": "m0305",
+      "batch": 11,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དམའ་བོ་",
+      "id": "m0306",
+      "batch": 11,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "དམའ",
+            "phone": "ma",
+            "wordId": "m0306",
+            "word": "དམའ་བོ་"
+          },
+          "recognized": {
+            "bo": "དམར",
+            "phone": "mar"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དམའ་འབེབས་གཏོང་",
+      "id": "m0307",
+      "batch": 11,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དེ་ནས་",
+      "id": "m0308",
+      "batch": 11,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དེང་སང་",
+      "id": "m0309",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དོ་སྣང་",
+      "id": "m0310",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དྲི་བ་",
+      "id": "m0311",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "དྲོ་པོ་",
+      "id": "m0312",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ནང་",
+      "id": "m0313",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ནང་ཟོག་ཕྱི་འདྲེན་",
+      "id": "m0314",
+      "batch": 12,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཟོག",
+            "phone": "zok",
+            "wordId": "m0314",
+            "word": "ནང་ཟོག་ཕྱི་འདྲེན་"
+          },
+          "recognized": {
+            "bo": "སོག",
+            "phone": "sok"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ནང་ཤ་",
+      "id": "m0315",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ནང་ཤ་རྒྱག་",
+      "id": "m0316",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ནུབ་",
+      "id": "m0317",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ནུབ་པ་",
+      "id": "m0318",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "པར་",
+      "id": "m0319",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "པར་རྒྱག་",
+      "id": "m0320",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "པར་སྐྱར་",
+      "id": "m0321",
+      "batch": 12,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྐྱར",
+            "phone": "kyar",
+            "wordId": "m0321",
+            "word": "པར་སྐྱར་"
+          },
+          "recognized": {
+            "bo": "གྱར",
+            "phone": "gyar"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕན་པ་",
+      "id": "m0322",
+      "batch": 12,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕམས་པ་",
+      "id": "m0323",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕར་",
+      "id": "m0324",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕུར་པ་",
+      "id": "m0325",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕོ་",
+      "id": "m0086",
+      "batch": 13,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཕོ",
+            "phone": "po",
+            "wordId": "m0086",
+            "word": "ཕོ་"
+          },
+          "recognized": {
+            "bo": "འཕོག",
+            "phone": "pok"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕྱི་",
+      "id": "m0326",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕྱི་པོ་",
+      "id": "m0327",
+      "batch": 13,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0327",
+            "word": "ཕྱི་པོ་"
+          },
+          "recognized": {
+            "bo": "བུ",
+            "phone": "bu"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕྱི་ཟོག་ནང་འདྲེན་",
+      "id": "m0328",
+      "batch": 13,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཟོག",
+            "phone": "zok",
+            "wordId": "m0328",
+            "word": "ཕྱི་ཟོག་ནང་འདྲེན་"
+          },
+          "recognized": {
+            "bo": "སྲོག",
+            "phone": "sok"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕྱུག་པོ་",
+      "id": "m0329",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཕྲ་པོ་",
+      "id": "m0330",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཀག་བསྐྱིལ་བྱེད་",
+      "id": "m0331",
+      "batch": 13,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0331",
+            "word": "བཀག་བསྐྱིལ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "གྱིས",
+            "phone": "gyi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཀའ་",
+      "id": "m0332",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཀའ་གཏོང་",
+      "id": "m0333",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཀའ་སྐྱོན་གཏོང་",
+      "id": "m0334",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཀོད་པ་",
+      "id": "m0335",
+      "batch": 13,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཀོད་པ་གཏོང་",
+      "id": "m0336",
+      "batch": 14,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཀྲེན་པོ་",
+      "id": "m0337",
+      "batch": 14,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བཀྲེན",
+            "phone": "tren",
+            "wordId": "m0337",
+            "word": "བཀྲེན་པོ་"
+          },
+          "recognized": {
+            "bo": "སྤྲིན",
+            "phone": "trin"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བང་ཆེན་གཏོང་",
+      "id": "m0338",
+      "batch": 14,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཅོས་མ་",
+      "id": "m0339",
+      "batch": 14,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བདེ་བ་",
+      "id": "m0340",
+      "batch": 14,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཙན་གནོན་",
+      "id": "m0341",
+      "batch": 14,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཙན་འཛུལ་",
+      "id": "m0342",
+      "batch": 14,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བཙན",
+            "phone": "tsen",
+            "wordId": "m0342",
+            "word": "བཙན་འཛུལ་"
+          },
+          "recognized": {
+            "bo": "བཙལ",
+            "phone": "tsel"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཙན་འཛུལ་བྱེད་",
+      "id": "m0343",
+      "batch": 14,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བཙན",
+            "phone": "tsen",
+            "wordId": "m0343",
+            "word": "བཙན་འཛུལ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "བཙས",
+            "phone": "tsé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཙོག་པ་",
+      "id": "m0344",
+      "batch": 14,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཙོག་པ་གཏོང་",
+      "id": "m0345",
+      "batch": 14,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཞུར་",
+      "id": "m0346",
+      "batch": 14,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བཞུར",
+            "phone": "zhur",
+            "wordId": "m0346",
+            "word": "བཞུར་"
+          },
+          "recognized": {
+            "bo": "བཞུའུ",
+            "phone": "zhu"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཞུར་བ་",
+      "id": "m0347",
+      "batch": 14,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཟང་",
+      "id": "m0348",
+      "batch": 14,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཟོ་པ་",
+      "id": "m0349",
+      "batch": 15,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བཟོ",
+            "phone": "zo",
+            "wordId": "m0349",
+            "word": "བཟོ་པ་"
+          },
+          "recognized": {
+            "bo": "སོ",
+            "phone": "so"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བཟོད་གསོལ་ཞུ་",
+      "id": "m0350",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བར་འཛུལ་",
+      "id": "m0351",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བར་འཛུལ་བྱེད་",
+      "id": "m0352",
+      "batch": 15,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བར",
+            "phone": "bar",
+            "wordId": "m0352",
+            "word": "བར་འཛུལ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "པར",
+            "phone": "par"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0352",
+            "word": "བར་འཛུལ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "བཅུད",
+            "phone": "chü"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བརྡ་",
+      "id": "m0353",
+      "batch": 15,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བརྡ",
+            "phone": "da",
+            "wordId": "m0353",
+            "word": "བརྡ་"
+          },
+          "recognized": {
+            "bo": "བདག",
+            "phone": "dak"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བསམ་བློ་",
+      "id": "m0354",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བསམ་བློ་གཏོང་",
+      "id": "m0355",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བསྐོ་བཞག་བྱེད་",
+      "id": "m0356",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བསྐོར་ར་རྒྱག་",
+      "id": "m0357",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བསླབ་བྱ་",
+      "id": "m0358",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བསླབ་བྱ་བྱེད་",
+      "id": "m0359",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བུ་ལོན་གཏོང་",
+      "id": "m0360",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བྱམས་པ་",
+      "id": "m0361",
+      "batch": 15,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བྱམས་པ་བྱེད་",
+      "id": "m0362",
+      "batch": 16,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0362",
+            "word": "བྱམས་པ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "གྱིས",
+            "phone": "gyi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བྱེ་བྲག་",
+      "id": "m0363",
+      "batch": 16,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བྱེད་",
+      "id": "m0364",
+      "batch": 16,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བྱེད་ལ་ལེ་ལོ་",
+      "id": "m0365",
+      "batch": 16,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལ",
+            "phone": "la",
+            "wordId": "m0365",
+            "word": "བྱེད་ལ་ལེ་ལོ་"
+          },
+          "recognized": {
+            "bo": "ལེ",
+            "phone": "lé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བྲེལ་བ་ཚ་པོ་",
+      "id": "m0366",
+      "batch": 16,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྲེལ",
+            "phone": "drel",
+            "wordId": "m0366",
+            "word": "བྲེལ་བ་ཚ་པོ་"
+          },
+          "recognized": {
+            "bo": "དྲི",
+            "phone": "dri"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བྲོ་བ་མྱོང་",
+      "id": "m0367",
+      "batch": 16,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "མྱོང",
+            "phone": "nyong",
+            "wordId": "m0367",
+            "word": "བྲོ་བ་མྱོང་"
+          },
+          "recognized": {
+            "bo": "ཉུང",
+            "phone": "nyung"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བློས་",
+      "id": "m0368",
+      "batch": 16,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "བློས་གཏོང་",
+      "id": "m0369",
+      "batch": 16,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཏོང",
+            "phone": "tong",
+            "wordId": "m0369",
+            "word": "བློས་གཏོང་"
+          },
+          "recognized": {
+            "bo": "བཏང",
+            "phone": "tang"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཁྲེགས་པོ་",
+      "id": "m0370",
+      "batch": 16,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མགོ་",
+      "id": "m0371",
+      "batch": 16,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མགྱོགས་པོ་",
+      "id": "m0372",
+      "batch": 16,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "མགྱོགས",
+            "phone": "gyok",
+            "wordId": "m0372",
+            "word": "མགྱོགས་པོ་"
+          },
+          "recognized": null
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0372",
+            "word": "མགྱོགས་པོ་"
+          },
+          "recognized": {
+            "bo": "མགོ",
+            "phone": "go"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མང་པོ་",
+      "id": "m0373",
+      "batch": 16,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "མང",
+            "phone": "mang",
+            "wordId": "m0373",
+            "word": "མང་པོ་"
+          },
+          "recognized": {
+            "bo": "མགོར",
+            "phone": "gor"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0373",
+            "word": "མང་པོ་"
+          },
+          "recognized": {
+            "bo": "མོ",
+            "phone": "mo"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མངར་མོ་",
+      "id": "m0374",
+      "batch": 16,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཆོད་པ་",
+      "id": "m0375",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཆོད་པ་བྱེད་",
+      "id": "m0376",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཇུག་",
+      "id": "m0377",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཇུག་ལ་",
+      "id": "m0378",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཉམ་དུ་",
+      "id": "m0379",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཐིལ་",
+      "id": "m0380",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཐུ་",
+      "id": "m0381",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཐུ་རྒྱག་",
+      "id": "m0382",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཐོ་པོ་",
+      "id": "m0383",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཐོ་བོ་",
+      "id": "m0384",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཐོང་རྒྱ་ཆེན་པོ་",
+      "id": "m0385",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མདའ་",
+      "id": "m0386",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མདུད་པ་",
+      "id": "m0387",
+      "batch": 17,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མདུད་པ་རྒྱག་",
+      "id": "m0388",
+      "batch": 18,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0388",
+            "word": "མདུད་པ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "བརྒྱ",
+            "phone": "gya"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མདུན་",
+      "id": "m0389",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མདོག་ཉེས་པོ་",
+      "id": "m0390",
+      "batch": 18,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཉེས",
+            "phone": "nyé",
+            "wordId": "m0390",
+            "word": "མདོག་ཉེས་པོ་"
+          },
+          "recognized": {
+            "bo": "གཉིས",
+            "phone": "nyi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མཚན་མོ་",
+      "id": "m0391",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མར་",
+      "id": "m0392",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མི་ཆོག་པ་",
+      "id": "m0393",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མི་དགེ་བ་",
+      "id": "m0394",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མི་ཚུད་པ་",
+      "id": "m0395",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མེ་",
+      "id": "m0093",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མེ་གཏོང་",
+      "id": "m0396",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མེ་མདའ་",
+      "id": "m0397",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མེ་མདའ་རྒྱག་",
+      "id": "m0398",
+      "batch": 18,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0398",
+            "word": "མེ་མདའ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "བརྒྱ",
+            "phone": "gya"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མོ་",
+      "id": "m0094",
+      "batch": 18,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མོས་མཐུན་བྱེད་པ་",
+      "id": "m0399",
+      "batch": 19,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མོས་མཐུན་མེད་པ་",
+      "id": "m0400",
+      "batch": 19,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "མྱོང་",
+      "id": "m0401",
+      "batch": 19,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚ་ག་",
+      "id": "m0402",
+      "batch": 19,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ག",
+            "phone": "ga",
+            "wordId": "m0402",
+            "word": "ཚ་ག་"
+          },
+          "recognized": {
+            "bo": "ཁ",
+            "phone": "kha"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚ་པོ་",
+      "id": "m0403",
+      "batch": 19,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚག་པོ་",
+      "id": "m0404",
+      "batch": 19,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཚག",
+            "phone": "tsak",
+            "wordId": "m0404",
+            "word": "ཚག་པོ་"
+          },
+          "recognized": {
+            "bo": "ཚ",
+            "phone": "tsa"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0404",
+            "word": "ཚག་པོ་"
+          },
+          "recognized": {
+            "bo": "གོ",
+            "phone": "go"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚད་",
+      "id": "m0405",
+      "batch": 19,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚབ་",
+      "id": "m0406",
+      "batch": 19,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚབ་བྱེད་",
+      "id": "m0407",
+      "batch": 19,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0407",
+            "word": "ཚབ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "གཅིག",
+            "phone": "chik"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚབ་ཚུབ་",
+      "id": "m0408",
+      "batch": 19,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཚུབ",
+            "phone": "tsup",
+            "wordId": "m0408",
+            "word": "ཚབ་ཚུབ་"
+          },
+          "recognized": {
+            "bo": "ཚུགས",
+            "phone": "tsuk"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚབ་ཚུབ་བྱེད་",
+      "id": "m0409",
+      "batch": 19,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0409",
+            "word": "ཚབ་ཚུབ་བྱེད་"
+          },
+          "recognized": null
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚུད་པ་",
+      "id": "m0410",
+      "batch": 19,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཚུད",
+            "phone": "tsü",
+            "wordId": "m0410",
+            "word": "ཚུད་པ་"
+          },
+          "recognized": {
+            "bo": "གཅིགརྩུད",
+            "phone": "chigtsü(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚུར་",
+      "id": "m0411",
+      "batch": 19,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཚུར",
+            "phone": "tsur",
+            "wordId": "m0411",
+            "word": "ཚུར་"
+          },
+          "recognized": {
+            "bo": "ཚུའུ",
+            "phone": "tsu"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚེམ་བུ་",
+      "id": "m0412",
+      "batch": 19,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚེམ་བུ་རྒྱག་",
+      "id": "m0413",
+      "batch": 20,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0413",
+            "word": "ཚེམ་བུ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "བརྒྱ",
+            "phone": "gya"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚོང་",
+      "id": "m0414",
+      "batch": 20,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚོང་རྒྱག་",
+      "id": "m0415",
+      "batch": 20,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚོན་",
+      "id": "m0416",
+      "batch": 20,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚོན་གཏོང་",
+      "id": "m0417",
+      "batch": 20,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚོར་བ་",
+      "id": "m0418",
+      "batch": 20,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚོར་བ་མྱོང་",
+      "id": "m0419",
+      "batch": 20,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཚོར",
+            "phone": "tsor",
+            "wordId": "m0419",
+            "word": "ཚོར་བ་མྱོང་"
+          },
+          "recognized": {
+            "bo": "ཚོལ",
+            "phone": "tsöl"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "མྱོང",
+            "phone": "nyong",
+            "wordId": "m0419",
+            "word": "ཚོར་བ་མྱོང་"
+          },
+          "recognized": {
+            "bo": "ཉུང",
+            "phone": "nyung"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚྭ་",
+      "id": "m0420",
+      "batch": 20,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཚྭ་རྒྱག་",
+      "id": "m0421",
+      "batch": 20,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཝ་",
+      "id": "m0020",
+      "batch": 20,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཝ",
+            "phone": "wa",
+            "wordId": "m0020",
+            "word": "ཝ་"
+          },
+          "recognized": {
+            "bo": "བ",
+            "phone": "ba"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཝ་ཕྲུག་",
+      "id": "m0422",
+      "batch": 20,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཝ",
+            "phone": "wa",
+            "wordId": "m0422",
+            "word": "ཝ་ཕྲུག་"
+          },
+          "recognized": {
+            "bo": "བ",
+            "phone": "ba"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཝ་མོ་",
+      "id": "m0423",
+      "batch": 20,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཝ",
+            "phone": "wa",
+            "wordId": "m0423",
+            "word": "ཝ་མོ་"
+          },
+          "recognized": {
+            "bo": "བ",
+            "phone": "ba"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཝ་ཚང་",
+      "id": "m0424",
+      "batch": 20,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཝ",
+            "phone": "wa",
+            "wordId": "m0424",
+            "word": "ཝ་ཚང་"
+          },
+          "recognized": {
+            "bo": "བ",
+            "phone": "ba"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཝ་སྐད་",
+      "id": "m0425",
+      "batch": 20,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཝ",
+            "phone": "wa",
+            "wordId": "m0425",
+            "word": "ཝ་སྐད་"
+          },
+          "recognized": {
+            "bo": "བ",
+            "phone": "ba"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཞབས་བྲོ་རྒྱག་",
+      "id": "m0426",
+      "batch": 21,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཞེན་ཁོག་མེད་པ་",
+      "id": "m0427",
+      "batch": 21,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཞྭ་ཐག་",
+      "id": "m0428",
+      "batch": 21,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཞྭ",
+            "phone": "zha",
+            "wordId": "m0428",
+            "word": "ཞྭ་ཐག་"
+          },
+          "recognized": {
+            "bo": "ཤ",
+            "phone": "sha"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཞྭ་ཐག་རྒྱག་",
+      "id": "m0429",
+      "batch": 21,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཞྭ",
+            "phone": "zha",
+            "wordId": "m0429",
+            "word": "ཞྭ་ཐག་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "ཤ",
+            "phone": "sha"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཟ་གཡའ་",
+      "id": "m0430",
+      "batch": 21,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཟ",
+            "phone": "za",
+            "wordId": "m0430",
+            "word": "ཟ་གཡའ་"
+          },
+          "recognized": {
+            "bo": "ས",
+            "phone": "sa"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཟ་གཡའ་རྒྱག་",
+      "id": "m0431",
+      "batch": 21,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཟ",
+            "phone": "za",
+            "wordId": "m0431",
+            "word": "ཟ་གཡའ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "ས",
+            "phone": "sa"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཟུག་",
+      "id": "m0432",
+      "batch": 21,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཁྱག་པ་རྒྱག་",
+      "id": "m0433",
+      "batch": 21,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0433",
+            "word": "འཁྱག་པ་རྒྱག་"
+          },
+          "recognized": null
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཁྱགས་པ་",
+      "id": "m0434",
+      "batch": 21,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འཁྱགས",
+            "phone": "khyak",
+            "wordId": "m0434",
+            "word": "འཁྱགས་པ་"
+          },
+          "recognized": {
+            "bo": "རྒྱགའཁྱག",
+            "phone": "gyagakhyak(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཁྱགས་པ་གཏོང་",
+      "id": "m0435",
+      "batch": 21,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཁྱགས་ཤུད་གཏོང་",
+      "id": "m0436",
+      "batch": 21,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཁྲེགས་པོ་",
+      "id": "m0437",
+      "batch": 21,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འགོ་",
+      "id": "m0438",
+      "batch": 21,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "insertion",
+          "expected": {
+            "bo": "འགོ",
+            "phone": "go",
+            "wordId": "m0438",
+            "word": "འགོ་"
+          },
+          "recognized": {
+            "bo": "བོ",
+            "phone": "bo"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འགོ་འཛུགས་",
+      "id": "m0439",
+      "batch": 22,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འགྱེད་",
+      "id": "m0440",
+      "batch": 22,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འགྲིག་པ་",
+      "id": "m0441",
+      "batch": 22,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འགྲུལ་རྒྱག་",
+      "id": "m0442",
+      "batch": 22,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འགྲུལ་རྟགས་",
+      "id": "m0443",
+      "batch": 22,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྟགས",
+            "phone": "tak",
+            "wordId": "m0443",
+            "word": "འགྲུལ་རྟགས་"
+          },
+          "recognized": {
+            "bo": "དགག",
+            "phone": "gak"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འགྲོ་སོང་",
+      "id": "m0444",
+      "batch": 22,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཆམ་",
+      "id": "m0445",
+      "batch": 22,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཆམས་པོ་",
+      "id": "m0446",
+      "batch": 22,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཆམས་པོ་བྱེད་",
+      "id": "m0447",
+      "batch": 22,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འཆམས",
+            "phone": "cham",
+            "wordId": "m0447",
+            "word": "འཆམས་པོ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ཆེན",
+            "phone": "chen"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0447",
+            "word": "འཆམས་པོ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ཆེ",
+            "phone": "ché"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཆི་བ་",
+      "id": "m0448",
+      "batch": 22,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཇམ་པོ་",
+      "id": "m0449",
+      "batch": 22,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཇིབ་",
+      "id": "m0450",
+      "batch": 22,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འཇིབ",
+            "phone": "jip",
+            "wordId": "m0450",
+            "word": "འཇིབ་"
+          },
+          "recognized": {
+            "bo": "འཇིགས",
+            "phone": "jik"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཇིབ་རྒྱག་",
+      "id": "m0451",
+      "batch": 22,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འཇིབ",
+            "phone": "jip",
+            "wordId": "m0451",
+            "word": "འཇིབ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "འཇིགས",
+            "phone": "jik"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0451",
+            "word": "འཇིབ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒྱགཪ",
+            "phone": "gyagra(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཐབ་ར་",
+      "id": "m0452",
+      "batch": 23,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཐབ་ར་རྒྱག་",
+      "id": "m0453",
+      "batch": 23,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འདེམས་བསྒྲུགས་",
+      "id": "m0454",
+      "batch": 23,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འདེམས་བསྒྲུགས་བྱེད་",
+      "id": "m0455",
+      "batch": 23,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འདྲ་ཤུས་",
+      "id": "m0456",
+      "batch": 23,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཕྱ་བ་",
+      "id": "m0457",
+      "batch": 23,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འཕྱ",
+            "phone": "cha",
+            "wordId": "m0457",
+            "word": "འཕྱ་བ་"
+          },
+          "recognized": {
+            "bo": "ཆར",
+            "phone": "char"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཕྱ་སྨོད་རྒྱག་",
+      "id": "m0458",
+      "batch": 23,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཕྲལ་སེལ་",
+      "id": "m0459",
+      "batch": 23,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འཕྲལ",
+            "phone": "trel",
+            "wordId": "m0459",
+            "word": "འཕྲལ་སེལ་"
+          },
+          "recognized": {
+            "bo": "ཕྲན",
+            "phone": "tren"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འབྱོར་བ་",
+      "id": "m0460",
+      "batch": 23,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འབྱོར",
+            "phone": "jor",
+            "wordId": "m0460",
+            "word": "འབྱོར་བ་"
+          },
+          "recognized": {
+            "bo": "འཇོ",
+            "phone": "jo"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འབྲུག་སྐད་",
+      "id": "m0461",
+      "batch": 23,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འབྲུག",
+            "phone": "druk",
+            "wordId": "m0461",
+            "word": "འབྲུག་སྐད་"
+          },
+          "recognized": {
+            "bo": "འབྲུ",
+            "phone": "dru"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཚོ་བ་",
+      "id": "m0462",
+      "batch": 23,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "འཚོ",
+            "phone": "tso",
+            "wordId": "m0462",
+            "word": "འཚོ་བ་"
+          },
+          "recognized": null
+        },
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "བ",
+            "phone": "ba",
+            "wordId": "m0462",
+            "word": "འཚོ་བ་"
+          },
+          "recognized": null
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཚོ་བ་མྱོང་",
+      "id": "m0463",
+      "batch": 23,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཚོང་བ་",
+      "id": "m0464",
+      "batch": 23,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "insertion",
+          "expected": {
+            "bo": "བ",
+            "phone": "ba",
+            "wordId": "m0464",
+            "word": "འཚོང་བ་"
+          },
+          "recognized": {
+            "bo": "འོ",
+            "phone": "o"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འཚོལ་བ་",
+      "id": "m0465",
+      "batch": 24,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འཚོལ",
+            "phone": "tsöl",
+            "wordId": "m0465",
+            "word": "འཚོལ་བ་"
+          },
+          "recognized": {
+            "bo": "འཚེ",
+            "phone": "tsé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འོས་འདེམས་",
+      "id": "m0466",
+      "batch": 24,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "འོས",
+            "phone": "ö",
+            "wordId": "m0466",
+            "word": "འོས་འདེམས་"
+          },
+          "recognized": null
+        },
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "འདེམས",
+            "phone": "dem",
+            "wordId": "m0466",
+            "word": "འོས་འདེམས་"
+          },
+          "recognized": null
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "འོས་འདེམས་བྱེད་",
+      "id": "m0467",
+      "batch": 24,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡང་པོ་",
+      "id": "m0468",
+      "batch": 24,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0468",
+            "word": "ཡང་པོ་"
+          },
+          "recognized": {
+            "bo": "སྒོ",
+            "phone": "go"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡང་སེ་",
+      "id": "m0469",
+      "batch": 24,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "སེ",
+            "phone": "sé",
+            "wordId": "m0469",
+            "word": "ཡང་སེ་"
+          },
+          "recognized": null
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡར་",
+      "id": "m0470",
+      "batch": 24,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡར་བརྩེགས་པ་",
+      "id": "m0471",
+      "batch": 24,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡར་རྒྱས་",
+      "id": "m0472",
+      "batch": 24,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "ཡར",
+            "phone": "yar",
+            "wordId": "m0472",
+            "word": "ཡར་རྒྱས་"
+          },
+          "recognized": null
+        },
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "རྒྱས",
+            "phone": "gyé",
+            "wordId": "m0472",
+            "word": "ཡར་རྒྱས་"
+          },
+          "recognized": null
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡར་རྒྱས་གཏོང་",
+      "id": "m0473",
+      "batch": 24,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡི་གེ་",
+      "id": "m0474",
+      "batch": 24,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡིག་ཐོག་",
+      "id": "m0475",
+      "batch": 24,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡིན་དང་མིན་",
+      "id": "m0476",
+      "batch": 24,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡིན་དང་ཡིན་",
+      "id": "m0477",
+      "batch": 24,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཡོང་འབབ་",
+      "id": "m0478",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རགས་",
+      "id": "m0479",
+      "batch": 25,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རགས",
+            "phone": "rak",
+            "wordId": "m0479",
+            "word": "རགས་"
+          },
+          "recognized": {
+            "bo": "ར",
+            "phone": "ra"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རང་",
+      "id": "m0480",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རང་སྐྱོན་སྦས་པ་",
+      "id": "m0481",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རབ་",
+      "id": "m0482",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རབ་རྒྱག་",
+      "id": "m0483",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རིག་པ་གཏོང་",
+      "id": "m0484",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རིང་",
+      "id": "m0485",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རིང་པོ་",
+      "id": "m0486",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རེ་བ་",
+      "id": "m0487",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རེ་རེ་བཞིན་",
+      "id": "m0488",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རེ་རེ་བྱས་",
+      "id": "m0489",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རོ་",
+      "id": "m0130",
+      "batch": 25,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རོ་མྱོང་",
+      "id": "m0490",
+      "batch": 25,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "མྱོང",
+            "phone": "nyong",
+            "wordId": "m0490",
+            "word": "རོ་མྱོང་"
+          },
+          "recognized": {
+            "bo": "ཉུང",
+            "phone": "nyung"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྐུབ་ཀྱག་",
+      "id": "m0491",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྐུབ་ཀྱག་རྒྱག་",
+      "id": "m0492",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྐྱལ་",
+      "id": "m0493",
+      "batch": 26,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྐྱལ",
+            "phone": "kyel",
+            "wordId": "m0493",
+            "word": "རྐྱལ་"
+          },
+          "recognized": {
+            "bo": "སྐྱས",
+            "phone": "kyé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྐྱོང་བ་",
+      "id": "m0494",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྒན་པ་",
+      "id": "m0495",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྒྱ་ཆུང་ཆུང་",
+      "id": "m0496",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྒྱ་ཆེན་པོ་",
+      "id": "m0497",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྒྱག་",
+      "id": "m0498",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྒྱགས་པ་",
+      "id": "m0499",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྒྱན་པོ་",
+      "id": "m0500",
+      "batch": 26,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱན",
+            "phone": "gyen",
+            "wordId": "m0500",
+            "word": "རྒྱན་པོ་"
+          },
+          "recognized": {
+            "bo": "རྒས",
+            "phone": "gé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྒྱན་པོ་རྒྱག་",
+      "id": "m0501",
+      "batch": 26,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱན",
+            "phone": "gyen",
+            "wordId": "m0501",
+            "word": "རྒྱན་པོ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒས",
+            "phone": "gé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྒྱབ་",
+      "id": "m0502",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྗེན་པ་",
+      "id": "m0503",
+      "batch": 26,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྗེན",
+            "phone": "jen",
+            "wordId": "m0503",
+            "word": "རྗེན་པ་"
+          },
+          "recognized": {
+            "bo": "སྦྱིན",
+            "phone": "jin"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྙིང་པ་",
+      "id": "m0504",
+      "batch": 26,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྙེད་པ་",
+      "id": "m0505",
+      "batch": 27,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྙེད",
+            "phone": "nyé",
+            "wordId": "m0505",
+            "word": "རྙེད་པ་"
+          },
+          "recognized": {
+            "bo": "གཉིས",
+            "phone": "nyi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྟ་",
+      "id": "m0506",
+      "batch": 27,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྟ་གཏོང་",
+      "id": "m0507",
+      "batch": 27,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྟགས་",
+      "id": "m0508",
+      "batch": 27,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྟགས",
+            "phone": "tak",
+            "wordId": "m0508",
+            "word": "རྟགས་"
+          },
+          "recognized": {
+            "bo": "རྟ",
+            "phone": "ta"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྟགས་རྒྱག་",
+      "id": "m0509",
+      "batch": 27,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0509",
+            "word": "རྟགས་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒྱ",
+            "phone": "gya"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྟུལ་པོ་",
+      "id": "m0510",
+      "batch": 27,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0510",
+            "word": "རྟུལ་པོ་"
+          },
+          "recognized": {
+            "bo": "བུ",
+            "phone": "bu"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྡེབ་པ་",
+      "id": "m0511",
+      "batch": 27,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྡེབ",
+            "phone": "dep",
+            "wordId": "m0511",
+            "word": "རྡེབ་པ་"
+          },
+          "recognized": {
+            "bo": "སྡེ",
+            "phone": "dé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྡེབ་པ་རྒྱག་",
+      "id": "m0512",
+      "batch": 27,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྡེབ",
+            "phone": "dep",
+            "wordId": "m0512",
+            "word": "རྡེབ་པ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "སྡེ",
+            "phone": "dé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྣག་",
+      "id": "m0513",
+      "batch": 27,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྣག་རྒྱག་",
+      "id": "m0514",
+      "batch": 27,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0514",
+            "word": "རྣག་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒྱ",
+            "phone": "gya"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྩིས་",
+      "id": "m0515",
+      "batch": 27,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྩིས",
+            "phone": "tsi",
+            "wordId": "m0515",
+            "word": "རྩིས་"
+          },
+          "recognized": {
+            "bo": "རྩིགས",
+            "phone": "tsik"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྩུབ་པོ་",
+      "id": "m0516",
+      "batch": 27,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0516",
+            "word": "རྩུབ་པོ་"
+          },
+          "recognized": {
+            "bo": "བུ",
+            "phone": "bu"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྩོད་པ་",
+      "id": "m0517",
+      "batch": 27,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྩོད་པ་རྒྱག་",
+      "id": "m0518",
+      "batch": 27,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྫུས་མ་",
+      "id": "m0519",
+      "batch": 28,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྫུས",
+            "phone": "dzü",
+            "wordId": "m0519",
+            "word": "རྫུས་མ་"
+          },
+          "recognized": {
+            "bo": "རྫུན",
+            "phone": "dzün"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རྫོར་པོ་",
+      "id": "m0520",
+      "batch": 28,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རླུང་པ་",
+      "id": "m0521",
+      "batch": 28,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རླུང་པ་རྒྱག་",
+      "id": "m0522",
+      "batch": 28,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "རློན་པ་",
+      "id": "m0523",
+      "batch": 28,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལ་",
+      "id": "m0026",
+      "batch": 28,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལ",
+            "phone": "la",
+            "wordId": "m0026",
+            "word": "ལ་"
+          },
+          "recognized": {
+            "bo": "ལག",
+            "phone": "lak"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལ་རྒྱག་",
+      "id": "m0524",
+      "batch": 28,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0524",
+            "word": "ལ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒྱ",
+            "phone": "gya"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལག་པ་",
+      "id": "m0525",
+      "batch": 28,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལག་པ་གཡུག་",
+      "id": "m0526",
+      "batch": 28,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལག་བརྡ་",
+      "id": "m0527",
+      "batch": 28,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལག",
+            "phone": "lak",
+            "wordId": "m0527",
+            "word": "ལག་བརྡ་"
+          },
+          "recognized": {
+            "bo": "ལ",
+            "phone": "la"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལགས་",
+      "id": "m0528",
+      "batch": 28,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལགས",
+            "phone": "lak",
+            "wordId": "m0528",
+            "word": "ལགས་"
+          },
+          "recognized": {
+            "bo": "ལུན",
+            "phone": "lün"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལན་",
+      "id": "m0529",
+      "batch": 28,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལན་བུ་",
+      "id": "m0530",
+      "batch": 28,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལན་བུ་རྒྱག་",
+      "id": "m0531",
+      "batch": 28,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0531",
+            "word": "ལན་བུ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "བརྒྱ",
+            "phone": "gya"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལན་རྒྱག་",
+      "id": "m0532",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལས་ཀ་",
+      "id": "m0533",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལས་ཀ་མེད་པ་",
+      "id": "m0534",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལས་བརྩོན་ཅན་",
+      "id": "m0535",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལུད་",
+      "id": "m0536",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལུད་རྒྱག་",
+      "id": "m0537",
+      "batch": 29,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0537",
+            "word": "ལུད་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒྱགྰ",
+            "phone": "gyaga(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལེ་ལོ་ཅན་",
+      "id": "m0538",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལོ་ཏོག་",
+      "id": "m0539",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལོ་ཏོག་རྒྱག་",
+      "id": "m0540",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལོག་",
+      "id": "m0541",
+      "batch": 29,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལོག",
+            "phone": "lok",
+            "wordId": "m0541",
+            "word": "ལོག་"
+          },
+          "recognized": {
+            "bo": "ལོ",
+            "phone": "lo"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལོའོ་",
+      "id": "m0542",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལྐུགས་པ་",
+      "id": "m0543",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལྐོག་རྔན་བྱེད་",
+      "id": "m0544",
+      "batch": 29,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལྐོག",
+            "phone": "kok",
+            "wordId": "m0544",
+            "word": "ལྐོག་རྔན་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ལྒོག",
+            "phone": "gok"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལྕགས་",
+      "id": "m0545",
+      "batch": 29,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལྗིད་པོ་",
+      "id": "m0546",
+      "batch": 30,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལྡོག་ཕྱོགས་",
+      "id": "m0547",
+      "batch": 30,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལྷན་པ་",
+      "id": "m0548",
+      "batch": 30,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལྷན་པ་རྒྱག་",
+      "id": "m0549",
+      "batch": 30,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལྷན",
+            "phone": "lhen",
+            "wordId": "m0549",
+            "word": "ལྷན་པ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "སླན",
+            "phone": "len"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ལྷུག་ལྷུག་",
+      "id": "m0550",
+      "batch": 30,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལྷུག",
+            "phone": "lhuk",
+            "wordId": "m0550",
+            "word": "ལྷུག་ལྷུག་"
+          },
+          "recognized": {
+            "bo": "ལོ",
+            "phone": "lo"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལྷུག",
+            "phone": "lhuk",
+            "wordId": "m0550",
+            "word": "ལྷུག་ལྷུག་"
+          },
+          "recognized": {
+            "bo": "ལོ",
+            "phone": "lo"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤ་བཙིར་",
+      "id": "m0551",
+      "batch": 30,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བཙིར",
+            "phone": "tsir",
+            "wordId": "m0551",
+            "word": "ཤ་བཙིར་"
+          },
+          "recognized": {
+            "bo": "རྩིས",
+            "phone": "tsi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤ་བཙིར་རྒྱག་",
+      "id": "m0552",
+      "batch": 30,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "བཙིར",
+            "phone": "tsir",
+            "wordId": "m0552",
+            "word": "ཤ་བཙིར་རྒྱག་"
+          },
+          "recognized": null
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0552",
+            "word": "ཤ་བཙིར་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྩིས",
+            "phone": "tsi"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤར་",
+      "id": "m0553",
+      "batch": 30,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤར",
+            "phone": "shar",
+            "wordId": "m0553",
+            "word": "ཤར་"
+          },
+          "recognized": {
+            "bo": "རྒྱགཤ",
+            "phone": "gyagsha(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤར་བ་",
+      "id": "m0554",
+      "batch": 30,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤར",
+            "phone": "shar",
+            "wordId": "m0554",
+            "word": "ཤར་བ་"
+          },
+          "recognized": {
+            "bo": "ཤ",
+            "phone": "sha"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤུ་",
+      "id": "m0136",
+      "batch": 30,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤུ་རྒྱག་",
+      "id": "m0555",
+      "batch": 30,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤུགས་",
+      "id": "m0556",
+      "batch": 30,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤུགས",
+            "phone": "shuk",
+            "wordId": "m0556",
+            "word": "ཤུགས་"
+          },
+          "recognized": {
+            "bo": "ཤུའུ",
+            "phone": "shu"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤུགས་མེད་པ་",
+      "id": "m0557",
+      "batch": 30,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤུགས་རྒྱག་",
+      "id": "m0558",
+      "batch": 30,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0558",
+            "word": "ཤུགས་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒྱགྰ",
+            "phone": "gyaga(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤུལ་",
+      "id": "m0559",
+      "batch": 31,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤུལ",
+            "phone": "shül",
+            "wordId": "m0559",
+            "word": "ཤུལ་"
+          },
+          "recognized": {
+            "bo": "ཤུས",
+            "phone": "shü"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤུལ་རྒྱག་",
+      "id": "m0560",
+      "batch": 31,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤུལ",
+            "phone": "shül",
+            "wordId": "m0560",
+            "word": "ཤུལ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "ཤུས",
+            "phone": "shü"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤེས་",
+      "id": "m0561",
+      "batch": 31,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤེས",
+            "phone": "shé",
+            "wordId": "m0561",
+            "word": "ཤེས་"
+          },
+          "recognized": {
+            "bo": "ཤན",
+            "phone": "shen"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤོ་",
+      "id": "m0138",
+      "batch": 31,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤོ",
+            "phone": "sho",
+            "wordId": "m0138",
+            "word": "ཤོ་"
+          },
+          "recognized": {
+            "bo": "ཤོར",
+            "phone": "shor"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཤོར་བ་",
+      "id": "m0562",
+      "batch": 31,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ས་ཡོམ་",
+      "id": "m0563",
+      "batch": 31,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སེམས་ཁྲལ་",
+      "id": "m0564",
+      "batch": 31,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སེམས་གསོ་",
+      "id": "m0565",
+      "batch": 31,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སེམས་གསོ་གཏོང་",
+      "id": "m0566",
+      "batch": 31,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཏོང",
+            "phone": "tong",
+            "wordId": "m0566",
+            "word": "སེམས་གསོ་གཏོང་"
+          },
+          "recognized": {
+            "bo": "དང",
+            "phone": "dang"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སོ་",
+      "id": "m0142",
+      "batch": 31,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སོ་གཏོང་",
+      "id": "m0567",
+      "batch": 31,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཏོང",
+            "phone": "tong",
+            "wordId": "m0567",
+            "word": "སོ་གཏོང་"
+          },
+          "recognized": {
+            "bo": "སྟངས",
+            "phone": "tang"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སོ་རྒྱག་",
+      "id": "m0568",
+      "batch": 31,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སོ་ཤད་",
+      "id": "m0569",
+      "batch": 31,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤད",
+            "phone": "shé",
+            "wordId": "m0569",
+            "word": "སོ་ཤད་"
+          },
+          "recognized": {
+            "bo": "བྱེད",
+            "phone": "jé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སོ་ཤད་རྒྱག་",
+      "id": "m0570",
+      "batch": 31,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཤད",
+            "phone": "shé",
+            "wordId": "m0570",
+            "word": "སོ་ཤད་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "བྱེད",
+            "phone": "jé"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0570",
+            "word": "སོ་ཤད་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "རྒྱགཪ",
+            "phone": "gyagra(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐད་",
+      "id": "m0571",
+      "batch": 32,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐད་གཏོང་",
+      "id": "m0572",
+      "batch": 32,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐད་གྲགས་ཆུང་ངུས་",
+      "id": "m0573",
+      "batch": 32,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐད་གྲགས་ཆེན་པོས་",
+      "id": "m0574",
+      "batch": 32,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གྲགས",
+            "phone": "drak",
+            "wordId": "m0574",
+            "word": "སྐད་གྲགས་ཆེན་པོས་"
+          },
+          "recognized": {
+            "bo": "གྲངས",
+            "phone": "drang"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐད་ཅོར་",
+      "id": "m0575",
+      "batch": 32,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐད་ཅོར་རྒྱག་",
+      "id": "m0576",
+      "batch": 32,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཅོར",
+            "phone": "chor",
+            "wordId": "m0576",
+            "word": "སྐད་ཅོར་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "འབྱོར",
+            "phone": "jor"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐད་ཆ་",
+      "id": "m0577",
+      "batch": 32,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐད་རྒྱག་",
+      "id": "m0578",
+      "batch": 32,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0578",
+            "word": "སྐད་རྒྱག་"
+          },
+          "recognized": null
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐབས་རེ་",
+      "id": "m0579",
+      "batch": 32,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྐབས",
+            "phone": "kap",
+            "wordId": "m0579",
+            "word": "སྐབས་རེ་"
+          },
+          "recognized": {
+            "bo": "རྒྱགསྐབས",
+            "phone": "gyagkap(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐམ་པོ་",
+      "id": "m0580",
+      "batch": 32,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐུམ་པ་",
+      "id": "m0581",
+      "batch": 32,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྐུམ",
+            "phone": "kum",
+            "wordId": "m0581",
+            "word": "སྐུམ་པ་"
+          },
+          "recognized": {
+            "bo": "རྐུན",
+            "phone": "kün"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱིགས་པ་",
+      "id": "m0582",
+      "batch": 32,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྐྱིགས",
+            "phone": "kyik",
+            "wordId": "m0582",
+            "word": "སྐྱིགས་པ་"
+          },
+          "recognized": {
+            "bo": "འགྱིག",
+            "phone": "gyik"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱིགས་པ་རྒྱག་",
+      "id": "m0583",
+      "batch": 32,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྐྱིགས",
+            "phone": "kyik",
+            "wordId": "m0583",
+            "word": "སྐྱིགས་པ་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "གྱིག",
+            "phone": "gyik"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱིད་པོ་",
+      "id": "m0584",
+      "batch": 33,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱིད་པོ་གཏོང་བ་",
+      "id": "m0585",
+      "batch": 33,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱོ་པོ་",
+      "id": "m0586",
+      "batch": 33,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱོ་བ་",
+      "id": "m0587",
+      "batch": 33,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བ",
+            "phone": "ba",
+            "wordId": "m0587",
+            "word": "སྐྱོ་བ་"
+          },
+          "recognized": {
+            "bo": "པ",
+            "phone": "pa"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱོན་",
+      "id": "m0588",
+      "batch": 33,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱོན་བརྗོད་",
+      "id": "m0589",
+      "batch": 33,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱོར་",
+      "id": "m0590",
+      "batch": 33,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྐྱོར་རྒྱག་",
+      "id": "m0591",
+      "batch": 33,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒ་",
+      "id": "m0592",
+      "batch": 33,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒམ་པོ་",
+      "id": "m0593",
+      "batch": 33,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྒམ",
+            "phone": "gam",
+            "wordId": "m0593",
+            "word": "སྒམ་པོ་"
+          },
+          "recognized": {
+            "bo": "སྒང",
+            "phone": "gang"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒུག་",
+      "id": "m0594",
+      "batch": 33,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒུག་རྒྱག་",
+      "id": "m0595",
+      "batch": 33,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "རྒྱག",
+            "phone": "gyak",
+            "wordId": "m0595",
+            "word": "སྒུག་རྒྱག་"
+          },
+          "recognized": null
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒེའུ་ཁུང་",
+      "id": "m0596",
+      "batch": 33,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "deletion",
+          "expected": {
+            "bo": "སྒེ",
+            "phone": "gé",
+            "wordId": "m0596",
+            "word": "སྒེའུ་ཁུང་"
+          },
+          "recognized": null
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འུ",
+            "phone": "u",
+            "wordId": "m0596",
+            "word": "སྒེའུ་ཁུང་"
+          },
+          "recognized": {
+            "bo": "རྒྱགསྒེའུ",
+            "phone": "gyaggeu(?)"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒེའུ་ཡོལ་",
+      "id": "m0597",
+      "batch": 33,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཡོལ",
+            "phone": "yöl",
+            "wordId": "m0597",
+            "word": "སྒེའུ་ཡོལ་"
+          },
+          "recognized": {
+            "bo": "ཡོས",
+            "phone": "yö"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒོ་ཡོལ་རྒྱག་",
+      "id": "m0598",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒོ་ལྕགས་",
+      "id": "m0599",
+      "batch": 34,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ལྕགས",
+            "phone": "chak",
+            "wordId": "m0599",
+            "word": "སྒོ་ལྕགས་"
+          },
+          "recognized": {
+            "bo": "འཇག",
+            "phone": "jak"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒོམ་",
+      "id": "m0600",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒོམ་པ་བྱེད་",
+      "id": "m0601",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒྲ་འཁོར་",
+      "id": "m0602",
+      "batch": 34,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "འཁོར",
+            "phone": "khor",
+            "wordId": "m0602",
+            "word": "སྒྲ་འཁོར་"
+          },
+          "recognized": {
+            "bo": "སྒོར",
+            "phone": "gor"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྒྲུབ་པ་",
+      "id": "m0603",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྔ་དྲོ་",
+      "id": "m0604",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྔ་པོ་",
+      "id": "m0605",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྔ་མོ་",
+      "id": "m0606",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྔགས་",
+      "id": "m0607",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྔོན་ལ་",
+      "id": "m0608",
+      "batch": 34,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྔོན",
+            "phone": "ngön",
+            "wordId": "m0608",
+            "word": "སྔོན་ལ་"
+          },
+          "recognized": {
+            "bo": "སྔན",
+            "phone": "ngen"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྙིང་རྗེ་པོ་",
+      "id": "m0609",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྙིང་རྗེ་མེད་པ་",
+      "id": "m0610",
+      "batch": 34,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྟེང་ལ་",
+      "id": "m0611",
+      "batch": 34,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྟེང",
+            "phone": "teng",
+            "wordId": "m0611",
+            "word": "སྟེང་ལ་"
+          },
+          "recognized": {
+            "bo": "རྟེན",
+            "phone": "ten"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྟོང་པ་",
+      "id": "m0612",
+      "batch": 35,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྡུག་པོ་",
+      "id": "m0613",
+      "batch": 35,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0613",
+            "word": "སྡུག་པོ་"
+          },
+          "recognized": {
+            "bo": "གོ",
+            "phone": "go"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྡུག་པོ་མྱོང་བ་",
+      "id": "m0614",
+      "batch": 35,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "མྱོང",
+            "phone": "nyong",
+            "wordId": "m0614",
+            "word": "སྡུག་པོ་མྱོང་བ་"
+          },
+          "recognized": {
+            "bo": "ཉུང",
+            "phone": "nyung"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བ",
+            "phone": "ba",
+            "wordId": "m0614",
+            "word": "སྡུག་པོ་མྱོང་བ་"
+          },
+          "recognized": {
+            "bo": "ང",
+            "phone": "nga"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྡུག་བསྔལ་མྱོང་",
+      "id": "m0615",
+      "batch": 35,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "མྱོང",
+            "phone": "nyong",
+            "wordId": "m0615",
+            "word": "སྡུག་བསྔལ་མྱོང་"
+          },
+          "recognized": {
+            "bo": "ཉུང",
+            "phone": "nyung"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྣང་ཆུང་",
+      "id": "m0616",
+      "batch": 35,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྣོན་སྐྱེད་རྒྱག་",
+      "id": "m0617",
+      "batch": 35,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྐྱེད",
+            "phone": "kyé",
+            "wordId": "m0617",
+            "word": "སྣོན་སྐྱེད་རྒྱག་"
+          },
+          "recognized": {
+            "bo": "འགྱེད",
+            "phone": "gyé"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྤུས་ཀ་ཞན་པ་",
+      "id": "m0618",
+      "batch": 35,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྤུས་ཀ་ཞན་པོ་",
+      "id": "m0619",
+      "batch": 35,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཞན",
+            "phone": "zhen",
+            "wordId": "m0619",
+            "word": "སྤུས་ཀ་ཞན་པོ་"
+          },
+          "recognized": {
+            "bo": "ཤན",
+            "phone": "shen"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྤོབས་པ་",
+      "id": "m0620",
+      "batch": 35,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྤོབས་པ་བྱེད་",
+      "id": "m0621",
+      "batch": 35,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྤོབས",
+            "phone": "pop",
+            "wordId": "m0621",
+            "word": "སྤོབས་པ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "སྤོས",
+            "phone": "pö"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྤྱང་པོ་",
+      "id": "m0622",
+      "batch": 35,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྤྱང",
+            "phone": "chang",
+            "wordId": "m0622",
+            "word": "སྤྱང་པོ་"
+          },
+          "recognized": {
+            "bo": "ལྗང",
+            "phone": "jang"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0622",
+            "word": "སྤྱང་པོ་"
+          },
+          "recognized": {
+            "bo": "ཁོ",
+            "phone": "kho"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྤྱིར་བཏང་",
+      "id": "m0623",
+      "batch": 35,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྤྲོ་སྐྱིད་",
+      "id": "m0624",
+      "batch": 35,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྤྲོ་སྐྱིད་གཏོང་",
+      "id": "m0625",
+      "batch": 36,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "གཏོང",
+            "phone": "tong",
+            "wordId": "m0625",
+            "word": "སྤྲོ་སྐྱིད་གཏོང་"
+          },
+          "recognized": {
+            "bo": "སྡོང",
+            "phone": "dong"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྦོམ་པོ་",
+      "id": "m0626",
+      "batch": 36,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྦྱིན་པ་",
+      "id": "m0627",
+      "batch": 36,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྨིན་པ་",
+      "id": "m0628",
+      "batch": 36,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སྲབ་པོ་",
+      "id": "m0629",
+      "batch": 36,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "སྲབ",
+            "phone": "sap",
+            "wordId": "m0629",
+            "word": "སྲབ་པོ་"
+          },
+          "recognized": {
+            "bo": "སོག",
+            "phone": "sok"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0629",
+            "word": "སྲབ་པོ་"
+          },
+          "recognized": {
+            "bo": "པོའུ",
+            "phone": "pou"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "སླེ་པ་རྒྱག་",
+      "id": "m0630",
+      "batch": 36,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཧ་གོ་",
+      "id": "m0631",
+      "batch": 36,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཧམ་པ་",
+      "id": "m0632",
+      "batch": 36,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཧམ་པ་བྱེད་",
+      "id": "m0633",
+      "batch": 36,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཧམ",
+            "phone": "ham",
+            "wordId": "m0633",
+            "word": "ཧམ་པ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ལྷམ",
+            "phone": "lham"
+          }
+        },
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0633",
+            "word": "ཧམ་པ་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ཆེ",
+            "phone": "ché"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཧུར་པོ་",
+      "id": "m0634",
+      "batch": 36,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "insertion",
+          "expected": {
+            "bo": "པོ",
+            "phone": "po",
+            "wordId": "m0634",
+            "word": "ཧུར་པོ་"
+          },
+          "recognized": {
+            "bo": "ཨང",
+            "phone": "ang"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཨཱ་",
+      "id": "m0635",
+      "batch": 36,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "ཨཱ",
+            "phone": "a",
+            "wordId": "m0635",
+            "word": "ཨཱ་"
+          },
+          "recognized": {
+            "bo": "ཨང",
+            "phone": "ang"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཨུ་ཚུགས་",
+      "id": "m0636",
+      "batch": 36,
+      "screeningStatus": "phonetic-transcription-match",
+      "differences": [],
+      "nativeReviewComplete": false
+    },
+    {
+      "word": "ཨུ་ཚུགས་བྱེད་",
+      "id": "m0637",
+      "batch": 36,
+      "screeningStatus": "speech-or-recognition-difference",
+      "differences": [
+        {
+          "operation": "substitution",
+          "expected": {
+            "bo": "བྱེད",
+            "phone": "jé",
+            "wordId": "m0637",
+            "word": "ཨུ་ཚུགས་བྱེད་"
+          },
+          "recognized": {
+            "bo": "ཆེ",
+            "phone": "ché"
+          }
+        }
+      ],
+      "nativeReviewComplete": false
+    }
+  ],
+  "additionalSyllableCandidates": {
+    "m0290": {
+      "action": "re-recorded",
+      "newAsr": "དཀའ་ལས་ཁག་པོ།"
+    },
+    "m0464": {
+      "action": "re-recorded",
+      "newAsr": "ཚོང་བ་"
+    },
+    "m0301": {
+      "action": "original-kept",
+      "reason": "Additional syllable not reproduced in isolated check"
+    },
+    "m0438": {
+      "action": "original-kept",
+      "reason": "Isolated ASR mgo is a homophone of expected go; no extra syllable"
+    },
+    "m0634": {
+      "action": "original-kept",
+      "reason": "Additional syllable not reproduced in isolated check"
+    }
+  },
+  "nativeReviewComplete": false
+}

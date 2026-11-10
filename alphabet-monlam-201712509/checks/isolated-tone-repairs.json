@@ -1,0 +1,162 @@
+{
+  "records": [
+    {
+      "id": "m0028",
+      "text": "ས",
+      "mutedWindows": [
+        {
+          "start": 0.115,
+          "end": 0.145,
+          "frequencyHz": 902.34375
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "40e2e2f701f11f1a0595610e73e75e5a49ce6ef2f1cc4deeeddc25ba6c21c0ff",
+      "afterPcmSha256": "ee7377596b9a22555ece920aad074e31a6dcd15d74a715fd5a9f3e669aa9d740"
+    },
+    {
+      "id": "m0182",
+      "text": "ཁྲི་རྒྱག",
+      "mutedWindows": [
+        {
+          "start": 1.16,
+          "end": 1.2,
+          "frequencyHz": 896.484375
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "de1788b65fc13a141fc8ad1b7b2c516ef72c79e7c5cc7be9c180294aac451e3d",
+      "afterPcmSha256": "1b485978a2282a605a1eb72e4f4153a87d4f71dc7e4232651c0f2ae95c89b97f"
+    },
+    {
+      "id": "m0258",
+      "text": "ཆམ་པ་རྒྱག",
+      "mutedWindows": [
+        {
+          "start": 1.42,
+          "end": 1.44,
+          "frequencyHz": 1189.453125
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "32e9ff512946c1232f83e8535cb875903e79e78614945bd060ee38e3fd8e65f1",
+      "afterPcmSha256": "154ac20dd2d9a2512e9cbaae092e09b759ac1f923d5d840dc09dfb2c180a32cd"
+    },
+    {
+      "id": "m0505",
+      "text": "རྙེད་པ",
+      "mutedWindows": [
+        {
+          "start": 0.45,
+          "end": 0.48,
+          "frequencyHz": 580.078125
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "8ff33fb60da723937dd62cd647a07266d914eda488670d07c3bb6d7f77e22929",
+      "afterPcmSha256": "a3c9b8fb4f73534432d2ff0bf79da2756bd24dadf993bee7038659f2bf9f8c49"
+    },
+    {
+      "id": "m0582",
+      "text": "སྐྱིགས་པ",
+      "mutedWindows": [
+        {
+          "start": 0.115,
+          "end": 0.145,
+          "frequencyHz": 878.90625
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "b497feec41c356578d68317c5d24f18d44fe59788e98f01f512e2daf19ca6fac",
+      "afterPcmSha256": "d7cb415e3028b8b6a7d7921fce4cf0b8c78af338681983ec19e739aee79c4fac"
+    },
+    {
+      "id": "m0703",
+      "text": "ཐག",
+      "mutedWindows": [
+        {
+          "start": 1.02,
+          "end": 1.04,
+          "frequencyHz": 972.65625
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "351090e1a3f5b28c1c3bc7d56178e8486c5870ff9a976176feb997587d7aba74",
+      "afterPcmSha256": "cb6af93e720e1b2d6eb9931ba7a2aba713cf6d324c80af53e7b1ed64a039bafc"
+    },
+    {
+      "id": "m0740",
+      "text": "བདེ",
+      "mutedWindows": [
+        {
+          "start": 0.115,
+          "end": 0.145,
+          "frequencyHz": 832.03125
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "f20d965235138283c5bb9744872d9f7c0fd30c3e0cf101025b78a5fc5c73b94b",
+      "afterPcmSha256": "0eb4873d6d4e0e858e89b844d07d129d892d634bc931a423c6243e44d0329414"
+    },
+    {
+      "id": "m0827",
+      "text": "ཡིག",
+      "mutedWindows": [
+        {
+          "start": 0.915,
+          "end": 0.97,
+          "frequencyHz": 1734.375
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "4de98401a0a8ae94e78f366c3aceddf7734279fb8e3b0788ca71ab4051819963",
+      "afterPcmSha256": "50fb0cb75a779e071dd4d82ac3905347cb5897fccc7427201684d23384ddfdd3"
+    },
+    {
+      "id": "m0835",
+      "text": "རྐྱོང",
+      "mutedWindows": [
+        {
+          "start": 0.065,
+          "end": 0.11,
+          "frequencyHz": 1060.546875
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "882b19770eb27876047358a5d90e1d6cac784dbd4f9884e72ff191a3de200d4c",
+      "afterPcmSha256": "38704d004a226e62450958a13710a02fb8a0739ba40f2dbd9bdba077feabbad5"
+    },
+    {
+      "id": "m0881",
+      "text": "སྐྱིད",
+      "mutedWindows": [
+        {
+          "start": 0.955,
+          "end": 1.03,
+          "frequencyHz": 1769.53125
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "c44e372b5544092dc5d26c3172d41afdae8f0485d8ae9fe11a8bb5230b5b8e87",
+      "afterPcmSha256": "60ec5ac5e0f00c6b0e5823b9395bf574807f9a324e7996c6ce1ce7e0c5747f27"
+    },
+    {
+      "id": "m0964",
+      "text": "བཞི",
+      "mutedWindows": [
+        {
+          "start": 0.11,
+          "end": 0.145,
+          "frequencyHz": 603.515625
+        }
+      ],
+      "mainSpeechPcmPreserved": true,
+      "beforePcmSha256": "2b55eaaebc45b9effe4f3d91ee1244b29417e0f0ac40e45280364a34d5350077",
+      "afterPcmSha256": "ba53e822fc89119ecf15b1c5931cd82c64fa5e1c700929dce9366af035ed75a5"
+    }
+  ],
+  "recordCount": 11,
+  "method": "Only isolated narrow-band tones outside the main speech region are muted, with 5 ms ramps. Spoken material and total duration are preserved.",
+  "phoneticCertification": false,
+  "published": false
+}
