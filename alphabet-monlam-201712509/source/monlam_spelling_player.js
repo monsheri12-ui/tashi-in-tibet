@@ -1,5 +1,6 @@
 // Traditional jorlok plans are prepared from verified syllable components.
 var MONLAM_SPELLING_BASE=__SPELLING_BASE__;
+var MONLAM_SLOW_SPELLING_BASE=__SLOW_SPELLING_BASE__;
 var spellingBanks=new Map(),spellingResults=new Map(),spellingDecoder=null;
 var spellingUrl=null,spellingTimeline=[],spellingRow=null,spellingHighlight=[],spellingKind="";
 function resetSpellingPlayback(){
@@ -7,9 +8,10 @@ function resetSpellingPlayback(){
  spellingHighlight=[];spellingRow=null;spellingTimeline=[];spellingKind="";
  if(spellingUrl){URL.revokeObjectURL(spellingUrl);spellingUrl=null}
 }
-function loadSpellingBank(voice){
- if(!spellingBanks.has(voice))spellingBanks.set(voice,fetch(MONLAM_SPELLING_BASE+voice+".json").then(function(response){if(!response.ok)throw new Error("Spelling HTTP "+response.status);return response.json()}).then(function(bank){if(bank.sampleRate!==24000||bank.sampleWidth!==2||bank.channels!==1)throw new Error("Unexpected spelling audio format");bank.decoded=new Map();return bank}).catch(function(error){spellingBanks.delete(voice);throw error}));
- return spellingBanks.get(voice);
+function loadSpellingBank(voice,rate){
+ rate=rate===.8?.8:1;var key=voice+"/"+rate;
+ if(!spellingBanks.has(key))spellingBanks.set(key,fetch((rate===.8?MONLAM_SLOW_SPELLING_BASE:MONLAM_SPELLING_BASE)+voice+".json").then(function(response){if(!response.ok)throw new Error("Spelling HTTP "+response.status);return response.json()}).then(function(bank){if(bank.sampleRate!==24000||bank.sampleWidth!==2||bank.channels!==1||(bank.recordedRate||1)!==rate)throw new Error("Unexpected spelling audio format");bank.decoded=new Map();return bank}).catch(function(error){spellingBanks.delete(key);throw error}));
+ return spellingBanks.get(key);
 }
 function spellingPcm(bank,symbol){
  if(!bank.decoded.has(symbol)){
@@ -36,32 +38,34 @@ function decodeSpellingAudio(encoded){
   return bytes;
  });
 }
-function loadSpellingResult(voice,text){
- var index=audioIndex.get(audioKey(text)),key=voice+"/"+index;
+function loadSpellingResult(voice,text,bank,rate){
+ text=bank&&bank.resultAliases&&bank.resultAliases[text]||text;
+ var index=audioIndex.get(audioKey(text)),key=voice+"/"+(rate===.8?.8:1)+"/"+index;
  if(index===undefined)return Promise.reject(new Error("Missing syllable recording "+text));
- if(!spellingResults.has(key))spellingResults.set(key,loadAudioChunk(voice,index).then(function(chunk){
+ if(!spellingResults.has(key))spellingResults.set(key,loadAudioChunk(voice,index,rate).then(function(chunk){
   var encoded=chunk.clips["m"+String(index+1).padStart(4,"0")];if(!encoded)throw new Error("Missing syllable audio");
   return decodeSpellingAudio(encoded);
  }).catch(function(error){spellingResults.delete(key);throw error}));
  return spellingResults.get(key);
 }
-async function spellingParts(text,bank,voice){
+async function spellingParts(text,bank,voice,rate){
+ rate=rate===.8?.8:1;
  var parts=[],glyphOffset=0,number=0;
  var syllables=splitSyllables(String(text).normalize("NFC")),needed=new Set();
  syllables.forEach(function(syllable){if(!syllable.selectable)return;var plan=bank.plans[syllable.text];if(!plan)throw new Error("Missing jorlok plan "+syllable.text);plan.steps.forEach(function(step){if(step.kind==="result")needed.add(step.text)})});
- await Promise.all(Array.from(needed).map(function(result){return loadSpellingResult(voice,result)}));
+ await Promise.all(Array.from(needed).map(function(result){return loadSpellingResult(voice,result,bank,rate)}));
  for(var syllable of syllables){
   if(!syllable.selectable)continue;number++;
   var plan=bank.plans[syllable.text];if(!plan)throw new Error("Missing jorlok plan "+syllable.text);
   var count=splitGlyphs(syllable.text).filter(function(p){return p.selectable}).length;
   for(var step of plan.steps){
-   var pcm=step.kind==="symbol"?await spellingPcm(bank,step.text):await loadSpellingResult(voice,step.text);
+   var pcm=step.kind==="symbol"?await spellingPcm(bank,step.text):await loadSpellingResult(voice,step.text,bank,rate);
    var focus=(step.focus||[0]).map(function(i){return glyphOffset+i});
-   parts.push({pcm:pcm,label:step.label,glyphIndices:focus,syllable:number,gap:step.kind==="result"?.30:.21});
+   parts.push({pcm:pcm,label:step.label,glyphIndices:focus,syllable:number,gap:(step.kind==="result"?.30:.21)/rate});
   }
-  if(parts.length)parts[parts.length-1].gap=.65;glyphOffset+=count;
+  if(parts.length)parts[parts.length-1].gap=.65/rate;glyphOffset+=count;
  }
- if(!parts.length)throw new Error("Empty spelling");parts[parts.length-1].gap=.08;return parts;
+ if(!parts.length)throw new Error("Empty spelling");parts[parts.length-1].gap=.08/rate;return parts;
 }
 function buildSpellingWav(parts,sampleRate){
  var size=parts.reduce(function(n,part){return n+part.pcm.length+Math.round(part.gap*sampleRate)*2},0);
@@ -73,14 +77,14 @@ function buildSpellingWav(parts,sampleRate){
 }
 async function playSpellingAudio(text,button,kind){
  if(audioActiveButton===button){stopMonlamAudio();return}
- stopMonlamAudio();var request=audioRequest,voice=audioVoice;
- audioActiveButton=button;button.classList.add("is-loading");button.setAttribute("aria-busy","true");audioStatus.textContent="Готовится учебный разбор…";
+ stopMonlamAudio();var request=audioRequest,voice=audioVoice,rate=audioRate;
+ audioActiveButton=button;audioActiveReading={text:text,button:button,kind:kind};button.classList.add("is-loading");button.setAttribute("aria-busy","true");audioStatus.textContent="Готовится учебный разбор…";
  try{
-  var bank=await loadSpellingBank(voice);if(request!==audioRequest)return;
-  var parts=await spellingParts(text,bank,voice);if(request!==audioRequest)return;
+  var bank=await loadSpellingBank(voice,rate);if(request!==audioRequest)return;
+  var parts=await spellingParts(text,bank,voice,rate);if(request!==audioRequest)return;
   var recording=buildSpellingWav(parts,bank.sampleRate);
   spellingUrl=URL.createObjectURL(recording.blob);spellingTimeline=recording.timeline;spellingRow=button.closest(".tw-word");spellingKind=kind==="vowel"?"разбор слога":"по слогам";
-  audioPlayer.src=spellingUrl;audioPlayer.playbackRate=audioRate;await audioPlayer.play();if(request!==audioRequest)return;
+  audioPlayer.src=spellingUrl;audioPlayer.playbackRate=1;await audioPlayer.play();if(request!==audioRequest)return;
   button.classList.remove("is-loading");button.classList.add("is-playing");button.setAttribute("aria-busy","false");updateSpellingPosition();
  }catch(error){if(request===audioRequest){resetSpellingPlayback();resetAudioButton();audioStatus.textContent="Не удалось загрузить учебный разбор. Нажмите ещё раз."}}
 }
