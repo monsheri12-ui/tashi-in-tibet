@@ -1,0 +1,51 @@
+{
+  "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "sourceSha256": "d6224d51685fa13e57b199441a3510d6eefc7ac7a51378728dd3a446dc58efbf",
+  "sourceCharacters": 74087,
+  "savedEditorCodeExact": true,
+  "assetCommit": "6d4357c7d3cbde5cf77f2a4670d1d27321537001",
+  "allFourAssetPinsVerified": true,
+  "observedPlaying": [
+    {
+      "word": "ཨུ་ཚུགས་",
+      "reading": "whole",
+      "voice": "male",
+      "tempo": 0.8
+    },
+    {
+      "word": "ཨུ་ཚུགས་བྱེད་",
+      "reading": "whole",
+      "voice": "male",
+      "tempo": 0.8
+    },
+    {
+      "word": "ཨུ་ཚུགས་",
+      "reading": "whole",
+      "voice": "male",
+      "tempo": 1
+    },
+    {
+      "word": "གཟེར་རྒྱག་",
+      "reading": "spelling",
+      "voice": "male",
+      "tempo": 0.8
+    },
+    {
+      "word": "གཟེར་རྒྱག་",
+      "reading": "spelling",
+      "voice": "female",
+      "tempo": 0.8
+    }
+  ],
+  "restoredState": {
+    "busy": 0,
+    "playing": 0,
+    "rate": "0.8",
+    "selected": 0,
+    "status": "",
+    "target": "Вайли: wa",
+    "voice": "male"
+  },
+  "consoleErrors": [],
+  "learnerAnswersNotChanged": true
+}

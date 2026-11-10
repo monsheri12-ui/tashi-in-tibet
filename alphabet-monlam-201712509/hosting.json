@@ -2,7 +2,7 @@
   "repository": "monsheri12-ui/tashi-in-tibet",
   "branch": "alphabet-monlam-201712509-20261110",
   "audioCommit": "6d4357c7d3cbde5cf77f2a4670d1d27321537001",
-  "audioTree": "8630146c33af6552323c80df07a14739da0acd20",
+  "audioTree": "791c3259e85b813c44205dcf840c5b0da73fa718",
   "audioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/6d4357c7d3cbde5cf77f2a4670d1d27321537001/alphabet-monlam-201712509/audio/",
   "spellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/6d4357c7d3cbde5cf77f2a4670d1d27321537001/alphabet-monlam-201712509/spelling/",
   "voices": {
@@ -12,7 +12,7 @@
   "spellingPlans": 512,
   "words": 500,
   "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
-  "publishedVerified": false,
+  "publishedVerified": true,
   "spellingCommit": "6d4357c7d3cbde5cf77f2a4670d1d27321537001",
   "audioCleanup": {
     "changedSyllablePlans": 105,
@@ -36,7 +36,7 @@
     "sharedFragmentAutomaticTranscripts": 519,
     "nativePhoneticCertification": false
   },
-  "publicVerification": "checks/public-slow-mode.json",
+  "publicVerification": "checks/public-reported-words.json",
   "slowAudioCommit": "6d4357c7d3cbde5cf77f2a4670d1d27321537001",
   "slowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/6d4357c7d3cbde5cf77f2a4670d1d27321537001/alphabet-monlam-201712509/audio-slow/",
   "slowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/6d4357c7d3cbde5cf77f2a4670d1d27321537001/alphabet-monlam-201712509/spelling-slow/",
@@ -49,7 +49,8 @@
     "sourceWavsUnchanged": true,
     "userControlConfirmedClean": true,
     "verification": "checks/slow-audio.json",
-    "playerTests": "checks/slow-player.json"
+    "playerTests": "checks/slow-player.json",
+    "scope": "tempo rendering only; ordinary word repairs are documented separately"
   },
   "sourceSha256": "d6224d51685fa13e57b199441a3510d6eefc7ac7a51378728dd3a446dc58efbf",
   "reportedWordCorrections": {
@@ -128,5 +129,6 @@
     "femaleGaAudioAlias": {
       "རྒ": "དགའ"
     }
-  }
+  },
+  "integrationCommit": "615854ed47da4f82516cd5177a66a9f2929363ce"
 }

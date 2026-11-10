@@ -1,0 +1,620 @@
+{
+  "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "publishedVerified": true,
+  "assetCommit": "6d4357c7d3cbde5cf77f2a4670d1d27321537001",
+  "integrationCommit": "615854ed47da4f82516cd5177a66a9f2929363ce",
+  "sourceSha256": "d6224d51685fa13e57b199441a3510d6eefc7ac7a51378728dd3a446dc58efbf",
+  "reportedWordCorrections": {
+    "wordRecordingsRepaired": 7,
+    "sharedFragmentsRepaired": 2,
+    "maleSourceRecordingsChanged": 9,
+    "femaleSourceRecordingsChanged": 0,
+    "normalSpellingClipBytesPreserved": true,
+    "writtenSpellingLabelsPreserved": true,
+    "stackRootPlansCorrected": 37,
+    "wordsUsingCorrectedPlans": 110,
+    "changes": {
+      "female": [],
+      "male": [
+        "m0148",
+        "m0212",
+        "m0353",
+        "m0359",
+        "m0473",
+        "m0616",
+        "m0636",
+        "m0637",
+        "m0788"
+      ]
+    },
+    "plans": [
+      "རྒྱག",
+      "རྡུང",
+      "བསྒྲགས",
+      "སྒྲིག",
+      "རྒྱལ",
+      "རྒོལ",
+      "སྒྲོག",
+      "རྒན",
+      "བརྡ",
+      "རྒྱ",
+      "བསྒྲུགས",
+      "རྒྱས",
+      "སྦས",
+      "རྒྱགས",
+      "རྒྱན",
+      "རྒྱབ",
+      "རྗེན",
+      "རྡེབ",
+      "རྫུས",
+      "རྫོར",
+      "ལྗིད",
+      "ལྡོག",
+      "བརྗོད",
+      "སྒ",
+      "སྒམ",
+      "སྒུག",
+      "སྒེའུ",
+      "སྒོ",
+      "སྒོམ",
+      "སྒྲ",
+      "སྒྲུབ",
+      "རྗེ",
+      "སྡུག",
+      "སྦོམ",
+      "སྦྱིན",
+      "རྒྱོ",
+      "བསྒྲིམས"
+    ],
+    "userAcceptedFirstUTsugs": true,
+    "phoneticCertificationOfEntireCorpus": false,
+    "words": [
+      "གཟེར་རྒྱག་",
+      "སྣང་ཆུང་",
+      "བསླབ་བྱ་བྱེད་",
+      "བརྡ་",
+      "ཡར་རྒྱས་གཏོང་",
+      "ཨུ་ཚུགས་བྱེད་",
+      "ཨུ་ཚུགས་"
+    ],
+    "femaleGaAudioAlias": {
+      "རྒ": "དགའ"
+    }
+  },
+  "slowPlayback": {
+    "selectedTempo": 0.8,
+    "browserPlaybackRate": 1,
+    "preRenderedMainRecordings": 2210,
+    "preRenderedSpellingClips": 76,
+    "normalAudioUnchanged": true,
+    "sourceWavsUnchanged": true,
+    "userControlConfirmedClean": true,
+    "verification": "checks/slow-audio.json",
+    "playerTests": "checks/slow-player.json",
+    "scope": "tempo rendering only; ordinary word repairs are documented separately"
+  },
+  "technicalVerification": {
+    "mainRecordings": 2210,
+    "spellingClips": 76,
+    "decodedAudioFiles": 2286,
+    "decodeErrors": 0,
+    "bitRateKbps": 128,
+    "sourcePcmUnchanged": true,
+    "spellingPlansUnchanged": true,
+    "labelsUnchanged": true,
+    "wordVoicePairsChecked": 1000,
+    "vowelFormVoicePairsChecked": 300,
+    "fragmentBoundariesChecked": 21508,
+    "boundarySamplesAllZero": true,
+    "maxDecodedPeak": 0.9667014479637146,
+    "controlFileIdenticalToStaged": true,
+    "phoneticCertification": false,
+    "subjectiveBeepConfirmation": "user confirmed slow control has no beep",
+    "recordedRate": 0.8,
+    "browserPlaybackRate": 1,
+    "ordinaryAudioUnchanged": true,
+    "examples": [
+      {
+        "word": "བཅོས་མ་",
+        "voice": "male",
+        "file": "male-bcos-ma.mp3",
+        "steps": [
+          {
+            "ref": "male/symbol/བ",
+            "label": "ba",
+            "seconds": 0.7655
+          },
+          {
+            "ref": "male/symbol/@prefix",
+            "label": "o",
+            "seconds": 0.6843
+          },
+          {
+            "ref": "male/symbol/ཅ",
+            "label": "ca",
+            "seconds": 0.578
+          },
+          {
+            "ref": "male/symbol/ོ",
+            "label": "naro",
+            "seconds": 0.7607
+          },
+          {
+            "ref": "male/m0050",
+            "label": "བཅོ",
+            "seconds": 0.6135
+          },
+          {
+            "ref": "male/symbol/ས",
+            "label": "sa",
+            "seconds": 0.511
+          },
+          {
+            "ref": "male/m0738",
+            "label": "བཅོས",
+            "seconds": 0.555
+          },
+          {
+            "ref": "male/symbol/མ",
+            "label": "ma",
+            "seconds": 0.7431
+          }
+        ]
+      },
+      {
+        "word": "འཁྱགས་པ་",
+        "voice": "male",
+        "file": "male-khyags-pa.mp3",
+        "steps": [
+          {
+            "ref": "male/symbol/འ",
+            "label": "’a",
+            "seconds": 0.8195
+          },
+          {
+            "ref": "male/symbol/@prefix",
+            "label": "o",
+            "seconds": 0.6843
+          },
+          {
+            "ref": "male/symbol/ཁ",
+            "label": "kha",
+            "seconds": 0.521
+          },
+          {
+            "ref": "male/symbol/ཡ",
+            "label": "ya",
+            "seconds": 0.6588
+          },
+          {
+            "ref": "male/symbol/@tags",
+            "label": "ta",
+            "seconds": 0.4653
+          },
+          {
+            "ref": "male/m0916",
+            "label": "འཁྱ",
+            "seconds": 0.5112
+          },
+          {
+            "ref": "male/symbol/ག",
+            "label": "ga",
+            "seconds": 0.509
+          },
+          {
+            "ref": "male/symbol/ས",
+            "label": "sa",
+            "seconds": 0.511
+          },
+          {
+            "ref": "male/m0800",
+            "label": "འཁྱགས",
+            "seconds": 0.5198
+          },
+          {
+            "ref": "male/symbol/པ",
+            "label": "pa",
+            "seconds": 0.439
+          }
+        ]
+      },
+      {
+        "word": "བསམ་བློ་",
+        "voice": "male",
+        "file": "male-samlo.mp3",
+        "steps": [
+          {
+            "ref": "male/symbol/བ",
+            "label": "ba",
+            "seconds": 0.7655
+          },
+          {
+            "ref": "male/symbol/@prefix",
+            "label": "o",
+            "seconds": 0.6843
+          },
+          {
+            "ref": "male/symbol/ས",
+            "label": "sa",
+            "seconds": 0.511
+          },
+          {
+            "ref": "male/symbol/མ",
+            "label": "ma",
+            "seconds": 0.7431
+          },
+          {
+            "ref": "male/m0753",
+            "label": "བསམ",
+            "seconds": 0.7608
+          },
+          {
+            "ref": "male/symbol/བ",
+            "label": "ba",
+            "seconds": 0.7655
+          },
+          {
+            "ref": "male/symbol/ལ",
+            "label": "la",
+            "seconds": 0.7068
+          },
+          {
+            "ref": "male/symbol/@tags",
+            "label": "ta",
+            "seconds": 0.4653
+          },
+          {
+            "ref": "male/m0985",
+            "label": "བླ",
+            "seconds": 0.4939
+          },
+          {
+            "ref": "male/symbol/ོ",
+            "label": "naro",
+            "seconds": 0.7607
+          },
+          {
+            "ref": "male/m0768",
+            "label": "བློ",
+            "seconds": 0.4457
+          }
+        ]
+      },
+      {
+        "word": "དམའ་འབེབས་གཏོང་",
+        "voice": "female",
+        "file": "female-dama-bebs-tong.mp3",
+        "steps": [
+          {
+            "ref": "female/symbol/ད",
+            "label": "da",
+            "seconds": 0.7367
+          },
+          {
+            "ref": "female/symbol/@prefix",
+            "label": "o",
+            "seconds": 0.3847
+          },
+          {
+            "ref": "female/symbol/མ",
+            "label": "ma",
+            "seconds": 0.6807
+          },
+          {
+            "ref": "female/symbol/འ",
+            "label": "’a",
+            "seconds": 0.7678
+          },
+          {
+            "ref": "female/m0720",
+            "label": "དམའ",
+            "seconds": 0.737
+          },
+          {
+            "ref": "female/symbol/འ",
+            "label": "’a",
+            "seconds": 0.7678
+          },
+          {
+            "ref": "female/symbol/@prefix",
+            "label": "o",
+            "seconds": 0.3847
+          },
+          {
+            "ref": "female/m1097",
+            "label": "ba",
+            "seconds": 0.6428
+          },
+          {
+            "ref": "female/symbol/ེ",
+            "label": "drengbu",
+            "seconds": 0.7296
+          },
+          {
+            "ref": "female/m1026",
+            "label": "འབེ",
+            "seconds": 0.434
+          },
+          {
+            "ref": "female/symbol/བ",
+            "label": "ba",
+            "seconds": 0.6768
+          },
+          {
+            "ref": "female/symbol/ས",
+            "label": "sa",
+            "seconds": 0.6148
+          },
+          {
+            "ref": "female/m0816",
+            "label": "འབེབས",
+            "seconds": 0.3476
+          },
+          {
+            "ref": "female/symbol/ག",
+            "label": "ga",
+            "seconds": 0.5406
+          },
+          {
+            "ref": "female/symbol/@prefix",
+            "label": "o",
+            "seconds": 0.3847
+          },
+          {
+            "ref": "female/symbol/ཏ",
+            "label": "ta",
+            "seconds": 0.5489
+          },
+          {
+            "ref": "female/symbol/ོ",
+            "label": "naro",
+            "seconds": 0.8887
+          },
+          {
+            "ref": "female/m0923",
+            "label": "གཏོ",
+            "seconds": 0.536
+          },
+          {
+            "ref": "female/symbol/ང",
+            "label": "nga",
+            "seconds": 0.5373
+          },
+          {
+            "ref": "female/m0198",
+            "label": "གཏོང",
+            "seconds": 0.5362
+          }
+        ]
+      },
+      {
+        "word": "དམའ་འབེབས་གཏོང་",
+        "voice": "male",
+        "file": "male-dama-bebs-tong.mp3",
+        "steps": [
+          {
+            "ref": "male/symbol/ད",
+            "label": "da",
+            "seconds": 0.8239
+          },
+          {
+            "ref": "male/symbol/@prefix",
+            "label": "o",
+            "seconds": 0.6843
+          },
+          {
+            "ref": "male/symbol/མ",
+            "label": "ma",
+            "seconds": 0.7431
+          },
+          {
+            "ref": "male/symbol/འ",
+            "label": "’a",
+            "seconds": 0.8195
+          },
+          {
+            "ref": "male/m0720",
+            "label": "དམའ",
+            "seconds": 0.7541
+          },
+          {
+            "ref": "male/symbol/འ",
+            "label": "’a",
+            "seconds": 0.8195
+          },
+          {
+            "ref": "male/symbol/@prefix",
+            "label": "o",
+            "seconds": 0.6843
+          },
+          {
+            "ref": "male/m1097",
+            "label": "ba",
+            "seconds": 0.739
+          },
+          {
+            "ref": "male/symbol/ེ",
+            "label": "drengbu",
+            "seconds": 0.7851
+          },
+          {
+            "ref": "male/m1026",
+            "label": "འབེ",
+            "seconds": 0.5499
+          },
+          {
+            "ref": "male/symbol/བ",
+            "label": "ba",
+            "seconds": 0.7655
+          },
+          {
+            "ref": "male/symbol/ས",
+            "label": "sa",
+            "seconds": 0.511
+          },
+          {
+            "ref": "male/m0816",
+            "label": "འབེབས",
+            "seconds": 0.3531
+          },
+          {
+            "ref": "male/symbol/ག",
+            "label": "ga",
+            "seconds": 0.509
+          },
+          {
+            "ref": "male/symbol/@prefix",
+            "label": "o",
+            "seconds": 0.6843
+          },
+          {
+            "ref": "male/symbol/ཏ",
+            "label": "ta",
+            "seconds": 0.5053
+          },
+          {
+            "ref": "male/symbol/ོ",
+            "label": "naro",
+            "seconds": 0.7607
+          },
+          {
+            "ref": "male/m0923",
+            "label": "གཏོ",
+            "seconds": 0.3623
+          },
+          {
+            "ref": "male/symbol/ང",
+            "label": "nga",
+            "seconds": 0.8182
+          },
+          {
+            "ref": "male/m0198",
+            "label": "གཏོང",
+            "seconds": 0.54
+          }
+        ]
+      }
+    ],
+    "comparisonBase": "current ordinary source bank, after reported-word repairs"
+  },
+  "playerTests": {
+    "passed": true,
+    "wholeWordVoiceTempoCombinations": 4,
+    "spellingVoiceTempoCombinations": 4,
+    "normalAndSlowCachesSeparate": true,
+    "tempoSwitchRestartsSameReading": true,
+    "staleDownloadCancelled": true,
+    "voiceSwitchCancelsPlayback": true,
+    "voicedStackRootRepeatedConsistently": true,
+    "brdaLetterNamesPreserved": true,
+    "browserPlaybackRateAlwaysOne": true,
+    "learnerProgressUnchanged": true,
+    "sourceFetches": 51
+  },
+  "publicBrowserVerification": {
+    "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+    "sourceSha256": "d6224d51685fa13e57b199441a3510d6eefc7ac7a51378728dd3a446dc58efbf",
+    "sourceCharacters": 74087,
+    "savedEditorCodeExact": true,
+    "assetCommit": "6d4357c7d3cbde5cf77f2a4670d1d27321537001",
+    "allFourAssetPinsVerified": true,
+    "observedPlaying": [
+      {
+        "word": "ཨུ་ཚུགས་",
+        "reading": "whole",
+        "voice": "male",
+        "tempo": 0.8
+      },
+      {
+        "word": "ཨུ་ཚུགས་བྱེད་",
+        "reading": "whole",
+        "voice": "male",
+        "tempo": 0.8
+      },
+      {
+        "word": "ཨུ་ཚུགས་",
+        "reading": "whole",
+        "voice": "male",
+        "tempo": 1
+      },
+      {
+        "word": "གཟེར་རྒྱག་",
+        "reading": "spelling",
+        "voice": "male",
+        "tempo": 0.8
+      },
+      {
+        "word": "གཟེར་རྒྱག་",
+        "reading": "spelling",
+        "voice": "female",
+        "tempo": 0.8
+      }
+    ],
+    "restoredState": {
+      "busy": 0,
+      "playing": 0,
+      "rate": "0.8",
+      "selected": 0,
+      "status": "",
+      "target": "Вайли: wa",
+      "voice": "male"
+    },
+    "consoleErrors": [],
+    "learnerAnswersNotChanged": true
+  },
+  "uTsugsSource": {
+    "userConfirmed": "first u-tsugs in u-tsugs-new.wav is correct",
+    "sourceFile": "u-tsugs-new.wav",
+    "sourcePcmSha256": "6faf62fcfdc079f466d80a3a20a1d8cf7c005df3e70a85345ea125dbfe4b9a2e",
+    "wholeRangeSeconds": [
+      0.08,
+      0.64
+    ],
+    "uRangeSeconds": [
+      0.14,
+      0.305
+    ],
+    "tshugsRangeSeconds": [
+      0.305,
+      0.62
+    ],
+    "fadeMs": 8,
+    "paddingSeconds": [
+      0.05,
+      0.08
+    ],
+    "repairs": [
+      {
+        "id": "m0636",
+        "seconds": 0.56,
+        "sourcePcmSha256": "faee2ca0796f4ba20fff133efa5543ffd14c1866ee54333ed5f1f0fcc2e1d7fe"
+      },
+      {
+        "id": "m0637",
+        "seconds": 1.0913333333333333,
+        "sourcePcmSha256": "59de3a5841bfb946d426e4f500e8fe67cc9ecba92dcd4bd762b6e17cb80d6e54"
+      },
+      {
+        "id": "m0148",
+        "seconds": 0.295,
+        "sourcePcmSha256": "73a8b61b25dead855de874a3b00efda77b62578cbc2cf22e1e31114ba5bfa3f1"
+      },
+      {
+        "id": "m0788",
+        "seconds": 0.445,
+        "sourcePcmSha256": "4d2709f269c2574f416ec96f330474fc7c2e3c98aec8b23715edafd868a0534c"
+      }
+    ],
+    "published": true
+  },
+  "priorMaleRepairs": 15,
+  "totalMaleSourceRepairs": 24,
+  "phoneticCertificationOfEntireCorpus": false,
+  "phoneticReviewScope": "seven reported words and the approved rgyag spelling example; first u-tsugs recording explicitly confirmed by user",
+  "normalMp3Validation": {
+    "changedRecordsDecoded": 9,
+    "errors": 0,
+    "chunkBytesMatchMp3": true,
+    "maximumDecodedPeak": 0.9507993459701538
+  }
+}
