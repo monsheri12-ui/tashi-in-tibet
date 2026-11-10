@@ -1,10 +1,10 @@
 {
   "repository": "monsheri12-ui/tashi-in-tibet",
   "branch": "alphabet-monlam-201712509-20261110",
-  "audioCommit": "8c245170083a11197771b2cad58aebb54b44ddb5",
+  "audioCommit": "6d4357c7d3cbde5cf77f2a4670d1d27321537001",
   "audioTree": "8630146c33af6552323c80df07a14739da0acd20",
-  "audioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8c245170083a11197771b2cad58aebb54b44ddb5/alphabet-monlam-201712509/audio/",
-  "spellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8c245170083a11197771b2cad58aebb54b44ddb5/alphabet-monlam-201712509/spelling/",
+  "audioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/6d4357c7d3cbde5cf77f2a4670d1d27321537001/alphabet-monlam-201712509/audio/",
+  "spellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/6d4357c7d3cbde5cf77f2a4670d1d27321537001/alphabet-monlam-201712509/spelling/",
   "voices": {
     "female": 1105,
     "male": 1105
@@ -12,8 +12,8 @@
   "spellingPlans": 512,
   "words": 500,
   "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
-  "publishedVerified": true,
-  "spellingCommit": "8c245170083a11197771b2cad58aebb54b44ddb5",
+  "publishedVerified": false,
+  "spellingCommit": "6d4357c7d3cbde5cf77f2a4670d1d27321537001",
   "audioCleanup": {
     "changedSyllablePlans": 105,
     "affectedDistinctWords": 179,
@@ -21,9 +21,9 @@
     "wordVoicePairsChecked": 1000,
     "fragmentBoundariesChecked": 21508
   },
-  "previousIntegrationCommit": "ae365d372732b4ad661ff063c5b5e530d61034d6",
+  "previousIntegrationCommit": "9ae97ed5b1895824fc0da01ff8caaf564dda728c",
   "malePronunciationRepairs": {
-    "changedRecordings": 15,
+    "changedRecordings": 24,
     "isolatedTonesRemoved": 11,
     "replacementPaUserConfirmed": true,
     "replacementKhridByedUserConfirmed": true,
@@ -36,11 +36,10 @@
     "sharedFragmentAutomaticTranscripts": 519,
     "nativePhoneticCertification": false
   },
-  "integrationCommit": "9ae97ed5b1895824fc0da01ff8caaf564dda728c",
   "publicVerification": "checks/public-slow-mode.json",
-  "slowAudioCommit": "3fd4f5f966f70479261c7496f661577fbc0057d1",
-  "slowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/3fd4f5f966f70479261c7496f661577fbc0057d1/alphabet-monlam-201712509/audio-slow/",
-  "slowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/3fd4f5f966f70479261c7496f661577fbc0057d1/alphabet-monlam-201712509/spelling-slow/",
+  "slowAudioCommit": "6d4357c7d3cbde5cf77f2a4670d1d27321537001",
+  "slowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/6d4357c7d3cbde5cf77f2a4670d1d27321537001/alphabet-monlam-201712509/audio-slow/",
+  "slowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/6d4357c7d3cbde5cf77f2a4670d1d27321537001/alphabet-monlam-201712509/spelling-slow/",
   "slowPlaybackRepair": {
     "selectedTempo": 0.8,
     "browserPlaybackRate": 1,
@@ -52,5 +51,82 @@
     "verification": "checks/slow-audio.json",
     "playerTests": "checks/slow-player.json"
   },
-  "sourceSha256": "2ade1198cd7151175378ade0030f73f8df43dd1fd6177c8500cae6891ed8483d"
+  "sourceSha256": "d6224d51685fa13e57b199441a3510d6eefc7ac7a51378728dd3a446dc58efbf",
+  "reportedWordCorrections": {
+    "wordRecordingsRepaired": 7,
+    "sharedFragmentsRepaired": 2,
+    "maleSourceRecordingsChanged": 9,
+    "femaleSourceRecordingsChanged": 0,
+    "normalSpellingClipBytesPreserved": true,
+    "writtenSpellingLabelsPreserved": true,
+    "stackRootPlansCorrected": 37,
+    "wordsUsingCorrectedPlans": 110,
+    "changes": {
+      "female": [],
+      "male": [
+        "m0148",
+        "m0212",
+        "m0353",
+        "m0359",
+        "m0473",
+        "m0616",
+        "m0636",
+        "m0637",
+        "m0788"
+      ]
+    },
+    "plans": [
+      "རྒྱག",
+      "རྡུང",
+      "བསྒྲགས",
+      "སྒྲིག",
+      "རྒྱལ",
+      "རྒོལ",
+      "སྒྲོག",
+      "རྒན",
+      "བརྡ",
+      "རྒྱ",
+      "བསྒྲུགས",
+      "རྒྱས",
+      "སྦས",
+      "རྒྱགས",
+      "རྒྱན",
+      "རྒྱབ",
+      "རྗེན",
+      "རྡེབ",
+      "རྫུས",
+      "རྫོར",
+      "ལྗིད",
+      "ལྡོག",
+      "བརྗོད",
+      "སྒ",
+      "སྒམ",
+      "སྒུག",
+      "སྒེའུ",
+      "སྒོ",
+      "སྒོམ",
+      "སྒྲ",
+      "སྒྲུབ",
+      "རྗེ",
+      "སྡུག",
+      "སྦོམ",
+      "སྦྱིན",
+      "རྒྱོ",
+      "བསྒྲིམས"
+    ],
+    "userAcceptedFirstUTsugs": true,
+    "phoneticCertificationOfEntireCorpus": false,
+    "words": [
+      "གཟེར་རྒྱག་",
+      "སྣང་ཆུང་",
+      "བསླབ་བྱ་བྱེད་",
+      "བརྡ་",
+      "ཡར་རྒྱས་གཏོང་",
+      "ཨུ་ཚུགས་བྱེད་",
+      "ཨུ་ཚུགས་"
+    ],
+    "femaleGaAudioAlias": {
+      "རྒ": "དགའ"
+    }
+  }
 }
