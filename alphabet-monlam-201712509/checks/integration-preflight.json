@@ -1,0 +1,13 @@
+{
+  "sourceSha256": "6abe2f8339c66eafad5f7e6f9ff45bceb54d3c4a0a38c0edd0f51f400d820817",
+  "sourceCharacters": 72982,
+  "assetCommit": "8c245170083a11197771b2cad58aebb54b44ddb5",
+  "originalArraysPreserved": true,
+  "progressKeyPreserved": true,
+  "staticAudioOnly": true,
+  "voiceOptions": [
+    "female",
+    "male"
+  ],
+  "twoWordPlaybackModes": true
+}

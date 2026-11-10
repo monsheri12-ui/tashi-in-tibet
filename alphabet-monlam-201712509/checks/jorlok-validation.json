@@ -1,0 +1,23 @@
+{
+  "words": 500,
+  "plans": 512,
+  "forms": 150,
+  "voices": {
+    "female": {
+      "audioRecords": 1105,
+      "spellingSymbols": 38,
+      "allPlanReferencesPresent": true,
+      "allMp3HeadersValid": true
+    },
+    "male": {
+      "audioRecords": 1105,
+      "spellingSymbols": 38,
+      "allPlanReferencesPresent": true,
+      "allMp3HeadersValid": true
+    }
+  },
+  "crossVoiceDuplicatePcm": [],
+  "withinVoiceDuplicatePcm": [],
+  "originalArraysPreserved": true,
+  "progressKeyPreserved": true
+}
