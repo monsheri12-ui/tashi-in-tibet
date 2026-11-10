@@ -1,0 +1,18 @@
+{
+  "word": "མཆོད་པ་",
+  "voice": "female",
+  "id": "m0375",
+  "userSourceWav": "no beep",
+  "userPublished48Mp3AtNormalSpeed": "clean",
+  "userReencoded128Mp3AtNormalSpeed": "clean",
+  "livePageSelectedRate": 0.8,
+  "cause": "browser playback at 0.8x is the reproduction condition",
+  "nextCheck": "normal playback on same page",
+  "reencodedBankStatus": "staged only; not promoted or published",
+  "ordinarySourceModified": false,
+  "slowPreview": "/Users/yael/Documents/Codex/2026-11-10/new-chat-2/outputs/female-mchod-pa-slow-rendered.mp3",
+  "userLiveNormalSpeed": "no beep",
+  "userLiveSlowSpeed": "beep",
+  "userPreRenderedSlow": "clean",
+  "fix": "pre-render slow audio; always play at 1.0x"
+}

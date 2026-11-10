@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "wholeWordVoiceTempoCombinations": 4,
+  "spellingVoiceTempoCombinations": 4,
+  "normalAndSlowCachesSeparate": true,
+  "tempoSwitchRestartsSameReading": true,
+  "staleDownloadCancelled": true,
+  "voiceSwitchCancelsPlayback": true,
+  "browserPlaybackRateAlwaysOne": true,
+  "learnerProgressUnchanged": true,
+  "sourceFetches": 43
+}

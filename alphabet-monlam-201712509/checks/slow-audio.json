@@ -1,0 +1,403 @@
+{
+  "mainRecordings": 2210,
+  "spellingClips": 76,
+  "decodedAudioFiles": 2286,
+  "decodeErrors": 0,
+  "bitRateKbps": 128,
+  "sourcePcmUnchanged": true,
+  "spellingPlansUnchanged": true,
+  "labelsUnchanged": true,
+  "wordVoicePairsChecked": 1000,
+  "vowelFormVoicePairsChecked": 300,
+  "fragmentBoundariesChecked": 21508,
+  "boundarySamplesAllZero": true,
+  "maxDecodedPeak": 0.9667014479637146,
+  "controlFileIdenticalToStaged": true,
+  "phoneticCertification": false,
+  "subjectiveBeepConfirmation": "user confirmed slow control has no beep",
+  "recordedRate": 0.8,
+  "browserPlaybackRate": 1,
+  "ordinaryAudioUnchanged": true,
+  "examples": [
+    {
+      "word": "བཅོས་མ་",
+      "voice": "male",
+      "file": "male-bcos-ma.mp3",
+      "steps": [
+        {
+          "ref": "male/symbol/བ",
+          "label": "ba",
+          "seconds": 0.7655
+        },
+        {
+          "ref": "male/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.6843
+        },
+        {
+          "ref": "male/symbol/ཅ",
+          "label": "ca",
+          "seconds": 0.578
+        },
+        {
+          "ref": "male/symbol/ོ",
+          "label": "naro",
+          "seconds": 0.7607
+        },
+        {
+          "ref": "male/m0050",
+          "label": "བཅོ",
+          "seconds": 0.6135
+        },
+        {
+          "ref": "male/symbol/ས",
+          "label": "sa",
+          "seconds": 0.511
+        },
+        {
+          "ref": "male/m0738",
+          "label": "བཅོས",
+          "seconds": 0.555
+        },
+        {
+          "ref": "male/symbol/མ",
+          "label": "ma",
+          "seconds": 0.7431
+        }
+      ]
+    },
+    {
+      "word": "འཁྱགས་པ་",
+      "voice": "male",
+      "file": "male-khyags-pa.mp3",
+      "steps": [
+        {
+          "ref": "male/symbol/འ",
+          "label": "’a",
+          "seconds": 0.8195
+        },
+        {
+          "ref": "male/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.6843
+        },
+        {
+          "ref": "male/symbol/ཁ",
+          "label": "kha",
+          "seconds": 0.521
+        },
+        {
+          "ref": "male/symbol/ཡ",
+          "label": "ya",
+          "seconds": 0.6588
+        },
+        {
+          "ref": "male/symbol/@tags",
+          "label": "ta",
+          "seconds": 0.4653
+        },
+        {
+          "ref": "male/m0916",
+          "label": "འཁྱ",
+          "seconds": 0.5112
+        },
+        {
+          "ref": "male/symbol/ག",
+          "label": "ga",
+          "seconds": 0.509
+        },
+        {
+          "ref": "male/symbol/ས",
+          "label": "sa",
+          "seconds": 0.511
+        },
+        {
+          "ref": "male/m0800",
+          "label": "འཁྱགས",
+          "seconds": 0.5198
+        },
+        {
+          "ref": "male/symbol/པ",
+          "label": "pa",
+          "seconds": 0.439
+        }
+      ]
+    },
+    {
+      "word": "བསམ་བློ་",
+      "voice": "male",
+      "file": "male-samlo.mp3",
+      "steps": [
+        {
+          "ref": "male/symbol/བ",
+          "label": "ba",
+          "seconds": 0.7655
+        },
+        {
+          "ref": "male/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.6843
+        },
+        {
+          "ref": "male/symbol/ས",
+          "label": "sa",
+          "seconds": 0.511
+        },
+        {
+          "ref": "male/symbol/མ",
+          "label": "ma",
+          "seconds": 0.7431
+        },
+        {
+          "ref": "male/m0753",
+          "label": "བསམ",
+          "seconds": 0.7608
+        },
+        {
+          "ref": "male/symbol/བ",
+          "label": "ba",
+          "seconds": 0.7655
+        },
+        {
+          "ref": "male/symbol/ལ",
+          "label": "la",
+          "seconds": 0.7068
+        },
+        {
+          "ref": "male/symbol/@tags",
+          "label": "ta",
+          "seconds": 0.4653
+        },
+        {
+          "ref": "male/m0985",
+          "label": "བླ",
+          "seconds": 0.4939
+        },
+        {
+          "ref": "male/symbol/ོ",
+          "label": "naro",
+          "seconds": 0.7607
+        },
+        {
+          "ref": "male/m0768",
+          "label": "བློ",
+          "seconds": 0.4457
+        }
+      ]
+    },
+    {
+      "word": "དམའ་འབེབས་གཏོང་",
+      "voice": "female",
+      "file": "female-dama-bebs-tong.mp3",
+      "steps": [
+        {
+          "ref": "female/symbol/ད",
+          "label": "da",
+          "seconds": 0.7367
+        },
+        {
+          "ref": "female/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.3847
+        },
+        {
+          "ref": "female/symbol/མ",
+          "label": "ma",
+          "seconds": 0.6807
+        },
+        {
+          "ref": "female/symbol/འ",
+          "label": "’a",
+          "seconds": 0.7678
+        },
+        {
+          "ref": "female/m0720",
+          "label": "དམའ",
+          "seconds": 0.737
+        },
+        {
+          "ref": "female/symbol/འ",
+          "label": "’a",
+          "seconds": 0.7678
+        },
+        {
+          "ref": "female/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.3847
+        },
+        {
+          "ref": "female/m1097",
+          "label": "ba",
+          "seconds": 0.6428
+        },
+        {
+          "ref": "female/symbol/ེ",
+          "label": "drengbu",
+          "seconds": 0.7296
+        },
+        {
+          "ref": "female/m1026",
+          "label": "འབེ",
+          "seconds": 0.434
+        },
+        {
+          "ref": "female/symbol/བ",
+          "label": "ba",
+          "seconds": 0.6768
+        },
+        {
+          "ref": "female/symbol/ས",
+          "label": "sa",
+          "seconds": 0.6148
+        },
+        {
+          "ref": "female/m0816",
+          "label": "འབེབས",
+          "seconds": 0.3476
+        },
+        {
+          "ref": "female/symbol/ག",
+          "label": "ga",
+          "seconds": 0.5406
+        },
+        {
+          "ref": "female/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.3847
+        },
+        {
+          "ref": "female/symbol/ཏ",
+          "label": "ta",
+          "seconds": 0.5489
+        },
+        {
+          "ref": "female/symbol/ོ",
+          "label": "naro",
+          "seconds": 0.8887
+        },
+        {
+          "ref": "female/m0923",
+          "label": "གཏོ",
+          "seconds": 0.536
+        },
+        {
+          "ref": "female/symbol/ང",
+          "label": "nga",
+          "seconds": 0.5373
+        },
+        {
+          "ref": "female/m0198",
+          "label": "གཏོང",
+          "seconds": 0.5362
+        }
+      ]
+    },
+    {
+      "word": "དམའ་འབེབས་གཏོང་",
+      "voice": "male",
+      "file": "male-dama-bebs-tong.mp3",
+      "steps": [
+        {
+          "ref": "male/symbol/ད",
+          "label": "da",
+          "seconds": 0.8239
+        },
+        {
+          "ref": "male/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.6843
+        },
+        {
+          "ref": "male/symbol/མ",
+          "label": "ma",
+          "seconds": 0.7431
+        },
+        {
+          "ref": "male/symbol/འ",
+          "label": "’a",
+          "seconds": 0.8195
+        },
+        {
+          "ref": "male/m0720",
+          "label": "དམའ",
+          "seconds": 0.7541
+        },
+        {
+          "ref": "male/symbol/འ",
+          "label": "’a",
+          "seconds": 0.8195
+        },
+        {
+          "ref": "male/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.6843
+        },
+        {
+          "ref": "male/m1097",
+          "label": "ba",
+          "seconds": 0.739
+        },
+        {
+          "ref": "male/symbol/ེ",
+          "label": "drengbu",
+          "seconds": 0.7851
+        },
+        {
+          "ref": "male/m1026",
+          "label": "འབེ",
+          "seconds": 0.5499
+        },
+        {
+          "ref": "male/symbol/བ",
+          "label": "ba",
+          "seconds": 0.7655
+        },
+        {
+          "ref": "male/symbol/ས",
+          "label": "sa",
+          "seconds": 0.511
+        },
+        {
+          "ref": "male/m0816",
+          "label": "འབེབས",
+          "seconds": 0.3531
+        },
+        {
+          "ref": "male/symbol/ག",
+          "label": "ga",
+          "seconds": 0.509
+        },
+        {
+          "ref": "male/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.6843
+        },
+        {
+          "ref": "male/symbol/ཏ",
+          "label": "ta",
+          "seconds": 0.5053
+        },
+        {
+          "ref": "male/symbol/ོ",
+          "label": "naro",
+          "seconds": 0.7607
+        },
+        {
+          "ref": "male/m0923",
+          "label": "གཏོ",
+          "seconds": 0.3623
+        },
+        {
+          "ref": "male/symbol/ང",
+          "label": "nga",
+          "seconds": 0.8182
+        },
+        {
+          "ref": "male/m0198",
+          "label": "གཏོང",
+          "seconds": 0.54
+        }
+      ]
+    }
+  ]
+}
