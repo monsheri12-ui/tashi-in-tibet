@@ -12,7 +12,7 @@
   "spellingPlans": 512,
   "words": 500,
   "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
-  "publishedVerified": false,
+  "publishedVerified": true,
   "spellingCommit": "8c245170083a11197771b2cad58aebb54b44ddb5",
   "audioCleanup": {
     "changedSyllablePlans": 105,
@@ -21,7 +21,7 @@
     "wordVoicePairsChecked": 1000,
     "fragmentBoundariesChecked": 21508
   },
-  "previousIntegrationCommit": "97127855832d98db63da3c36b92eec9e4ea7af85",
+  "previousIntegrationCommit": "ae365d372732b4ad661ff063c5b5e530d61034d6",
   "malePronunciationRepairs": {
     "changedRecordings": 15,
     "isolatedTonesRemoved": 11,
@@ -36,8 +36,8 @@
     "sharedFragmentAutomaticTranscripts": 519,
     "nativePhoneticCertification": false
   },
-  "integrationCommit": "ae365d372732b4ad661ff063c5b5e530d61034d6",
-  "publicVerification": "checks/public-male-repair.json",
+  "integrationCommit": "9ae97ed5b1895824fc0da01ff8caaf564dda728c",
+  "publicVerification": "checks/public-slow-mode.json",
   "slowAudioCommit": "3fd4f5f966f70479261c7496f661577fbc0057d1",
   "slowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/3fd4f5f966f70479261c7496f661577fbc0057d1/alphabet-monlam-201712509/audio-slow/",
   "slowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/3fd4f5f966f70479261c7496f661577fbc0057d1/alphabet-monlam-201712509/spelling-slow/",
@@ -51,5 +51,6 @@
     "userControlConfirmedClean": true,
     "verification": "checks/slow-audio.json",
     "playerTests": "checks/slow-player.json"
-  }
+  },
+  "sourceSha256": "2ade1198cd7151175378ade0030f73f8df43dd1fd6177c8500cae6891ed8483d"
 }
