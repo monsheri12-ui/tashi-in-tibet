@@ -1,0 +1,22 @@
+{
+  "publicationSuccess": true,
+  "assetCommit": "8c245170083a11197771b2cad58aebb54b44ddb5",
+  "maleBcosStatus": "Мужской голос · по слогам · слог 1 · ba",
+  "femaleBcosPlaybackObserved": true,
+  "khyagsPlaybackObserved": true,
+  "wholeWordPlaybackObserved": true,
+  "voiceSwitchStopsPlayback": true,
+  "aliasReaderPresent": true,
+  "audioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8c245170083a11197771b2cad58aebb54b44ddb5/alphabet-monlam-201712509/audio/",
+  "busyButtons": 0,
+  "currentLetter": "Вайли: ma",
+  "maleSelected": "true",
+  "playingButtons": 0,
+  "selectedAnswers": 0,
+  "spellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8c245170083a11197771b2cad58aebb54b44ddb5/alphabet-monlam-201712509/spelling/",
+  "stats": "0\nсерия\n—\nточность",
+  "status": "",
+  "tempo": "1",
+  "url": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "consoleErrors": []
+}
