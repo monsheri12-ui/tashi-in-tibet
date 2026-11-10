@@ -27,7 +27,7 @@
           <option value="1">Обычный</option><option value="0.8">Медленный</option>
         </select>
       </label>
-      <span id="tw2-audio-status" class="tw-audio-status" role="status" aria-live="polite">Monlam · центральнотибетский</span>
+      <span id="tw2-audio-status" class="tw-audio-status" role="status" aria-live="polite"></span>
     </section>
 
     <section class="tw-modes" id="tw2-modes" aria-label="Выберите упражнение">
@@ -223,6 +223,7 @@
 #tw-alphabet-lab .tw-audio-speed{display:flex;align-items:center;gap:8px;color:var(--muted)}
 #tw-alphabet-lab .tw-audio-speed select{max-width:145px;padding:7px 9px;border:1px solid var(--line);border-radius:9px;color:var(--ink);background:var(--paper);font:inherit;cursor:pointer}
 #tw-alphabet-lab .tw-audio-status{flex:1;min-width:190px;color:var(--muted);font-size:12px;text-align:right}
+#tw-alphabet-lab .tw-audio-status:empty{display:none}
 #tw-alphabet-lab .tw-audio-button{display:inline-flex;flex-shrink:0;align-items:center;justify-content:center;gap:7px;min-width:36px;min-height:36px;padding:7px;border:1px solid #cbded8;border-radius:50%;background:#eef6f2;color:var(--jade);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:12px;line-height:1;cursor:pointer;transition:background .15s,color .15s,box-shadow .15s}
 #tw-alphabet-lab .tw-audio-button svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 #tw-alphabet-lab .tw-audio-button:hover,#tw-alphabet-lab .tw-audio-button.is-playing{background:var(--jade);color:#fff}
@@ -304,7 +305,7 @@ MONLAM_TEXTS.forEach(function(text,index){audioIndex.set(audioKey(text),index)})
 try{var prefs=JSON.parse(localStorage.getItem("tibetan-alphabet-monlam-voice-v1")||"null");if(prefs){if(prefs.voice==="male")audioVoice="male";if(prefs.rate===.8)audioRate=.8}}catch(e){}
 function saveAudioPreferences(){try{localStorage.setItem("tibetan-alphabet-monlam-voice-v1",JSON.stringify({voice:audioVoice,rate:audioRate}))}catch(e){}}
 function resetAudioButton(){if(audioActiveButton){audioActiveButton.classList.remove("is-playing","is-loading");audioActiveButton.setAttribute("aria-busy","false");audioActiveButton=null}}
-function stopMonlamAudio(){audioRequest++;audioPlayer.pause();resetSpellingPlayback();resetAudioButton();audioStatus.textContent="Monlam · центральнотибетский"}
+function stopMonlamAudio(){audioRequest++;audioPlayer.pause();resetSpellingPlayback();resetAudioButton();audioStatus.textContent=""}
 function loadAudioChunk(voice,index){
  var chunk=Math.floor(index/MONLAM_CHUNK_SIZE),key=voice+"/"+chunk;
  if(!audioChunks.has(key)){
@@ -326,7 +327,7 @@ async function playMonlamAudio(text,button){
   button.classList.remove("is-loading");button.classList.add("is-playing");button.setAttribute("aria-busy","false");audioStatus.textContent=(audioVoice==="female"?"Женский":"Мужской")+" голос · "+(audioRate===1?"обычный темп":"медленный темп");
  }catch(error){if(request===audioRequest){resetAudioButton();audioStatus.textContent="Не удалось загрузить запись. Нажмите на звук ещё раз."}}
 }
-audioPlayer.addEventListener("ended",function(){resetSpellingPlayback();resetAudioButton();audioStatus.textContent="Monlam · центральнотибетский"});
+audioPlayer.addEventListener("ended",function(){resetSpellingPlayback();resetAudioButton();audioStatus.textContent=""});
 audioPlayer.addEventListener("error",function(){resetSpellingPlayback();resetAudioButton();audioStatus.textContent="Не удалось воспроизвести запись. Попробуйте ещё раз."});
 function makeAudioButton(text,label,showLabel,spell){
  var button=document.createElement("button");button.type="button";button.className="tw-audio-button";button.lang="ru";button.title=label;button.setAttribute("aria-label",label);button.setAttribute("aria-busy","false");button.innerHTML=audioIcon;
