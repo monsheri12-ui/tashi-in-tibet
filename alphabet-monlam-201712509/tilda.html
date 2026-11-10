@@ -1,0 +1,590 @@
+
+<div id="tw-alphabet-lab" class="tw-lab" lang="ru">
+  <div class="tw-shell">
+    <header class="tw-header">
+      <div>
+        <p class="tw-eyebrow">Tibetan Words · тренажёр</p>
+        <h2>Тренажёр тибетского алфавита</h2>
+        <p class="tw-lead">Узнавайте буквы отдельно, различайте похожие формы и находите их в настоящих словах.</p>
+      </div>
+      <div class="tw-header-progress" aria-label="Прогресс текущего режима">
+        <strong id="tw2-completed-count">0</strong>
+        <span id="tw2-completed-label">из 30 букв</span>
+      </div>
+    </header>
+
+    <div class="tw-progress-track" aria-hidden="true"><span id="tw2-progress-fill"></span></div>
+
+
+    <section class="tw-audio-toolbar" aria-label="Настройки озвучки">
+      <div class="tw-voice-control" role="group" aria-label="Голос озвучки">
+        <span>Голос:</span>
+        <button type="button" data-tw-voice="female" aria-pressed="true">Женский</button>
+        <button type="button" data-tw-voice="male" aria-pressed="false">Мужской</button>
+      </div>
+      <label class="tw-audio-speed">Темп
+        <select id="tw2-audio-speed" aria-label="Темп озвучки">
+          <option value="1">Обычный</option><option value="0.8">Медленный</option>
+        </select>
+      </label>
+      <span id="tw2-audio-status" class="tw-audio-status" role="status" aria-live="polite">Monlam · центральнотибетский</span>
+    </section>
+
+    <section class="tw-modes" id="tw2-modes" aria-label="Выберите упражнение">
+      <button class="tw-mode" type="button" data-mode="glyph">
+        <span class="tw-mode-number">1</span>
+        <strong>Буквы в словах</strong>
+        <small>Ищем букву и в связках</small>
+        <em data-mode-count="glyph">0/30</em>
+      </button>
+      <button class="tw-mode" type="button" data-mode="similar">
+        <span class="tw-mode-number">2</span>
+        <strong>Похожие буквы</strong>
+        <small>Не путаем близкие формы</small>
+        <em data-mode-count="similar">0/30</em>
+      </button>
+      <button class="tw-mode" type="button" data-mode="syllable">
+        <span class="tw-mode-number">3</span>
+        <strong>Найдите слог</strong>
+        <small>Выбираем слог целиком</small>
+        <em data-mode-count="syllable">0/30</em>
+      </button>
+      <button class="tw-mode" type="button" data-mode="wylie">
+        <span class="tw-mode-number">4</span>
+        <strong>Буква и Вайли</strong>
+        <small>Соотносим две записи</small>
+        <em data-mode-count="wylie">0/30</em>
+      </button>
+      <button class="tw-mode" type="button" data-mode="vowels">
+        <span class="tw-mode-number">5</span>
+        <strong>Огласовки</strong>
+        <small>Ищем ka, ki, ku, ke, ko</small>
+        <em data-mode-count="vowels">0/30</em>
+      </button>
+    </section>
+
+    <div class="tw-alphabet-wrap" id="tw2-alphabet-wrap">
+      <nav class="tw-alphabet" id="tw2-alphabet" aria-label="Тибетский алфавит"></nav>
+    </div>
+
+    <div class="tw-workspace">
+      <aside class="tw-letter-card">
+        <span class="tw-card-label" id="tw2-card-label">Ищем букву</span>
+        <div class="tw-target-letter" id="tw2-target" lang="bo">ཀ</div>
+        <div class="tw-transliteration" id="tw2-caption">Вайли: ka</div>
+        <div class="tw-target-audio" id="tw2-target-audio"></div>
+        <p class="tw-letter-hint" id="tw2-hint">Буква может стоять отдельно или входить в состав связки.</p>
+
+        <div class="tw-rounds" aria-label="Прогресс текущей буквы">
+          <span class="tw-round-dot"></span>
+          <span class="tw-round-dot"></span>
+          <span class="tw-round-dot"></span>
+          <span class="tw-round-dot" hidden></span>
+          <span class="tw-round-dot" hidden></span>
+          <small id="tw2-round-label">Задание 1 из 3</small>
+        </div>
+
+        <div class="tw-mini-stats">
+          <div><strong id="tw2-streak">0</strong><span>серия</span></div>
+          <div><strong id="tw2-accuracy">—</strong><span>точность</span></div>
+        </div>
+      </aside>
+
+      <main class="tw-task-card">
+        <div class="tw-task-head">
+          <div>
+            <p class="tw-step" id="tw2-step">Буквы в словах</p>
+            <h3 id="tw2-task-title">Отметьте все ཀ</h3>
+          </div>
+          <button class="tw-icon-button" id="tw2-new-round" type="button" title="Другой вариант" aria-label="Показать другой вариант задания">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8.1 8.1 0 0 0-14.9-4M4 4v4h4M4 13a8.1 8.1 0 0 0 14.9 4M20 20v-4h-4"/></svg>
+          </button>
+        </div>
+
+        <p class="tw-instruction" id="tw2-instruction">Нажимайте на буквы и связки. Разделители выбирать не нужно.</p>
+        <div class="tw-exercise" id="tw2-exercise" aria-label="Область упражнения"></div>
+        <div class="tw-feedback" id="tw2-feedback" role="status" aria-live="polite" hidden></div>
+
+        <div class="tw-actions">
+          <button class="tw-secondary" id="tw2-clear" type="button">Снять выбор</button>
+          <button class="tw-primary" id="tw2-check" type="button" disabled>Проверить</button>
+          <button class="tw-primary" id="tw2-continue" type="button" hidden>Следующее задание</button>
+        </div>
+      </main>
+    </div>
+
+    <footer class="tw-footer">
+      <span>5 режимов · в словаре — <strong id="tw2-word-count">500</strong> тибетских слов.</span>
+      <button id="tw2-reset" type="button">Сбросить весь прогресс</button>
+    </footer>
+  </div>
+</div>
+
+<style>
+#tw-alphabet-lab,#tw-alphabet-lab *{box-sizing:border-box}
+#tw-alphabet-lab{--ink:#25263f;--muted:#6f6d76;--cream:#f7f2e8;--paper:#fffdf8;--line:#ded6c8;--saffron:#cf7929;--saffron-dark:#a9531f;--jade:#39716b;--jade-soft:#deeeea;--red:#b84c48;--red-soft:#fae7e3;--shadow:0 22px 60px rgba(55,43,31,.12);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.45;padding:32px 18px;background:radial-gradient(circle at 12% 4%,rgba(207,121,41,.12),transparent 27%),radial-gradient(circle at 92% 92%,rgba(57,113,107,.12),transparent 30%),var(--cream)}
+#tw-alphabet-lab button{font:inherit}
+#tw-alphabet-lab .tw-shell{width:min(1160px,100%);margin:0 auto}
+#tw-alphabet-lab .tw-header{display:flex;align-items:end;justify-content:space-between;gap:28px;padding:8px 4px 23px}
+#tw-alphabet-lab .tw-eyebrow,#tw-alphabet-lab .tw-step,#tw-alphabet-lab .tw-card-label{margin:0 0 7px;color:var(--saffron-dark);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+#tw-alphabet-lab h2{margin:0;font-size:clamp(30px,4.2vw,52px);line-height:1.05;letter-spacing:-.035em}
+#tw-alphabet-lab .tw-lead{margin:10px 0 0;color:var(--muted);font-size:16px}
+#tw-alphabet-lab .tw-header-progress{flex:0 0 auto;min-width:132px;padding:13px 17px;border:1px solid rgba(207,121,41,.28);border-radius:18px;background:rgba(255,253,248,.68);text-align:center}
+#tw-alphabet-lab .tw-header-progress strong{display:block;font-size:26px;line-height:1}
+#tw-alphabet-lab .tw-header-progress span{color:var(--muted);font-size:12px}
+#tw-alphabet-lab .tw-progress-track{height:5px;overflow:hidden;border-radius:99px;background:#e8dfd1}
+#tw-alphabet-lab .tw-progress-track span{display:block;width:0;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--saffron),#e5a44a);transition:width .35s ease}
+#tw-alphabet-lab .tw-modes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin:17px 0 14px}
+#tw-alphabet-lab .tw-mode{position:relative;min-height:94px;padding:15px 40px 13px 46px;border:1px solid var(--line);border-radius:17px;color:var(--ink);background:rgba(255,253,248,.76);text-align:left;cursor:pointer;transition:transform .16s ease,border-color .16s ease,background .16s ease}
+#tw-alphabet-lab .tw-mode:hover{transform:translateY(-2px);border-color:var(--saffron)}
+#tw-alphabet-lab .tw-mode.is-active{border-color:var(--ink);background:var(--ink);color:#fff}
+#tw-alphabet-lab .tw-mode-number{position:absolute;top:15px;left:14px;display:grid;width:24px;height:24px;place-items:center;border-radius:50%;background:#efe5d5;color:var(--saffron-dark);font-size:11px;font-weight:900}
+#tw-alphabet-lab .tw-mode.is-active .tw-mode-number{background:rgba(255,255,255,.16);color:#fff}
+#tw-alphabet-lab .tw-mode strong,#tw-alphabet-lab .tw-mode small{display:block}
+#tw-alphabet-lab .tw-mode strong{font-size:14px;line-height:1.2}
+#tw-alphabet-lab .tw-mode small{margin-top:5px;color:var(--muted);font-size:11px;line-height:1.25}
+#tw-alphabet-lab .tw-mode.is-active small{color:rgba(255,255,255,.72)}
+#tw-alphabet-lab .tw-mode em{position:absolute;top:14px;right:12px;color:var(--muted);font-size:10px;font-style:normal;font-weight:800}
+#tw-alphabet-lab .tw-mode.is-active em{color:rgba(255,255,255,.76)}
+#tw-alphabet-lab .tw-alphabet-wrap{display:block}
+#tw-alphabet-lab .tw-alphabet-wrap.is-concealed{display:none}
+#tw-alphabet-lab .tw-alphabet{display:grid;grid-template-columns:repeat(15,minmax(40px,1fr));gap:7px;margin:0 0 22px}
+#tw-alphabet-lab .tw-letter-tab{position:relative;min-height:44px;border:1px solid var(--line);border-radius:12px;color:var(--ink);background:rgba(255,253,248,.72);cursor:pointer;font-family:"Noto Serif Tibetan",Kailasa,"Microsoft Himalaya",serif;font-size:24px;transition:transform .16s ease,border-color .16s ease,background .16s ease}
+#tw-alphabet-lab .tw-letter-tab:hover{transform:translateY(-2px);border-color:var(--saffron)}
+#tw-alphabet-lab .tw-letter-tab.is-active{color:#fff;border-color:var(--ink);background:var(--ink)}
+#tw-alphabet-lab .tw-letter-tab.is-done::after{content:"";position:absolute;top:5px;right:5px;width:7px;height:7px;border:2px solid var(--paper);border-radius:50%;background:var(--jade)}
+#tw-alphabet-lab .tw-workspace{display:grid;grid-template-columns:minmax(230px,.78fr) minmax(0,2.22fr);gap:18px;align-items:stretch}
+#tw-alphabet-lab .tw-letter-card,#tw-alphabet-lab .tw-task-card{border:1px solid rgba(222,214,200,.88);border-radius:28px;background:var(--paper);box-shadow:var(--shadow)}
+#tw-alphabet-lab .tw-letter-card{display:flex;flex-direction:column;align-items:center;padding:26px 22px 22px;text-align:center}
+#tw-alphabet-lab .tw-target-letter{display:grid;width:142px;height:142px;margin:15px 0 12px;place-items:center;border:1px solid #e2cda9;border-radius:50%;background:linear-gradient(145deg,#fffaf0,#f3e7d3);color:var(--saffron-dark);font-family:"Noto Serif Tibetan",Kailasa,"Microsoft Himalaya",serif;font-size:88px;line-height:1;box-shadow:inset 0 0 0 8px rgba(255,255,255,.58)}
+#tw-alphabet-lab .tw-target-letter.is-wylie{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:40px;font-weight:850;letter-spacing:.04em}
+#tw-alphabet-lab .tw-transliteration{font-size:17px;font-weight:800;letter-spacing:.04em}
+#tw-alphabet-lab .tw-letter-hint{max-width:220px;margin:10px auto 20px;color:var(--muted);font-size:13px}
+#tw-alphabet-lab .tw-rounds{display:grid;grid-template-columns:repeat(3,18px);justify-content:center;gap:7px;margin-top:auto}
+#tw-alphabet-lab .tw-round-dot{width:18px;height:7px;border-radius:99px;background:#e8e1d6}
+#tw-alphabet-lab .tw-round-dot.is-done{background:var(--jade)}
+#tw-alphabet-lab .tw-rounds small{grid-column:1/-1;margin-top:2px;color:var(--muted)}
+#tw-alphabet-lab .tw-mini-stats{display:grid;grid-template-columns:1fr 1fr;width:100%;margin-top:18px;padding-top:17px;border-top:1px solid #ece5da}
+#tw-alphabet-lab .tw-mini-stats div+div{border-left:1px solid #ece5da}
+#tw-alphabet-lab .tw-mini-stats strong,#tw-alphabet-lab .tw-mini-stats span{display:block}
+#tw-alphabet-lab .tw-mini-stats strong{font-size:21px}
+#tw-alphabet-lab .tw-mini-stats span{color:var(--muted);font-size:11px}
+#tw-alphabet-lab .tw-task-card{padding:clamp(22px,3.6vw,38px)}
+#tw-alphabet-lab .tw-task-head{display:flex;align-items:center;justify-content:space-between;gap:20px}
+#tw-alphabet-lab .tw-task-head h3{margin:0;font-size:clamp(23px,3vw,34px);letter-spacing:-.02em}
+#tw-alphabet-lab .tw-task-head h3 .bo{color:var(--saffron-dark);font-family:"Noto Serif Tibetan",Kailasa,serif;font-size:1.25em}
+#tw-alphabet-lab .tw-task-head h3 .latin{color:var(--saffron-dark);font-weight:850;letter-spacing:.03em}
+#tw-alphabet-lab .tw-icon-button{display:grid;flex:0 0 auto;width:42px;height:42px;place-items:center;border:1px solid var(--line);border-radius:50%;color:var(--muted);background:#fff;cursor:pointer}
+#tw-alphabet-lab .tw-icon-button:hover{color:var(--jade);border-color:var(--jade)}
+#tw-alphabet-lab .tw-icon-button svg{width:19px;fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+#tw-alphabet-lab .tw-instruction{margin:8px 0 22px;color:var(--muted);font-size:14px}
+#tw-alphabet-lab .tw-exercise{min-height:270px}
+#tw-alphabet-lab .tw-words{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+#tw-alphabet-lab .tw-word{display:flex;min-height:74px;flex-wrap:wrap;align-items:center;justify-content:center;gap:1px;padding:10px 13px;border:1px solid #e5ddd1;border-radius:17px;background:#fffefa}
+#tw-alphabet-lab .tw-answer{border:1px solid transparent;color:var(--ink);background:transparent;cursor:pointer;transition:transform .12s ease,background .12s ease,border-color .12s ease;color .12s ease}
+#tw-alphabet-lab .tw-answer:hover:not(:disabled){transform:translateY(-2px);border-color:#d8c4a6;background:#fff8eb}
+#tw-alphabet-lab .tw-answer:disabled{opacity:1;cursor:default}
+#tw-alphabet-lab .tw-glyph{min-width:31px;min-height:45px;padding:1px 5px 4px;border-radius:9px;font-family:"Noto Serif Tibetan",Kailasa,"Microsoft Himalaya",serif;font-size:clamp(28px,3vw,36px);line-height:1.15}
+#tw-alphabet-lab .tw-syllable{min-height:48px;padding:2px 8px 5px;border-radius:10px;font-family:"Noto Serif Tibetan",Kailasa,"Microsoft Himalaya",serif;font-size:clamp(27px,3vw,35px);line-height:1.2}
+#tw-alphabet-lab .tw-separator{color:#9a9290;font-family:"Noto Serif Tibetan",Kailasa,serif;font-size:28px;line-height:1}
+#tw-alphabet-lab .tw-choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;max-width:760px;margin:10px auto 0}
+#tw-alphabet-lab .tw-choice{display:grid;min-height:105px;place-items:center;padding:12px;border:1px solid #e5ddd1;border-radius:18px;background:#fffefa;font-size:28px;font-weight:800}
+#tw-alphabet-lab .tw-choice.is-tibetan{font-family:"Noto Serif Tibetan",Kailasa,"Microsoft Himalaya",serif;font-size:58px;font-weight:400}
+#tw-alphabet-lab .tw-vowel-grid{grid-template-columns:repeat(5,minmax(0,1fr));max-width:900px}
+#tw-alphabet-lab .tw-vowel-grid .tw-choice{min-height:122px}
+#tw-alphabet-lab .tw-vowel-grid .tw-choice.is-tibetan{font-size:64px}
+#tw-alphabet-lab .tw-answer.is-selected{color:#fff;border-color:var(--saffron);background:var(--saffron)}
+#tw-alphabet-lab .tw-answer.is-correct{color:#fff;border-color:var(--jade);background:var(--jade)}
+#tw-alphabet-lab .tw-answer.is-wrong{color:var(--red);border-color:var(--red);background:var(--red-soft)}
+#tw-alphabet-lab .tw-answer.is-missed{color:var(--saffron-dark);border-color:var(--saffron);background:#fff2d9;box-shadow:0 0 0 2px rgba(207,121,41,.16)}
+#tw-alphabet-lab .tw-feedback{margin-top:18px;padding:14px 17px;border-radius:15px;font-size:14px;font-weight:650}
+#tw-alphabet-lab .tw-feedback.is-success{color:#215c56;background:var(--jade-soft)}
+#tw-alphabet-lab .tw-feedback.is-error{color:#8e3835;background:var(--red-soft)}
+#tw-alphabet-lab .tw-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:22px}
+#tw-alphabet-lab .tw-primary,#tw-alphabet-lab .tw-secondary{min-height:48px;padding:0 22px;border-radius:14px;font-weight:800;cursor:pointer}
+#tw-alphabet-lab .tw-primary{border:1px solid var(--ink);color:#fff;background:var(--ink);box-shadow:0 8px 20px rgba(37,38,63,.15)}
+#tw-alphabet-lab .tw-primary:hover:not(:disabled){background:#353754}
+#tw-alphabet-lab .tw-primary:disabled{border-color:#c9c4bc;color:#8b8781;background:#e5e1da;box-shadow:none;cursor:not-allowed}
+#tw-alphabet-lab .tw-secondary{border:1px solid var(--line);color:var(--ink);background:#fff}
+#tw-alphabet-lab .tw-secondary:hover{border-color:var(--saffron)}
+#tw-alphabet-lab .tw-footer{display:flex;justify-content:space-between;gap:18px;padding:18px 5px 0;color:var(--muted);font-size:12px}
+#tw-alphabet-lab .tw-footer button{padding:0;border:0;color:var(--muted);background:none;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+#tw-alphabet-lab button:focus-visible{outline:3px solid rgba(207,121,41,.33);outline-offset:2px}
+#tw-alphabet-lab [hidden]{display:none!important}
+@media(max-width:900px){#tw-alphabet-lab .tw-modes{grid-template-columns:repeat(2,minmax(0,1fr))}#tw-alphabet-lab .tw-mode[data-mode="vowels"]{grid-column:1/-1}#tw-alphabet-lab .tw-alphabet{grid-template-columns:repeat(10,1fr)}#tw-alphabet-lab .tw-workspace{grid-template-columns:1fr}#tw-alphabet-lab .tw-letter-card{display:grid;grid-template-columns:auto 106px 1fr;grid-template-rows:auto auto auto;column-gap:18px;text-align:left}#tw-alphabet-lab .tw-card-label{grid-column:1/-1}#tw-alphabet-lab .tw-target-letter{grid-row:2/4;width:106px;height:106px;margin:7px 0 0;font-size:65px}#tw-alphabet-lab .tw-target-letter.is-wylie{font-size:31px}#tw-alphabet-lab .tw-transliteration{align-self:end}#tw-alphabet-lab .tw-letter-hint{max-width:none;margin:4px 0 0}#tw-alphabet-lab .tw-rounds{grid-column:3;margin:14px 0 0;justify-content:start}#tw-alphabet-lab .tw-mini-stats{grid-column:1/-1}}
+@media(max-width:620px){#tw-alphabet-lab{padding:21px 10px}#tw-alphabet-lab .tw-header{align-items:stretch;flex-direction:column;gap:14px}#tw-alphabet-lab .tw-header-progress{display:flex;width:100%;min-width:0;align-items:baseline;justify-content:center;gap:7px;padding:10px}#tw-alphabet-lab .tw-header-progress strong{display:inline}#tw-alphabet-lab .tw-lead{font-size:14px}#tw-alphabet-lab .tw-modes{grid-template-columns:1fr 1fr;gap:7px}#tw-alphabet-lab .tw-mode{min-height:88px;padding:13px 34px 11px 40px}#tw-alphabet-lab .tw-mode-number{top:13px;left:11px}#tw-alphabet-lab .tw-mode em{top:12px;right:9px}#tw-alphabet-lab .tw-alphabet{grid-template-columns:repeat(6,1fr);gap:6px}#tw-alphabet-lab .tw-letter-tab{min-height:42px;font-size:23px}#tw-alphabet-lab .tw-letter-card{grid-template-columns:88px 1fr;padding:20px}#tw-alphabet-lab .tw-target-letter{grid-column:1;width:88px;height:88px;font-size:56px}#tw-alphabet-lab .tw-target-letter.is-wylie{font-size:27px}#tw-alphabet-lab .tw-transliteration,#tw-alphabet-lab .tw-letter-hint,#tw-alphabet-lab .tw-rounds{grid-column:2}#tw-alphabet-lab .tw-rounds{grid-row:auto}#tw-alphabet-lab .tw-words{grid-template-columns:1fr}#tw-alphabet-lab .tw-word{min-height:68px}#tw-alphabet-lab .tw-choice-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}#tw-alphabet-lab .tw-vowel-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#tw-alphabet-lab .tw-choice{min-height:88px}#tw-alphabet-lab .tw-choice.is-tibetan{font-size:50px}#tw-alphabet-lab .tw-actions{display:grid;grid-template-columns:1fr 1fr}#tw-alphabet-lab .tw-actions button{width:100%;padding-inline:12px}#tw-alphabet-lab .tw-actions #tw2-continue{grid-column:1/-1}#tw-alphabet-lab .tw-footer{align-items:start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){#tw-alphabet-lab *,#tw-alphabet-lab *::before,#tw-alphabet-lab *::after{scroll-behavior:auto!important;transition:none!important}}
+
+#tw-alphabet-lab .tw-audio-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px;margin:0 0 20px;padding:13px 16px;border:1px solid var(--line);border-radius:17px;background:rgba(255,253,248,.88);font-size:13px}
+#tw-alphabet-lab .tw-voice-control{display:flex;align-items:center;gap:5px}
+#tw-alphabet-lab .tw-voice-control>span{margin-right:5px;color:var(--muted)}
+#tw-alphabet-lab .tw-voice-control button{padding:8px 13px;border:1px solid transparent;border-radius:10px;color:var(--ink);background:transparent;cursor:pointer}
+#tw-alphabet-lab .tw-voice-control button[aria-pressed="true"]{color:#fff;background:var(--jade)}
+#tw-alphabet-lab .tw-audio-speed{display:flex;align-items:center;gap:8px;color:var(--muted)}
+#tw-alphabet-lab .tw-audio-speed select{max-width:145px;padding:7px 9px;border:1px solid var(--line);border-radius:9px;color:var(--ink);background:var(--paper);font:inherit;cursor:pointer}
+#tw-alphabet-lab .tw-audio-status{flex:1;min-width:190px;color:var(--muted);font-size:12px;text-align:right}
+#tw-alphabet-lab .tw-audio-button{display:inline-flex;flex-shrink:0;align-items:center;justify-content:center;gap:7px;min-width:36px;min-height:36px;padding:7px;border:1px solid #cbded8;border-radius:50%;background:#eef6f2;color:var(--jade);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:12px;line-height:1;cursor:pointer;transition:background .15s,color .15s,box-shadow .15s}
+#tw-alphabet-lab .tw-audio-button svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+#tw-alphabet-lab .tw-audio-button:hover,#tw-alphabet-lab .tw-audio-button.is-playing{background:var(--jade);color:#fff}
+#tw-alphabet-lab .tw-audio-button.is-loading{opacity:.7}
+#tw-alphabet-lab .tw-audio-button:focus-visible,#tw-alphabet-lab .tw-voice-control button:focus-visible,#tw-alphabet-lab .tw-audio-speed select:focus-visible{outline:3px solid var(--saffron);outline-offset:3px}
+#tw-alphabet-lab .tw-target-audio{margin:13px auto 0}
+#tw-alphabet-lab .tw-target-audio .tw-audio-button{padding:10px 15px;border-radius:12px}
+#tw-alphabet-lab .tw-word{position:relative;padding-right:51px}
+#tw-alphabet-lab .tw-word>.tw-audio-button{position:absolute;right:8px;top:50%;transform:translateY(-50%)}
+#tw-alphabet-lab .tw-audio-choice{position:relative;min-width:0}
+#tw-alphabet-lab .tw-audio-choice>.tw-choice{width:100%;height:100%;padding-top:27px;padding-bottom:23px}
+#tw-alphabet-lab .tw-audio-choice>.tw-audio-button{position:absolute;right:5px;top:5px;min-width:29px;min-height:29px;padding:5px}
+#tw-alphabet-lab .tw-audio-choice>.tw-audio-button svg{width:15px;height:15px}
+@media(max-width:900px){#tw-alphabet-lab .tw-target-audio{grid-column:3;margin:10px 0 0}#tw-alphabet-lab .tw-target-audio .tw-audio-button{min-height:34px;padding:8px 12px}}
+@media(max-width:620px){#tw-alphabet-lab .tw-audio-toolbar{padding:11px;gap:10px 15px}#tw-alphabet-lab .tw-audio-status{width:100%;text-align:left}#tw-alphabet-lab .tw-target-audio{grid-column:2}#tw-alphabet-lab .tw-word{padding-right:53px}}
+
+</style>
+
+<script>
+(function(){
+"use strict";
+var root=document.getElementById("tw-alphabet-lab");
+if(!root||root.dataset.ready==="true")return;
+root.dataset.ready="true";
+
+var LETTERS=[
+{base:"ཀ",name:"ka",aliases:["ྐ"]},{base:"ཁ",name:"kha",aliases:["ྑ"]},{base:"ག",name:"ga",aliases:["ྒ"]},{base:"ང",name:"nga",aliases:["ྔ"]},
+{base:"ཅ",name:"ca",aliases:["ྕ"]},{base:"ཆ",name:"cha",aliases:["ྖ"]},{base:"ཇ",name:"ja",aliases:["ྗ"]},{base:"ཉ",name:"nya",aliases:["ྙ"]},
+{base:"ཏ",name:"ta",aliases:["ྟ"]},{base:"ཐ",name:"tha",aliases:["ྠ"]},{base:"ད",name:"da",aliases:["ྡ"]},{base:"ན",name:"na",aliases:["ྣ"]},
+{base:"པ",name:"pa",aliases:["ྤ"]},{base:"ཕ",name:"pha",aliases:["ྥ"]},{base:"བ",name:"ba",aliases:["ྦ"]},{base:"མ",name:"ma",aliases:["ྨ"]},
+{base:"ཙ",name:"tsa",aliases:["ྩ"]},{base:"ཚ",name:"tsha",aliases:["ྪ"]},{base:"ཛ",name:"dza",aliases:["ྫ"]},{base:"ཝ",name:"wa",aliases:["ྭ","ྺ"]},
+{base:"ཞ",name:"zha",aliases:["ྮ"]},{base:"ཟ",name:"za",aliases:["ྯ"]},{base:"འ",name:"’a",aliases:["ྰ"]},{base:"ཡ",name:"ya",aliases:["ྱ","ྻ"]},
+{base:"ར",name:"ra",aliases:["ྲ","ྼ"]},{base:"ལ",name:"la",aliases:["ླ"]},{base:"ཤ",name:"sha",aliases:["ྴ"]},{base:"ས",name:"sa",aliases:["ྶ"]},
+{base:"ཧ",name:"ha",aliases:["ྷ"]},{base:"ཨ",name:"a",aliases:["ྸ"]}
+];
+var WORDS=["ཀི་","ཀོ་ཐག་","ཀོ་བ་","ཀོ་བ་གཏོང་","ཀྱོག་ཀྱོག་","ཀྲབ་པོ་","ཁ་","ཁ་ཁུ་སིམ་པོ་","ཁ་གཅོད་","ཁ་གཏོང་","ཁ་གསང་པོ་","ཁ་ཆད་","ཁ་ཆད་བྱེད་","ཁ་པར་","ཁ་མཆུ་","ཁ་རྒྱག་","ཁ་རྡུང་གཏོང་","ཁ་ལག་","ཁག་","ཁག་ཁག་","ཁག་པོ་","ཁབ་","ཁབ་གཟེར་","ཁབ་རྒྱག་","ཁར་ཐུག་","ཁུལ་","ཁེ་པོ་","ཁེ་བཟང་","ཁོང་ཁྲོ་","ཁོང་ཁྲོ་ཟ་བ་","ཁྱབ་བསྒྲགས་","ཁྱབ་བསྒྲགས་བྱེད་","ཁྲི་","ཁྲི་རྒྱག་","ཁྲིད་","ཁྲིད་བྱེད་","གང་ཡང་","གང་ཡང་མེད་པ་","གངས་","གངས་ཤུད་","གངས་ཤུད་གཏོང་","གཅིག་པ་","གཅིག་པུ་","གཅིན་པ་","གཅིན་པ་གཏོང་","གཏན་འཇགས་","གཏིང་","གཏིང་མེད་པ་","གཏིང་རིང་པོ་","གཏོང་","གཏོང་ཕོད་པོ་","གདན་","གདན་རྒྱག་","གནོད་པ་","གབ་པ་","གཙང་མ་","གཞན་","གཞི་གཞུང་པོ་","གཞུག་གུ་","གཞོག་","གཞོན་ནུ་","གཞོན་པ་","གཟེར་","གཟེར་རྒྱག་","གཟོང་","གར་པོ་","གཤག་བཅོས་","གཤག་བཅོས་བྱེད་","གཤམ་ལ་","གསོལ་ཚིགས་","གསོལ་ཚིགས་གཏོང་","གསོས་","གསོས་པ་","གུ་ཡངས་པོ་","གུག་གུག་","གུར་","གུར་རྒྱག་","གུས་ཞབས་","གུས་ཞབས་བྱེད་","གོ་རིམ་མེད་པ་","གོང་ཆེན་པོ་","གོམ་པ་","གྱོང་གུན་","གྲ་སྒྲིག་བྱེད་","གྲངས་ཚད་མེད་པ་","གྲི་","གྲུ་","གྲུ་གཏོང་","གྲུང་པོ་","གྲྭ་པ་","གྲྭ་པ་བྱེད་","གླིང་བུ་གཏོང་","གླུ་","གླུ་གཏོང་","གླེན་པ་","གློ་","གློ་རྒྱག་","གློག་རྒྱག་","ང་རྒྱལ་","ང་རྒྱལ་བྱེད་","ངན་","ངོ་མ་","ངོ་རྒོལ་","ངོ་རྒོལ་བྱེད་","ངོ་རྒོལ་རྒྱག་","ཆང་ས་","ཆབ་སྒྲོག་","ཆབ་སྒྲོག་རྒྱག་","ཆམ་པ་","ཆམ་པ་རྒྱག་","ཆར་པ་","ཆུ་","ཆུ་གཏོང་","ཆུ་རྒྱག་","ཆེན་པོ་","ཆོས་","ཇ་","ཇ་གཏོང་","ཇག་པ་","ཇག་པ་རྒྱག་","ཉིན་གུང་","ཉིན་མོ་","ཉིས་བརྩེགས་","ཉུང་ཉུང་","ཉུང་བ་","ཉེས་འཛུགས་","ཉེས་འཛུགས་བྱེད་","ཉོ་བ་","ཉོབ་པོ་","ཐག་ཉེ་","ཐག་རིང་","ཐབས་ཤེས་","ཐུང་","ཐུང་ཐུང་","ཐོག་","ཐོག་རྒྱག་","ཐོན་པ་","ཐོབ་པ་","ད་ག་རང་","ད་ལྟ་","དཀའ་ངལ་མྱོང་","དཀའ་པོ་བྱེད་","དཀའ་ལས་","དཀའ་ལས་ཁག་པོ་","དཀའ་ལས་རྒྱག་","དཀོན་པོ་","དཀྱུས་མ་","དགག་བྱ་","དགག་བྱ་བྱེད་","དགའ་པོ་","དགའ་བ་","དགེ་རྒན་","དགོང་དྲོ་","དགོངས་དག་ཐུགས་བདེན་ཞུ་","དགོངས་སེལ་ཞུ་","དགྲ་","དབུལ་པོ་","དམག་","དམག་རྒྱག་","དམའ་བོ་","དམའ་འབེབས་གཏོང་","དེ་ནས་","དེང་སང་","དོ་སྣང་","དྲི་བ་","དྲོ་པོ་","ནང་","ནང་ཟོག་ཕྱི་འདྲེན་","ནང་ཤ་","ནང་ཤ་རྒྱག་","ནུབ་","ནུབ་པ་","པར་","པར་རྒྱག་","པར་སྐྱར་","ཕན་པ་","ཕམས་པ་","ཕར་","ཕུར་པ་","ཕོ་","ཕྱི་","ཕྱི་པོ་","ཕྱི་ཟོག་ནང་འདྲེན་","ཕྱུག་པོ་","ཕྲ་པོ་","བཀག་བསྐྱིལ་བྱེད་","བཀའ་","བཀའ་གཏོང་","བཀའ་སྐྱོན་གཏོང་","བཀོད་པ་","བཀོད་པ་གཏོང་","བཀྲེན་པོ་","བང་ཆེན་གཏོང་","བཅོས་མ་","བདེ་བ་","བཙན་གནོན་","བཙན་འཛུལ་","བཙན་འཛུལ་བྱེད་","བཙོག་པ་","བཙོག་པ་གཏོང་","བཞུར་","བཞུར་བ་","བཟང་","བཟོ་པ་","བཟོད་གསོལ་ཞུ་","བར་འཛུལ་","བར་འཛུལ་བྱེད་","བརྡ་","བསམ་བློ་","བསམ་བློ་གཏོང་","བསྐོ་བཞག་བྱེད་","བསྐོར་ར་རྒྱག་","བསླབ་བྱ་","བསླབ་བྱ་བྱེད་","བུ་ལོན་གཏོང་","བྱམས་པ་","བྱམས་པ་བྱེད་","བྱེ་བྲག་","བྱེད་","བྱེད་ལ་ལེ་ལོ་","བྲེལ་བ་ཚ་པོ་","བྲོ་བ་མྱོང་","བློས་","བློས་གཏོང་","མཁྲེགས་པོ་","མགོ་","མགྱོགས་པོ་","མང་པོ་","མངར་མོ་","མཆོད་པ་","མཆོད་པ་བྱེད་","མཇུག་","མཇུག་ལ་","མཉམ་དུ་","མཐིལ་","མཐུ་","མཐུ་རྒྱག་","མཐོ་པོ་","མཐོ་བོ་","མཐོང་རྒྱ་ཆེན་པོ་","མདའ་","མདུད་པ་","མདུད་པ་རྒྱག་","མདུན་","མདོག་ཉེས་པོ་","མཚན་མོ་","མར་","མི་ཆོག་པ་","མི་དགེ་བ་","མི་ཚུད་པ་","མེ་","མེ་གཏོང་","མེ་མདའ་","མེ་མདའ་རྒྱག་","མོ་","མོས་མཐུན་བྱེད་པ་","མོས་མཐུན་མེད་པ་","མྱོང་","ཚ་ག་","ཚ་པོ་","ཚག་པོ་","ཚད་","ཚབ་","ཚབ་བྱེད་","ཚབ་ཚུབ་","ཚབ་ཚུབ་བྱེད་","ཚུད་པ་","ཚུར་","ཚེམ་བུ་","ཚེམ་བུ་རྒྱག་","ཚོང་","ཚོང་རྒྱག་","ཚོན་","ཚོན་གཏོང་","ཚོར་བ་","ཚོར་བ་མྱོང་","ཚྭ་","ཚྭ་རྒྱག་","ཝ་","ཝ་ཕྲུག་","ཝ་མོ་","ཝ་ཚང་","ཝ་སྐད་","ཞབས་བྲོ་རྒྱག་","ཞེན་ཁོག་མེད་པ་","ཞྭ་ཐག་","ཞྭ་ཐག་རྒྱག་","ཟ་གཡའ་","ཟ་གཡའ་རྒྱག་","ཟུག་","འཁྱག་པ་རྒྱག་","འཁྱགས་པ་","འཁྱགས་པ་གཏོང་","འཁྱགས་ཤུད་གཏོང་","འཁྲེགས་པོ་","འགོ་","འགོ་འཛུགས་","འགྱེད་","འགྲིག་པ་","འགྲུལ་རྒྱག་","འགྲུལ་རྟགས་","འགྲོ་སོང་","འཆམ་","འཆམས་པོ་","འཆམས་པོ་བྱེད་","འཆི་བ་","འཇམ་པོ་","འཇིབ་","འཇིབ་རྒྱག་","འཐབ་ར་","འཐབ་ར་རྒྱག་","འདེམས་བསྒྲུགས་","འདེམས་བསྒྲུགས་བྱེད་","འདྲ་ཤུས་","འཕྱ་བ་","འཕྱ་སྨོད་རྒྱག་","འཕྲལ་སེལ་","འབྱོར་བ་","འབྲུག་སྐད་","འཚོ་བ་","འཚོ་བ་མྱོང་","འཚོང་བ་","འཚོལ་བ་","འོས་འདེམས་","འོས་འདེམས་བྱེད་","ཡང་པོ་","ཡང་སེ་","ཡར་","ཡར་བརྩེགས་པ་","ཡར་རྒྱས་","ཡར་རྒྱས་གཏོང་","ཡི་གེ་","ཡིག་ཐོག་","ཡིན་དང་མིན་","ཡིན་དང་ཡིན་","ཡོང་འབབ་","རགས་","རང་","རང་སྐྱོན་སྦས་པ་","རབ་","རབ་རྒྱག་","རིག་པ་གཏོང་","རིང་","རིང་པོ་","རེ་བ་","རེ་རེ་བཞིན་","རེ་རེ་བྱས་","རོ་","རོ་མྱོང་","རྐུབ་ཀྱག་","རྐུབ་ཀྱག་རྒྱག་","རྐྱལ་","རྐྱོང་བ་","རྒན་པ་","རྒྱ་ཆུང་ཆུང་","རྒྱ་ཆེན་པོ་","རྒྱག་","རྒྱགས་པ་","རྒྱན་པོ་","རྒྱན་པོ་རྒྱག་","རྒྱབ་","རྗེན་པ་","རྙིང་པ་","རྙེད་པ་","རྟ་","རྟ་གཏོང་","རྟགས་","རྟགས་རྒྱག་","རྟུལ་པོ་","རྡེབ་པ་","རྡེབ་པ་རྒྱག་","རྣག་","རྣག་རྒྱག་","རྩིས་","རྩུབ་པོ་","རྩོད་པ་","རྩོད་པ་རྒྱག་","རྫུས་མ་","རྫོར་པོ་","རླུང་པ་","རླུང་པ་རྒྱག་","རློན་པ་","ལ་","ལ་རྒྱག་","ལག་པ་","ལག་པ་གཡུག་","ལག་བརྡ་","ལགས་","ལན་","ལན་བུ་","ལན་བུ་རྒྱག་","ལན་རྒྱག་","ལས་ཀ་","ལས་ཀ་མེད་པ་","ལས་བརྩོན་ཅན་","ལུད་","ལུད་རྒྱག་","ལེ་ལོ་ཅན་","ལོ་ཏོག་","ལོ་ཏོག་རྒྱག་","ལོག་","ལོའོ་","ལྐུགས་པ་","ལྐོག་རྔན་བྱེད་","ལྕགས་","ལྗིད་པོ་","ལྡོག་ཕྱོགས་","ལྷན་པ་","ལྷན་པ་རྒྱག་","ལྷུག་ལྷུག་","ཤ་བཙིར་","ཤ་བཙིར་རྒྱག་","ཤར་","ཤར་བ་","ཤུ་","ཤུ་རྒྱག་","ཤུགས་","ཤུགས་མེད་པ་","ཤུགས་རྒྱག་","ཤུལ་","ཤུལ་རྒྱག་","ཤེས་","ཤོ་","ཤོར་བ་","ས་ཡོམ་","སེམས་ཁྲལ་","སེམས་གསོ་","སེམས་གསོ་གཏོང་","སོ་","སོ་གཏོང་","སོ་རྒྱག་","སོ་ཤད་","སོ་ཤད་རྒྱག་","སྐད་","སྐད་གཏོང་","སྐད་གྲགས་ཆུང་ངུས་","སྐད་གྲགས་ཆེན་པོས་","སྐད་ཅོར་","སྐད་ཅོར་རྒྱག་","སྐད་ཆ་","སྐད་རྒྱག་","སྐབས་རེ་","སྐམ་པོ་","སྐུམ་པ་","སྐྱིགས་པ་","སྐྱིགས་པ་རྒྱག་","སྐྱིད་པོ་","སྐྱིད་པོ་གཏོང་བ་","སྐྱོ་པོ་","སྐྱོ་བ་","སྐྱོན་","སྐྱོན་བརྗོད་","སྐྱོར་","སྐྱོར་རྒྱག་","སྒ་","སྒམ་པོ་","སྒུག་","སྒུག་རྒྱག་","སྒེའུ་ཁུང་","སྒེའུ་ཡོལ་","སྒོ་ཡོལ་རྒྱག་","སྒོ་ལྕགས་","སྒོམ་","སྒོམ་པ་བྱེད་","སྒྲ་འཁོར་","སྒྲུབ་པ་","སྔ་དྲོ་","སྔ་པོ་","སྔ་མོ་","སྔགས་","སྔོན་ལ་","སྙིང་རྗེ་པོ་","སྙིང་རྗེ་མེད་པ་","སྟེང་ལ་","སྟོང་པ་","སྡུག་པོ་","སྡུག་པོ་མྱོང་བ་","སྡུག་བསྔལ་མྱོང་","སྣང་ཆུང་","སྣོན་སྐྱེད་རྒྱག་","སྤུས་ཀ་ཞན་པ་","སྤུས་ཀ་ཞན་པོ་","སྤོབས་པ་","སྤོབས་པ་བྱེད་","སྤྱང་པོ་","སྤྱིར་བཏང་","སྤྲོ་སྐྱིད་","སྤྲོ་སྐྱིད་གཏོང་","སྦོམ་པོ་","སྦྱིན་པ་","སྨིན་པ་","སྲབ་པོ་","སླེ་པ་རྒྱག་","ཧ་གོ་","ཧམ་པ་","ཧམ་པ་བྱེད་","ཧུར་པོ་","ཨཱ་","ཨུ་ཚུགས་","ཨུ་ཚུགས་བྱེད་"];
+var MODES={
+ glyph:{label:"Буквы в словах",hint:"Буква может стоять отдельно или входить в состав связки."},
+ similar:{label:"Похожие буквы",hint:"Сравните очертания и выберите точную копию буквы."},
+ syllable:{label:"Найдите слог",hint:"Ищите букву внутри слога, но выбирайте весь слог целиком."},
+ wylie:{label:"Буква и Вайли",hint:"Свяжите тибетскую букву с её записью в системе Вайли."},
+ vowels:{label:"Огласовки",hint:"Форма с a пишется без отдельной огласовки; остальные формы отличаются знаками над или под буквой."}
+};
+var MODE_ORDER=["glyph","similar","syllable","wylie","vowels"];
+var VOWELS=[
+ {key:"a",sign:"",name:"без огласовки"},
+ {key:"i",sign:"ི",name:"гигу"},
+ {key:"u",sign:"ུ",name:"шабкью"},
+ {key:"e",sign:"ེ",name:"дренбу"},
+ {key:"o",sign:"ོ",name:"наро"}
+];
+var CONFUSABLE_GROUPS=[
+ ["ཀ","ཁ","ག","ང"],["ཅ","ཆ","ཇ","ཙ","ཚ","ཛ"],["ཏ","ཐ","ད","ན"],["པ","ཕ","བ","མ"],
+ ["ཞ","ཟ","ཤ","ས"],["འ","ཨ","ཧ","ཝ"],["ཡ","ར","ལ","ཝ"],["ཉ","ན","ཞ","ཟ"]
+];
+var STORAGE_KEY="tibetan-words-alphabet-lab-v2";
+var OLD_STORAGE_KEY="tibetan-words-alphabet-trainer-v1";
+var STANDARD_ROUNDS=3,VOWEL_ROUNDS=5;
+var selected=new Set(),correct=new Set(),round=null,checked=false;
+
+var alphabetEl=root.querySelector("#tw2-alphabet"),alphabetWrap=root.querySelector("#tw2-alphabet-wrap"),exerciseEl=root.querySelector("#tw2-exercise"),checkBtn=root.querySelector("#tw2-check"),clearBtn=root.querySelector("#tw2-clear"),continueBtn=root.querySelector("#tw2-continue"),feedbackEl=root.querySelector("#tw2-feedback");
+var state=loadState();
+
+// Recorded Monlam voices. Training progress stays in the existing storage key.
+var MONLAM_AUDIO_BASE="https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/e236cf79287da805de2afa3f8f886d4277e98660/alphabet-monlam-201712509/audio/";
+var MONLAM_TEXTS=["ཀ","ཁ","ག","ང","ཅ","ཆ","ཇ","ཉ","ཏ","ཐ","ད","ན","པ","ཕ","བ","མ","ཙ","ཚ","ཛ","ཝ","ཞ","ཟ","འ","ཡ","ར","ལ","ཤ","ས","ཧ","ཨ","ཀི","ཀུ","ཀེ","ཀོ","ཁི","ཁུ","ཁེ","ཁོ","གི","གུ","གེ","གོ","ངི","ངུ","ངེ","ངོ","ཅི","ཅུ","ཅེ","ཅོ","ཆི","ཆུ","ཆེ","ཆོ","ཇི","ཇུ","ཇེ","ཇོ","ཉི","ཉུ","ཉེ","ཉོ","ཏི","ཏུ","ཏེ","ཏོ","ཐི","ཐུ","ཐེ","ཐོ","དི","དུ","དེ","དོ","ནི","ནུ","ནེ","ནོ","པི","པུ","པེ","པོ","ཕི","ཕུ","ཕེ","ཕོ","བི","བུ","བེ","བོ","མི","མུ","མེ","མོ","ཙི","ཙུ","ཙེ","ཙོ","ཚི","ཚུ","ཚེ","ཚོ","ཛི","ཛུ","ཛེ","ཛོ","ཝི","ཝུ","ཝེ","ཝོ","ཞི","ཞུ","ཞེ","ཞོ","ཟི","ཟུ","ཟེ","ཟོ","འི","འུ","འེ","འོ","ཡི","ཡུ","ཡེ","ཡོ","རི","རུ","རེ","རོ","ལི","ལུ","ལེ","ལོ","ཤི","ཤུ","ཤེ","ཤོ","སི","སུ","སེ","སོ","ཧི","ཧུ","ཧེ","ཧོ","ཨི","ཨུ","ཨེ","ཨོ","ཀོ་ཐག","ཀོ་བ","ཀོ་བ་གཏོང","ཀྱོག་ཀྱོག","ཀྲབ་པོ","ཁ་ཁུ་སིམ་པོ","ཁ་གཅོད","ཁ་གཏོང","ཁ་གསང་པོ","ཁ་ཆད","ཁ་ཆད་བྱེད","ཁ་པར","ཁ་མཆུ","ཁ་རྒྱག","ཁ་རྡུང་གཏོང","ཁ་ལག","ཁག","ཁག་ཁག","ཁག་པོ","ཁབ","ཁབ་གཟེར","ཁབ་རྒྱག","ཁར་ཐུག","ཁུལ","ཁེ་པོ","ཁེ་བཟང","ཁོང་ཁྲོ","ཁོང་ཁྲོ་ཟ་བ","ཁྱབ་བསྒྲགས","ཁྱབ་བསྒྲགས་བྱེད","ཁྲི","ཁྲི་རྒྱག","ཁྲིད","ཁྲིད་བྱེད","གང་ཡང","གང་ཡང་མེད་པ","གངས","གངས་ཤུད","གངས་ཤུད་གཏོང","གཅིག་པ","གཅིག་པུ","གཅིན་པ","གཅིན་པ་གཏོང","གཏན་འཇགས","གཏིང","གཏིང་མེད་པ","གཏིང་རིང་པོ","གཏོང","གཏོང་ཕོད་པོ","གདན","གདན་རྒྱག","གནོད་པ","གབ་པ","གཙང་མ","གཞན","གཞི་གཞུང་པོ","གཞུག་གུ","གཞོག","གཞོན་ནུ","གཞོན་པ","གཟེར","གཟེར་རྒྱག","གཟོང","གར་པོ","གཤག་བཅོས","གཤག་བཅོས་བྱེད","གཤམ་ལ","གསོལ་ཚིགས","གསོལ་ཚིགས་གཏོང","གསོས","གསོས་པ","གུ་ཡངས་པོ","གུག་གུག","གུར","གུར་རྒྱག","གུས་ཞབས","གུས་ཞབས་བྱེད","གོ་རིམ་མེད་པ","གོང་ཆེན་པོ","གོམ་པ","གྱོང་གུན","གྲ་སྒྲིག་བྱེད","གྲངས་ཚད་མེད་པ","གྲི","གྲུ","གྲུ་གཏོང","གྲུང་པོ","གྲྭ་པ","གྲྭ་པ་བྱེད","གླིང་བུ་གཏོང","གླུ","གླུ་གཏོང","གླེན་པ","གློ","གློ་རྒྱག","གློག་རྒྱག","ང་རྒྱལ","ང་རྒྱལ་བྱེད","ངན","ངོ་མ","ངོ་རྒོལ","ངོ་རྒོལ་བྱེད","ངོ་རྒོལ་རྒྱག","ཆང་ས","ཆབ་སྒྲོག","ཆབ་སྒྲོག་རྒྱག","ཆམ་པ","ཆམ་པ་རྒྱག","ཆར་པ","ཆུ་གཏོང","ཆུ་རྒྱག","ཆེན་པོ","ཆོས","ཇ་གཏོང","ཇག་པ","ཇག་པ་རྒྱག","ཉིན་གུང","ཉིན་མོ","ཉིས་བརྩེགས","ཉུང་ཉུང","ཉུང་བ","ཉེས་འཛུགས","ཉེས་འཛུགས་བྱེད","ཉོ་བ","ཉོབ་པོ","ཐག་ཉེ","ཐག་རིང","ཐབས་ཤེས","ཐུང","ཐུང་ཐུང","ཐོག","ཐོག་རྒྱག","ཐོན་པ","ཐོབ་པ","ད་ག་རང","ད་ལྟ","དཀའ་ངལ་མྱོང","དཀའ་པོ་བྱེད","དཀའ་ལས","དཀའ་ལས་ཁག་པོ","དཀའ་ལས་རྒྱག","དཀོན་པོ","དཀྱུས་མ","དགག་བྱ","དགག་བྱ་བྱེད","དགའ་པོ","དགའ་བ","དགེ་རྒན","དགོང་དྲོ","དགོངས་དག་ཐུགས་བདེན་ཞུ","དགོངས་སེལ་ཞུ","དགྲ","དབུལ་པོ","དམག","དམག་རྒྱག","དམའ་བོ","དམའ་འབེབས་གཏོང","དེ་ནས","དེང་སང","དོ་སྣང","དྲི་བ","དྲོ་པོ","ནང","ནང་ཟོག་ཕྱི་འདྲེན","ནང་ཤ","ནང་ཤ་རྒྱག","ནུབ","ནུབ་པ","པར","པར་རྒྱག","པར་སྐྱར","ཕན་པ","ཕམས་པ","ཕར","ཕུར་པ","ཕྱི","ཕྱི་པོ","ཕྱི་ཟོག་ནང་འདྲེན","ཕྱུག་པོ","ཕྲ་པོ","བཀག་བསྐྱིལ་བྱེད","བཀའ","བཀའ་གཏོང","བཀའ་སྐྱོན་གཏོང","བཀོད་པ","བཀོད་པ་གཏོང","བཀྲེན་པོ","བང་ཆེན་གཏོང","བཅོས་མ","བདེ་བ","བཙན་གནོན","བཙན་འཛུལ","བཙན་འཛུལ་བྱེད","བཙོག་པ","བཙོག་པ་གཏོང","བཞུར","བཞུར་བ","བཟང","བཟོ་པ","བཟོད་གསོལ་ཞུ","བར་འཛུལ","བར་འཛུལ་བྱེད","བརྡ","བསམ་བློ","བསམ་བློ་གཏོང","བསྐོ་བཞག་བྱེད","བསྐོར་ར་རྒྱག","བསླབ་བྱ","བསླབ་བྱ་བྱེད","བུ་ལོན་གཏོང","བྱམས་པ","བྱམས་པ་བྱེད","བྱེ་བྲག","བྱེད","བྱེད་ལ་ལེ་ལོ","བྲེལ་བ་ཚ་པོ","བྲོ་བ་མྱོང","བློས","བློས་གཏོང","མཁྲེགས་པོ","མགོ","མགྱོགས་པོ","མང་པོ","མངར་མོ","མཆོད་པ","མཆོད་པ་བྱེད","མཇུག","མཇུག་ལ","མཉམ་དུ","མཐིལ","མཐུ","མཐུ་རྒྱག","མཐོ་པོ","མཐོ་བོ","མཐོང་རྒྱ་ཆེན་པོ","མདའ","མདུད་པ","མདུད་པ་རྒྱག","མདུན","མདོག་ཉེས་པོ","མཚན་མོ","མར","མི་ཆོག་པ","མི་དགེ་བ","མི་ཚུད་པ","མེ་གཏོང","མེ་མདའ","མེ་མདའ་རྒྱག","མོས་མཐུན་བྱེད་པ","མོས་མཐུན་མེད་པ","མྱོང","ཚ་ག","ཚ་པོ","ཚག་པོ","ཚད","ཚབ","ཚབ་བྱེད","ཚབ་ཚུབ","ཚབ་ཚུབ་བྱེད","ཚུད་པ","ཚུར","ཚེམ་བུ","ཚེམ་བུ་རྒྱག","ཚོང","ཚོང་རྒྱག","ཚོན","ཚོན་གཏོང","ཚོར་བ","ཚོར་བ་མྱོང","ཚྭ","ཚྭ་རྒྱག","ཝ་ཕྲུག","ཝ་མོ","ཝ་ཚང","ཝ་སྐད","ཞབས་བྲོ་རྒྱག","ཞེན་ཁོག་མེད་པ","ཞྭ་ཐག","ཞྭ་ཐག་རྒྱག","ཟ་གཡའ","ཟ་གཡའ་རྒྱག","ཟུག","འཁྱག་པ་རྒྱག","འཁྱགས་པ","འཁྱགས་པ་གཏོང","འཁྱགས་ཤུད་གཏོང","འཁྲེགས་པོ","འགོ","འགོ་འཛུགས","འགྱེད","འགྲིག་པ","འགྲུལ་རྒྱག","འགྲུལ་རྟགས","འགྲོ་སོང","འཆམ","འཆམས་པོ","འཆམས་པོ་བྱེད","འཆི་བ","འཇམ་པོ","འཇིབ","འཇིབ་རྒྱག","འཐབ་ར","འཐབ་ར་རྒྱག","འདེམས་བསྒྲུགས","འདེམས་བསྒྲུགས་བྱེད","འདྲ་ཤུས","འཕྱ་བ","འཕྱ་སྨོད་རྒྱག","འཕྲལ་སེལ","འབྱོར་བ","འབྲུག་སྐད","འཚོ་བ","འཚོ་བ་མྱོང","འཚོང་བ","འཚོལ་བ","འོས་འདེམས","འོས་འདེམས་བྱེད","ཡང་པོ","ཡང་སེ","ཡར","ཡར་བརྩེགས་པ","ཡར་རྒྱས","ཡར་རྒྱས་གཏོང","ཡི་གེ","ཡིག་ཐོག","ཡིན་དང་མིན","ཡིན་དང་ཡིན","ཡོང་འབབ","རགས","རང","རང་སྐྱོན་སྦས་པ","རབ","རབ་རྒྱག","རིག་པ་གཏོང","རིང","རིང་པོ","རེ་བ","རེ་རེ་བཞིན","རེ་རེ་བྱས","རོ་མྱོང","རྐུབ་ཀྱག","རྐུབ་ཀྱག་རྒྱག","རྐྱལ","རྐྱོང་བ","རྒན་པ","རྒྱ་ཆུང་ཆུང","རྒྱ་ཆེན་པོ","རྒྱག","རྒྱགས་པ","རྒྱན་པོ","རྒྱན་པོ་རྒྱག","རྒྱབ","རྗེན་པ","རྙིང་པ","རྙེད་པ","རྟ","རྟ་གཏོང","རྟགས","རྟགས་རྒྱག","རྟུལ་པོ","རྡེབ་པ","རྡེབ་པ་རྒྱག","རྣག","རྣག་རྒྱག","རྩིས","རྩུབ་པོ","རྩོད་པ","རྩོད་པ་རྒྱག","རྫུས་མ","རྫོར་པོ","རླུང་པ","རླུང་པ་རྒྱག","རློན་པ","ལ་རྒྱག","ལག་པ","ལག་པ་གཡུག","ལག་བརྡ","ལགས","ལན","ལན་བུ","ལན་བུ་རྒྱག","ལན་རྒྱག","ལས་ཀ","ལས་ཀ་མེད་པ","ལས་བརྩོན་ཅན","ལུད","ལུད་རྒྱག","ལེ་ལོ་ཅན","ལོ་ཏོག","ལོ་ཏོག་རྒྱག","ལོག","ལོའོ","ལྐུགས་པ","ལྐོག་རྔན་བྱེད","ལྕགས","ལྗིད་པོ","ལྡོག་ཕྱོགས","ལྷན་པ","ལྷན་པ་རྒྱག","ལྷུག་ལྷུག","ཤ་བཙིར","ཤ་བཙིར་རྒྱག","ཤར","ཤར་བ","ཤུ་རྒྱག","ཤུགས","ཤུགས་མེད་པ","ཤུགས་རྒྱག","ཤུལ","ཤུལ་རྒྱག","ཤེས","ཤོར་བ","ས་ཡོམ","སེམས་ཁྲལ","སེམས་གསོ","སེམས་གསོ་གཏོང","སོ་གཏོང","སོ་རྒྱག","སོ་ཤད","སོ་ཤད་རྒྱག","སྐད","སྐད་གཏོང","སྐད་གྲགས་ཆུང་ངུས","སྐད་གྲགས་ཆེན་པོས","སྐད་ཅོར","སྐད་ཅོར་རྒྱག","སྐད་ཆ","སྐད་རྒྱག","སྐབས་རེ","སྐམ་པོ","སྐུམ་པ","སྐྱིགས་པ","སྐྱིགས་པ་རྒྱག","སྐྱིད་པོ","སྐྱིད་པོ་གཏོང་བ","སྐྱོ་པོ","སྐྱོ་བ","སྐྱོན","སྐྱོན་བརྗོད","སྐྱོར","སྐྱོར་རྒྱག","སྒ","སྒམ་པོ","སྒུག","སྒུག་རྒྱག","སྒེའུ་ཁུང","སྒེའུ་ཡོལ","སྒོ་ཡོལ་རྒྱག","སྒོ་ལྕགས","སྒོམ","སྒོམ་པ་བྱེད","སྒྲ་འཁོར","སྒྲུབ་པ","སྔ་དྲོ","སྔ་པོ","སྔ་མོ","སྔགས","སྔོན་ལ","སྙིང་རྗེ་པོ","སྙིང་རྗེ་མེད་པ","སྟེང་ལ","སྟོང་པ","སྡུག་པོ","སྡུག་པོ་མྱོང་བ","སྡུག་བསྔལ་མྱོང","སྣང་ཆུང","སྣོན་སྐྱེད་རྒྱག","སྤུས་ཀ་ཞན་པ","སྤུས་ཀ་ཞན་པོ","སྤོབས་པ","སྤོབས་པ་བྱེད","སྤྱང་པོ","སྤྱིར་བཏང","སྤྲོ་སྐྱིད","སྤྲོ་སྐྱིད་གཏོང","སྦོམ་པོ","སྦྱིན་པ","སྨིན་པ","སྲབ་པོ","སླེ་པ་རྒྱག","ཧ་གོ","ཧམ་པ","ཧམ་པ་བྱེད","ཧུར་པོ","ཨཱ","ཨུ་ཚུགས","ཨུ་ཚུགས་བྱེད"];
+var MONLAM_CHUNK_SIZE=32;
+var audioIndex=new Map(),audioChunks=new Map(),audioVoice="female",audioRate=1;
+var audioPlayer=new Audio(),audioRequest=0,audioActiveButton=null;
+var audioStatus=root.querySelector("#tw2-audio-status");
+var audioIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></svg>';
+audioPlayer.preload="none";
+function audioKey(text){return String(text).normalize("NFC").replace(/[་།\s]+$/g,"")}
+MONLAM_TEXTS.forEach(function(text,index){audioIndex.set(audioKey(text),index)});
+try{var prefs=JSON.parse(localStorage.getItem("tibetan-alphabet-monlam-voice-v1")||"null");if(prefs){if(prefs.voice==="male")audioVoice="male";if(prefs.rate===.8)audioRate=.8}}catch(e){}
+function saveAudioPreferences(){try{localStorage.setItem("tibetan-alphabet-monlam-voice-v1",JSON.stringify({voice:audioVoice,rate:audioRate}))}catch(e){}}
+function resetAudioButton(){if(audioActiveButton){audioActiveButton.classList.remove("is-playing","is-loading");audioActiveButton.setAttribute("aria-busy","false");audioActiveButton=null}}
+function stopMonlamAudio(){audioRequest++;audioPlayer.pause();resetAudioButton();audioStatus.textContent="Monlam · центральнотибетский"}
+function loadAudioChunk(voice,index){
+ var chunk=Math.floor(index/MONLAM_CHUNK_SIZE),key=voice+"/"+chunk;
+ if(!audioChunks.has(key)){
+  var url=MONLAM_AUDIO_BASE+voice+"/"+String(chunk).padStart(3,"0")+".json";
+  audioChunks.set(key,fetch(url).then(function(response){if(!response.ok)throw new Error("Audio HTTP "+response.status);return response.json()}).catch(function(error){audioChunks.delete(key);throw error}));
+ }
+ return audioChunks.get(key);
+}
+async function playMonlamAudio(text,button){
+ if(audioActiveButton===button&&!audioPlayer.paused){stopMonlamAudio();return}
+ stopMonlamAudio();var request=audioRequest,index=audioIndex.get(audioKey(text));
+ if(index===undefined){audioStatus.textContent="Для этого элемента запись не найдена.";return}
+ audioActiveButton=button;button.classList.add("is-loading");button.setAttribute("aria-busy","true");audioStatus.textContent="Загружается запись…";
+ try{
+  var chunk=await loadAudioChunk(audioVoice,index);if(request!==audioRequest)return;
+  var clip=chunk.clips["m"+String(index+1).padStart(4,"0")];if(!clip)throw new Error("Missing audio clip");
+  audioPlayer.src="data:"+chunk.mime+";base64,"+clip;audioPlayer.playbackRate=audioRate;
+  await audioPlayer.play();if(request!==audioRequest)return;
+  button.classList.remove("is-loading");button.classList.add("is-playing");button.setAttribute("aria-busy","false");audioStatus.textContent=(audioVoice==="female"?"Женский":"Мужской")+" голос · "+(audioRate===1?"обычный темп":"медленный темп");
+ }catch(error){if(request===audioRequest){resetAudioButton();audioStatus.textContent="Не удалось загрузить запись. Нажмите на звук ещё раз."}}
+}
+audioPlayer.addEventListener("ended",function(){resetAudioButton();audioStatus.textContent="Monlam · центральнотибетский"});
+audioPlayer.addEventListener("error",function(){resetAudioButton();audioStatus.textContent="Не удалось воспроизвести запись. Попробуйте ещё раз."});
+function makeAudioButton(text,label,showLabel){
+ var button=document.createElement("button");button.type="button";button.className="tw-audio-button";button.lang="ru";button.title=label;button.setAttribute("aria-label",label);button.setAttribute("aria-busy","false");button.innerHTML=audioIcon;
+ if(showLabel){var caption=document.createElement("span");caption.textContent="Послушать";button.appendChild(caption)}
+ button.addEventListener("click",function(event){event.preventDefault();event.stopPropagation();playMonlamAudio(text,button)});return button;
+}
+function appendAudioChoice(grid,answer,text,label){var cell=document.createElement("div");cell.className="tw-audio-choice";cell.appendChild(answer);cell.appendChild(makeAudioButton(text,label,false));grid.appendChild(cell)}
+function refreshAudioTarget(item){var text=state.mode==="vowels"?vowelSyllable(item,VOWELS[round.vowelIndex]):item.base;var host=root.querySelector("#tw2-target-audio");host.innerHTML="";host.appendChild(makeAudioButton(text,"Послушать произношение",true))}
+function refreshVoiceControls(){root.querySelectorAll("[data-tw-voice]").forEach(function(button){button.setAttribute("aria-pressed",button.dataset.twVoice===audioVoice?"true":"false")});root.querySelector("#tw2-audio-speed").value=String(audioRate)}
+root.querySelectorAll("[data-tw-voice]").forEach(function(button){button.addEventListener("click",function(){if(audioVoice===button.dataset.twVoice)return;stopMonlamAudio();audioVoice=button.dataset.twVoice;saveAudioPreferences();refreshVoiceControls()})});
+root.querySelector("#tw2-audio-speed").addEventListener("change",function(event){audioRate=Number(event.target.value)===.8?.8:1;audioPlayer.playbackRate=audioRate;saveAudioPreferences()});
+refreshVoiceControls();
+
+
+function emptyModeObject(){return{glyph:{},similar:{},syllable:{},wylie:{},vowels:{}}}
+function emptyCompleted(){return{glyph:[],similar:[],syllable:[],wylie:[],vowels:[]}}
+function freshState(){return{current:0,mode:"glyph",progress:emptyModeObject(),completed:emptyCompleted(),correctAnswers:0,attempts:0,streak:0}}
+function normalizeState(value){
+ var base=freshState();
+ if(!value||typeof value!=="object")return base;
+ base.current=Number.isInteger(value.current)&&value.current>=0&&value.current<LETTERS.length?value.current:0;
+ base.mode=MODE_ORDER.indexOf(value.mode)!==-1?value.mode:"glyph";
+ MODE_ORDER.forEach(function(mode){
+  if(value.progress&&value.progress[mode]&&typeof value.progress[mode]==="object")base.progress[mode]=value.progress[mode];
+  if(value.completed&&Array.isArray(value.completed[mode]))base.completed[mode]=value.completed[mode].filter(function(i){return Number.isInteger(i)&&i>=0&&i<LETTERS.length});
+ });
+ base.correctAnswers=Math.max(0,Number(value.correctAnswers)||0);
+ base.attempts=Math.max(0,Number(value.attempts)||0);
+ base.streak=Math.max(0,Number(value.streak)||0);
+ return base;
+}
+function loadState(){
+ try{
+  var saved=JSON.parse(localStorage.getItem(STORAGE_KEY));
+  if(saved)return normalizeState(saved);
+  var old=JSON.parse(localStorage.getItem(OLD_STORAGE_KEY));
+  if(old&&Array.isArray(old.completed)){
+   var migrated=freshState();
+   migrated.current=Number.isInteger(old.current)?Math.max(0,Math.min(LETTERS.length-1,old.current)):0;
+   migrated.progress.glyph=old.perLetter&&typeof old.perLetter==="object"?old.perLetter:{};
+   migrated.completed.glyph=old.completed.filter(function(i){return Number.isInteger(i)&&i>=0&&i<LETTERS.length});
+   migrated.correctAnswers=Math.max(0,Number(old.correctAnswers)||0);
+   migrated.attempts=Math.max(0,Number(old.attempts)||0);
+   migrated.streak=Math.max(0,Number(old.streak)||0);
+   return migrated;
+  }
+ }catch(error){}
+ return freshState();
+}
+function saveState(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state))}catch(error){}}
+function letter(){return LETTERS[state.current]}
+function roundLimit(mode){return mode==="vowels"?VOWEL_ROUNDS:STANDARD_ROUNDS}
+function progressFor(mode,index){return Math.max(0,Math.min(roundLimit(mode),Number(state.progress[mode][index]||0)))}
+function currentProgress(){return progressFor(state.mode,state.current)}
+function vowelWylie(item,vowel){if(vowel.key==="a")return item.name;var stem=item.name.slice(-1)==="a"?item.name.slice(0,-1):item.name;return stem+vowel.key}
+function vowelSyllable(item,vowel){return item.base+vowel.sign}
+function completedFor(mode){return state.completed[mode]}
+function hasTarget(text,item){if(text.indexOf(item.base)!==-1)return true;return item.aliases.some(function(alias){return text.indexOf(alias)!==-1})}
+function shuffle(items){var copy=items.slice();for(var i=copy.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),tmp=copy[i];copy[i]=copy[j];copy[j]=tmp}return copy}
+function escapeHTML(text){return String(text).replace(/[&<>"']/g,function(ch){return{"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch]})}
+function splitGlyphs(word){
+ var out=[],current="",separators="་།༎༏༐༑༔ ";
+ Array.from(word).forEach(function(ch){
+  var code=ch.codePointAt(0),isBase=code>=0x0f40&&code<=0x0f6c,isCombining=(code>=0x0f71&&code<=0x0f84)||(code>=0x0f86&&code<=0x0fbc);
+  if(separators.indexOf(ch)!==-1){if(current)out.push({text:current,selectable:true});current="";out.push({text:ch,selectable:false})}
+  else if(isBase){if(current)out.push({text:current,selectable:true});current=ch}
+  else if(isCombining&&current)current+=ch;
+  else{if(current)out.push({text:current,selectable:true});current=ch}
+ });
+ if(current)out.push({text:current,selectable:true});
+ return out;
+}
+function splitSyllables(word){
+ var out=[],current="",separators="་།༎༏༐༑༔ ";
+ Array.from(word).forEach(function(ch){
+  if(separators.indexOf(ch)!==-1){if(current)out.push({text:current,selectable:true});current="";out.push({text:ch,selectable:false})}
+  else current+=ch;
+ });
+ if(current)out.push({text:current,selectable:true});
+ return out;
+}
+function confusableIndices(targetIndex,count){
+ var target=LETTERS[targetIndex].base,group=null;
+ for(var g=0;g<CONFUSABLE_GROUPS.length;g++){if(CONFUSABLE_GROUPS[g].indexOf(target)!==-1){group=CONFUSABLE_GROUPS[g];break}}
+ var indices=[];
+ if(group)group.forEach(function(base){var idx=LETTERS.findIndex(function(item){return item.base===base});if(idx!==targetIndex&&idx!==-1&&indices.indexOf(idx)===-1)indices.push(idx)});
+ for(var distance=1;indices.length<count&&distance<LETTERS.length;distance++){
+  [targetIndex-distance,targetIndex+distance].forEach(function(idx){if(idx>=0&&idx<LETTERS.length&&idx!==targetIndex&&indices.indexOf(idx)===-1&&indices.length<count)indices.push(idx)})
+ }
+ return indices.slice(0,count);
+}
+function chooseWords(){
+ var item=letter(),matches=WORDS.filter(function(word){return hasTarget(word,item)}),decoys=WORDS.filter(function(word){return !hasTarget(word,item)}),targetCount=Math.min(5,matches.length);
+ return shuffle(shuffle(matches).slice(0,targetCount).concat(shuffle(decoys).slice(0,8-targetCount)));
+}
+function makeRound(){
+ var item=letter();
+ if(state.mode==="glyph")return{kind:"glyph",multiple:true,words:chooseWords()};
+ if(state.mode==="syllable")return{kind:"syllable",multiple:true,words:chooseWords()};
+ if(state.mode==="similar"){
+  var choices=confusableIndices(state.current,5);choices.push(state.current);
+  return{kind:"similar",multiple:false,choices:shuffle(choices)};
+ }
+ if(state.mode==="vowels"){
+  var vowelIndex=currentProgress()>=VOWELS.length?Math.floor(Math.random()*VOWELS.length):currentProgress();
+  return{kind:"vowels",multiple:false,vowelIndex:vowelIndex,choices:shuffle([0,1,2,3,4])};
+ }
+ var direction=currentProgress()%2===0?"toWylie":"toLetter",distractors=confusableIndices(state.current,3),wylieChoices=distractors.concat([state.current]);
+ return{kind:"wylie",multiple:false,direction:direction,choices:shuffle(wylieChoices)};
+}
+function buildModes(){
+ root.querySelectorAll(".tw-mode").forEach(function(btn){var mode=btn.dataset.mode;btn.classList.toggle("is-active",mode===state.mode);btn.setAttribute("aria-pressed",mode===state.mode?"true":"false")});
+ MODE_ORDER.forEach(function(mode){var node=root.querySelector('[data-mode-count="'+mode+'"]');if(node)node.textContent=completedFor(mode).length+"/30"});
+}
+function buildAlphabet(){
+ alphabetEl.innerHTML="";
+ LETTERS.forEach(function(item,index){
+  var btn=document.createElement("button");btn.type="button";btn.className="tw-letter-tab";btn.textContent=item.base;btn.title=item.base+" · Вайли: "+item.name;btn.setAttribute("aria-label","Буква "+item.name);btn.setAttribute("aria-current",index===state.current?"true":"false");
+  if(index===state.current)btn.classList.add("is-active");if(completedFor(state.mode).indexOf(index)!==-1)btn.classList.add("is-done");
+  btn.addEventListener("click",function(){state.current=index;saveState();startRound()});alphabetEl.appendChild(btn);
+ });
+}
+function renderHeader(){
+ var item=letter(),progress=currentProgress(),limit=roundLimit(state.mode),done=completedFor(state.mode).length,targetEl=root.querySelector("#tw2-target"),caption=root.querySelector("#tw2-caption"),hint=root.querySelector("#tw2-hint"),cardLabel=root.querySelector("#tw2-card-label"),roundsEl=root.querySelector(".tw-rounds");
+ root.querySelector("#tw2-completed-count").textContent=done;
+ root.querySelector("#tw2-completed-label").textContent="из 30 в этом режиме";
+ root.querySelector("#tw2-progress-fill").style.width=(done/LETTERS.length*100)+"%";
+ root.querySelector("#tw2-streak").textContent=state.streak;
+ root.querySelector("#tw2-accuracy").textContent=state.attempts?Math.round(state.correctAnswers/state.attempts*100)+"%":"—";
+ root.querySelector("#tw2-round-label").textContent=progress>=limit?"Буква пройдена в этом режиме":"Задание "+(progress+1)+" из "+limit;
+ roundsEl.style.gridTemplateColumns="repeat("+limit+", 18px)";
+ root.querySelectorAll(".tw-round-dot").forEach(function(dot,index){dot.hidden=index>=limit;dot.classList.toggle("is-done",index<progress)});
+ targetEl.classList.remove("is-wylie");targetEl.setAttribute("lang","bo");cardLabel.textContent="Ищем букву";hint.textContent=MODES[state.mode].hint;
+ if(state.mode==="wylie"&&round.direction==="toLetter"){
+  cardLabel.textContent="Читаем Вайли";targetEl.textContent=item.name;targetEl.classList.add("is-wylie");targetEl.setAttribute("lang","en");caption.textContent="Выберите тибетскую букву";
+ }else if(state.mode==="vowels"){
+  var targetVowel=VOWELS[round.vowelIndex],targetReading=vowelWylie(item,targetVowel);
+  cardLabel.textContent="Ищем слог";targetEl.textContent=targetReading;targetEl.classList.add("is-wylie");targetEl.setAttribute("lang","en");caption.textContent="Выберите запись для буквы "+item.base;
+ }else{
+  targetEl.textContent=item.base;
+  caption.textContent=state.mode==="wylie"?"Выберите запись Вайли":"Вайли: "+item.name;
+ }
+ alphabetWrap.classList.toggle("is-concealed",state.mode==="wylie");
+ refreshAudioTarget(item);buildModes();buildAlphabet();
+}
+function addAnswer(button,key){
+ button.classList.add("tw-answer");button.dataset.key=key;button.setAttribute("aria-pressed","false");button.addEventListener("click",function(){toggleAnswer(button,key)});
+}
+function renderWordRows(partsFunction,buttonClass){
+ var wrap=document.createElement("div");wrap.className="tw-words";
+ round.words.forEach(function(word,wordIndex){
+  var row=document.createElement("div");row.className="tw-word";row.setAttribute("lang","bo");row.setAttribute("aria-label",word);
+  partsFunction(word).forEach(function(part,partIndex){
+   if(!part.selectable){var sep=document.createElement("span");sep.className="tw-separator";sep.textContent=part.text;sep.setAttribute("aria-hidden","true");row.appendChild(sep);return}
+   var key="w"+wordIndex+"p"+partIndex,btn=document.createElement("button");btn.type="button";btn.className=buttonClass;btn.textContent=part.text;btn.setAttribute("aria-label","Выбрать "+part.text);addAnswer(btn,key);if(hasTarget(part.text,letter()))correct.add(key);row.appendChild(btn);
+  });row.appendChild(makeAudioButton(word,"Послушать слово "+word,false));wrap.appendChild(row);
+ });exerciseEl.appendChild(wrap);
+}
+function renderChoices(){
+ var grid=document.createElement("div");grid.className="tw-choice-grid";
+ round.choices.forEach(function(letterIndex,optionIndex){
+  var item=LETTERS[letterIndex],key="c"+optionIndex,btn=document.createElement("button");btn.type="button";btn.className="tw-choice";
+  if(round.kind==="wylie"&&round.direction==="toWylie"){btn.textContent=item.name;btn.setAttribute("aria-label","Вайли "+item.name)}
+  else{btn.textContent=item.base;btn.classList.add("is-tibetan");btn.setAttribute("lang","bo");btn.setAttribute("aria-label","Буква "+item.name)}
+  addAnswer(btn,key);if(letterIndex===state.current)correct.add(key);appendAudioChoice(grid,btn,item.base,"Послушать букву "+item.base);
+ });exerciseEl.appendChild(grid);
+}
+function renderVowelChoices(){
+ var grid=document.createElement("div");grid.className="tw-choice-grid tw-vowel-grid";
+ round.choices.forEach(function(vowelIndex,optionIndex){
+  var vowel=VOWELS[vowelIndex],key="v"+optionIndex,btn=document.createElement("button");btn.type="button";btn.className="tw-choice is-tibetan";btn.textContent=vowelSyllable(letter(),vowel);btn.setAttribute("lang","bo");btn.setAttribute("aria-label","Слог "+vowelWylie(letter(),vowel));
+  addAnswer(btn,key);if(vowelIndex===round.vowelIndex)correct.add(key);appendAudioChoice(grid,btn,vowelSyllable(letter(),vowel),"Послушать слог "+vowelSyllable(letter(),vowel));
+ });exerciseEl.appendChild(grid);
+}
+function renderExercise(){
+ exerciseEl.innerHTML="";correct.clear();
+ var item=letter(),title=root.querySelector("#tw2-task-title"),instruction=root.querySelector("#tw2-instruction"),step=root.querySelector("#tw2-step");step.textContent=MODES[state.mode].label;
+ if(round.kind==="glyph"){
+  title.innerHTML='Отметьте все <span class="bo" lang="bo">'+escapeHTML(item.base)+'</span>';
+  instruction.textContent="Нажимайте на буквы и связки. Разделители выбирать не нужно.";renderWordRows(splitGlyphs,"tw-glyph");
+ }else if(round.kind==="syllable"){
+  title.innerHTML='Отметьте все слоги с <span class="bo" lang="bo">'+escapeHTML(item.base)+'</span>';
+  instruction.textContent="Выбирайте слог целиком. В одном слове подходящих слогов может быть несколько.";renderWordRows(splitSyllables,"tw-syllable");
+ }else if(round.kind==="similar"){
+  title.innerHTML='Найдите <span class="bo" lang="bo">'+escapeHTML(item.base)+'</span> среди вариантов';
+  instruction.textContent="Выберите одну букву, которая в точности совпадает с образцом.";renderChoices();
+ }else if(round.kind==="vowels"){
+  var targetVowel=VOWELS[round.vowelIndex],targetReading=vowelWylie(item,targetVowel);
+  title.innerHTML='Найдите <span class="latin" lang="en">'+escapeHTML(targetReading)+'</span>';
+  instruction.textContent="Выберите один слог. У формы с a отдельной огласовки нет; i, u, e и o обозначаются знаками.";renderVowelChoices();
+ }else{
+  if(round.direction==="toWylie")title.innerHTML='Выберите Вайли для <span class="bo" lang="bo">'+escapeHTML(item.base)+'</span>';
+  else title.textContent="Какая буква записывается как "+item.name+"?";
+  instruction.textContent=round.direction==="toWylie"?"Выберите одну запись Вайли.":"Алфавит скрыт на время задания, чтобы правильная буква не была подсвечена.";renderChoices();
+ }
+}
+function toggleAnswer(button,key){
+ if(checked)return;
+ if(!round.multiple){
+  var wasSelected=selected.has(key);selected.clear();root.querySelectorAll(".tw-answer").forEach(function(node){node.classList.remove("is-selected");node.setAttribute("aria-pressed","false")});
+  if(!wasSelected){selected.add(key);button.classList.add("is-selected");button.setAttribute("aria-pressed","true")}
+ }else{
+  if(selected.has(key))selected.delete(key);else selected.add(key);button.classList.toggle("is-selected",selected.has(key));button.setAttribute("aria-pressed",selected.has(key)?"true":"false");
+ }
+ checkBtn.disabled=selected.size===0;
+}
+function successText(mastered){
+ var item=letter();
+ if(state.mode==="vowels"){
+  var vowel=VOWELS[round.vowelIndex],syllable=vowelSyllable(item,vowel),reading=vowelWylie(item,vowel);
+  if(mastered)return"Отлично! Вы разобрали все пять форм буквы "+item.base+": "+VOWELS.map(function(v){return vowelWylie(item,v)}).join(", ")+".";
+  return"Верно! "+syllable+" — "+reading+".";
+ }
+ if(mastered)return"Отлично! Буква пройдена в режиме «"+MODES[state.mode].label+"».";
+ if(state.mode==="similar")return"Верно! Это буква "+item.base+".";
+ if(state.mode==="wylie")return"Верно! "+item.base+" — "+item.name+" в системе Вайли.";
+ if(state.mode==="syllable")return"Верно! Вы нашли все нужные слоги.";
+ return"Верно! Вы нашли все вхождения буквы.";
+}
+function showFeedback(message,success){feedbackEl.hidden=false;feedbackEl.className="tw-feedback "+(success?"is-success":"is-error");feedbackEl.textContent=message}
+function hideFeedback(){feedbackEl.hidden=true;feedbackEl.className="tw-feedback";feedbackEl.textContent=""}
+function checkAnswer(){
+ if(checked||selected.size===0)return;checked=true;state.attempts+=1;
+ var missed=Array.from(correct).filter(function(key){return!selected.has(key)}),wrong=Array.from(selected).filter(function(key){return!correct.has(key)}),perfect=missed.length===0&&wrong.length===0;
+ root.querySelectorAll(".tw-answer").forEach(function(btn){var key=btn.dataset.key;btn.disabled=true;if(correct.has(key)&&selected.has(key))btn.classList.add("is-correct");if(wrong.indexOf(key)!==-1)btn.classList.add("is-wrong");if(missed.indexOf(key)!==-1)btn.classList.add("is-missed")});
+ if(perfect){
+  state.correctAnswers+=1;state.streak+=1;var limit=roundLimit(state.mode),next=Math.min(limit,currentProgress()+1);state.progress[state.mode][state.current]=next;
+  if(next>=limit&&completedFor(state.mode).indexOf(state.current)===-1)completedFor(state.mode).push(state.current);
+  showFeedback(successText(next>=limit),true);continueBtn.textContent=next>=limit?"Следующая буква":"Следующее задание";continueBtn.hidden=false;clearBtn.hidden=true;
+ }else{
+  state.streak=0;
+  if(round.multiple){
+   var parts=[],colors=[];if(missed.length){parts.push("пропущено: "+missed.length);colors.push("Оранжевым отмечено то, что нужно было выбрать.")}if(wrong.length){parts.push("лишних отметок: "+wrong.length);colors.push("Розовым отмечено то, что выбрано лишним.")}showFeedback("Почти! "+parts.join(", ")+". "+colors.join(" "),false);
+  }else{
+   var detail="";
+   if(state.mode==="wylie")detail=" Правильное соответствие: "+letter().base+" — "+letter().name+".";
+   if(state.mode==="vowels"){
+    var rightVowel=VOWELS[round.vowelIndex];
+    detail=" Правильный ответ: "+vowelSyllable(letter(),rightVowel)+" — "+vowelWylie(letter(),rightVowel)+".";
+   }
+   showFeedback("Пока нет. Розовым отмечен ваш ответ, оранжевым — правильный."+detail,false);
+  }
+  clearBtn.textContent="Попробовать ещё";
+ }
+ saveState();renderHeader();checkBtn.hidden=true;
+}
+function retryRound(){
+ checked=false;selected.clear();root.querySelectorAll(".tw-answer").forEach(function(btn){btn.disabled=false;btn.classList.remove("is-selected","is-correct","is-wrong","is-missed");btn.setAttribute("aria-pressed","false")});clearBtn.textContent="Снять выбор";checkBtn.hidden=false;checkBtn.disabled=true;hideFeedback();
+}
+function nextIncomplete(){
+ for(var offset=1;offset<=LETTERS.length;offset++){var candidate=(state.current+offset)%LETTERS.length;if(completedFor(state.mode).indexOf(candidate)===-1)return candidate}return-1;
+}
+function continueTraining(){if(currentProgress()>=roundLimit(state.mode)){var next=nextIncomplete();if(next!==-1)state.current=next}saveState();startRound()}
+function startRound(){stopMonlamAudio();selected.clear();correct.clear();checked=false;round=makeRound();renderHeader();renderExercise();hideFeedback();checkBtn.hidden=false;checkBtn.disabled=true;clearBtn.hidden=false;clearBtn.textContent="Снять выбор";continueBtn.hidden=true}
+
+root.querySelectorAll(".tw-mode").forEach(function(btn){btn.addEventListener("click",function(){var mode=btn.dataset.mode;if(MODE_ORDER.indexOf(mode)===-1||mode===state.mode)return;state.mode=mode;if(mode==="wylie"&&completedFor(mode).indexOf(state.current)!==-1){var next=nextIncomplete();if(next!==-1)state.current=next}saveState();startRound()})});
+checkBtn.addEventListener("click",checkAnswer);
+continueBtn.addEventListener("click",continueTraining);
+clearBtn.addEventListener("click",function(){if(checked){retryRound();return}selected.clear();root.querySelectorAll(".tw-answer").forEach(function(btn){btn.classList.remove("is-selected");btn.setAttribute("aria-pressed","false")});checkBtn.disabled=true});
+root.querySelector("#tw2-new-round").addEventListener("click",startRound);
+root.querySelector("#tw2-reset").addEventListener("click",function(){if(!window.confirm("Сбросить прогресс во всех пяти режимах?"))return;state=freshState();saveState();startRound()});
+root.querySelector("#tw2-word-count").textContent=WORDS.length;
+startRound();
+})();
+</script>
