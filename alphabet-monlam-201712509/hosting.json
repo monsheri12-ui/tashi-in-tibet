@@ -1,0 +1,15 @@
+{
+  "repository": "monsheri12-ui/tashi-in-tibet",
+  "branch": "alphabet-monlam-201712509-20261110",
+  "audioCommit": "386ea8ac4ab499dd4f08d2fb40ad05571c827427",
+  "audioTree": "c93676fcd931dc92e1153a54ed2464341c5ce07a",
+  "audioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/386ea8ac4ab499dd4f08d2fb40ad05571c827427/alphabet-monlam-201712509/audio/",
+  "spellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/386ea8ac4ab499dd4f08d2fb40ad05571c827427/alphabet-monlam-201712509/spelling/",
+  "voices": {
+    "female": 1105,
+    "male": 1105
+  },
+  "spellingPlans": 512,
+  "words": 500,
+  "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html"
+}

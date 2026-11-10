@@ -101,7 +101,7 @@
           </button>
         </div>
 
-        <p class="tw-instruction" id="tw2-instruction">Нажимайте на буквы и связки. Разделители выбирать не нужно.</p>
+        <p class="tw-instruction" id="tw2-instruction">Нажимайте на буквы и связки. Разделители выбирать не нужно. «Слово» — чтение целиком; «Разбор» — учебное чтение каждого слога.</p>
         <div class="tw-exercise" id="tw2-exercise" aria-label="Область упражнения"></div>
         <div class="tw-feedback" id="tw2-feedback" role="status" aria-live="polite" hidden></div>
 
@@ -236,6 +236,10 @@
 #tw-alphabet-lab .tw-audio-choice>.tw-choice{width:100%;height:100%;padding-top:27px;padding-bottom:23px}
 #tw-alphabet-lab .tw-audio-choice>.tw-audio-button{position:absolute;right:5px;top:5px;min-width:29px;min-height:29px;padding:5px}
 #tw-alphabet-lab .tw-audio-choice>.tw-audio-button svg{width:15px;height:15px}
+#tw-alphabet-lab .tw-glyph.is-sounding{box-shadow:inset 0 0 0 2px var(--jade);background:#e7f2ed}
+#tw-alphabet-lab .tw-word.tw-word-spelling{padding-right:13px}
+#tw-alphabet-lab .tw-word-audio{display:flex;flex-basis:100%;justify-content:center;gap:8px;margin-top:5px}
+#tw-alphabet-lab .tw-word-audio .tw-audio-button{min-height:29px;padding:6px 10px;border-radius:10px;font-size:11px}
 @media(max-width:900px){#tw-alphabet-lab .tw-target-audio{grid-column:3;margin:10px 0 0}#tw-alphabet-lab .tw-target-audio .tw-audio-button{min-height:34px;padding:8px 12px}}
 @media(max-width:620px){#tw-alphabet-lab .tw-audio-toolbar{padding:11px;gap:10px 15px}#tw-alphabet-lab .tw-audio-status{width:100%;text-align:left}#tw-alphabet-lab .tw-target-audio{grid-column:2}#tw-alphabet-lab .tw-word{padding-right:53px}}
 
@@ -287,8 +291,8 @@ var alphabetEl=root.querySelector("#tw2-alphabet"),alphabetWrap=root.querySelect
 var state=loadState();
 
 // Recorded Monlam voices. Training progress stays in the existing storage key.
-var MONLAM_AUDIO_BASE="https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/e236cf79287da805de2afa3f8f886d4277e98660/alphabet-monlam-201712509/audio/";
-var MONLAM_TEXTS=["ཀ","ཁ","ག","ང","ཅ","ཆ","ཇ","ཉ","ཏ","ཐ","ད","ན","པ","ཕ","བ","མ","ཙ","ཚ","ཛ","ཝ","ཞ","ཟ","འ","ཡ","ར","ལ","ཤ","ས","ཧ","ཨ","ཀི","ཀུ","ཀེ","ཀོ","ཁི","ཁུ","ཁེ","ཁོ","གི","གུ","གེ","གོ","ངི","ངུ","ངེ","ངོ","ཅི","ཅུ","ཅེ","ཅོ","ཆི","ཆུ","ཆེ","ཆོ","ཇི","ཇུ","ཇེ","ཇོ","ཉི","ཉུ","ཉེ","ཉོ","ཏི","ཏུ","ཏེ","ཏོ","ཐི","ཐུ","ཐེ","ཐོ","དི","དུ","དེ","དོ","ནི","ནུ","ནེ","ནོ","པི","པུ","པེ","པོ","ཕི","ཕུ","ཕེ","ཕོ","བི","བུ","བེ","བོ","མི","མུ","མེ","མོ","ཙི","ཙུ","ཙེ","ཙོ","ཚི","ཚུ","ཚེ","ཚོ","ཛི","ཛུ","ཛེ","ཛོ","ཝི","ཝུ","ཝེ","ཝོ","ཞི","ཞུ","ཞེ","ཞོ","ཟི","ཟུ","ཟེ","ཟོ","འི","འུ","འེ","འོ","ཡི","ཡུ","ཡེ","ཡོ","རི","རུ","རེ","རོ","ལི","ལུ","ལེ","ལོ","ཤི","ཤུ","ཤེ","ཤོ","སི","སུ","སེ","སོ","ཧི","ཧུ","ཧེ","ཧོ","ཨི","ཨུ","ཨེ","ཨོ","ཀོ་ཐག","ཀོ་བ","ཀོ་བ་གཏོང","ཀྱོག་ཀྱོག","ཀྲབ་པོ","ཁ་ཁུ་སིམ་པོ","ཁ་གཅོད","ཁ་གཏོང","ཁ་གསང་པོ","ཁ་ཆད","ཁ་ཆད་བྱེད","ཁ་པར","ཁ་མཆུ","ཁ་རྒྱག","ཁ་རྡུང་གཏོང","ཁ་ལག","ཁག","ཁག་ཁག","ཁག་པོ","ཁབ","ཁབ་གཟེར","ཁབ་རྒྱག","ཁར་ཐུག","ཁུལ","ཁེ་པོ","ཁེ་བཟང","ཁོང་ཁྲོ","ཁོང་ཁྲོ་ཟ་བ","ཁྱབ་བསྒྲགས","ཁྱབ་བསྒྲགས་བྱེད","ཁྲི","ཁྲི་རྒྱག","ཁྲིད","ཁྲིད་བྱེད","གང་ཡང","གང་ཡང་མེད་པ","གངས","གངས་ཤུད","གངས་ཤུད་གཏོང","གཅིག་པ","གཅིག་པུ","གཅིན་པ","གཅིན་པ་གཏོང","གཏན་འཇགས","གཏིང","གཏིང་མེད་པ","གཏིང་རིང་པོ","གཏོང","གཏོང་ཕོད་པོ","གདན","གདན་རྒྱག","གནོད་པ","གབ་པ","གཙང་མ","གཞན","གཞི་གཞུང་པོ","གཞུག་གུ","གཞོག","གཞོན་ནུ","གཞོན་པ","གཟེར","གཟེར་རྒྱག","གཟོང","གར་པོ","གཤག་བཅོས","གཤག་བཅོས་བྱེད","གཤམ་ལ","གསོལ་ཚིགས","གསོལ་ཚིགས་གཏོང","གསོས","གསོས་པ","གུ་ཡངས་པོ","གུག་གུག","གུར","གུར་རྒྱག","གུས་ཞབས","གུས་ཞབས་བྱེད","གོ་རིམ་མེད་པ","གོང་ཆེན་པོ","གོམ་པ","གྱོང་གུན","གྲ་སྒྲིག་བྱེད","གྲངས་ཚད་མེད་པ","གྲི","གྲུ","གྲུ་གཏོང","གྲུང་པོ","གྲྭ་པ","གྲྭ་པ་བྱེད","གླིང་བུ་གཏོང","གླུ","གླུ་གཏོང","གླེན་པ","གློ","གློ་རྒྱག","གློག་རྒྱག","ང་རྒྱལ","ང་རྒྱལ་བྱེད","ངན","ངོ་མ","ངོ་རྒོལ","ངོ་རྒོལ་བྱེད","ངོ་རྒོལ་རྒྱག","ཆང་ས","ཆབ་སྒྲོག","ཆབ་སྒྲོག་རྒྱག","ཆམ་པ","ཆམ་པ་རྒྱག","ཆར་པ","ཆུ་གཏོང","ཆུ་རྒྱག","ཆེན་པོ","ཆོས","ཇ་གཏོང","ཇག་པ","ཇག་པ་རྒྱག","ཉིན་གུང","ཉིན་མོ","ཉིས་བརྩེགས","ཉུང་ཉུང","ཉུང་བ","ཉེས་འཛུགས","ཉེས་འཛུགས་བྱེད","ཉོ་བ","ཉོབ་པོ","ཐག་ཉེ","ཐག་རིང","ཐབས་ཤེས","ཐུང","ཐུང་ཐུང","ཐོག","ཐོག་རྒྱག","ཐོན་པ","ཐོབ་པ","ད་ག་རང","ད་ལྟ","དཀའ་ངལ་མྱོང","དཀའ་པོ་བྱེད","དཀའ་ལས","དཀའ་ལས་ཁག་པོ","དཀའ་ལས་རྒྱག","དཀོན་པོ","དཀྱུས་མ","དགག་བྱ","དགག་བྱ་བྱེད","དགའ་པོ","དགའ་བ","དགེ་རྒན","དགོང་དྲོ","དགོངས་དག་ཐུགས་བདེན་ཞུ","དགོངས་སེལ་ཞུ","དགྲ","དབུལ་པོ","དམག","དམག་རྒྱག","དམའ་བོ","དམའ་འབེབས་གཏོང","དེ་ནས","དེང་སང","དོ་སྣང","དྲི་བ","དྲོ་པོ","ནང","ནང་ཟོག་ཕྱི་འདྲེན","ནང་ཤ","ནང་ཤ་རྒྱག","ནུབ","ནུབ་པ","པར","པར་རྒྱག","པར་སྐྱར","ཕན་པ","ཕམས་པ","ཕར","ཕུར་པ","ཕྱི","ཕྱི་པོ","ཕྱི་ཟོག་ནང་འདྲེན","ཕྱུག་པོ","ཕྲ་པོ","བཀག་བསྐྱིལ་བྱེད","བཀའ","བཀའ་གཏོང","བཀའ་སྐྱོན་གཏོང","བཀོད་པ","བཀོད་པ་གཏོང","བཀྲེན་པོ","བང་ཆེན་གཏོང","བཅོས་མ","བདེ་བ","བཙན་གནོན","བཙན་འཛུལ","བཙན་འཛུལ་བྱེད","བཙོག་པ","བཙོག་པ་གཏོང","བཞུར","བཞུར་བ","བཟང","བཟོ་པ","བཟོད་གསོལ་ཞུ","བར་འཛུལ","བར་འཛུལ་བྱེད","བརྡ","བསམ་བློ","བསམ་བློ་གཏོང","བསྐོ་བཞག་བྱེད","བསྐོར་ར་རྒྱག","བསླབ་བྱ","བསླབ་བྱ་བྱེད","བུ་ལོན་གཏོང","བྱམས་པ","བྱམས་པ་བྱེད","བྱེ་བྲག","བྱེད","བྱེད་ལ་ལེ་ལོ","བྲེལ་བ་ཚ་པོ","བྲོ་བ་མྱོང","བློས","བློས་གཏོང","མཁྲེགས་པོ","མགོ","མགྱོགས་པོ","མང་པོ","མངར་མོ","མཆོད་པ","མཆོད་པ་བྱེད","མཇུག","མཇུག་ལ","མཉམ་དུ","མཐིལ","མཐུ","མཐུ་རྒྱག","མཐོ་པོ","མཐོ་བོ","མཐོང་རྒྱ་ཆེན་པོ","མདའ","མདུད་པ","མདུད་པ་རྒྱག","མདུན","མདོག་ཉེས་པོ","མཚན་མོ","མར","མི་ཆོག་པ","མི་དགེ་བ","མི་ཚུད་པ","མེ་གཏོང","མེ་མདའ","མེ་མདའ་རྒྱག","མོས་མཐུན་བྱེད་པ","མོས་མཐུན་མེད་པ","མྱོང","ཚ་ག","ཚ་པོ","ཚག་པོ","ཚད","ཚབ","ཚབ་བྱེད","ཚབ་ཚུབ","ཚབ་ཚུབ་བྱེད","ཚུད་པ","ཚུར","ཚེམ་བུ","ཚེམ་བུ་རྒྱག","ཚོང","ཚོང་རྒྱག","ཚོན","ཚོན་གཏོང","ཚོར་བ","ཚོར་བ་མྱོང","ཚྭ","ཚྭ་རྒྱག","ཝ་ཕྲུག","ཝ་མོ","ཝ་ཚང","ཝ་སྐད","ཞབས་བྲོ་རྒྱག","ཞེན་ཁོག་མེད་པ","ཞྭ་ཐག","ཞྭ་ཐག་རྒྱག","ཟ་གཡའ","ཟ་གཡའ་རྒྱག","ཟུག","འཁྱག་པ་རྒྱག","འཁྱགས་པ","འཁྱགས་པ་གཏོང","འཁྱགས་ཤུད་གཏོང","འཁྲེགས་པོ","འགོ","འགོ་འཛུགས","འགྱེད","འགྲིག་པ","འགྲུལ་རྒྱག","འགྲུལ་རྟགས","འགྲོ་སོང","འཆམ","འཆམས་པོ","འཆམས་པོ་བྱེད","འཆི་བ","འཇམ་པོ","འཇིབ","འཇིབ་རྒྱག","འཐབ་ར","འཐབ་ར་རྒྱག","འདེམས་བསྒྲུགས","འདེམས་བསྒྲུགས་བྱེད","འདྲ་ཤུས","འཕྱ་བ","འཕྱ་སྨོད་རྒྱག","འཕྲལ་སེལ","འབྱོར་བ","འབྲུག་སྐད","འཚོ་བ","འཚོ་བ་མྱོང","འཚོང་བ","འཚོལ་བ","འོས་འདེམས","འོས་འདེམས་བྱེད","ཡང་པོ","ཡང་སེ","ཡར","ཡར་བརྩེགས་པ","ཡར་རྒྱས","ཡར་རྒྱས་གཏོང","ཡི་གེ","ཡིག་ཐོག","ཡིན་དང་མིན","ཡིན་དང་ཡིན","ཡོང་འབབ","རགས","རང","རང་སྐྱོན་སྦས་པ","རབ","རབ་རྒྱག","རིག་པ་གཏོང","རིང","རིང་པོ","རེ་བ","རེ་རེ་བཞིན","རེ་རེ་བྱས","རོ་མྱོང","རྐུབ་ཀྱག","རྐུབ་ཀྱག་རྒྱག","རྐྱལ","རྐྱོང་བ","རྒན་པ","རྒྱ་ཆུང་ཆུང","རྒྱ་ཆེན་པོ","རྒྱག","རྒྱགས་པ","རྒྱན་པོ","རྒྱན་པོ་རྒྱག","རྒྱབ","རྗེན་པ","རྙིང་པ","རྙེད་པ","རྟ","རྟ་གཏོང","རྟགས","རྟགས་རྒྱག","རྟུལ་པོ","རྡེབ་པ","རྡེབ་པ་རྒྱག","རྣག","རྣག་རྒྱག","རྩིས","རྩུབ་པོ","རྩོད་པ","རྩོད་པ་རྒྱག","རྫུས་མ","རྫོར་པོ","རླུང་པ","རླུང་པ་རྒྱག","རློན་པ","ལ་རྒྱག","ལག་པ","ལག་པ་གཡུག","ལག་བརྡ","ལགས","ལན","ལན་བུ","ལན་བུ་རྒྱག","ལན་རྒྱག","ལས་ཀ","ལས་ཀ་མེད་པ","ལས་བརྩོན་ཅན","ལུད","ལུད་རྒྱག","ལེ་ལོ་ཅན","ལོ་ཏོག","ལོ་ཏོག་རྒྱག","ལོག","ལོའོ","ལྐུགས་པ","ལྐོག་རྔན་བྱེད","ལྕགས","ལྗིད་པོ","ལྡོག་ཕྱོགས","ལྷན་པ","ལྷན་པ་རྒྱག","ལྷུག་ལྷུག","ཤ་བཙིར","ཤ་བཙིར་རྒྱག","ཤར","ཤར་བ","ཤུ་རྒྱག","ཤུགས","ཤུགས་མེད་པ","ཤུགས་རྒྱག","ཤུལ","ཤུལ་རྒྱག","ཤེས","ཤོར་བ","ས་ཡོམ","སེམས་ཁྲལ","སེམས་གསོ","སེམས་གསོ་གཏོང","སོ་གཏོང","སོ་རྒྱག","སོ་ཤད","སོ་ཤད་རྒྱག","སྐད","སྐད་གཏོང","སྐད་གྲགས་ཆུང་ངུས","སྐད་གྲགས་ཆེན་པོས","སྐད་ཅོར","སྐད་ཅོར་རྒྱག","སྐད་ཆ","སྐད་རྒྱག","སྐབས་རེ","སྐམ་པོ","སྐུམ་པ","སྐྱིགས་པ","སྐྱིགས་པ་རྒྱག","སྐྱིད་པོ","སྐྱིད་པོ་གཏོང་བ","སྐྱོ་པོ","སྐྱོ་བ","སྐྱོན","སྐྱོན་བརྗོད","སྐྱོར","སྐྱོར་རྒྱག","སྒ","སྒམ་པོ","སྒུག","སྒུག་རྒྱག","སྒེའུ་ཁུང","སྒེའུ་ཡོལ","སྒོ་ཡོལ་རྒྱག","སྒོ་ལྕགས","སྒོམ","སྒོམ་པ་བྱེད","སྒྲ་འཁོར","སྒྲུབ་པ","སྔ་དྲོ","སྔ་པོ","སྔ་མོ","སྔགས","སྔོན་ལ","སྙིང་རྗེ་པོ","སྙིང་རྗེ་མེད་པ","སྟེང་ལ","སྟོང་པ","སྡུག་པོ","སྡུག་པོ་མྱོང་བ","སྡུག་བསྔལ་མྱོང","སྣང་ཆུང","སྣོན་སྐྱེད་རྒྱག","སྤུས་ཀ་ཞན་པ","སྤུས་ཀ་ཞན་པོ","སྤོབས་པ","སྤོབས་པ་བྱེད","སྤྱང་པོ","སྤྱིར་བཏང","སྤྲོ་སྐྱིད","སྤྲོ་སྐྱིད་གཏོང","སྦོམ་པོ","སྦྱིན་པ","སྨིན་པ","སྲབ་པོ","སླེ་པ་རྒྱག","ཧ་གོ","ཧམ་པ","ཧམ་པ་བྱེད","ཧུར་པོ","ཨཱ","ཨུ་ཚུགས","ཨུ་ཚུགས་བྱེད"];
+var MONLAM_AUDIO_BASE="https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/386ea8ac4ab499dd4f08d2fb40ad05571c827427/alphabet-monlam-201712509/audio/";
+var MONLAM_TEXTS=["ཀ","ཁ","ག","ང","ཅ","ཆ","ཇ","ཉ","ཏ","ཐ","ད","ན","པ","ཕ","བ","མ","ཙ","ཚ","ཛ","ཝ","ཞ","ཟ","འ","ཡ","ར","ལ","ཤ","ས","ཧ","ཨ","ཀི","ཀུ","ཀེ","ཀོ","ཁི","ཁུ","ཁེ","ཁོ","གི","གུ","གེ","གོ","ངི","ངུ","ངེ","ངོ","ཅི","ཅུ","ཅེ","ཅོ","ཆི","ཆུ","ཆེ","ཆོ","ཇི","ཇུ","ཇེ","ཇོ","ཉི","ཉུ","ཉེ","ཉོ","ཏི","ཏུ","ཏེ","ཏོ","ཐི","ཐུ","ཐེ","ཐོ","དི","དུ","དེ","དོ","ནི","ནུ","ནེ","ནོ","པི","པུ","པེ","པོ","ཕི","ཕུ","ཕེ","ཕོ","བི","བུ","བེ","བོ","མི","མུ","མེ","མོ","ཙི","ཙུ","ཙེ","ཙོ","ཚི","ཚུ","ཚེ","ཚོ","ཛི","ཛུ","ཛེ","ཛོ","ཝི","ཝུ","ཝེ","ཝོ","ཞི","ཞུ","ཞེ","ཞོ","ཟི","ཟུ","ཟེ","ཟོ","འི","འུ","འེ","འོ","ཡི","ཡུ","ཡེ","ཡོ","རི","རུ","རེ","རོ","ལི","ལུ","ལེ","ལོ","ཤི","ཤུ","ཤེ","ཤོ","སི","སུ","སེ","སོ","ཧི","ཧུ","ཧེ","ཧོ","ཨི","ཨུ","ཨེ","ཨོ","ཀོ་ཐག","ཀོ་བ","ཀོ་བ་གཏོང","ཀྱོག་ཀྱོག","ཀྲབ་པོ","ཁ་ཁུ་སིམ་པོ","ཁ་གཅོད","ཁ་གཏོང","ཁ་གསང་པོ","ཁ་ཆད","ཁ་ཆད་བྱེད","ཁ་པར","ཁ་མཆུ","ཁ་རྒྱག","ཁ་རྡུང་གཏོང","ཁ་ལག","ཁག","ཁག་ཁག","ཁག་པོ","ཁབ","ཁབ་གཟེར","ཁབ་རྒྱག","ཁར་ཐུག","ཁུལ","ཁེ་པོ","ཁེ་བཟང","ཁོང་ཁྲོ","ཁོང་ཁྲོ་ཟ་བ","ཁྱབ་བསྒྲགས","ཁྱབ་བསྒྲགས་བྱེད","ཁྲི","ཁྲི་རྒྱག","ཁྲིད","ཁྲིད་བྱེད","གང་ཡང","གང་ཡང་མེད་པ","གངས","གངས་ཤུད","གངས་ཤུད་གཏོང","གཅིག་པ","གཅིག་པུ","གཅིན་པ","གཅིན་པ་གཏོང","གཏན་འཇགས","གཏིང","གཏིང་མེད་པ","གཏིང་རིང་པོ","གཏོང","གཏོང་ཕོད་པོ","གདན","གདན་རྒྱག","གནོད་པ","གབ་པ","གཙང་མ","གཞན","གཞི་གཞུང་པོ","གཞུག་གུ","གཞོག","གཞོན་ནུ","གཞོན་པ","གཟེར","གཟེར་རྒྱག","གཟོང","གར་པོ","གཤག་བཅོས","གཤག་བཅོས་བྱེད","གཤམ་ལ","གསོལ་ཚིགས","གསོལ་ཚིགས་གཏོང","གསོས","གསོས་པ","གུ་ཡངས་པོ","གུག་གུག","གུར","གུར་རྒྱག","གུས་ཞབས","གུས་ཞབས་བྱེད","གོ་རིམ་མེད་པ","གོང་ཆེན་པོ","གོམ་པ","གྱོང་གུན","གྲ་སྒྲིག་བྱེད","གྲངས་ཚད་མེད་པ","གྲི","གྲུ","གྲུ་གཏོང","གྲུང་པོ","གྲྭ་པ","གྲྭ་པ་བྱེད","གླིང་བུ་གཏོང","གླུ","གླུ་གཏོང","གླེན་པ","གློ","གློ་རྒྱག","གློག་རྒྱག","ང་རྒྱལ","ང་རྒྱལ་བྱེད","ངན","ངོ་མ","ངོ་རྒོལ","ངོ་རྒོལ་བྱེད","ངོ་རྒོལ་རྒྱག","ཆང་ས","ཆབ་སྒྲོག","ཆབ་སྒྲོག་རྒྱག","ཆམ་པ","ཆམ་པ་རྒྱག","ཆར་པ","ཆུ་གཏོང","ཆུ་རྒྱག","ཆེན་པོ","ཆོས","ཇ་གཏོང","ཇག་པ","ཇག་པ་རྒྱག","ཉིན་གུང","ཉིན་མོ","ཉིས་བརྩེགས","ཉུང་ཉུང","ཉུང་བ","ཉེས་འཛུགས","ཉེས་འཛུགས་བྱེད","ཉོ་བ","ཉོབ་པོ","ཐག་ཉེ","ཐག་རིང","ཐབས་ཤེས","ཐུང","ཐུང་ཐུང","ཐོག","ཐོག་རྒྱག","ཐོན་པ","ཐོབ་པ","ད་ག་རང","ད་ལྟ","དཀའ་ངལ་མྱོང","དཀའ་པོ་བྱེད","དཀའ་ལས","དཀའ་ལས་ཁག་པོ","དཀའ་ལས་རྒྱག","དཀོན་པོ","དཀྱུས་མ","དགག་བྱ","དགག་བྱ་བྱེད","དགའ་པོ","དགའ་བ","དགེ་རྒན","དགོང་དྲོ","དགོངས་དག་ཐུགས་བདེན་ཞུ","དགོངས་སེལ་ཞུ","དགྲ","དབུལ་པོ","དམག","དམག་རྒྱག","དམའ་བོ","དམའ་འབེབས་གཏོང","དེ་ནས","དེང་སང","དོ་སྣང","དྲི་བ","དྲོ་པོ","ནང","ནང་ཟོག་ཕྱི་འདྲེན","ནང་ཤ","ནང་ཤ་རྒྱག","ནུབ","ནུབ་པ","པར","པར་རྒྱག","པར་སྐྱར","ཕན་པ","ཕམས་པ","ཕར","ཕུར་པ","ཕྱི","ཕྱི་པོ","ཕྱི་ཟོག་ནང་འདྲེན","ཕྱུག་པོ","ཕྲ་པོ","བཀག་བསྐྱིལ་བྱེད","བཀའ","བཀའ་གཏོང","བཀའ་སྐྱོན་གཏོང","བཀོད་པ","བཀོད་པ་གཏོང","བཀྲེན་པོ","བང་ཆེན་གཏོང","བཅོས་མ","བདེ་བ","བཙན་གནོན","བཙན་འཛུལ","བཙན་འཛུལ་བྱེད","བཙོག་པ","བཙོག་པ་གཏོང","བཞུར","བཞུར་བ","བཟང","བཟོ་པ","བཟོད་གསོལ་ཞུ","བར་འཛུལ","བར་འཛུལ་བྱེད","བརྡ","བསམ་བློ","བསམ་བློ་གཏོང","བསྐོ་བཞག་བྱེད","བསྐོར་ར་རྒྱག","བསླབ་བྱ","བསླབ་བྱ་བྱེད","བུ་ལོན་གཏོང","བྱམས་པ","བྱམས་པ་བྱེད","བྱེ་བྲག","བྱེད","བྱེད་ལ་ལེ་ལོ","བྲེལ་བ་ཚ་པོ","བྲོ་བ་མྱོང","བློས","བློས་གཏོང","མཁྲེགས་པོ","མགོ","མགྱོགས་པོ","མང་པོ","མངར་མོ","མཆོད་པ","མཆོད་པ་བྱེད","མཇུག","མཇུག་ལ","མཉམ་དུ","མཐིལ","མཐུ","མཐུ་རྒྱག","མཐོ་པོ","མཐོ་བོ","མཐོང་རྒྱ་ཆེན་པོ","མདའ","མདུད་པ","མདུད་པ་རྒྱག","མདུན","མདོག་ཉེས་པོ","མཚན་མོ","མར","མི་ཆོག་པ","མི་དགེ་བ","མི་ཚུད་པ","མེ་གཏོང","མེ་མདའ","མེ་མདའ་རྒྱག","མོས་མཐུན་བྱེད་པ","མོས་མཐུན་མེད་པ","མྱོང","ཚ་ག","ཚ་པོ","ཚག་པོ","ཚད","ཚབ","ཚབ་བྱེད","ཚབ་ཚུབ","ཚབ་ཚུབ་བྱེད","ཚུད་པ","ཚུར","ཚེམ་བུ","ཚེམ་བུ་རྒྱག","ཚོང","ཚོང་རྒྱག","ཚོན","ཚོན་གཏོང","ཚོར་བ","ཚོར་བ་མྱོང","ཚྭ","ཚྭ་རྒྱག","ཝ་ཕྲུག","ཝ་མོ","ཝ་ཚང","ཝ་སྐད","ཞབས་བྲོ་རྒྱག","ཞེན་ཁོག་མེད་པ","ཞྭ་ཐག","ཞྭ་ཐག་རྒྱག","ཟ་གཡའ","ཟ་གཡའ་རྒྱག","ཟུག","འཁྱག་པ་རྒྱག","འཁྱགས་པ","འཁྱགས་པ་གཏོང","འཁྱགས་ཤུད་གཏོང","འཁྲེགས་པོ","འགོ","འགོ་འཛུགས","འགྱེད","འགྲིག་པ","འགྲུལ་རྒྱག","འགྲུལ་རྟགས","འགྲོ་སོང","འཆམ","འཆམས་པོ","འཆམས་པོ་བྱེད","འཆི་བ","འཇམ་པོ","འཇིབ","འཇིབ་རྒྱག","འཐབ་ར","འཐབ་ར་རྒྱག","འདེམས་བསྒྲུགས","འདེམས་བསྒྲུགས་བྱེད","འདྲ་ཤུས","འཕྱ་བ","འཕྱ་སྨོད་རྒྱག","འཕྲལ་སེལ","འབྱོར་བ","འབྲུག་སྐད","འཚོ་བ","འཚོ་བ་མྱོང","འཚོང་བ","འཚོལ་བ","འོས་འདེམས","འོས་འདེམས་བྱེད","ཡང་པོ","ཡང་སེ","ཡར","ཡར་བརྩེགས་པ","ཡར་རྒྱས","ཡར་རྒྱས་གཏོང","ཡི་གེ","ཡིག་ཐོག","ཡིན་དང་མིན","ཡིན་དང་ཡིན","ཡོང་འབབ","རགས","རང","རང་སྐྱོན་སྦས་པ","རབ","རབ་རྒྱག","རིག་པ་གཏོང","རིང","རིང་པོ","རེ་བ","རེ་རེ་བཞིན","རེ་རེ་བྱས","རོ་མྱོང","རྐུབ་ཀྱག","རྐུབ་ཀྱག་རྒྱག","རྐྱལ","རྐྱོང་བ","རྒན་པ","རྒྱ་ཆུང་ཆུང","རྒྱ་ཆེན་པོ","རྒྱག","རྒྱགས་པ","རྒྱན་པོ","རྒྱན་པོ་རྒྱག","རྒྱབ","རྗེན་པ","རྙིང་པ","རྙེད་པ","རྟ","རྟ་གཏོང","རྟགས","རྟགས་རྒྱག","རྟུལ་པོ","རྡེབ་པ","རྡེབ་པ་རྒྱག","རྣག","རྣག་རྒྱག","རྩིས","རྩུབ་པོ","རྩོད་པ","རྩོད་པ་རྒྱག","རྫུས་མ","རྫོར་པོ","རླུང་པ","རླུང་པ་རྒྱག","རློན་པ","ལ་རྒྱག","ལག་པ","ལག་པ་གཡུག","ལག་བརྡ","ལགས","ལན","ལན་བུ","ལན་བུ་རྒྱག","ལན་རྒྱག","ལས་ཀ","ལས་ཀ་མེད་པ","ལས་བརྩོན་ཅན","ལུད","ལུད་རྒྱག","ལེ་ལོ་ཅན","ལོ་ཏོག","ལོ་ཏོག་རྒྱག","ལོག","ལོའོ","ལྐུགས་པ","ལྐོག་རྔན་བྱེད","ལྕགས","ལྗིད་པོ","ལྡོག་ཕྱོགས","ལྷན་པ","ལྷན་པ་རྒྱག","ལྷུག་ལྷུག","ཤ་བཙིར","ཤ་བཙིར་རྒྱག","ཤར","ཤར་བ","ཤུ་རྒྱག","ཤུགས","ཤུགས་མེད་པ","ཤུགས་རྒྱག","ཤུལ","ཤུལ་རྒྱག","ཤེས","ཤོར་བ","ས་ཡོམ","སེམས་ཁྲལ","སེམས་གསོ","སེམས་གསོ་གཏོང","སོ་གཏོང","སོ་རྒྱག","སོ་ཤད","སོ་ཤད་རྒྱག","སྐད","སྐད་གཏོང","སྐད་གྲགས་ཆུང་ངུས","སྐད་གྲགས་ཆེན་པོས","སྐད་ཅོར","སྐད་ཅོར་རྒྱག","སྐད་ཆ","སྐད་རྒྱག","སྐབས་རེ","སྐམ་པོ","སྐུམ་པ","སྐྱིགས་པ","སྐྱིགས་པ་རྒྱག","སྐྱིད་པོ","སྐྱིད་པོ་གཏོང་བ","སྐྱོ་པོ","སྐྱོ་བ","སྐྱོན","སྐྱོན་བརྗོད","སྐྱོར","སྐྱོར་རྒྱག","སྒ","སྒམ་པོ","སྒུག","སྒུག་རྒྱག","སྒེའུ་ཁུང","སྒེའུ་ཡོལ","སྒོ་ཡོལ་རྒྱག","སྒོ་ལྕགས","སྒོམ","སྒོམ་པ་བྱེད","སྒྲ་འཁོར","སྒྲུབ་པ","སྔ་དྲོ","སྔ་པོ","སྔ་མོ","སྔགས","སྔོན་ལ","སྙིང་རྗེ་པོ","སྙིང་རྗེ་མེད་པ","སྟེང་ལ","སྟོང་པ","སྡུག་པོ","སྡུག་པོ་མྱོང་བ","སྡུག་བསྔལ་མྱོང","སྣང་ཆུང","སྣོན་སྐྱེད་རྒྱག","སྤུས་ཀ་ཞན་པ","སྤུས་ཀ་ཞན་པོ","སྤོབས་པ","སྤོབས་པ་བྱེད","སྤྱང་པོ","སྤྱིར་བཏང","སྤྲོ་སྐྱིད","སྤྲོ་སྐྱིད་གཏོང","སྦོམ་པོ","སྦྱིན་པ","སྨིན་པ","སྲབ་པོ","སླེ་པ་རྒྱག","ཧ་གོ","ཧམ་པ","ཧམ་པ་བྱེད","ཧུར་པོ","ཨཱ","ཨུ་ཚུགས","ཨུ་ཚུགས་བྱེད","ཀྱག","ཀྱོག","ཀྲབ","ཁར","ཁུང","ཁོག","ཁོང","ཁྱབ","ཁྲལ","ཁྲོ","གང","གཅིག","གཅིན","གཅོད","གཏན","གནོད","གནོན","གབ","གཙང","གཞི","གཞུག","གཞུང","གཞོན","གཡའ","གཡུག","གར","གཤག","གཤམ","གསང","གསོ","གསོལ","གུག","གུང","གུན","གུས","གོང","གོམ","གྱོང","གྲ","གྲགས","གྲངས","གྲུང","གྲྭ","གླིང","གླེན","གློག","ངལ","ངུས","ཅན","ཅོར","ཆང","ཆད","ཆབ","ཆམ","ཆར","ཆུང","ཆེན","ཆོག","ཇག","ཉིན","ཉིས","ཉུང","ཉེས","ཉོབ","ཏོག","ཐག","ཐབས","ཐུག","ཐུགས","ཐོན","ཐོབ","དཀའ","དཀོན","དཀྱུས","དག","དགག","དགའ","དགེ","དགོང","དགོངས","དང","དབུལ","དམའ","དེང","དྲི","དྲོ","ནས","པོས","ཕན","ཕམས","ཕུར","ཕོད","ཕྱུག","ཕྱོགས","ཕྲ","ཕྲུག","བཀག","བཀོད","བཀྲེན","བང","བཅོས","བཏང","བདེ","བདེན","བཙན","བཙིར","བཙོག","བཞག","བཞིན","བཟོ","བཟོད","བར","བརྗོད","བརྩེགས","བརྩོན","བསམ","བསྐོ","བསྐོར","བསྐྱིལ","བསྒྲགས","བསྒྲུགས","བསྔལ","བསླབ","བྱ","བྱམས","བྱས","བྱེ","བྲག","བྲེལ","བྲོ","བློ","མཁྲེགས","མགྱོགས","མང","མངར","མཆུ","མཆོད","མཉམ","མཐུན","མཐོ","མཐོང","མདུད","མདོག","མཚན","མིན","མེད","མོས","ཚག","ཚང","ཚིགས","ཚུགས","ཚུད","ཚུབ","ཚེམ","ཚོར","ཞན","ཞབས","ཞེན","ཞྭ","ཟོག","འཁོར","འཁྱག","འཁྱགས","འཁྲེགས","འགྲིག","འགྲུལ","འགྲོ","འཆམས","འཆི","འཇགས","འཇམ","འཐབ","འདེམས","འདྲ","འདྲེན","འཕྱ","འཕྲལ","འབབ","འབེབས","འབྱོར","འབྲུག","འཚོ","འཚོང","འཚོལ","འཛུགས","འཛུལ","འོས","ཡང","ཡངས","ཡིག","ཡིན","ཡོང","ཡོམ","ཡོལ","རིག","རིམ","རྐུབ","རྐྱོང","རྒན","རྒོལ","རྒྱ","རྒྱགས","རྒྱན","རྒྱལ","རྒྱས","རྔན","རྗེ","རྗེན","རྙིང","རྙེད","རྟུལ","རྡུང","རྡེབ","རྩུབ","རྩོད","རྫུས","རྫོར","རླུང","རློན","ལག","ལས","ལོན","ལྐུགས","ལྐོག","ལྗིད","ལྟ","ལྡོག","ལྷན","ལྷུག","ཤད","ཤུད","ཤུས","ཤོར","སང","སིམ","སེམས","སེལ","སོང","སྐབས","སྐམ","སྐུམ","སྐྱར","སྐྱིགས","སྐྱིད","སྐྱེད","སྐྱོ","སྒམ","སྒེའུ","སྒོ","སྒྲ","སྒྲིག","སྒྲུབ","སྒྲོག","སྔ","སྔོན","སྙིང","སྟེང","སྟོང","སྡུག","སྣང","སྣོན","སྤུས","སྤོབས","སྤྱང","སྤྱིར","སྤྲོ","སྦས","སྦོམ","སྦྱིན","སྨིན","སྨོད","སྲབ","སླེ","ཧམ","ཧུར","ཀྱ","ཀྱོ","ཀྲ","ཁྱ","ཁྲ","གཅའ","གཅི","གཅོ","གཏའ","གཏི","གཏོ","གདའ","གནའ","གནོ","གཙའ","གཞའ","གཞུ","གཞོ","གཟའ","གཟེ","གཟོ","གཡུ","གཤའ","གསའ","གྱ","གྱོ","གླ","གླི","གླེ","དཀོ","དཀྱ","དཀྱུ","དགོ","དབའ","དབུ","དྲ","ཕྱ","ཕྱུ","ཕྱོ","ཕྲུ","བཀོ","བཀྲ","བཀྲེ","བཅའ","བཅོ","བཏའ","བདའ","བཙའ","བཙི","བཙོ","བཞའ","བཞི","བཞུ","བཟའ","བརྗ","བརྗོ","བརྩ","བརྩེ","བརྩོ","བསའ","བསྐ","བསྐྱ","བསྐྱི","བསྒ","བསྒྲ","བསྒྲི","བསྒྲིམས","བསྒྲུ","བསྔ","བསླ","བྲ","བྲེ","བླ","མཁའ","མཁྲ","མཁྲེ","མགའ","མགྱ","མགྱོ","མངའ","མཆའ","མཆོ","མཇའ","མཇུ","མཉའ","མཐའ","མཐི","མདུ","མདོ","མཚའ","མྱ","མྱོ","འཁའ","འཁོ","འཁྱ","འཁྲ","འཁྲེ","འགའ","འགྱ","འགྱེ","འགྲ","འགྲི","འགྲུ","འཆའ","འཇའ","འཇི","འཐའ","འདའ","འདེ","འདྲེ","འཕའ","འཕྲ","འབའ","འབེ","འབྱ","འབྱོ","འབྲ","འབྲུ","འཚའ","འཛའ","འཛུ","རྐ","རྐུ","རྐྱ","རྐྱོ","རྒ","རྒོ","རྒྱོ","རྔ","རྗ","རྙ","རྙི","རྙེ","རྟུ","རྡ","རྡུ","རྡེ","རྣ","རྩ","རྩི","རྩུ","རྩོ","རྫ","རྫུ","རྫོ","རླ","རླུ","རློ","ལྐ","ལྐུ","ལྐོ","ལྕ","ལྗ","ལྗི","ལྡ","ལྡོ","ལྷ","ལྷུ","སྐ","སྐུ","སྐྱ","སྐྱི","སྐྱེ","སྒུ","སྒེ","སྒྲི","སྒྲུ","སྒྲོ","སྔོ","སྙ","སྙི","སྟ","སྟེ","སྟོ","སྡ","སྡུ","སྣ","སྣོ","སྤ","སྤུ","སྤོ","སྤྱ","སྤྱི","སྤྲ","སྦ","སྦོ","སྦྱ","སྦྱི","སྨ","སྨི","སྨོ","སྲ","སླ"];
 var MONLAM_CHUNK_SIZE=32;
 var audioIndex=new Map(),audioChunks=new Map(),audioVoice="female",audioRate=1;
 var audioPlayer=new Audio(),audioRequest=0,audioActiveButton=null;
@@ -300,7 +304,7 @@ MONLAM_TEXTS.forEach(function(text,index){audioIndex.set(audioKey(text),index)})
 try{var prefs=JSON.parse(localStorage.getItem("tibetan-alphabet-monlam-voice-v1")||"null");if(prefs){if(prefs.voice==="male")audioVoice="male";if(prefs.rate===.8)audioRate=.8}}catch(e){}
 function saveAudioPreferences(){try{localStorage.setItem("tibetan-alphabet-monlam-voice-v1",JSON.stringify({voice:audioVoice,rate:audioRate}))}catch(e){}}
 function resetAudioButton(){if(audioActiveButton){audioActiveButton.classList.remove("is-playing","is-loading");audioActiveButton.setAttribute("aria-busy","false");audioActiveButton=null}}
-function stopMonlamAudio(){audioRequest++;audioPlayer.pause();resetAudioButton();audioStatus.textContent="Monlam · центральнотибетский"}
+function stopMonlamAudio(){audioRequest++;audioPlayer.pause();resetSpellingPlayback();resetAudioButton();audioStatus.textContent="Monlam · центральнотибетский"}
 function loadAudioChunk(voice,index){
  var chunk=Math.floor(index/MONLAM_CHUNK_SIZE),key=voice+"/"+chunk;
  if(!audioChunks.has(key)){
@@ -322,19 +326,109 @@ async function playMonlamAudio(text,button){
   button.classList.remove("is-loading");button.classList.add("is-playing");button.setAttribute("aria-busy","false");audioStatus.textContent=(audioVoice==="female"?"Женский":"Мужской")+" голос · "+(audioRate===1?"обычный темп":"медленный темп");
  }catch(error){if(request===audioRequest){resetAudioButton();audioStatus.textContent="Не удалось загрузить запись. Нажмите на звук ещё раз."}}
 }
-audioPlayer.addEventListener("ended",function(){resetAudioButton();audioStatus.textContent="Monlam · центральнотибетский"});
-audioPlayer.addEventListener("error",function(){resetAudioButton();audioStatus.textContent="Не удалось воспроизвести запись. Попробуйте ещё раз."});
-function makeAudioButton(text,label,showLabel){
+audioPlayer.addEventListener("ended",function(){resetSpellingPlayback();resetAudioButton();audioStatus.textContent="Monlam · центральнотибетский"});
+audioPlayer.addEventListener("error",function(){resetSpellingPlayback();resetAudioButton();audioStatus.textContent="Не удалось воспроизвести запись. Попробуйте ещё раз."});
+function makeAudioButton(text,label,showLabel,spell){
  var button=document.createElement("button");button.type="button";button.className="tw-audio-button";button.lang="ru";button.title=label;button.setAttribute("aria-label",label);button.setAttribute("aria-busy","false");button.innerHTML=audioIcon;
- if(showLabel){var caption=document.createElement("span");caption.textContent="Послушать";button.appendChild(caption)}
- button.addEventListener("click",function(event){event.preventDefault();event.stopPropagation();playMonlamAudio(text,button)});return button;
+ if(showLabel){var caption=document.createElement("span");caption.textContent=typeof showLabel==="string"?showLabel:"Послушать";button.appendChild(caption)}
+ button.dataset.audioReading=spell||"pronunciation";
+ button.addEventListener("click",function(event){event.preventDefault();event.stopPropagation();if(spell)playSpellingAudio(text,button,spell);else playMonlamAudio(text,button)});return button;
 }
-function appendAudioChoice(grid,answer,text,label){var cell=document.createElement("div");cell.className="tw-audio-choice";cell.appendChild(answer);cell.appendChild(makeAudioButton(text,label,false));grid.appendChild(cell)}
-function refreshAudioTarget(item){var text=state.mode==="vowels"?vowelSyllable(item,VOWELS[round.vowelIndex]):item.base;var host=root.querySelector("#tw2-target-audio");host.innerHTML="";host.appendChild(makeAudioButton(text,"Послушать произношение",true))}
+function appendAudioChoice(grid,answer,text,label,reading){var cell=document.createElement("div");cell.className="tw-audio-choice";cell.appendChild(answer);cell.appendChild(makeAudioButton(text,label,false,reading));grid.appendChild(cell)}
+function refreshAudioTarget(item){var vowelMode=state.mode==="vowels",text=vowelMode?vowelSyllable(item,VOWELS[round.vowelIndex]):item.base;var host=root.querySelector("#tw2-target-audio");host.innerHTML="";host.appendChild(makeAudioButton(text,vowelMode?"Послушать учебный разбор":"Послушать произношение",true,vowelMode?"vowel":null))}
 function refreshVoiceControls(){root.querySelectorAll("[data-tw-voice]").forEach(function(button){button.setAttribute("aria-pressed",button.dataset.twVoice===audioVoice?"true":"false")});root.querySelector("#tw2-audio-speed").value=String(audioRate)}
 root.querySelectorAll("[data-tw-voice]").forEach(function(button){button.addEventListener("click",function(){if(audioVoice===button.dataset.twVoice)return;stopMonlamAudio();audioVoice=button.dataset.twVoice;saveAudioPreferences();refreshVoiceControls()})});
 root.querySelector("#tw2-audio-speed").addEventListener("change",function(event){audioRate=Number(event.target.value)===.8?.8:1;audioPlayer.playbackRate=audioRate;saveAudioPreferences()});
 refreshVoiceControls();
+// Traditional jorlok plans are prepared from verified syllable components.
+var MONLAM_SPELLING_BASE="https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/386ea8ac4ab499dd4f08d2fb40ad05571c827427/alphabet-monlam-201712509/spelling/";
+var spellingBanks=new Map(),spellingResults=new Map(),spellingDecoder=null;
+var spellingUrl=null,spellingTimeline=[],spellingRow=null,spellingHighlight=[],spellingKind="";
+function resetSpellingPlayback(){
+ spellingHighlight.forEach(function(el){el.classList.remove("is-sounding")});
+ spellingHighlight=[];spellingRow=null;spellingTimeline=[];spellingKind="";
+ if(spellingUrl){URL.revokeObjectURL(spellingUrl);spellingUrl=null}
+}
+function loadSpellingBank(voice){
+ if(!spellingBanks.has(voice))spellingBanks.set(voice,fetch(MONLAM_SPELLING_BASE+voice+".json").then(function(response){if(!response.ok)throw new Error("Spelling HTTP "+response.status);return response.json()}).then(function(bank){if(bank.sampleRate!==24000||bank.sampleWidth!==2||bank.channels!==1)throw new Error("Unexpected spelling audio format");bank.decoded=new Map();return bank}).catch(function(error){spellingBanks.delete(voice);throw error}));
+ return spellingBanks.get(voice);
+}
+function spellingPcm(bank,symbol){
+ if(!bank.decoded.has(symbol)){
+  var encoded=bank.clips[symbol];if(!encoded)throw new Error("Missing spelling symbol "+symbol);
+  bank.decoded.set(symbol,decodeSpellingAudio(encoded).catch(function(error){bank.decoded.delete(symbol);throw error}));
+ }
+ return bank.decoded.get(symbol);
+}
+function decodeSpellingBytes(encoded){var binary=atob(encoded),bytes=new Uint8Array(binary.length);for(var i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);return bytes}
+function decodeSpellingAudio(encoded){
+ if(!spellingDecoder){var Decoder=window.OfflineAudioContext||window.webkitOfflineAudioContext;if(!Decoder)throw new Error("Audio decoder unavailable");spellingDecoder=new Decoder(1,1,24000)}
+ return spellingDecoder.decodeAudioData(decodeSpellingBytes(encoded).buffer).then(function(decoded){
+  var data=decoded.getChannelData(0),peak=0;for(var i=0;i<data.length;i++)peak=Math.max(peak,Math.abs(data[i]));
+  var threshold=Math.max(.0027,peak*.009),first=0,last=data.length-1;
+  while(first<last&&Math.abs(data[first])<threshold)first++;while(last>first&&Math.abs(data[last])<threshold)last--;
+  first=Math.max(0,first-1200);last=Math.min(data.length,last+1920);
+  var bytes=new Uint8Array((last-first)*2),view=new DataView(bytes.buffer);
+  for(var j=first;j<last;j++)view.setInt16((j-first)*2,Math.round(Math.max(-1,Math.min(1,data[j]))*32767),true);
+  return bytes;
+ });
+}
+function loadSpellingResult(voice,text){
+ var index=audioIndex.get(audioKey(text)),key=voice+"/"+index;
+ if(index===undefined)return Promise.reject(new Error("Missing syllable recording "+text));
+ if(!spellingResults.has(key))spellingResults.set(key,loadAudioChunk(voice,index).then(function(chunk){
+  var encoded=chunk.clips["m"+String(index+1).padStart(4,"0")];if(!encoded)throw new Error("Missing syllable audio");
+  return decodeSpellingAudio(encoded);
+ }).catch(function(error){spellingResults.delete(key);throw error}));
+ return spellingResults.get(key);
+}
+async function spellingParts(text,bank,voice){
+ var parts=[],glyphOffset=0,number=0;
+ var syllables=splitSyllables(String(text).normalize("NFC")),needed=new Set();
+ syllables.forEach(function(syllable){if(!syllable.selectable)return;var plan=bank.plans[syllable.text];if(!plan)throw new Error("Missing jorlok plan "+syllable.text);plan.steps.forEach(function(step){if(step.kind==="result")needed.add(step.text)})});
+ await Promise.all(Array.from(needed).map(function(result){return loadSpellingResult(voice,result)}));
+ for(var syllable of syllables){
+  if(!syllable.selectable)continue;number++;
+  var plan=bank.plans[syllable.text];if(!plan)throw new Error("Missing jorlok plan "+syllable.text);
+  var count=splitGlyphs(syllable.text).filter(function(p){return p.selectable}).length;
+  for(var step of plan.steps){
+   var pcm=step.kind==="symbol"?await spellingPcm(bank,step.text):await loadSpellingResult(voice,step.text);
+   var focus=(step.focus||[0]).map(function(i){return glyphOffset+i});
+   parts.push({pcm:pcm,label:step.label,glyphIndices:focus,syllable:number,gap:step.kind==="result"?.30:.21});
+  }
+  if(parts.length)parts[parts.length-1].gap=.65;glyphOffset+=count;
+ }
+ if(!parts.length)throw new Error("Empty spelling");parts[parts.length-1].gap=.08;return parts;
+}
+function buildSpellingWav(parts,sampleRate){
+ var size=parts.reduce(function(n,part){return n+part.pcm.length+Math.round(part.gap*sampleRate)*2},0);
+ var bytes=new Uint8Array(44+size),view=new DataView(bytes.buffer),position=44,time=0,timeline=[];
+ function ascii(offset,text){for(var i=0;i<text.length;i++)bytes[offset+i]=text.charCodeAt(i)}
+ ascii(0,"RIFF");view.setUint32(4,36+size,true);ascii(8,"WAVE");ascii(12,"fmt ");view.setUint32(16,16,true);view.setUint16(20,1,true);view.setUint16(22,1,true);view.setUint32(24,sampleRate,true);view.setUint32(28,sampleRate*2,true);view.setUint16(32,2,true);view.setUint16(34,16,true);ascii(36,"data");view.setUint32(40,size,true);
+ parts.forEach(function(part){var duration=part.pcm.length/(sampleRate*2),gap=Math.round(part.gap*sampleRate)*2;timeline.push({start:time,end:time+duration,label:part.label,glyphIndices:part.glyphIndices,syllable:part.syllable});bytes.set(part.pcm,position);position+=part.pcm.length+gap;time+=(part.pcm.length+gap)/(sampleRate*2)});
+ return{blob:new Blob([bytes],{type:"audio/wav"}),timeline:timeline};
+}
+async function playSpellingAudio(text,button,kind){
+ if(audioActiveButton===button){stopMonlamAudio();return}
+ stopMonlamAudio();var request=audioRequest,voice=audioVoice;
+ audioActiveButton=button;button.classList.add("is-loading");button.setAttribute("aria-busy","true");audioStatus.textContent="Готовится учебный разбор…";
+ try{
+  var bank=await loadSpellingBank(voice);if(request!==audioRequest)return;
+  var parts=await spellingParts(text,bank,voice);if(request!==audioRequest)return;
+  var recording=buildSpellingWav(parts,bank.sampleRate);
+  spellingUrl=URL.createObjectURL(recording.blob);spellingTimeline=recording.timeline;spellingRow=button.closest(".tw-word");spellingKind=kind==="vowel"?"разбор слога":"по слогам";
+  audioPlayer.src=spellingUrl;audioPlayer.playbackRate=audioRate;await audioPlayer.play();if(request!==audioRequest)return;
+  button.classList.remove("is-loading");button.classList.add("is-playing");button.setAttribute("aria-busy","false");updateSpellingPosition();
+ }catch(error){if(request===audioRequest){resetSpellingPlayback();resetAudioButton();audioStatus.textContent="Не удалось загрузить учебный разбор. Нажмите ещё раз."}}
+}
+function updateSpellingPosition(){
+ if(!spellingTimeline.length)return;
+ var current=spellingTimeline.find(function(part){return audioPlayer.currentTime>=part.start&&audioPlayer.currentTime<part.end});
+ spellingHighlight.forEach(function(el){el.classList.remove("is-sounding")});spellingHighlight=[];
+ if(current&&spellingRow){var glyphs=spellingRow.querySelectorAll(".tw-glyph");current.glyphIndices.forEach(function(i){if(glyphs[i]){glyphs[i].classList.add("is-sounding");spellingHighlight.push(glyphs[i])}})}
+ audioStatus.textContent=(audioVoice==="female"?"Женский":"Мужской")+" голос · "+spellingKind+(current?" · "+(spellingKind==="по слогам"?"слог "+current.syllable+" · ":"")+current.label:"");
+}
+audioPlayer.addEventListener("timeupdate",updateSpellingPosition);
 
 
 function emptyModeObject(){return{glyph:{},similar:{},syllable:{},wylie:{},vowels:{}}}
@@ -478,7 +572,7 @@ function renderWordRows(partsFunction,buttonClass){
   partsFunction(word).forEach(function(part,partIndex){
    if(!part.selectable){var sep=document.createElement("span");sep.className="tw-separator";sep.textContent=part.text;sep.setAttribute("aria-hidden","true");row.appendChild(sep);return}
    var key="w"+wordIndex+"p"+partIndex,btn=document.createElement("button");btn.type="button";btn.className=buttonClass;btn.textContent=part.text;btn.setAttribute("aria-label","Выбрать "+part.text);addAnswer(btn,key);if(hasTarget(part.text,letter()))correct.add(key);row.appendChild(btn);
-  });row.appendChild(makeAudioButton(word,"Послушать слово "+word,false));wrap.appendChild(row);
+  });if(round.kind==="glyph"){row.classList.add("tw-word-spelling");var tools=document.createElement("div");tools.className="tw-word-audio";tools.appendChild(makeAudioButton(word,"Послушать слово целиком "+word,"Слово"));tools.appendChild(makeAudioButton(word,"Учебный разбор по слогам "+word,"Разбор","syllables"));row.appendChild(tools)}else row.appendChild(makeAudioButton(word,"Послушать слово "+word,false));wrap.appendChild(row);
  });exerciseEl.appendChild(wrap);
 }
 function renderChoices(){
@@ -494,7 +588,7 @@ function renderVowelChoices(){
  var grid=document.createElement("div");grid.className="tw-choice-grid tw-vowel-grid";
  round.choices.forEach(function(vowelIndex,optionIndex){
   var vowel=VOWELS[vowelIndex],key="v"+optionIndex,btn=document.createElement("button");btn.type="button";btn.className="tw-choice is-tibetan";btn.textContent=vowelSyllable(letter(),vowel);btn.setAttribute("lang","bo");btn.setAttribute("aria-label","Слог "+vowelWylie(letter(),vowel));
-  addAnswer(btn,key);if(vowelIndex===round.vowelIndex)correct.add(key);appendAudioChoice(grid,btn,vowelSyllable(letter(),vowel),"Послушать слог "+vowelSyllable(letter(),vowel));
+  addAnswer(btn,key);if(vowelIndex===round.vowelIndex)correct.add(key);appendAudioChoice(grid,btn,vowelSyllable(letter(),vowel),"Послушать разбор слога "+vowelSyllable(letter(),vowel),"vowel");
  });exerciseEl.appendChild(grid);
 }
 function renderExercise(){
@@ -502,7 +596,7 @@ function renderExercise(){
  var item=letter(),title=root.querySelector("#tw2-task-title"),instruction=root.querySelector("#tw2-instruction"),step=root.querySelector("#tw2-step");step.textContent=MODES[state.mode].label;
  if(round.kind==="glyph"){
   title.innerHTML='Отметьте все <span class="bo" lang="bo">'+escapeHTML(item.base)+'</span>';
-  instruction.textContent="Нажимайте на буквы и связки. Разделители выбирать не нужно.";renderWordRows(splitGlyphs,"tw-glyph");
+  instruction.textContent="Нажимайте на буквы и связки. Разделители выбирать не нужно. «Слово» — чтение целиком; «Разбор» — учебное чтение каждого слога.";renderWordRows(splitGlyphs,"tw-glyph");
  }else if(round.kind==="syllable"){
   title.innerHTML='Отметьте все слоги с <span class="bo" lang="bo">'+escapeHTML(item.base)+'</span>';
   instruction.textContent="Выбирайте слог целиком. В одном слове подходящих слогов может быть несколько.";renderWordRows(splitSyllables,"tw-syllable");
@@ -512,7 +606,7 @@ function renderExercise(){
  }else if(round.kind==="vowels"){
   var targetVowel=VOWELS[round.vowelIndex],targetReading=vowelWylie(item,targetVowel);
   title.innerHTML='Найдите <span class="latin" lang="en">'+escapeHTML(targetReading)+'</span>';
-  instruction.textContent="Выберите один слог. У формы с a отдельной огласовки нет; i, u, e и o обозначаются знаками.";renderVowelChoices();
+  instruction.textContent="Выберите один слог. Динамик читает: буква, название огласовки и получившийся слог. У формы с a отдельной огласовки нет.";renderVowelChoices();
  }else{
   if(round.direction==="toWylie")title.innerHTML='Выберите Вайли для <span class="bo" lang="bo">'+escapeHTML(item.base)+'</span>';
   else title.textContent="Какая буква записывается как "+item.name+"?";
