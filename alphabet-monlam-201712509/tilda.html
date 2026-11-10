@@ -342,7 +342,7 @@ root.querySelectorAll("[data-tw-voice]").forEach(function(button){button.addEven
 root.querySelector("#tw2-audio-speed").addEventListener("change",function(event){audioRate=Number(event.target.value)===.8?.8:1;audioPlayer.playbackRate=audioRate;saveAudioPreferences()});
 refreshVoiceControls();
 // Traditional jorlok plans are prepared from verified syllable components.
-var MONLAM_SPELLING_BASE="https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/386ea8ac4ab499dd4f08d2fb40ad05571c827427/alphabet-monlam-201712509/spelling/";
+var MONLAM_SPELLING_BASE="https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/16c8b4786d1e28cb822e4f379e4fdc698b0ec741/alphabet-monlam-201712509/spelling/";
 var spellingBanks=new Map(),spellingResults=new Map(),spellingDecoder=null;
 var spellingUrl=null,spellingTimeline=[],spellingRow=null,spellingHighlight=[],spellingKind="";
 function resetSpellingPlayback(){
@@ -369,8 +369,13 @@ function decodeSpellingAudio(encoded){
   var threshold=Math.max(.0027,peak*.009),first=0,last=data.length-1;
   while(first<last&&Math.abs(data[first])<threshold)first++;while(last>first&&Math.abs(data[last])<threshold)last--;
   first=Math.max(0,first-1200);last=Math.min(data.length,last+1920);
-  var bytes=new Uint8Array((last-first)*2),view=new DataView(bytes.buffer);
-  for(var j=first;j<last;j++)view.setInt16((j-first)*2,Math.round(Math.max(-1,Math.min(1,data[j]))*32767),true);
+  var length=last-first,fade=Math.min(192,Math.floor(length/2)),bytes=new Uint8Array(length*2),view=new DataView(bytes.buffer);
+  // Ease each fragment into and out of silence; both boundary samples are zero.
+  // The 8 ms ramps sit inside the retained 50/80 ms margins around speech.
+  for(var j=0;j<length;j++){
+   var edge=Math.min(j,length-1-j),gain=edge<fade&&fade>1?Math.pow(Math.sin(edge/(fade-1)*Math.PI/2),2):1;
+   view.setInt16(j*2,Math.round(Math.max(-1,Math.min(1,data[first+j]*gain))*32767),true);
+  }
   return bytes;
  });
 }

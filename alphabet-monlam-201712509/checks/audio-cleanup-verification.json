@@ -1,0 +1,7765 @@
+{
+  "words": 500,
+  "voices": 2,
+  "checkedWordVoicePairs": 1000,
+  "changedSyllablePlans": 105,
+  "affectedDistinctWords": 179,
+  "sourceRecordingDecodeErrors": 0,
+  "decodedMainRecordings": 2210,
+  "decodedSymbolClips": 76,
+  "usedUniqueFragmentRecordings": 1354,
+  "checkedFragmentBoundaries": 21508,
+  "boundarySamplesAllZero": true,
+  "artificialClosingAStagesRemaining": 0,
+  "stablePureToneCandidatesStrict": 0,
+  "sourceAudioReplaced": false,
+  "limits": "Structural and acoustic checks are not a native-speaker phonetic review of every word.",
+  "changedPlans": [
+    "གཏོང",
+    "གཅོད",
+    "གསང",
+    "མཆུ",
+    "གཟེར",
+    "བཟང",
+    "གཅིག",
+    "གཅིན",
+    "གཏན",
+    "འཇགས",
+    "གཏིང",
+    "གདན",
+    "གནོད",
+    "གཙང",
+    "གཞན",
+    "གཞི",
+    "གཞུང",
+    "གཞུག",
+    "གཞོག",
+    "གཞོན",
+    "གཟོང",
+    "གཤག",
+    "བཅོས",
+    "གཤམ",
+    "གསོལ",
+    "གསོས",
+    "འཛུགས",
+    "དཀའ",
+    "དཀོན",
+    "དཀྱུས",
+    "དགག",
+    "དགའ",
+    "དགེ",
+    "དགོང",
+    "དགོངས",
+    "བདེན",
+    "དགྲ",
+    "དབུལ",
+    "དམག",
+    "དམའ",
+    "འབེབས",
+    "འདྲེན",
+    "བཀག",
+    "བཀའ",
+    "བཀོད",
+    "བཀྲེན",
+    "བདེ",
+    "བཙན",
+    "གནོན",
+    "འཛུལ",
+    "བཙོག",
+    "བཞུར",
+    "བཟོ",
+    "བཟོད",
+    "བསམ",
+    "བཞག",
+    "བསླབ",
+    "མཁྲེགས",
+    "མགོ",
+    "མགྱོགས",
+    "མངར",
+    "མཆོད",
+    "མཇུག",
+    "མཉམ",
+    "མཐིལ",
+    "མཐུ",
+    "མཐོ",
+    "མཐོང",
+    "མདའ",
+    "མདུད",
+    "མདུན",
+    "མདོག",
+    "མཚན",
+    "མཐུན",
+    "གཡའ",
+    "འཁྱག",
+    "འཁྱགས",
+    "འཁྲེགས",
+    "འགོ",
+    "འགྱེད",
+    "འགྲིག",
+    "འགྲུལ",
+    "འགྲོ",
+    "འཆམ",
+    "འཆམས",
+    "འཆི",
+    "འཇམ",
+    "འཇིབ",
+    "འཐབ",
+    "འདེམས",
+    "འདྲ",
+    "འཕྱ",
+    "འཕྲལ",
+    "འབྱོར",
+    "འབྲུག",
+    "འཚོ",
+    "འཚོང",
+    "འཚོལ",
+    "འབབ",
+    "བཞིན",
+    "གཡུག",
+    "བཙིར",
+    "གསོ",
+    "འཁོར",
+    "བཏང"
+  ],
+  "affectedWords": [
+    "ཀོ་བ་གཏོང་",
+    "ཁ་གཅོད་",
+    "ཁ་གཏོང་",
+    "ཁ་གསང་པོ་",
+    "ཁ་མཆུ་",
+    "ཁ་རྡུང་གཏོང་",
+    "ཁབ་གཟེར་",
+    "ཁེ་བཟང་",
+    "གངས་ཤུད་གཏོང་",
+    "གཅིག་པ་",
+    "གཅིག་པུ་",
+    "གཅིན་པ་",
+    "གཅིན་པ་གཏོང་",
+    "གཏན་འཇགས་",
+    "གཏིང་",
+    "གཏིང་མེད་པ་",
+    "གཏིང་རིང་པོ་",
+    "གཏོང་",
+    "གཏོང་ཕོད་པོ་",
+    "གདན་",
+    "གདན་རྒྱག་",
+    "གནོད་པ་",
+    "གཙང་མ་",
+    "གཞན་",
+    "གཞི་གཞུང་པོ་",
+    "གཞུག་གུ་",
+    "གཞོག་",
+    "གཞོན་ནུ་",
+    "གཞོན་པ་",
+    "གཟེར་",
+    "གཟེར་རྒྱག་",
+    "གཟོང་",
+    "གཤག་བཅོས་",
+    "གཤག་བཅོས་བྱེད་",
+    "གཤམ་ལ་",
+    "གསོལ་ཚིགས་",
+    "གསོལ་ཚིགས་གཏོང་",
+    "གསོས་",
+    "གསོས་པ་",
+    "གྲུ་གཏོང་",
+    "གླིང་བུ་གཏོང་",
+    "གླུ་གཏོང་",
+    "ཆུ་གཏོང་",
+    "ཇ་གཏོང་",
+    "ཉེས་འཛུགས་",
+    "ཉེས་འཛུགས་བྱེད་",
+    "དཀའ་ངལ་མྱོང་",
+    "དཀའ་པོ་བྱེད་",
+    "དཀའ་ལས་",
+    "དཀའ་ལས་ཁག་པོ་",
+    "དཀའ་ལས་རྒྱག་",
+    "དཀོན་པོ་",
+    "དཀྱུས་མ་",
+    "དགག་བྱ་",
+    "དགག་བྱ་བྱེད་",
+    "དགའ་པོ་",
+    "དགའ་བ་",
+    "དགེ་རྒན་",
+    "དགོང་དྲོ་",
+    "དགོངས་དག་ཐུགས་བདེན་ཞུ་",
+    "དགོངས་སེལ་ཞུ་",
+    "དགྲ་",
+    "དབུལ་པོ་",
+    "དམག་",
+    "དམག་རྒྱག་",
+    "དམའ་བོ་",
+    "དམའ་འབེབས་གཏོང་",
+    "ནང་ཟོག་ཕྱི་འདྲེན་",
+    "ཕྱི་ཟོག་ནང་འདྲེན་",
+    "བཀག་བསྐྱིལ་བྱེད་",
+    "བཀའ་",
+    "བཀའ་གཏོང་",
+    "བཀའ་སྐྱོན་གཏོང་",
+    "བཀོད་པ་",
+    "བཀོད་པ་གཏོང་",
+    "བཀྲེན་པོ་",
+    "བང་ཆེན་གཏོང་",
+    "བཅོས་མ་",
+    "བདེ་བ་",
+    "བཙན་གནོན་",
+    "བཙན་འཛུལ་",
+    "བཙན་འཛུལ་བྱེད་",
+    "བཙོག་པ་",
+    "བཙོག་པ་གཏོང་",
+    "བཞུར་",
+    "བཞུར་བ་",
+    "བཟང་",
+    "བཟོ་པ་",
+    "བཟོད་གསོལ་ཞུ་",
+    "བར་འཛུལ་",
+    "བར་འཛུལ་བྱེད་",
+    "བསམ་བློ་",
+    "བསམ་བློ་གཏོང་",
+    "བསྐོ་བཞག་བྱེད་",
+    "བསླབ་བྱ་",
+    "བསླབ་བྱ་བྱེད་",
+    "བུ་ལོན་གཏོང་",
+    "བློས་གཏོང་",
+    "མཁྲེགས་པོ་",
+    "མགོ་",
+    "མགྱོགས་པོ་",
+    "མངར་མོ་",
+    "མཆོད་པ་",
+    "མཆོད་པ་བྱེད་",
+    "མཇུག་",
+    "མཇུག་ལ་",
+    "མཉམ་དུ་",
+    "མཐིལ་",
+    "མཐུ་",
+    "མཐུ་རྒྱག་",
+    "མཐོ་པོ་",
+    "མཐོ་བོ་",
+    "མཐོང་རྒྱ་ཆེན་པོ་",
+    "མདའ་",
+    "མདུད་པ་",
+    "མདུད་པ་རྒྱག་",
+    "མདུན་",
+    "མདོག་ཉེས་པོ་",
+    "མཚན་མོ་",
+    "མི་དགེ་བ་",
+    "མེ་གཏོང་",
+    "མེ་མདའ་",
+    "མེ་མདའ་རྒྱག་",
+    "མོས་མཐུན་བྱེད་པ་",
+    "མོས་མཐུན་མེད་པ་",
+    "ཚོན་གཏོང་",
+    "ཟ་གཡའ་",
+    "ཟ་གཡའ་རྒྱག་",
+    "འཁྱག་པ་རྒྱག་",
+    "འཁྱགས་པ་",
+    "འཁྱགས་པ་གཏོང་",
+    "འཁྱགས་ཤུད་གཏོང་",
+    "འཁྲེགས་པོ་",
+    "འགོ་",
+    "འགོ་འཛུགས་",
+    "འགྱེད་",
+    "འགྲིག་པ་",
+    "འགྲུལ་རྒྱག་",
+    "འགྲུལ་རྟགས་",
+    "འགྲོ་སོང་",
+    "འཆམ་",
+    "འཆམས་པོ་",
+    "འཆམས་པོ་བྱེད་",
+    "འཆི་བ་",
+    "འཇམ་པོ་",
+    "འཇིབ་",
+    "འཇིབ་རྒྱག་",
+    "འཐབ་ར་",
+    "འཐབ་ར་རྒྱག་",
+    "འདེམས་བསྒྲུགས་",
+    "འདེམས་བསྒྲུགས་བྱེད་",
+    "འདྲ་ཤུས་",
+    "འཕྱ་བ་",
+    "འཕྱ་སྨོད་རྒྱག་",
+    "འཕྲལ་སེལ་",
+    "འབྱོར་བ་",
+    "འབྲུག་སྐད་",
+    "འཚོ་བ་",
+    "འཚོ་བ་མྱོང་",
+    "འཚོང་བ་",
+    "འཚོལ་བ་",
+    "འོས་འདེམས་",
+    "འོས་འདེམས་བྱེད་",
+    "ཡར་རྒྱས་གཏོང་",
+    "ཡོང་འབབ་",
+    "རིག་པ་གཏོང་",
+    "རེ་རེ་བཞིན་",
+    "རྟ་གཏོང་",
+    "ལག་པ་གཡུག་",
+    "ཤ་བཙིར་",
+    "ཤ་བཙིར་རྒྱག་",
+    "སེམས་གསོ་",
+    "སེམས་གསོ་གཏོང་",
+    "སོ་གཏོང་",
+    "སྐད་གཏོང་",
+    "སྐྱིད་པོ་གཏོང་བ་",
+    "སྒྲ་འཁོར་",
+    "སྤྱིར་བཏང་",
+    "སྤྲོ་སྐྱིད་གཏོང་"
+  ],
+  "examples": [
+    {
+      "word": "བསམ་བློ་",
+      "voice": "male",
+      "file": "samlo-razbor-male.mp3",
+      "timeline": [
+        {
+          "ref": "male/symbol/བ",
+          "label": "ba",
+          "seconds": 0.64
+        },
+        {
+          "ref": "male/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.578
+        },
+        {
+          "ref": "male/symbol/ས",
+          "label": "sa",
+          "seconds": 0.709
+        },
+        {
+          "ref": "male/symbol/མ",
+          "label": "ma",
+          "seconds": 0.623
+        },
+        {
+          "ref": "male/m0753",
+          "label": "བསམ",
+          "seconds": 0.631
+        },
+        {
+          "ref": "male/symbol/བ",
+          "label": "ba",
+          "seconds": 0.64
+        },
+        {
+          "ref": "male/symbol/ལ",
+          "label": "la",
+          "seconds": 0.591
+        },
+        {
+          "ref": "male/symbol/@tags",
+          "label": "ta",
+          "seconds": 0.402
+        },
+        {
+          "ref": "male/m0985",
+          "label": "བླ",
+          "seconds": 0.413
+        },
+        {
+          "ref": "male/symbol/ོ",
+          "label": "naro",
+          "seconds": 0.635
+        },
+        {
+          "ref": "male/m0768",
+          "label": "བློ",
+          "seconds": 0.379
+        }
+      ]
+    },
+    {
+      "word": "བསམ་བློ་",
+      "voice": "female",
+      "file": "samlo-razbor-female.mp3",
+      "timeline": [
+        {
+          "ref": "female/symbol/བ",
+          "label": "ba",
+          "seconds": 0.578
+        },
+        {
+          "ref": "female/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.333
+        },
+        {
+          "ref": "female/symbol/ས",
+          "label": "sa",
+          "seconds": 0.53
+        },
+        {
+          "ref": "female/symbol/མ",
+          "label": "ma",
+          "seconds": 0.567
+        },
+        {
+          "ref": "female/m0753",
+          "label": "བསམ",
+          "seconds": 0.681
+        },
+        {
+          "ref": "female/symbol/བ",
+          "label": "ba",
+          "seconds": 0.578
+        },
+        {
+          "ref": "female/symbol/ལ",
+          "label": "la",
+          "seconds": 0.622
+        },
+        {
+          "ref": "female/symbol/@tags",
+          "label": "ta",
+          "seconds": 0.531
+        },
+        {
+          "ref": "female/m0985",
+          "label": "བླ",
+          "seconds": 0.569
+        },
+        {
+          "ref": "female/symbol/ོ",
+          "label": "naro",
+          "seconds": 0.75
+        },
+        {
+          "ref": "female/m0768",
+          "label": "བློ",
+          "seconds": 0.374
+        }
+      ]
+    },
+    {
+      "word": "ཁ་གཏོང་",
+      "voice": "male",
+      "file": "kha-tong-razbor-male.mp3",
+      "timeline": [
+        {
+          "ref": "male/symbol/ཁ",
+          "label": "kha",
+          "seconds": 0.445
+        },
+        {
+          "ref": "male/symbol/ག",
+          "label": "ga",
+          "seconds": 0.435
+        },
+        {
+          "ref": "male/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.578
+        },
+        {
+          "ref": "male/symbol/ཏ",
+          "label": "ta",
+          "seconds": 0.428
+        },
+        {
+          "ref": "male/symbol/ོ",
+          "label": "naro",
+          "seconds": 0.635
+        },
+        {
+          "ref": "male/m0923",
+          "label": "གཏོ",
+          "seconds": 0.312
+        },
+        {
+          "ref": "male/symbol/ང",
+          "label": "nga",
+          "seconds": 0.674
+        },
+        {
+          "ref": "male/m0198",
+          "label": "གཏོང",
+          "seconds": 0.458
+        }
+      ]
+    },
+    {
+      "word": "ཁ་གཏོང་",
+      "voice": "female",
+      "file": "kha-tong-razbor-female.mp3",
+      "timeline": [
+        {
+          "ref": "female/symbol/ཁ",
+          "label": "kha",
+          "seconds": 0.507
+        },
+        {
+          "ref": "female/symbol/ག",
+          "label": "ga",
+          "seconds": 0.462
+        },
+        {
+          "ref": "female/symbol/@prefix",
+          "label": "o",
+          "seconds": 0.333
+        },
+        {
+          "ref": "female/symbol/ཏ",
+          "label": "ta",
+          "seconds": 0.458
+        },
+        {
+          "ref": "female/symbol/ོ",
+          "label": "naro",
+          "seconds": 0.75
+        },
+        {
+          "ref": "female/m0923",
+          "label": "གཏོ",
+          "seconds": 0.459
+        },
+        {
+          "ref": "female/symbol/ང",
+          "label": "nga",
+          "seconds": 0.453
+        },
+        {
+          "ref": "female/m0198",
+          "label": "གཏོང",
+          "seconds": 0.451
+        }
+      ]
+    },
+    {
+      "word": "ཁྲིད་བྱེད་",
+      "voice": "male",
+      "file": "khrid-byed-razbor-male.mp3",
+      "timeline": [
+        {
+          "ref": "male/symbol/ཁ",
+          "label": "kha",
+          "seconds": 0.445
+        },
+        {
+          "ref": "male/symbol/ར",
+          "label": "ra",
+          "seconds": 0.493
+        },
+        {
+          "ref": "male/symbol/@tags",
+          "label": "ta",
+          "seconds": 0.402
+        },
+        {
+          "ref": "male/m0917",
+          "label": "ཁྲ",
+          "seconds": 0.381
+        },
+        {
+          "ref": "male/symbol/ི",
+          "label": "gigu",
+          "seconds": 0.47
+        },
+        {
+          "ref": "male/m0181",
+          "label": "ཁྲི",
+          "seconds": 0.334
+        },
+        {
+          "ref": "male/symbol/ད",
+          "label": "da",
+          "seconds": 0.685
+        },
+        {
+          "ref": "male/m0183",
+          "label": "ཁྲིད",
+          "seconds": 0.46
+        },
+        {
+          "ref": "male/symbol/བ",
+          "label": "ba",
+          "seconds": 0.64
+        },
+        {
+          "ref": "male/symbol/ཡ",
+          "label": "ya",
+          "seconds": 0.551
+        },
+        {
+          "ref": "male/symbol/@tags",
+          "label": "ta",
+          "seconds": 0.402
+        },
+        {
+          "ref": "male/m0761",
+          "label": "བྱ",
+          "seconds": 0.411
+        },
+        {
+          "ref": "male/symbol/ེ",
+          "label": "drengbu",
+          "seconds": 0.652
+        },
+        {
+          "ref": "male/m0764",
+          "label": "བྱེ",
+          "seconds": 0.659
+        },
+        {
+          "ref": "male/symbol/ད",
+          "label": "da",
+          "seconds": 0.685
+        },
+        {
+          "ref": "male/m0364",
+          "label": "བྱེད",
+          "seconds": 0.53
+        }
+      ]
+    },
+    {
+      "word": "ཁྲིད་བྱེད་",
+      "voice": "female",
+      "file": "khrid-byed-razbor-female.mp3",
+      "timeline": [
+        {
+          "ref": "female/symbol/ཁ",
+          "label": "kha",
+          "seconds": 0.507
+        },
+        {
+          "ref": "female/symbol/ར",
+          "label": "ra",
+          "seconds": 0.476
+        },
+        {
+          "ref": "female/symbol/@tags",
+          "label": "ta",
+          "seconds": 0.531
+        },
+        {
+          "ref": "female/m0917",
+          "label": "ཁྲ",
+          "seconds": 0.421
+        },
+        {
+          "ref": "female/symbol/ི",
+          "label": "gigu",
+          "seconds": 0.491
+        },
+        {
+          "ref": "female/m0181",
+          "label": "ཁྲི",
+          "seconds": 0.5
+        },
+        {
+          "ref": "female/symbol/ད",
+          "label": "da",
+          "seconds": 0.603
+        },
+        {
+          "ref": "female/m0183",
+          "label": "ཁྲིད",
+          "seconds": 0.492
+        },
+        {
+          "ref": "female/symbol/བ",
+          "label": "ba",
+          "seconds": 0.578
+        },
+        {
+          "ref": "female/symbol/ཡ",
+          "label": "ya",
+          "seconds": 0.578
+        },
+        {
+          "ref": "female/symbol/@tags",
+          "label": "ta",
+          "seconds": 0.531
+        },
+        {
+          "ref": "female/m0761",
+          "label": "བྱ",
+          "seconds": 0.72
+        },
+        {
+          "ref": "female/symbol/ེ",
+          "label": "drengbu",
+          "seconds": 0.613
+        },
+        {
+          "ref": "female/m0764",
+          "label": "བྱེ",
+          "seconds": 0.503
+        },
+        {
+          "ref": "female/symbol/ད",
+          "label": "da",
+          "seconds": 0.603
+        },
+        {
+          "ref": "female/m0364",
+          "label": "བྱེད",
+          "seconds": 0.604
+        }
+      ]
+    },
+    {
+      "word": "ཤུལ་",
+      "voice": "male",
+      "file": "shul-razbor-male.mp3",
+      "timeline": [
+        {
+          "ref": "male/symbol/ཤ",
+          "label": "sha",
+          "seconds": 0.51
+        },
+        {
+          "ref": "male/symbol/ུ",
+          "label": "zhabkyu",
+          "seconds": 0.619
+        },
+        {
+          "ref": "male/m0136",
+          "label": "ཤུ",
+          "seconds": 0.494
+        },
+        {
+          "ref": "male/symbol/ལ",
+          "label": "la",
+          "seconds": 0.591
+        },
+        {
+          "ref": "male/m0559",
+          "label": "ཤུལ",
+          "seconds": 0.871
+        }
+      ]
+    },
+    {
+      "word": "ཤུལ་",
+      "voice": "female",
+      "file": "shul-razbor-female.mp3",
+      "timeline": [
+        {
+          "ref": "female/symbol/ཤ",
+          "label": "sha",
+          "seconds": 0.578
+        },
+        {
+          "ref": "female/symbol/ུ",
+          "label": "zhabkyu",
+          "seconds": 0.818
+        },
+        {
+          "ref": "female/m0136",
+          "label": "ཤུ",
+          "seconds": 0.497
+        },
+        {
+          "ref": "female/symbol/ལ",
+          "label": "la",
+          "seconds": 0.622
+        },
+        {
+          "ref": "female/m0559",
+          "label": "ཤུལ",
+          "seconds": 0.655
+        }
+      ]
+    }
+  ],
+  "wordsChecked": [
+    {
+      "word": "ཀི་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.958
+    },
+    {
+      "word": "ཀོ་ཐག་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.785
+    },
+    {
+      "word": "ཀོ་བ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.46
+    },
+    {
+      "word": "ཀོ་བ་གཏོང་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.825
+    },
+    {
+      "word": "ཀྱོག་ཀྱོག་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.057
+    },
+    {
+      "word": "ཀྲབ་པོ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.767
+    },
+    {
+      "word": "ཁ་",
+      "voice": "female",
+      "fragments": 1,
+      "boundarySamplesAllZero": true,
+      "seconds": 0.587
+    },
+    {
+      "word": "ཁ་ཁུ་སིམ་པོ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.857
+    },
+    {
+      "word": "ཁ་གཅོད་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.495
+    },
+    {
+      "word": "ཁ་གཏོང་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.953
+    },
+    {
+      "word": "ཁ་གསང་པོ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.3
+    },
+    {
+      "word": "ཁ་ཆད་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.501
+    },
+    {
+      "word": "ཁ་ཆད་བྱེད་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.531
+    },
+    {
+      "word": "ཁ་པར་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.17
+    },
+    {
+      "word": "ཁ་མཆུ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.846
+    },
+    {
+      "word": "ཁ་རྒྱག་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.566
+    },
+    {
+      "word": "ཁ་རྡུང་གཏོང་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.512
+    },
+    {
+      "word": "ཁ་ལག་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.289
+    },
+    {
+      "word": "ཁག་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.065
+    },
+    {
+      "word": "ཁག་ཁག་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.699
+    },
+    {
+      "word": "ཁག་པོ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.844
+    },
+    {
+      "word": "ཁབ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.951
+    },
+    {
+      "word": "ཁབ་གཟེར་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.597
+    },
+    {
+      "word": "ཁབ་རྒྱག་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.929
+    },
+    {
+      "word": "ཁར་ཐུག་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.338
+    },
+    {
+      "word": "ཁུལ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.059
+    },
+    {
+      "word": "ཁེ་པོ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.818
+    },
+    {
+      "word": "ཁེ་བཟང་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.086
+    },
+    {
+      "word": "ཁོང་ཁྲོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.859
+    },
+    {
+      "word": "ཁོང་ཁྲོ་ཟ་བ་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.339
+    },
+    {
+      "word": "ཁྱབ་བསྒྲགས་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.248
+    },
+    {
+      "word": "ཁྱབ་བསྒྲགས་བྱེད་",
+      "voice": "female",
+      "fragments": 26,
+      "boundarySamplesAllZero": true,
+      "seconds": 20.278
+    },
+    {
+      "word": "ཁྲི་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.145
+    },
+    {
+      "word": "ཁྲི་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.123
+    },
+    {
+      "word": "ཁྲིད་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.75
+    },
+    {
+      "word": "ཁྲིད་བྱེད་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.78
+    },
+    {
+      "word": "གང་ཡང་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.906
+    },
+    {
+      "word": "གང་ཡང་མེད་པ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.501
+    },
+    {
+      "word": "གངས་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.822
+    },
+    {
+      "word": "གངས་ཤུད་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.526
+    },
+    {
+      "word": "གངས་ཤུད་གཏོང་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.892
+    },
+    {
+      "word": "གཅིག་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.998
+    },
+    {
+      "word": "གཅིག་པུ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.682
+    },
+    {
+      "word": "གཅིན་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.103
+    },
+    {
+      "word": "གཅིན་པ་གཏོང་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.468
+    },
+    {
+      "word": "གཏན་འཇགས་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.996
+    },
+    {
+      "word": "གཏིང་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.465
+    },
+    {
+      "word": "གཏིང་མེད་པ་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.06
+    },
+    {
+      "word": "གཏིང་རིང་པོ་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.243
+    },
+    {
+      "word": "གཏོང་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.795
+    },
+    {
+      "word": "གཏོང་ཕོད་པོ་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.102
+    },
+    {
+      "word": "གདན་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.236
+    },
+    {
+      "word": "གདན་རྒྱག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.214
+    },
+    {
+      "word": "གནོད་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.237
+    },
+    {
+      "word": "གབ་པ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.123
+    },
+    {
+      "word": "གཙང་མ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.628
+    },
+    {
+      "word": "གཞན་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.526
+    },
+    {
+      "word": "གཞི་གཞུང་པོ་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.107
+    },
+    {
+      "word": "གཞུག་གུ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.253
+    },
+    {
+      "word": "གཞོག་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.143
+    },
+    {
+      "word": "གཞོན་ནུ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.062
+    },
+    {
+      "word": "གཞོན་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.429
+    },
+    {
+      "word": "གཟེར་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.077
+    },
+    {
+      "word": "གཟེར་རྒྱག་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.056
+    },
+    {
+      "word": "གཟོང་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.469
+    },
+    {
+      "word": "གར་པོ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.835
+    },
+    {
+      "word": "གཤག་བཅོས་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.289
+    },
+    {
+      "word": "གཤག་བཅོས་བྱེད་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.319
+    },
+    {
+      "word": "གཤམ་ལ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.727
+    },
+    {
+      "word": "གསོལ་ཚིགས་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.588
+    },
+    {
+      "word": "གསོལ་ཚིགས་གཏོང་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.953
+    },
+    {
+      "word": "གསོས་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.383
+    },
+    {
+      "word": "གསོས་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.539
+    },
+    {
+      "word": "གུ་ཡངས་པོ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.474
+    },
+    {
+      "word": "གུག་གུག་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.942
+    },
+    {
+      "word": "གུར་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.617
+    },
+    {
+      "word": "གུར་རྒྱག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.595
+    },
+    {
+      "word": "གུས་ཞབས་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.219
+    },
+    {
+      "word": "གུས་ཞབས་བྱེད་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.249
+    },
+    {
+      "word": "གོ་རིམ་མེད་པ་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.917
+    },
+    {
+      "word": "གོང་ཆེན་པོ་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.754
+    },
+    {
+      "word": "གོམ་པ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.913
+    },
+    {
+      "word": "གྱོང་གུན་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.527
+    },
+    {
+      "word": "གྲ་སྒྲིག་བྱེད་",
+      "voice": "female",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.874
+    },
+    {
+      "word": "གྲངས་ཚད་མེད་པ་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.162
+    },
+    {
+      "word": "གྲི་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.095
+    },
+    {
+      "word": "གྲུ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.43
+    },
+    {
+      "word": "གྲུ་གཏོང་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.795
+    },
+    {
+      "word": "གྲུང་པོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.835
+    },
+    {
+      "word": "གྲྭ་པ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.603
+    },
+    {
+      "word": "གྲྭ་པ་བྱེད་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.633
+    },
+    {
+      "word": "གླིང་བུ་གཏོང་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.839
+    },
+    {
+      "word": "གླུ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.479
+    },
+    {
+      "word": "གླུ་གཏོང་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.844
+    },
+    {
+      "word": "གླེན་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.942
+    },
+    {
+      "word": "གློ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.474
+    },
+    {
+      "word": "གློ་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.453
+    },
+    {
+      "word": "གློག་རྒྱག་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.968
+    },
+    {
+      "word": "ང་རྒྱལ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.677
+    },
+    {
+      "word": "ང་རྒྱལ་བྱེད་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.706
+    },
+    {
+      "word": "ངན་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.0
+    },
+    {
+      "word": "ངོ་མ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.436
+    },
+    {
+      "word": "ངོ་རྒོལ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.883
+    },
+    {
+      "word": "ངོ་རྒོལ་བྱེད་",
+      "voice": "female",
+      "fragments": 19,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.913
+    },
+    {
+      "word": "ངོ་རྒོལ་རྒྱག་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.862
+    },
+    {
+      "word": "ཆང་ས་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.436
+    },
+    {
+      "word": "ཆབ་སྒྲོག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.935
+    },
+    {
+      "word": "ཆབ་སྒྲོག་རྒྱག་",
+      "voice": "female",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.913
+    },
+    {
+      "word": "ཆམ་པ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.321
+    },
+    {
+      "word": "ཆམ་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.3
+    },
+    {
+      "word": "ཆར་པ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.365
+    },
+    {
+      "word": "ཆུ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.358
+    },
+    {
+      "word": "ཆུ་གཏོང་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.724
+    },
+    {
+      "word": "ཆུ་རྒྱག་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.337
+    },
+    {
+      "word": "ཆེན་པོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.668
+    },
+    {
+      "word": "ཆོས་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.793
+    },
+    {
+      "word": "ཇ་",
+      "voice": "female",
+      "fragments": 1,
+      "boundarySamplesAllZero": true,
+      "seconds": 0.61
+    },
+    {
+      "word": "ཇ་གཏོང་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.975
+    },
+    {
+      "word": "ཇག་པ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.342
+    },
+    {
+      "word": "ཇག་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.321
+    },
+    {
+      "word": "ཉིན་གུང་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.916
+    },
+    {
+      "word": "ཉིན་མོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.574
+    },
+    {
+      "word": "ཉིས་བརྩེགས་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.227
+    },
+    {
+      "word": "ཉུང་ཉུང་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.469
+    },
+    {
+      "word": "ཉུང་བ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.177
+    },
+    {
+      "word": "ཉེས་འཛུགས་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.582
+    },
+    {
+      "word": "ཉེས་འཛུགས་བྱེད་",
+      "voice": "female",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.612
+    },
+    {
+      "word": "ཉོ་བ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.542
+    },
+    {
+      "word": "ཉོབ་པོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.591
+    },
+    {
+      "word": "ཐག་ཉེ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.853
+    },
+    {
+      "word": "ཐག་རིང་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.981
+    },
+    {
+      "word": "ཐབས་ཤེས་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.207
+    },
+    {
+      "word": "ཐུང་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.07
+    },
+    {
+      "word": "ཐུང་ཐུང་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.71
+    },
+    {
+      "word": "ཐོག་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.651
+    },
+    {
+      "word": "ཐོག་རྒྱག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.63
+    },
+    {
+      "word": "ཐོན་པ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.891
+    },
+    {
+      "word": "ཐོབ་པ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.921
+    },
+    {
+      "word": "ད་ག་རང་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.375
+    },
+    {
+      "word": "ད་ལྟ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.983
+    },
+    {
+      "word": "དཀའ་ངལ་མྱོང་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.031
+    },
+    {
+      "word": "དཀའ་པོ་བྱེད་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.283
+    },
+    {
+      "word": "དཀའ་ལས་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.23
+    },
+    {
+      "word": "དཀའ་ལས་ཁག་པོ་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.644
+    },
+    {
+      "word": "དཀའ་ལས་རྒྱག་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.208
+    },
+    {
+      "word": "དཀོན་པོ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.832
+    },
+    {
+      "word": "དཀྱུས་མ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.535
+    },
+    {
+      "word": "དགག་བྱ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.165
+    },
+    {
+      "word": "དགག་བྱ་བྱེད་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.194
+    },
+    {
+      "word": "དགའ་པོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.244
+    },
+    {
+      "word": "དགའ་བ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.692
+    },
+    {
+      "word": "དགེ་རྒན་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.076
+    },
+    {
+      "word": "དགོང་དྲོ་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.116
+    },
+    {
+      "word": "དགོངས་དག་ཐུགས་བདེན་ཞུ་",
+      "voice": "female",
+      "fragments": 27,
+      "boundarySamplesAllZero": true,
+      "seconds": 21.995
+    },
+    {
+      "word": "དགོངས་སེལ་ཞུ་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.541
+    },
+    {
+      "word": "དགྲ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.0
+    },
+    {
+      "word": "དབུལ་པོ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.086
+    },
+    {
+      "word": "དམག་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.503
+    },
+    {
+      "word": "དམག་རྒྱག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.481
+    },
+    {
+      "word": "དམའ་བོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.643
+    },
+    {
+      "word": "དམའ་འབེབས་གཏོང་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.229
+    },
+    {
+      "word": "དེ་ནས་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.699
+    },
+    {
+      "word": "དེང་སང་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.173
+    },
+    {
+      "word": "དོ་སྣང་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.351
+    },
+    {
+      "word": "དྲི་བ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.315
+    },
+    {
+      "word": "དྲོ་པོ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.211
+    },
+    {
+      "word": "ནང་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.096
+    },
+    {
+      "word": "ནང་ཟོག་ཕྱི་འདྲེན་",
+      "voice": "female",
+      "fragments": 24,
+      "boundarySamplesAllZero": true,
+      "seconds": 19.76
+    },
+    {
+      "word": "ནང་ཤ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.324
+    },
+    {
+      "word": "ནང་ཤ་རྒྱག་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.302
+    },
+    {
+      "word": "ནུབ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.678
+    },
+    {
+      "word": "ནུབ་པ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.834
+    },
+    {
+      "word": "པར་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.013
+    },
+    {
+      "word": "པར་རྒྱག་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.992
+    },
+    {
+      "word": "པར་སྐྱར་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.274
+    },
+    {
+      "word": "ཕན་པ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.132
+    },
+    {
+      "word": "ཕམས་པ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.024
+    },
+    {
+      "word": "ཕར་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.063
+    },
+    {
+      "word": "ཕུར་པ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.867
+    },
+    {
+      "word": "ཕོ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.263
+    },
+    {
+      "word": "ཕྱི་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.436
+    },
+    {
+      "word": "ཕྱི་པོ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.216
+    },
+    {
+      "word": "ཕྱི་ཟོག་ནང་འདྲེན་",
+      "voice": "female",
+      "fragments": 24,
+      "boundarySamplesAllZero": true,
+      "seconds": 19.76
+    },
+    {
+      "word": "ཕྱུག་པོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.027
+    },
+    {
+      "word": "ཕྲ་པོ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.426
+    },
+    {
+      "word": "བཀག་བསྐྱིལ་བྱེད་",
+      "voice": "female",
+      "fragments": 26,
+      "boundarySamplesAllZero": true,
+      "seconds": 20.139
+    },
+    {
+      "word": "བཀའ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.452
+    },
+    {
+      "word": "བཀའ་གཏོང་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.818
+    },
+    {
+      "word": "བཀའ་སྐྱོན་གཏོང་",
+      "voice": "female",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.675
+    },
+    {
+      "word": "བཀོད་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.223
+    },
+    {
+      "word": "བཀོད་པ་གཏོང་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.588
+    },
+    {
+      "word": "བཀྲེན་པོ་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.713
+    },
+    {
+      "word": "བང་ཆེན་གཏོང་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.007
+    },
+    {
+      "word": "བཅོས་མ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.587
+    },
+    {
+      "word": "བདེ་བ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.637
+    },
+    {
+      "word": "བཙན་གནོན་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.142
+    },
+    {
+      "word": "བཙན་འཛུལ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.05
+    },
+    {
+      "word": "བཙན་འཛུལ་བྱེད་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.08
+    },
+    {
+      "word": "བཙོག་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.425
+    },
+    {
+      "word": "བཙོག་པ་གཏོང་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.791
+    },
+    {
+      "word": "བཞུར་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.404
+    },
+    {
+      "word": "བཞུར་བ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.632
+    },
+    {
+      "word": "བཟང་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.478
+    },
+    {
+      "word": "བཟོ་པ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.058
+    },
+    {
+      "word": "བཟོད་གསོལ་ཞུ་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.913
+    },
+    {
+      "word": "བར་འཛུལ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.578
+    },
+    {
+      "word": "བར་འཛུལ་བྱེད་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.608
+    },
+    {
+      "word": "བརྡ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.177
+    },
+    {
+      "word": "བསམ་བློ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.822
+    },
+    {
+      "word": "བསམ་བློ་གཏོང་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.188
+    },
+    {
+      "word": "བསྐོ་བཞག་བྱེད་",
+      "voice": "female",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.881
+    },
+    {
+      "word": "བསྐོར་ར་རྒྱག་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.43
+    },
+    {
+      "word": "བསླབ་བྱ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.399
+    },
+    {
+      "word": "བསླབ་བྱ་བྱེད་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.429
+    },
+    {
+      "word": "བུ་ལོན་གཏོང་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.097
+    },
+    {
+      "word": "བྱམས་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.768
+    },
+    {
+      "word": "བྱམས་པ་བྱེད་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.798
+    },
+    {
+      "word": "བྱེ་བྲག་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.711
+    },
+    {
+      "word": "བྱེད་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.46
+    },
+    {
+      "word": "བྱེད་ལ་ལེ་ལོ་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.376
+    },
+    {
+      "word": "བྲེལ་བ་ཚ་པོ་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.188
+    },
+    {
+      "word": "བྲོ་བ་མྱོང་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.443
+    },
+    {
+      "word": "བློས་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.159
+    },
+    {
+      "word": "བློས་གཏོང་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.524
+    },
+    {
+      "word": "མཁྲེགས་པོ་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.472
+    },
+    {
+      "word": "མགོ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.548
+    },
+    {
+      "word": "མགྱོགས་པོ་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.724
+    },
+    {
+      "word": "མང་པོ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.967
+    },
+    {
+      "word": "མངར་མོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.345
+    },
+    {
+      "word": "མཆོད་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.66
+    },
+    {
+      "word": "མཆོད་པ་བྱེད་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.689
+    },
+    {
+      "word": "མཇུག་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.326
+    },
+    {
+      "word": "མཇུག་ལ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.598
+    },
+    {
+      "word": "མཉམ་དུ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.685
+    },
+    {
+      "word": "མཐིལ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.015
+    },
+    {
+      "word": "མཐུ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.525
+    },
+    {
+      "word": "མཐུ་རྒྱག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.504
+    },
+    {
+      "word": "མཐོ་པོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.345
+    },
+    {
+      "word": "མཐོ་བོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.526
+    },
+    {
+      "word": "མཐོང་རྒྱ་ཆེན་པོ་",
+      "voice": "female",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.732
+    },
+    {
+      "word": "མདའ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.557
+    },
+    {
+      "word": "མདུད་པ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.234
+    },
+    {
+      "word": "མདུད་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.212
+    },
+    {
+      "word": "མདུན་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.988
+    },
+    {
+      "word": "མདོག་ཉེས་པོ་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.385
+    },
+    {
+      "word": "མཚན་མོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.376
+    },
+    {
+      "word": "མར་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.239
+    },
+    {
+      "word": "མི་ཆོག་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.438
+    },
+    {
+      "word": "མི་དགེ་བ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.147
+    },
+    {
+      "word": "མི་ཚུད་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.675
+    },
+    {
+      "word": "མེ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.107
+    },
+    {
+      "word": "མེ་གཏོང་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.472
+    },
+    {
+      "word": "མེ་མདའ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.234
+    },
+    {
+      "word": "མེ་མདའ་རྒྱག་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.213
+    },
+    {
+      "word": "མོ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.413
+    },
+    {
+      "word": "མོས་མཐུན་བྱེད་པ་",
+      "voice": "female",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.879
+    },
+    {
+      "word": "མོས་མཐུན་མེད་པ་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.288
+    },
+    {
+      "word": "མྱོང་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.244
+    },
+    {
+      "word": "ཚ་ག་",
+      "voice": "female",
+      "fragments": 2,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.626
+    },
+    {
+      "word": "ཚ་པོ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.293
+    },
+    {
+      "word": "ཚག་པོ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.705
+    },
+    {
+      "word": "ཚད་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.072
+    },
+    {
+      "word": "ཚབ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.037
+    },
+    {
+      "word": "ཚབ་བྱེད་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.066
+    },
+    {
+      "word": "ཚབ་ཚུབ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.622
+    },
+    {
+      "word": "ཚབ་ཚུབ་བྱེད་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.651
+    },
+    {
+      "word": "ཚུད་པ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.129
+    },
+    {
+      "word": "ཚུར་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.865
+    },
+    {
+      "word": "ཚེམ་བུ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.589
+    },
+    {
+      "word": "ཚེམ་བུ་རྒྱག་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.568
+    },
+    {
+      "word": "ཚོང་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.629
+    },
+    {
+      "word": "ཚོང་རྒྱག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.607
+    },
+    {
+      "word": "ཚོན་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.68
+    },
+    {
+      "word": "ཚོན་གཏོང་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.045
+    },
+    {
+      "word": "ཚོར་བ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.858
+    },
+    {
+      "word": "ཚོར་བ་མྱོང་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.672
+    },
+    {
+      "word": "ཚྭ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.236
+    },
+    {
+      "word": "ཚྭ་རྒྱག་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.215
+    },
+    {
+      "word": "ཝ་",
+      "voice": "female",
+      "fragments": 1,
+      "boundarySamplesAllZero": true,
+      "seconds": 0.644
+    },
+    {
+      "word": "ཝ་ཕྲུག་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.202
+    },
+    {
+      "word": "ཝ་མོ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.627
+    },
+    {
+      "word": "ཝ་ཚང་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.231
+    },
+    {
+      "word": "ཝ་སྐད་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.65
+    },
+    {
+      "word": "ཞབས་བྲོ་རྒྱག་",
+      "voice": "female",
+      "fragments": 19,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.94
+    },
+    {
+      "word": "ཞེན་ཁོག་མེད་པ་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.821
+    },
+    {
+      "word": "ཞྭ་ཐག་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.115
+    },
+    {
+      "word": "ཞྭ་ཐག་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.094
+    },
+    {
+      "word": "ཟ་གཡའ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.701
+    },
+    {
+      "word": "ཟ་གཡའ་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.68
+    },
+    {
+      "word": "ཟུག་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.298
+    },
+    {
+      "word": "འཁྱག་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.663
+    },
+    {
+      "word": "འཁྱགས་པ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.472
+    },
+    {
+      "word": "འཁྱགས་པ་གཏོང་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.838
+    },
+    {
+      "word": "འཁྱགས་ཤུད་གཏོང་",
+      "voice": "female",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.386
+    },
+    {
+      "word": "འཁྲེགས་པོ་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.524
+    },
+    {
+      "word": "འགོ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.548
+    },
+    {
+      "word": "འགོ་འཛུགས་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.278
+    },
+    {
+      "word": "འགྱེད་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.392
+    },
+    {
+      "word": "འགྲིག་པ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.016
+    },
+    {
+      "word": "འགྲུལ་རྒྱག་",
+      "voice": "female",
+      "fragments": 19,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.372
+    },
+    {
+      "word": "འགྲུལ་རྟགས་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.842
+    },
+    {
+      "word": "འགྲོ་སོང་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.437
+    },
+    {
+      "word": "འཆམ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.599
+    },
+    {
+      "word": "འཆམས་པོ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.074
+    },
+    {
+      "word": "འཆམས་པོ་བྱེད་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.104
+    },
+    {
+      "word": "འཆི་བ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.656
+    },
+    {
+      "word": "འཇམ་པོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.449
+    },
+    {
+      "word": "འཇིབ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.158
+    },
+    {
+      "word": "འཇིབ་རྒྱག་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.137
+    },
+    {
+      "word": "འཐབ་ར་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.594
+    },
+    {
+      "word": "འཐབ་ར་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.573
+    },
+    {
+      "word": "འདེམས་བསྒྲུགས་",
+      "voice": "female",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.468
+    },
+    {
+      "word": "འདེམས་བསྒྲུགས་བྱེད་",
+      "voice": "female",
+      "fragments": 30,
+      "boundarySamplesAllZero": true,
+      "seconds": 23.498
+    },
+    {
+      "word": "འདྲ་ཤུས་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.9
+    },
+    {
+      "word": "འཕྱ་བ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.533
+    },
+    {
+      "word": "འཕྱ་སྨོད་རྒྱག་",
+      "voice": "female",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 18.134
+    },
+    {
+      "word": "འཕྲལ་སེལ་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.304
+    },
+    {
+      "word": "འབྱོར་བ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.057
+    },
+    {
+      "word": "འབྲུག་སྐད་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.368
+    },
+    {
+      "word": "འཚོ་བ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.816
+    },
+    {
+      "word": "འཚོ་བ་མྱོང་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.631
+    },
+    {
+      "word": "འཚོང་བ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.346
+    },
+    {
+      "word": "འཚོལ་བ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.611
+    },
+    {
+      "word": "འོས་འདེམས་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.363
+    },
+    {
+      "word": "འོས་འདེམས་བྱེད་",
+      "voice": "female",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.393
+    },
+    {
+      "word": "ཡང་པོ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.124
+    },
+    {
+      "word": "ཡང་སེ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.113
+    },
+    {
+      "word": "ཡར་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.166
+    },
+    {
+      "word": "ཡར་བརྩེགས་པ་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.922
+    },
+    {
+      "word": "ཡར་རྒྱས་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.235
+    },
+    {
+      "word": "ཡར་རྒྱས་གཏོང་",
+      "voice": "female",
+      "fragments": 19,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.601
+    },
+    {
+      "word": "ཡི་གེ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.712
+    },
+    {
+      "word": "ཡིག་ཐོག་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.62
+    },
+    {
+      "word": "ཡིན་དང་མིན་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.343
+    },
+    {
+      "word": "ཡིན་དང་ཡིན་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.212
+    },
+    {
+      "word": "ཡོང་འབབ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.929
+    },
+    {
+      "word": "རགས་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.664
+    },
+    {
+      "word": "རང་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.011
+    },
+    {
+      "word": "རང་སྐྱོན་སྦས་པ་",
+      "voice": "female",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.002
+    },
+    {
+      "word": "རབ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.091
+    },
+    {
+      "word": "རབ་རྒྱག་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.07
+    },
+    {
+      "word": "རིག་པ་གཏོང་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.965
+    },
+    {
+      "word": "རིང་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.428
+    },
+    {
+      "word": "རིང་པོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.207
+    },
+    {
+      "word": "རེ་བ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.34
+    },
+    {
+      "word": "རེ་རེ་བཞིན་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.334
+    },
+    {
+      "word": "རེ་རེ་བྱས་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.125
+    },
+    {
+      "word": "རོ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.189
+    },
+    {
+      "word": "རོ་མྱོང་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.004
+    },
+    {
+      "word": "རྐུབ་ཀྱག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.63
+    },
+    {
+      "word": "རྐུབ་ཀྱག་རྒྱག་",
+      "voice": "female",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.609
+    },
+    {
+      "word": "རྐྱལ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.621
+    },
+    {
+      "word": "རྐྱོང་བ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.232
+    },
+    {
+      "word": "རྒན་པ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.289
+    },
+    {
+      "word": "རྒྱ་ཆུང་ཆུང་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.844
+    },
+    {
+      "word": "རྒྱ་ཆེན་པོ་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.199
+    },
+    {
+      "word": "རྒྱག་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.409
+    },
+    {
+      "word": "རྒྱགས་པ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.385
+    },
+    {
+      "word": "རྒྱན་པོ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.235
+    },
+    {
+      "word": "རྒྱན་པོ་རྒྱག་",
+      "voice": "female",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.213
+    },
+    {
+      "word": "རྒྱབ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.528
+    },
+    {
+      "word": "རྗེན་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.22
+    },
+    {
+      "word": "རྙིང་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.005
+    },
+    {
+      "word": "རྙེད་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.311
+    },
+    {
+      "word": "རྟ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.623
+    },
+    {
+      "word": "རྟ་གཏོང་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.989
+    },
+    {
+      "word": "རྟགས་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.879
+    },
+    {
+      "word": "རྟགས་རྒྱག་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.858
+    },
+    {
+      "word": "རྟུལ་པོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.721
+    },
+    {
+      "word": "རྡེབ་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.017
+    },
+    {
+      "word": "རྡེབ་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.996
+    },
+    {
+      "word": "རྣག་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.313
+    },
+    {
+      "word": "རྣག་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.292
+    },
+    {
+      "word": "རྩིས་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.787
+    },
+    {
+      "word": "རྩུབ་པོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.951
+    },
+    {
+      "word": "རྩོད་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.521
+    },
+    {
+      "word": "རྩོད་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.5
+    },
+    {
+      "word": "རྫུས་མ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.419
+    },
+    {
+      "word": "རྫོར་པོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.115
+    },
+    {
+      "word": "རླུང་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.063
+    },
+    {
+      "word": "རླུང་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.042
+    },
+    {
+      "word": "རློན་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.187
+    },
+    {
+      "word": "ལ་",
+      "voice": "female",
+      "fragments": 1,
+      "boundarySamplesAllZero": true,
+      "seconds": 0.702
+    },
+    {
+      "word": "ལ་རྒྱག་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.68
+    },
+    {
+      "word": "ལག་པ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.288
+    },
+    {
+      "word": "ལག་པ་གཡུག་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.778
+    },
+    {
+      "word": "ལག་བརྡ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.879
+    },
+    {
+      "word": "ལགས་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.887
+    },
+    {
+      "word": "ལན་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.068
+    },
+    {
+      "word": "ལན་བུ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.973
+    },
+    {
+      "word": "ལན་བུ་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.951
+    },
+    {
+      "word": "ལན་རྒྱག་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.047
+    },
+    {
+      "word": "ལས་ཀ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.346
+    },
+    {
+      "word": "ལས་ཀ་མེད་པ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.941
+    },
+    {
+      "word": "ལས་བརྩོན་ཅན་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.101
+    },
+    {
+      "word": "ལུད་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.963
+    },
+    {
+      "word": "ལུད་རྒྱག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.942
+    },
+    {
+      "word": "ལེ་ལོ་ཅན་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.818
+    },
+    {
+      "word": "ལོ་ཏོག་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.518
+    },
+    {
+      "word": "ལོ་ཏོག་རྒྱག་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.496
+    },
+    {
+      "word": "ལོག་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.779
+    },
+    {
+      "word": "ལོའོ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.963
+    },
+    {
+      "word": "ལྐུགས་པ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.87
+    },
+    {
+      "word": "ལྐོག་རྔན་བྱེད་",
+      "voice": "female",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 18.076
+    },
+    {
+      "word": "ལྕགས་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.352
+    },
+    {
+      "word": "ལྗིད་པོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.018
+    },
+    {
+      "word": "ལྡོག་ཕྱོགས་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.834
+    },
+    {
+      "word": "ལྷན་པ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.829
+    },
+    {
+      "word": "ལྷན་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.808
+    },
+    {
+      "word": "ལྷུག་ལྷུག་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.513
+    },
+    {
+      "word": "ཤ་བཙིར་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.199
+    },
+    {
+      "word": "ཤ་བཙིར་རྒྱག་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.178
+    },
+    {
+      "word": "ཤར་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.356
+    },
+    {
+      "word": "ཤར་བ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.584
+    },
+    {
+      "word": "ཤུ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.392
+    },
+    {
+      "word": "ཤུ་རྒྱག་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.371
+    },
+    {
+      "word": "ཤུགས་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.653
+    },
+    {
+      "word": "ཤུགས་མེད་པ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.249
+    },
+    {
+      "word": "ཤུགས་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.632
+    },
+    {
+      "word": "ཤུལ་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.179
+    },
+    {
+      "word": "ཤུལ་རྒྱག་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.158
+    },
+    {
+      "word": "ཤེས་",
+      "voice": "female",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.012
+    },
+    {
+      "word": "ཤོ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.403
+    },
+    {
+      "word": "ཤོར་བ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.396
+    },
+    {
+      "word": "ས་ཡོམ་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.103
+    },
+    {
+      "word": "སེམས་ཁྲལ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.714
+    },
+    {
+      "word": "སེམས་གསོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.011
+    },
+    {
+      "word": "སེམས་གསོ་གཏོང་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.376
+    },
+    {
+      "word": "སོ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.414
+    },
+    {
+      "word": "སོ་གཏོང་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.779
+    },
+    {
+      "word": "སོ་རྒྱག་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.392
+    },
+    {
+      "word": "སོ་ཤད་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.298
+    },
+    {
+      "word": "སོ་ཤད་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.277
+    },
+    {
+      "word": "སྐད་",
+      "voice": "female",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.436
+    },
+    {
+      "word": "སྐད་གཏོང་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.801
+    },
+    {
+      "word": "སྐད་གྲགས་ཆུང་ངུས་",
+      "voice": "female",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 18.667
+    },
+    {
+      "word": "སྐད་གྲགས་ཆེན་པོས་",
+      "voice": "female",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 18.64
+    },
+    {
+      "word": "སྐད་ཅོར་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.098
+    },
+    {
+      "word": "སྐད་ཅོར་རྒྱག་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.077
+    },
+    {
+      "word": "སྐད་ཆ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.616
+    },
+    {
+      "word": "སྐད་རྒྱག་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.415
+    },
+    {
+      "word": "སྐབས་རེ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.825
+    },
+    {
+      "word": "སྐམ་པོ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.148
+    },
+    {
+      "word": "སྐུམ་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.163
+    },
+    {
+      "word": "སྐྱིགས་པ་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.762
+    },
+    {
+      "word": "སྐྱིགས་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.74
+    },
+    {
+      "word": "སྐྱིད་པོ་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.891
+    },
+    {
+      "word": "སྐྱིད་པོ་གཏོང་བ་",
+      "voice": "female",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.484
+    },
+    {
+      "word": "སྐྱོ་པོ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.629
+    },
+    {
+      "word": "སྐྱོ་བ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.077
+    },
+    {
+      "word": "སྐྱོན་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.287
+    },
+    {
+      "word": "སྐྱོན་བརྗོད་",
+      "voice": "female",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.63
+    },
+    {
+      "word": "སྐྱོར་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.407
+    },
+    {
+      "word": "སྐྱོར་རྒྱག་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.385
+    },
+    {
+      "word": "སྒ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.79
+    },
+    {
+      "word": "སྒམ་པོ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.121
+    },
+    {
+      "word": "སྒུག་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.987
+    },
+    {
+      "word": "སྒུག་རྒྱག་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.966
+    },
+    {
+      "word": "སྒེའུ་ཁུང་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.332
+    },
+    {
+      "word": "སྒེའུ་ཡོལ་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.481
+    },
+    {
+      "word": "སྒོ་ཡོལ་རྒྱག་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.143
+    },
+    {
+      "word": "སྒོ་ལྕགས་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.382
+    },
+    {
+      "word": "སྒོམ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.082
+    },
+    {
+      "word": "སྒོམ་པ་བྱེད་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.267
+    },
+    {
+      "word": "སྒྲ་འཁོར་",
+      "voice": "female",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.593
+    },
+    {
+      "word": "སྒྲུབ་པ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.412
+    },
+    {
+      "word": "སྔ་དྲོ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.88
+    },
+    {
+      "word": "སྔ་པོ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.658
+    },
+    {
+      "word": "སྔ་མོ་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.862
+    },
+    {
+      "word": "སྔགས་",
+      "voice": "female",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.143
+    },
+    {
+      "word": "སྔོན་ལ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.434
+    },
+    {
+      "word": "སྙིང་རྗེ་པོ་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.814
+    },
+    {
+      "word": "སྙིང་རྗེ་མེད་པ་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.63
+    },
+    {
+      "word": "སྟེང་ལ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.025
+    },
+    {
+      "word": "སྟོང་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.202
+    },
+    {
+      "word": "སྡུག་པོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.845
+    },
+    {
+      "word": "སྡུག་པོ་མྱོང་བ་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.887
+    },
+    {
+      "word": "སྡུག་བསྔལ་མྱོང་",
+      "voice": "female",
+      "fragments": 24,
+      "boundarySamplesAllZero": true,
+      "seconds": 19.292
+    },
+    {
+      "word": "སྣང་ཆུང་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.889
+    },
+    {
+      "word": "སྣོན་སྐྱེད་རྒྱག་",
+      "voice": "female",
+      "fragments": 28,
+      "boundarySamplesAllZero": true,
+      "seconds": 21.812
+    },
+    {
+      "word": "སྤུས་ཀ་ཞན་པ་",
+      "voice": "female",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.233
+    },
+    {
+      "word": "སྤུས་ཀ་ཞན་པོ་",
+      "voice": "female",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.856
+    },
+    {
+      "word": "སྤོབས་པ་",
+      "voice": "female",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.029
+    },
+    {
+      "word": "སྤོབས་པ་བྱེད་",
+      "voice": "female",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.059
+    },
+    {
+      "word": "སྤྱང་པོ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.579
+    },
+    {
+      "word": "སྤྱིར་བཏང་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.363
+    },
+    {
+      "word": "སྤྲོ་སྐྱིད་",
+      "voice": "female",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.486
+    },
+    {
+      "word": "སྤྲོ་སྐྱིད་གཏོང་",
+      "voice": "female",
+      "fragments": 27,
+      "boundarySamplesAllZero": true,
+      "seconds": 20.852
+    },
+    {
+      "word": "སྦོམ་པོ་",
+      "voice": "female",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.008
+    },
+    {
+      "word": "སྦྱིན་པ་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.787
+    },
+    {
+      "word": "སྨིན་པ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.958
+    },
+    {
+      "word": "སྲབ་པོ་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.258
+    },
+    {
+      "word": "སླེ་པ་རྒྱག་",
+      "voice": "female",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.589
+    },
+    {
+      "word": "ཧ་གོ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.369
+    },
+    {
+      "word": "ཧམ་པ་",
+      "voice": "female",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.325
+    },
+    {
+      "word": "ཧམ་པ་བྱེད་",
+      "voice": "female",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.355
+    },
+    {
+      "word": "ཧུར་པོ་",
+      "voice": "female",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.655
+    },
+    {
+      "word": "ཨཱ་",
+      "voice": "female",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.408
+    },
+    {
+      "word": "ཨུ་ཚུགས་",
+      "voice": "female",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.736
+    },
+    {
+      "word": "ཨུ་ཚུགས་བྱེད་",
+      "voice": "female",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.766
+    },
+    {
+      "word": "ཀི་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.796
+    },
+    {
+      "word": "ཀོ་ཐག་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.41
+    },
+    {
+      "word": "ཀོ་བ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.301
+    },
+    {
+      "word": "ཀོ་བ་གཏོང་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.822
+    },
+    {
+      "word": "ཀྱོག་ཀྱོག་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.508
+    },
+    {
+      "word": "ཀྲབ་པོ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.508
+    },
+    {
+      "word": "ཁ་",
+      "voice": "male",
+      "fragments": 1,
+      "boundarySamplesAllZero": true,
+      "seconds": 0.524
+    },
+    {
+      "word": "ཁ་ཁུ་སིམ་པོ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.392
+    },
+    {
+      "word": "ཁ་གཅོད་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.259
+    },
+    {
+      "word": "ཁ་གཏོང་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.045
+    },
+    {
+      "word": "ཁ་གསང་པོ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.594
+    },
+    {
+      "word": "ཁ་ཆད་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.22
+    },
+    {
+      "word": "ཁ་ཆད་བྱེད་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.05
+    },
+    {
+      "word": "ཁ་པར་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.994
+    },
+    {
+      "word": "ཁ་མཆུ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.616
+    },
+    {
+      "word": "ཁ་རྒྱག་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.992
+    },
+    {
+      "word": "ཁ་རྡུང་གཏོང་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.54
+    },
+    {
+      "word": "ཁ་ལག་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.034
+    },
+    {
+      "word": "ཁག་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.865
+    },
+    {
+      "word": "ཁག་ཁག་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.3
+    },
+    {
+      "word": "ཁག་པོ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.443
+    },
+    {
+      "word": "ཁབ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.91
+    },
+    {
+      "word": "ཁབ་གཟེར་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.125
+    },
+    {
+      "word": "ཁབ་རྒྱག་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.378
+    },
+    {
+      "word": "ཁར་ཐུག་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.721
+    },
+    {
+      "word": "ཁུལ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.592
+    },
+    {
+      "word": "ཁེ་པོ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.612
+    },
+    {
+      "word": "ཁེ་བཟང་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.664
+    },
+    {
+      "word": "ཁོང་ཁྲོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.756
+    },
+    {
+      "word": "ཁོང་ཁྲོ་ཟ་བ་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.259
+    },
+    {
+      "word": "ཁྱབ་བསྒྲགས་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.782
+    },
+    {
+      "word": "ཁྱབ་བསྒྲགས་བྱེད་",
+      "voice": "male",
+      "fragments": 26,
+      "boundarySamplesAllZero": true,
+      "seconds": 20.612
+    },
+    {
+      "word": "ཁྲི་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.744
+    },
+    {
+      "word": "ཁྲི་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.211
+    },
+    {
+      "word": "ཁྲིད་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.399
+    },
+    {
+      "word": "ཁྲིད་བྱེད་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.229
+    },
+    {
+      "word": "གང་ཡང་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.198
+    },
+    {
+      "word": "གང་ཡང་མེད་པ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.629
+    },
+    {
+      "word": "གངས་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.085
+    },
+    {
+      "word": "གངས་ཤུད་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.843
+    },
+    {
+      "word": "གངས་ཤུད་གཏོང་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.364
+    },
+    {
+      "word": "གཅིག་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.274
+    },
+    {
+      "word": "གཅིག་པུ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.687
+    },
+    {
+      "word": "གཅིན་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.573
+    },
+    {
+      "word": "གཅིན་པ་གཏོང་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.094
+    },
+    {
+      "word": "གཏན་འཇགས་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.777
+    },
+    {
+      "word": "གཏིང་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.956
+    },
+    {
+      "word": "གཏིང་མེད་པ་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.387
+    },
+    {
+      "word": "གཏིང་རིང་པོ་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.926
+    },
+    {
+      "word": "གཏོང་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.95
+    },
+    {
+      "word": "གཏོང་ཕོད་པོ་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.797
+    },
+    {
+      "word": "གདན་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.51
+    },
+    {
+      "word": "གདན་རྒྱག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.978
+    },
+    {
+      "word": "གནོད་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.255
+    },
+    {
+      "word": "གབ་པ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.962
+    },
+    {
+      "word": "གཙང་མ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.945
+    },
+    {
+      "word": "གཞན་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.988
+    },
+    {
+      "word": "གཞི་གཞུང་པོ་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.92
+    },
+    {
+      "word": "གཞུག་གུ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.542
+    },
+    {
+      "word": "གཞོག་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.064
+    },
+    {
+      "word": "གཞོན་ནུ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.837
+    },
+    {
+      "word": "གཞོན་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.303
+    },
+    {
+      "word": "གཟེར་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.645
+    },
+    {
+      "word": "གཟེར་རྒྱག་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.113
+    },
+    {
+      "word": "གཟོང་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.445
+    },
+    {
+      "word": "གར་པོ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.52
+    },
+    {
+      "word": "གཤག་བཅོས་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.386
+    },
+    {
+      "word": "གཤག་བཅོས་བྱེད་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.216
+    },
+    {
+      "word": "གཤམ་ལ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.845
+    },
+    {
+      "word": "གསོལ་ཚིགས་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.016
+    },
+    {
+      "word": "གསོལ་ཚིགས་གཏོང་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.537
+    },
+    {
+      "word": "གསོས་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.562
+    },
+    {
+      "word": "གསོས་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.622
+    },
+    {
+      "word": "གུ་ཡངས་པོ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.329
+    },
+    {
+      "word": "གུག་གུག་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.218
+    },
+    {
+      "word": "གུར་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.558
+    },
+    {
+      "word": "གུར་རྒྱག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.026
+    },
+    {
+      "word": "གུས་ཞབས་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.259
+    },
+    {
+      "word": "གུས་ཞབས་བྱེད་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.088
+    },
+    {
+      "word": "གོ་རིམ་མེད་པ་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.66
+    },
+    {
+      "word": "གོང་ཆེན་པོ་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.456
+    },
+    {
+      "word": "གོམ་པ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.748
+    },
+    {
+      "word": "གྱོང་གུན་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.978
+    },
+    {
+      "word": "གྲ་སྒྲིག་བྱེད་",
+      "voice": "male",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.568
+    },
+    {
+      "word": "གྲངས་ཚད་མེད་པ་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.153
+    },
+    {
+      "word": "གྲི་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.828
+    },
+    {
+      "word": "གྲུ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.964
+    },
+    {
+      "word": "གྲུ་གཏོང་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.485
+    },
+    {
+      "word": "གྲུང་པོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.182
+    },
+    {
+      "word": "གྲྭ་པ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.193
+    },
+    {
+      "word": "གྲྭ་པ་བྱེད་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.023
+    },
+    {
+      "word": "གླིང་བུ་གཏོང་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.051
+    },
+    {
+      "word": "གླུ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.213
+    },
+    {
+      "word": "གླུ་གཏོང་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.734
+    },
+    {
+      "word": "གླེན་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.761
+    },
+    {
+      "word": "གློ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.134
+    },
+    {
+      "word": "གློ་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.602
+    },
+    {
+      "word": "གློག་རྒྱག་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.042
+    },
+    {
+      "word": "ང་རྒྱལ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.475
+    },
+    {
+      "word": "ང་རྒྱལ་བྱེད་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.305
+    },
+    {
+      "word": "ངན་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.238
+    },
+    {
+      "word": "ངོ་མ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.75
+    },
+    {
+      "word": "ངོ་རྒོལ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.824
+    },
+    {
+      "word": "ངོ་རྒོལ་བྱེད་",
+      "voice": "male",
+      "fragments": 19,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.654
+    },
+    {
+      "word": "ངོ་རྒོལ་རྒྱག་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.292
+    },
+    {
+      "word": "ཆང་ས་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.612
+    },
+    {
+      "word": "ཆབ་སྒྲོག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.142
+    },
+    {
+      "word": "ཆབ་སྒྲོག་རྒྱག་",
+      "voice": "male",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.61
+    },
+    {
+      "word": "ཆམ་པ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.147
+    },
+    {
+      "word": "ཆམ་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.615
+    },
+    {
+      "word": "ཆར་པ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.986
+    },
+    {
+      "word": "ཆུ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.964
+    },
+    {
+      "word": "ཆུ་གཏོང་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.484
+    },
+    {
+      "word": "ཆུ་རྒྱག་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.432
+    },
+    {
+      "word": "ཆེན་པོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.206
+    },
+    {
+      "word": "ཆོས་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.729
+    },
+    {
+      "word": "ཇ་",
+      "voice": "male",
+      "fragments": 1,
+      "boundarySamplesAllZero": true,
+      "seconds": 0.722
+    },
+    {
+      "word": "ཇ་གཏོང་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.243
+    },
+    {
+      "word": "ཇག་པ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.256
+    },
+    {
+      "word": "ཇག་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.724
+    },
+    {
+      "word": "ཉིན་གུང་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.821
+    },
+    {
+      "word": "ཉིན་མོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.633
+    },
+    {
+      "word": "ཉིས་བརྩེགས་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.394
+    },
+    {
+      "word": "ཉུང་ཉུང་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.672
+    },
+    {
+      "word": "ཉུང་བ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.341
+    },
+    {
+      "word": "ཉེས་འཛུགས་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.303
+    },
+    {
+      "word": "ཉེས་འཛུགས་བྱེད་",
+      "voice": "male",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 18.133
+    },
+    {
+      "word": "ཉོ་བ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.696
+    },
+    {
+      "word": "ཉོབ་པོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.571
+    },
+    {
+      "word": "ཐག་ཉེ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.881
+    },
+    {
+      "word": "ཐག་རིང་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.22
+    },
+    {
+      "word": "ཐབས་ཤེས་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.733
+    },
+    {
+      "word": "ཐུང་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.595
+    },
+    {
+      "word": "ཐུང་ཐུང་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.76
+    },
+    {
+      "word": "ཐོག་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.82
+    },
+    {
+      "word": "ཐོག་རྒྱག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.288
+    },
+    {
+      "word": "ཐོན་པ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.471
+    },
+    {
+      "word": "ཐོབ་པ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.513
+    },
+    {
+      "word": "ད་ག་རང་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.575
+    },
+    {
+      "word": "ད་ལྟ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.819
+    },
+    {
+      "word": "དཀའ་ངལ་མྱོང་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.766
+    },
+    {
+      "word": "དཀའ་པོ་བྱེད་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.045
+    },
+    {
+      "word": "དཀའ་ལས་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.427
+    },
+    {
+      "word": "དཀའ་ལས་ཁག་པོ་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.44
+    },
+    {
+      "word": "དཀའ་ལས་རྒྱག་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.895
+    },
+    {
+      "word": "དཀོན་པོ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.768
+    },
+    {
+      "word": "དཀྱུས་མ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.507
+    },
+    {
+      "word": "དགག་བྱ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.966
+    },
+    {
+      "word": "དགག་བྱ་བྱེད་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.795
+    },
+    {
+      "word": "དགའ་པོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.517
+    },
+    {
+      "word": "དགའ་བ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.228
+    },
+    {
+      "word": "དགེ་རྒན་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.297
+    },
+    {
+      "word": "དགོང་དྲོ་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.386
+    },
+    {
+      "word": "དགོངས་དག་ཐུགས་བདེན་ཞུ་",
+      "voice": "male",
+      "fragments": 27,
+      "boundarySamplesAllZero": true,
+      "seconds": 22.856
+    },
+    {
+      "word": "དགོངས་སེལ་ཞུ་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.071
+    },
+    {
+      "word": "དགྲ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.253
+    },
+    {
+      "word": "དབུལ་པོ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.221
+    },
+    {
+      "word": "དམག་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.834
+    },
+    {
+      "word": "དམག་རྒྱག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.302
+    },
+    {
+      "word": "དམའ་བོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.868
+    },
+    {
+      "word": "དམའ་འབེབས་གཏོང་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.563
+    },
+    {
+      "word": "དེ་ནས་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.326
+    },
+    {
+      "word": "དེང་སང་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.21
+    },
+    {
+      "word": "དོ་སྣང་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.597
+    },
+    {
+      "word": "དྲི་བ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.315
+    },
+    {
+      "word": "དྲོ་པོ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.777
+    },
+    {
+      "word": "ནང་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.242
+    },
+    {
+      "word": "ནང་ཟོག་ཕྱི་འདྲེན་",
+      "voice": "male",
+      "fragments": 24,
+      "boundarySamplesAllZero": true,
+      "seconds": 19.666
+    },
+    {
+      "word": "ནང་ཤ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.401
+    },
+    {
+      "word": "ནང་ཤ་རྒྱག་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.869
+    },
+    {
+      "word": "ནུབ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.555
+    },
+    {
+      "word": "ནུབ་པ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.615
+    },
+    {
+      "word": "པར་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.899
+    },
+    {
+      "word": "པར་རྒྱག་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.367
+    },
+    {
+      "word": "པར་སྐྱར་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.875
+    },
+    {
+      "word": "ཕན་པ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.014
+    },
+    {
+      "word": "ཕམས་པ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.034
+    },
+    {
+      "word": "ཕར་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.933
+    },
+    {
+      "word": "ཕུར་པ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.492
+    },
+    {
+      "word": "ཕོ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.03
+    },
+    {
+      "word": "ཕྱི་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.95
+    },
+    {
+      "word": "ཕྱི་པོ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.529
+    },
+    {
+      "word": "ཕྱི་ཟོག་ནང་འདྲེན་",
+      "voice": "male",
+      "fragments": 24,
+      "boundarySamplesAllZero": true,
+      "seconds": 19.666
+    },
+    {
+      "word": "ཕྱུག་པོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.431
+    },
+    {
+      "word": "ཕྲ་པོ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.009
+    },
+    {
+      "word": "བཀག་བསྐྱིལ་བྱེད་",
+      "voice": "male",
+      "fragments": 26,
+      "boundarySamplesAllZero": true,
+      "seconds": 20.277
+    },
+    {
+      "word": "བཀའ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.541
+    },
+    {
+      "word": "བཀའ་གཏོང་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.061
+    },
+    {
+      "word": "བཀའ་སྐྱོན་གཏོང་",
+      "voice": "male",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.523
+    },
+    {
+      "word": "བཀོད་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.286
+    },
+    {
+      "word": "བཀོད་པ་གཏོང་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.807
+    },
+    {
+      "word": "བཀྲེན་པོ་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.621
+    },
+    {
+      "word": "བང་ཆེན་གཏོང་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.173
+    },
+    {
+      "word": "བཅོས་མ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.65
+    },
+    {
+      "word": "བདེ་བ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.005
+    },
+    {
+      "word": "བཙན་གནོན་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.218
+    },
+    {
+      "word": "བཙན་འཛུལ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.305
+    },
+    {
+      "word": "བཙན་འཛུལ་བྱེད་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.135
+    },
+    {
+      "word": "བཙོག་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.176
+    },
+    {
+      "word": "བཙོག་པ་གཏོང་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.696
+    },
+    {
+      "word": "བཞུར་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.424
+    },
+    {
+      "word": "བཞུར་བ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.714
+    },
+    {
+      "word": "བཟང་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.061
+    },
+    {
+      "word": "བཟོ་པ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.992
+    },
+    {
+      "word": "བཟོད་གསོལ་ཞུ་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.506
+    },
+    {
+      "word": "བར་འཛུལ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.844
+    },
+    {
+      "word": "བར་འཛུལ་བྱེད་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.674
+    },
+    {
+      "word": "བརྡ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.367
+    },
+    {
+      "word": "བསམ་བློ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.951
+    },
+    {
+      "word": "བསམ་བློ་གཏོང་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.471
+    },
+    {
+      "word": "བསྐོ་བཞག་བྱེད་",
+      "voice": "male",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.923
+    },
+    {
+      "word": "བསྐོར་ར་རྒྱག་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.106
+    },
+    {
+      "word": "བསླབ་བྱ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.499
+    },
+    {
+      "word": "བསླབ་བྱ་བྱེད་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.329
+    },
+    {
+      "word": "བུ་ལོན་གཏོང་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.027
+    },
+    {
+      "word": "བྱམས་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.374
+    },
+    {
+      "word": "བྱམས་པ་བྱེད་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.204
+    },
+    {
+      "word": "བྱེ་བྲག་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.206
+    },
+    {
+      "word": "བྱེད་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.26
+    },
+    {
+      "word": "བྱེད་ལ་ལེ་ལོ་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.97
+    },
+    {
+      "word": "བྲེལ་བ་ཚ་པོ་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.735
+    },
+    {
+      "word": "བྲོ་བ་མྱོང་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.836
+    },
+    {
+      "word": "བློས་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.072
+    },
+    {
+      "word": "བློས་གཏོང་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.592
+    },
+    {
+      "word": "མཁྲེགས་པོ་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.608
+    },
+    {
+      "word": "མགོ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.73
+    },
+    {
+      "word": "མགྱོགས་པོ་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.58
+    },
+    {
+      "word": "མང་པོ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.017
+    },
+    {
+      "word": "མངར་མོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.295
+    },
+    {
+      "word": "མཆོད་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.361
+    },
+    {
+      "word": "མཆོད་པ་བྱེད་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.191
+    },
+    {
+      "word": "མཇུག་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.353
+    },
+    {
+      "word": "མཇུག་ལ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.594
+    },
+    {
+      "word": "མཉམ་དུ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.771
+    },
+    {
+      "word": "མཐིལ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.125
+    },
+    {
+      "word": "མཐུ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.521
+    },
+    {
+      "word": "མཐུ་རྒྱག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.988
+    },
+    {
+      "word": "མཐོ་པོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.179
+    },
+    {
+      "word": "མཐོ་བོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.375
+    },
+    {
+      "word": "མཐོང་རྒྱ་ཆེན་པོ་",
+      "voice": "male",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.227
+    },
+    {
+      "word": "མདའ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.868
+    },
+    {
+      "word": "མདུད་པ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.854
+    },
+    {
+      "word": "མདུད་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.321
+    },
+    {
+      "word": "མདུན་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.742
+    },
+    {
+      "word": "མདོག་ཉེས་པོ་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.658
+    },
+    {
+      "word": "མཚན་མོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.942
+    },
+    {
+      "word": "མར་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.357
+    },
+    {
+      "word": "མི་ཆོག་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.006
+    },
+    {
+      "word": "མི་དགེ་བ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.566
+    },
+    {
+      "word": "མི་ཚུད་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.215
+    },
+    {
+      "word": "མེ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.218
+    },
+    {
+      "word": "མེ་གཏོང་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.738
+    },
+    {
+      "word": "མེ་མདའ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.656
+    },
+    {
+      "word": "མེ་མདའ་རྒྱག་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.124
+    },
+    {
+      "word": "མོ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.381
+    },
+    {
+      "word": "མོས་མཐུན་བྱེད་པ་",
+      "voice": "male",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.686
+    },
+    {
+      "word": "མོས་མཐུན་མེད་པ་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.227
+    },
+    {
+      "word": "མྱོང་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.646
+    },
+    {
+      "word": "ཚ་ག་",
+      "voice": "male",
+      "fragments": 2,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.593
+    },
+    {
+      "word": "ཚ་པོ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.087
+    },
+    {
+      "word": "ཚག་པོ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.438
+    },
+    {
+      "word": "ཚད་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.032
+    },
+    {
+      "word": "ཚབ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 1.923
+    },
+    {
+      "word": "ཚབ་བྱེད་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.753
+    },
+    {
+      "word": "ཚབ་ཚུབ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.001
+    },
+    {
+      "word": "ཚབ་ཚུབ་བྱེད་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.831
+    },
+    {
+      "word": "ཚུད་པ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.683
+    },
+    {
+      "word": "ཚུར་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.451
+    },
+    {
+      "word": "ཚེམ་བུ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.327
+    },
+    {
+      "word": "ཚེམ་བུ་རྒྱག་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.795
+    },
+    {
+      "word": "ཚོང་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.709
+    },
+    {
+      "word": "ཚོང་རྒྱག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.177
+    },
+    {
+      "word": "ཚོན་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.576
+    },
+    {
+      "word": "ཚོན་གཏོང་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.097
+    },
+    {
+      "word": "ཚོར་བ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.779
+    },
+    {
+      "word": "ཚོར་བ་མྱོང་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.995
+    },
+    {
+      "word": "ཚྭ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.119
+    },
+    {
+      "word": "ཚྭ་རྒྱག་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.587
+    },
+    {
+      "word": "ཝ་",
+      "voice": "male",
+      "fragments": 1,
+      "boundarySamplesAllZero": true,
+      "seconds": 0.682
+    },
+    {
+      "word": "ཝ་ཕྲུག་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.642
+    },
+    {
+      "word": "ཝ་མོ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.633
+    },
+    {
+      "word": "ཝ་ཚང་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.405
+    },
+    {
+      "word": "ཝ་སྐད་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.573
+    },
+    {
+      "word": "ཞབས་བྲོ་རྒྱག་",
+      "voice": "male",
+      "fragments": 19,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.431
+    },
+    {
+      "word": "ཞེན་ཁོག་མེད་པ་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.681
+    },
+    {
+      "word": "ཞྭ་ཐག་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.699
+    },
+    {
+      "word": "ཞྭ་ཐག་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.167
+    },
+    {
+      "word": "ཟ་གཡའ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.754
+    },
+    {
+      "word": "ཟ་གཡའ་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.222
+    },
+    {
+      "word": "ཟུག་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.716
+    },
+    {
+      "word": "འཁྱག་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.086
+    },
+    {
+      "word": "འཁྱགས་པ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.534
+    },
+    {
+      "word": "འཁྱགས་པ་གཏོང་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.055
+    },
+    {
+      "word": "འཁྱགས་ཤུད་གཏོང་",
+      "voice": "male",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.753
+    },
+    {
+      "word": "འཁྲེགས་པོ་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.492
+    },
+    {
+      "word": "འགོ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.802
+    },
+    {
+      "word": "འགོ་འཛུགས་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.831
+    },
+    {
+      "word": "འགྱེད་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.719
+    },
+    {
+      "word": "འགྲིག་པ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.373
+    },
+    {
+      "word": "འགྲུལ་རྒྱག་",
+      "voice": "male",
+      "fragments": 19,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.354
+    },
+    {
+      "word": "འགྲུལ་རྟགས་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.163
+    },
+    {
+      "word": "འགྲོ་སོང་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.859
+    },
+    {
+      "word": "འཆམ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.668
+    },
+    {
+      "word": "འཆམས་པོ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.144
+    },
+    {
+      "word": "འཆམས་པོ་བྱེད་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.974
+    },
+    {
+      "word": "འཆི་བ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.746
+    },
+    {
+      "word": "འཇམ་པོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.579
+    },
+    {
+      "word": "འཇིབ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.786
+    },
+    {
+      "word": "འཇིབ་རྒྱག་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.254
+    },
+    {
+      "word": "འཐབ་ར་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.795
+    },
+    {
+      "word": "འཐབ་ར་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.263
+    },
+    {
+      "word": "འདེམས་བསྒྲུགས་",
+      "voice": "male",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 18.208
+    },
+    {
+      "word": "འདེམས་བསྒྲུགས་བྱེད་",
+      "voice": "male",
+      "fragments": 30,
+      "boundarySamplesAllZero": true,
+      "seconds": 25.038
+    },
+    {
+      "word": "འདྲ་ཤུས་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.107
+    },
+    {
+      "word": "འཕྱ་བ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.588
+    },
+    {
+      "word": "འཕྱ་སྨོད་རྒྱག་",
+      "voice": "male",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.66
+    },
+    {
+      "word": "འཕྲལ་སེལ་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.55
+    },
+    {
+      "word": "འབྱོར་བ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.631
+    },
+    {
+      "word": "འབྲུག་སྐད་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.337
+    },
+    {
+      "word": "འཚོ་བ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.923
+    },
+    {
+      "word": "འཚོ་བ་མྱོང་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.139
+    },
+    {
+      "word": "འཚོང་བ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.63
+    },
+    {
+      "word": "འཚོལ་བ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.678
+    },
+    {
+      "word": "འོས་འདེམས་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.206
+    },
+    {
+      "word": "འོས་འདེམས་བྱེད་",
+      "voice": "male",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 18.036
+    },
+    {
+      "word": "ཡང་པོ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.044
+    },
+    {
+      "word": "ཡང་སེ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.372
+    },
+    {
+      "word": "ཡར་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.163
+    },
+    {
+      "word": "ཡར་བརྩེགས་པ་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.734
+    },
+    {
+      "word": "ཡར་རྒྱས་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.951
+    },
+    {
+      "word": "ཡར་རྒྱས་གཏོང་",
+      "voice": "male",
+      "fragments": 19,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.472
+    },
+    {
+      "word": "ཡི་གེ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.519
+    },
+    {
+      "word": "ཡིག་ཐོག་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.937
+    },
+    {
+      "word": "ཡིན་དང་མིན་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.805
+    },
+    {
+      "word": "ཡིན་དང་ཡིན་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.943
+    },
+    {
+      "word": "ཡོང་འབབ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.051
+    },
+    {
+      "word": "རགས་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.843
+    },
+    {
+      "word": "རང་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.155
+    },
+    {
+      "word": "རང་སྐྱོན་སྦས་པ་",
+      "voice": "male",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.9
+    },
+    {
+      "word": "རབ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.072
+    },
+    {
+      "word": "རབ་རྒྱག་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.54
+    },
+    {
+      "word": "རིག་པ་གཏོང་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.955
+    },
+    {
+      "word": "རིང་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.821
+    },
+    {
+      "word": "རིང་པོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.4
+    },
+    {
+      "word": "རེ་བ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.421
+    },
+    {
+      "word": "རེ་རེ་བཞིན་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.296
+    },
+    {
+      "word": "རེ་རེ་བྱས་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.811
+    },
+    {
+      "word": "རོ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.106
+    },
+    {
+      "word": "རོ་མྱོང་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.322
+    },
+    {
+      "word": "རྐུབ་ཀྱག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.988
+    },
+    {
+      "word": "རྐུབ་ཀྱག་རྒྱག་",
+      "voice": "male",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.456
+    },
+    {
+      "word": "རྐྱལ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.27
+    },
+    {
+      "word": "རྐྱོང་བ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.596
+    },
+    {
+      "word": "རྒན་པ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.043
+    },
+    {
+      "word": "རྒྱ་ཆུང་ཆུང་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.906
+    },
+    {
+      "word": "རྒྱ་ཆེན་པོ་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.312
+    },
+    {
+      "word": "རྒྱག་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.898
+    },
+    {
+      "word": "རྒྱགས་པ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.851
+    },
+    {
+      "word": "རྒྱན་པོ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.64
+    },
+    {
+      "word": "རྒྱན་པོ་རྒྱག་",
+      "voice": "male",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.108
+    },
+    {
+      "word": "རྒྱབ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.955
+    },
+    {
+      "word": "རྗེན་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.415
+    },
+    {
+      "word": "རྙིང་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.333
+    },
+    {
+      "word": "རྙེད་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.46
+    },
+    {
+      "word": "རྟ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.429
+    },
+    {
+      "word": "རྟ་གཏོང་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.95
+    },
+    {
+      "word": "རྟགས་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.706
+    },
+    {
+      "word": "རྟགས་རྒྱག་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.174
+    },
+    {
+      "word": "རྟུལ་པོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.07
+    },
+    {
+      "word": "རྡེབ་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.904
+    },
+    {
+      "word": "རྡེབ་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.372
+    },
+    {
+      "word": "རྣག་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.118
+    },
+    {
+      "word": "རྣག་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.586
+    },
+    {
+      "word": "རྩིས་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.526
+    },
+    {
+      "word": "རྩུབ་པོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.488
+    },
+    {
+      "word": "རྩོད་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.725
+    },
+    {
+      "word": "རྩོད་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.193
+    },
+    {
+      "word": "རྫུས་མ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.454
+    },
+    {
+      "word": "རྫོར་པོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.782
+    },
+    {
+      "word": "རླུང་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.025
+    },
+    {
+      "word": "རླུང་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.493
+    },
+    {
+      "word": "རློན་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.918
+    },
+    {
+      "word": "ལ་",
+      "voice": "male",
+      "fragments": 1,
+      "boundarySamplesAllZero": true,
+      "seconds": 0.671
+    },
+    {
+      "word": "ལ་རྒྱག་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.139
+    },
+    {
+      "word": "ལག་པ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.999
+    },
+    {
+      "word": "ལག་པ་གཡུག་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.936
+    },
+    {
+      "word": "ལག་བརྡ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.876
+    },
+    {
+      "word": "ལགས་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.332
+    },
+    {
+      "word": "ལན་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.143
+    },
+    {
+      "word": "ལན་བུ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.89
+    },
+    {
+      "word": "ལན་བུ་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.358
+    },
+    {
+      "word": "ལན་རྒྱག་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.611
+    },
+    {
+      "word": "ལས་ཀ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.274
+    },
+    {
+      "word": "ལས་ཀ་མེད་པ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.705
+    },
+    {
+      "word": "ལས་བརྩོན་ཅན་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.0
+    },
+    {
+      "word": "ལུད་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.962
+    },
+    {
+      "word": "ལུད་རྒྱག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.43
+    },
+    {
+      "word": "ལེ་ལོ་ཅན་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.454
+    },
+    {
+      "word": "ལོ་ཏོག་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.797
+    },
+    {
+      "word": "ལོ་ཏོག་རྒྱག་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.265
+    },
+    {
+      "word": "ལོག་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.635
+    },
+    {
+      "word": "ལོའོ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.666
+    },
+    {
+      "word": "ལྐུགས་པ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.251
+    },
+    {
+      "word": "ལྐོག་རྔན་བྱེད་",
+      "voice": "male",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.159
+    },
+    {
+      "word": "ལྕགས་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.938
+    },
+    {
+      "word": "ལྗིད་པོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.849
+    },
+    {
+      "word": "ལྡོག་ཕྱོགས་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.208
+    },
+    {
+      "word": "ལྷན་པ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.942
+    },
+    {
+      "word": "ལྷན་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.41
+    },
+    {
+      "word": "ལྷུག་ལྷུག་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.251
+    },
+    {
+      "word": "ཤ་བཙིར་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.168
+    },
+    {
+      "word": "ཤ་བཙིར་རྒྱག་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.636
+    },
+    {
+      "word": "ཤར་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.175
+    },
+    {
+      "word": "ཤར་བ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.465
+    },
+    {
+      "word": "ཤུ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.123
+    },
+    {
+      "word": "ཤུ་རྒྱག་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.591
+    },
+    {
+      "word": "ཤུགས་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.584
+    },
+    {
+      "word": "ཤུགས་མེད་པ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.016
+    },
+    {
+      "word": "ཤུགས་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.052
+    },
+    {
+      "word": "ཤུལ་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.095
+    },
+    {
+      "word": "ཤུལ་རྒྱག་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.562
+    },
+    {
+      "word": "ཤེས་",
+      "voice": "male",
+      "fragments": 5,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.267
+    },
+    {
+      "word": "ཤོ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.239
+    },
+    {
+      "word": "ཤོར་བ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.338
+    },
+    {
+      "word": "ས་ཡོམ་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.289
+    },
+    {
+      "word": "སེམས་ཁྲལ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.526
+    },
+    {
+      "word": "སེམས་གསོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.197
+    },
+    {
+      "word": "སེམས་གསོ་གཏོང་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.717
+    },
+    {
+      "word": "སོ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.497
+    },
+    {
+      "word": "སོ་གཏོང་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.017
+    },
+    {
+      "word": "སོ་རྒྱག་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.964
+    },
+    {
+      "word": "སོ་ཤད་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.305
+    },
+    {
+      "word": "སོ་ཤད་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.773
+    },
+    {
+      "word": "སྐད་",
+      "voice": "male",
+      "fragments": 6,
+      "boundarySamplesAllZero": true,
+      "seconds": 4.321
+    },
+    {
+      "word": "སྐད་གཏོང་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.841
+    },
+    {
+      "word": "སྐད་གྲགས་ཆུང་ངུས་",
+      "voice": "male",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 18.979
+    },
+    {
+      "word": "སྐད་གྲགས་ཆེན་པོས་",
+      "voice": "male",
+      "fragments": 23,
+      "boundarySamplesAllZero": true,
+      "seconds": 18.774
+    },
+    {
+      "word": "སྐད་ཅོར་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.841
+    },
+    {
+      "word": "སྐད་ཅོར་རྒྱག་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.308
+    },
+    {
+      "word": "སྐད་ཆ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.384
+    },
+    {
+      "word": "སྐད་རྒྱག་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.789
+    },
+    {
+      "word": "སྐབས་རེ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.376
+    },
+    {
+      "word": "སྐམ་པོ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.849
+    },
+    {
+      "word": "སྐུམ་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.833
+    },
+    {
+      "word": "སྐྱིགས་པ་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.528
+    },
+    {
+      "word": "སྐྱིགས་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.996
+    },
+    {
+      "word": "སྐྱིད་པོ་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.406
+    },
+    {
+      "word": "སྐྱིད་པོ་གཏོང་བ་",
+      "voice": "male",
+      "fragments": 22,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.217
+    },
+    {
+      "word": "སྐྱོ་པོ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.98
+    },
+    {
+      "word": "སྐྱོ་བ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.691
+    },
+    {
+      "word": "སྐྱོན་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.892
+    },
+    {
+      "word": "སྐྱོན་བརྗོད་",
+      "voice": "male",
+      "fragments": 21,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.9
+    },
+    {
+      "word": "སྐྱོར་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.036
+    },
+    {
+      "word": "སྐྱོར་རྒྱག་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.504
+    },
+    {
+      "word": "སྒ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.685
+    },
+    {
+      "word": "སྒམ་པོ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.919
+    },
+    {
+      "word": "སྒུག་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.691
+    },
+    {
+      "word": "སྒུག་རྒྱག་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.159
+    },
+    {
+      "word": "སྒེའུ་ཁུང་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.894
+    },
+    {
+      "word": "སྒེའུ་ཡོལ་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.26
+    },
+    {
+      "word": "སྒོ་ཡོལ་རྒྱག་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 15.339
+    },
+    {
+      "word": "སྒོ་ལྕགས་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.812
+    },
+    {
+      "word": "སྒོམ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.939
+    },
+    {
+      "word": "སྒོམ་པ་བྱེད་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 13.829
+    },
+    {
+      "word": "སྒྲ་འཁོར་",
+      "voice": "male",
+      "fragments": 14,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.608
+    },
+    {
+      "word": "སྒྲུབ་པ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.823
+    },
+    {
+      "word": "སྔ་དྲོ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.73
+    },
+    {
+      "word": "སྔ་པོ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.54
+    },
+    {
+      "word": "སྔ་མོ་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.912
+    },
+    {
+      "word": "སྔགས་",
+      "voice": "male",
+      "fragments": 7,
+      "boundarySamplesAllZero": true,
+      "seconds": 5.396
+    },
+    {
+      "word": "སྔོན་ལ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.489
+    },
+    {
+      "word": "སྙིང་རྗེ་པོ་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.166
+    },
+    {
+      "word": "སྙིང་རྗེ་མེད་པ་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 17.019
+    },
+    {
+      "word": "སྟེང་ལ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.599
+    },
+    {
+      "word": "སྟོང་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.13
+    },
+    {
+      "word": "སྡུག་པོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.468
+    },
+    {
+      "word": "སྡུག་པོ་མྱོང་བ་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 16.973
+    },
+    {
+      "word": "སྡུག་བསྔལ་མྱོང་",
+      "voice": "male",
+      "fragments": 24,
+      "boundarySamplesAllZero": true,
+      "seconds": 20.045
+    },
+    {
+      "word": "སྣང་ཆུང་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.763
+    },
+    {
+      "word": "སྣོན་སྐྱེད་རྒྱག་",
+      "voice": "male",
+      "fragments": 28,
+      "boundarySamplesAllZero": true,
+      "seconds": 21.428
+    },
+    {
+      "word": "སྤུས་ཀ་ཞན་པ་",
+      "voice": "male",
+      "fragments": 13,
+      "boundarySamplesAllZero": true,
+      "seconds": 10.611
+    },
+    {
+      "word": "སྤུས་ཀ་ཞན་པོ་",
+      "voice": "male",
+      "fragments": 15,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.13
+    },
+    {
+      "word": "སྤོབས་པ་",
+      "voice": "male",
+      "fragments": 10,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.716
+    },
+    {
+      "word": "སྤོབས་པ་བྱེད་",
+      "voice": "male",
+      "fragments": 18,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.546
+    },
+    {
+      "word": "སྤྱང་པོ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.043
+    },
+    {
+      "word": "སྤྱིར་བཏང་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 11.822
+    },
+    {
+      "word": "སྤྲོ་སྐྱིད་",
+      "voice": "male",
+      "fragments": 20,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.558
+    },
+    {
+      "word": "སྤྲོ་སྐྱིད་གཏོང་",
+      "voice": "male",
+      "fragments": 27,
+      "boundarySamplesAllZero": true,
+      "seconds": 20.078
+    },
+    {
+      "word": "སྦོམ་པོ་",
+      "voice": "male",
+      "fragments": 11,
+      "boundarySamplesAllZero": true,
+      "seconds": 8.93
+    },
+    {
+      "word": "སྦྱིན་པ་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.377
+    },
+    {
+      "word": "སྨིན་པ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.947
+    },
+    {
+      "word": "སྲབ་པོ་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.965
+    },
+    {
+      "word": "སླེ་པ་རྒྱག་",
+      "voice": "male",
+      "fragments": 16,
+      "boundarySamplesAllZero": true,
+      "seconds": 12.013
+    },
+    {
+      "word": "ཧ་གོ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.964
+    },
+    {
+      "word": "ཧམ་པ་",
+      "voice": "male",
+      "fragments": 4,
+      "boundarySamplesAllZero": true,
+      "seconds": 3.066
+    },
+    {
+      "word": "ཧམ་པ་བྱེད་",
+      "voice": "male",
+      "fragments": 12,
+      "boundarySamplesAllZero": true,
+      "seconds": 9.896
+    },
+    {
+      "word": "ཧུར་པོ་",
+      "voice": "male",
+      "fragments": 8,
+      "boundarySamplesAllZero": true,
+      "seconds": 6.024
+    },
+    {
+      "word": "ཨཱ་",
+      "voice": "male",
+      "fragments": 3,
+      "boundarySamplesAllZero": true,
+      "seconds": 2.513
+    },
+    {
+      "word": "ཨུ་ཚུགས་",
+      "voice": "male",
+      "fragments": 9,
+      "boundarySamplesAllZero": true,
+      "seconds": 7.899
+    },
+    {
+      "word": "ཨུ་ཚུགས་བྱེད་",
+      "voice": "male",
+      "fragments": 17,
+      "boundarySamplesAllZero": true,
+      "seconds": 14.729
+    }
+  ]
+}
