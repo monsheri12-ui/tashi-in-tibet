@@ -127,7 +127,7 @@ manifest = {'recordedRate': TEMPO, 'encoder': FORMAT, 'sourcePcmUnchanged': True
             'voices': {v: [metadata[v][e['id']] for e in C['entries']] for v in voices}}
 (D / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
 (D / 'spelling-audit.json').write_text(json.dumps(spelling_audit, ensure_ascii=False, indent=2))
-report = {'records': 2210, 'spellingClips': 76, 'recordedRate': TEMPO, 'browserPlaybackRate': 1,
+report = {'records': 2210, 'spellingClips': sum(len(v['recordings']) for v in SA['voices'].values()), 'recordedRate': TEMPO, 'browserPlaybackRate': 1,
           'bitRateKbps': 128, 'sourcePcmUnchanged': True, 'ordinaryAudioUnchanged': True,
           'seconds': round(time.monotonic() - started),
           'jsonBytes': sum(p.stat().st_size for p in (D / 'audio').rglob('*.json'))}

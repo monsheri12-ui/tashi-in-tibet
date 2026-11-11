@@ -1,0 +1,47 @@
+{
+  "status": "audition-v2",
+  "published": false,
+  "userRequirement": "One continuous voiced ao with A flowing gradually into O.",
+  "method": "One original A voicing/phase track, progressively shaped toward the O vowel envelope; no mixing of two voice tracks.",
+  "sourceA": {
+    "path": "/Users/yael/Documents/Codex/2026-11-10/new-chat-2/work/monlam-wav-male/m0023.wav",
+    "rangeSeconds": [
+      0.2,
+      0.68
+    ]
+  },
+  "referenceO": {
+    "path": "/Users/yael/Documents/Codex/2026-11-10/new-chat-2/work/monlam-wav-male/m0542.wav",
+    "envelopeRangeSeconds": [
+      0.65,
+      0.86
+    ]
+  },
+  "aoPcmSha256": "115213c9c0338739c4eaac682a0e2e2117df9986e04a6fc32fd4f0fa5ad5ba6b",
+  "checks": {
+    "finite": true,
+    "peak": 0.2242688629691822,
+    "internalSilent10msBlocks": 0,
+    "voiceWaveformSources": 1,
+    "monotonicEnvelopeTransition": true,
+    "transitionMs": 260,
+    "phoneticCertification": false,
+    "normalAndSlowSplicesVerified": true
+  },
+  "outputs": {
+    "nyes-dzugs-ao-glide-v2.wav": {
+      "seconds": 9.893166666666668,
+      "prefixSeconds": 0.58,
+      "pcmSha256": "c2d222fc6ca35159d63ede3b9ad4fdae3e0b9ac8a6d628de8e7158aaff4c2251",
+      "shortControl": "male-ao-glide-dza-v2.wav",
+      "outsideReplacementByteIdentical": true
+    },
+    "nyes-dzugs-ao-glide-v2-slow.wav": {
+      "seconds": 11.943375,
+      "prefixSeconds": 0.6952083333333333,
+      "pcmSha256": "46ebb8e5cd7c5eeb090fd061c6eaac967f17e46fe49eadd73f4c099eaef85329",
+      "shortControl": "male-ao-glide-dza-v2-slow.wav",
+      "outsideReplacementByteIdentical": true
+    }
+  }
+}

@@ -5,6 +5,7 @@ import hashlib
 import json
 import sys
 import wave
+from ao_glide_plans import AO_SYMBOL, with_ao_glide
 
 ROOT = Path(__file__).resolve().parent
 corpus = json.loads((ROOT / 'monlam-corpus.json').read_text())
@@ -36,9 +37,9 @@ def pcm(path):
                             'sourcePcmSha256': hashlib.sha256(raw).hexdigest()}
 
 
-def encoded(audio):
+def encoded(audio, bit_rate=48):
     encoder=lameenc.Encoder()
-    encoder.set_bit_rate(48);encoder.set_in_sample_rate(RATE)
+    encoder.set_bit_rate(bit_rate);encoder.set_in_sample_rate(RATE)
     encoder.set_channels(1);encoder.set_quality(2)
     return base64.b64encode(encoder.encode(audio)+encoder.flush()).decode('ascii')
 
@@ -82,7 +83,13 @@ for voice, folder in [('female', 'monlam-wav'), ('male', 'monlam-wav-male')]:
             if ch in '་།༎༏༐༑༔ \n\r\t':
                 continue
             assert aliases.get(ch, ch) in bank['clips'], (word, ch)
-    bank['plans'] = json.loads((ROOT / 'monlam-jorlok-plans.json').read_text())
+    if voice == 'male':
+        audio, metadata = pcm(ROOT / 'monlam-spelling-extra/male-ao-prefix.wav')
+        bank['clips'][AO_SYMBOL] = encoded(audio, bit_rate=128)
+        bank['labels'][AO_SYMBOL] = 'ao'
+        records[AO_SYMBOL] = metadata
+    bank['plans'] = with_ao_glide(
+        json.loads((ROOT / 'monlam-jorlok-plans.json').read_text()), voice)
     for item in bank['plans'].values():
         for step in item['steps']:
             if step['kind'] == 'symbol':
