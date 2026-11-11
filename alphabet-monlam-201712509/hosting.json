@@ -4,7 +4,7 @@
   "audioCommit": "8380e77d69835342d67bc783baa797f3bb89aa87",
   "audioTree": "d9af280cf8dd3b903d30e36269f277c697c92a8a",
   "audioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8380e77d69835342d67bc783baa797f3bb89aa87/alphabet-monlam-201712509/audio/",
-  "spellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8380e77d69835342d67bc783baa797f3bb89aa87/alphabet-monlam-201712509/spelling/",
+  "spellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8cb523806fc8202b9a497373d07175808322d7e5/alphabet-monlam-201712509/spelling/",
   "voices": {
     "female": 1105,
     "male": 1105
@@ -13,7 +13,7 @@
   "words": 500,
   "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
   "publishedVerified": true,
-  "spellingCommit": "8380e77d69835342d67bc783baa797f3bb89aa87",
+  "spellingCommit": "8cb523806fc8202b9a497373d07175808322d7e5",
   "audioCleanup": {
     "changedSyllablePlans": 105,
     "affectedDistinctWords": 179,
@@ -21,7 +21,7 @@
     "wordVoicePairsChecked": 1000,
     "fragmentBoundariesChecked": 21508
   },
-  "previousIntegrationCommit": "af46538e8aaa85374974c6ede299ddbdde60f275",
+  "previousIntegrationCommit": "43f603c54d3f4adabe467a81149e43cc1b4d1678",
   "malePronunciationRepairs": {
     "changedRecordings": 24,
     "isolatedTonesRemoved": 11,
@@ -36,10 +36,10 @@
     "sharedFragmentAutomaticTranscripts": 519,
     "nativePhoneticCertification": false
   },
-  "publicVerification": "checks/spelling-mode-fix-20261111.json",
+  "publicVerification": "checks/public-natural-very-slow-20261111.json",
   "slowAudioCommit": "8380e77d69835342d67bc783baa797f3bb89aa87",
   "slowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8380e77d69835342d67bc783baa797f3bb89aa87/alphabet-monlam-201712509/audio-slow/",
-  "slowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8380e77d69835342d67bc783baa797f3bb89aa87/alphabet-monlam-201712509/spelling-slow/",
+  "slowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8cb523806fc8202b9a497373d07175808322d7e5/alphabet-monlam-201712509/spelling-slow/",
   "slowPlaybackRepair": {
     "selectedTempo": 0.8,
     "browserPlaybackRate": 1,
@@ -52,7 +52,7 @@
     "playerTests": "checks/slow-player.json",
     "scope": "tempo rendering only; ordinary word repairs are documented separately"
   },
-  "sourceSha256": "fbebcd96f399fff8903e5a039dd77dadeb95886034df2ccc518adf328d8acdf6",
+  "sourceSha256": "9bb4eb0545546bdeb27d06498085265f053e832095edbdb27133f44e46dce164",
   "reportedWordCorrections": {
     "wordRecordingsRepaired": 7,
     "sharedFragmentsRepaired": 2,
@@ -192,9 +192,9 @@
     "phoneticCertificationOfEntireCorpus": false,
     "verification": "checks/prefix-ny-20261111.json"
   },
-  "verySlowAudioCommit": "0b98ba2dbdc713382d4602a6dd74ff8f7f3e73f1",
-  "verySlowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/0b98ba2dbdc713382d4602a6dd74ff8f7f3e73f1/alphabet-monlam-201712509/audio-very-slow/",
-  "verySlowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/0b98ba2dbdc713382d4602a6dd74ff8f7f3e73f1/alphabet-monlam-201712509/spelling-very-slow/",
+  "verySlowAudioCommit": "8cb523806fc8202b9a497373d07175808322d7e5",
+  "verySlowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8cb523806fc8202b9a497373d07175808322d7e5/alphabet-monlam-201712509/audio-very-slow/",
+  "verySlowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8cb523806fc8202b9a497373d07175808322d7e5/alphabet-monlam-201712509/spelling-very-slow/",
   "availableTempos": [
     1,
     0.8,
@@ -218,5 +218,17 @@
     "preparedWordCopies": 1000,
     "wholeWordCadence": "prepared audition style; no further slowdown"
   },
-  "integrationCommit": "43f603c54d3f4adabe467a81149e43cc1b4d1678"
+  "integrationCommit": "2d9fbc11416cf82f3e710590292eb8752563e18a",
+  "previousSpellingCommit": "8380e77d69835342d67bc783baa797f3bb89aa87",
+  "slowSpellingCommit": "8cb523806fc8202b9a497373d07175808322d7e5",
+  "previousVerySlowAudioCommit": "0b98ba2dbdc713382d4602a6dd74ff8f7f3e73f1",
+  "verySlowProfile": "natural-speech-longer-jorlok-pauses",
+  "verySlowAdditionalTimeStretch": false,
+  "clearPrefixVoices": 2,
+  "clearPrefixTempos": [
+    1,
+    0.8,
+    0.6
+  ],
+  "currentVerySlowBuilder": "source/build-natural-very-slow.py"
 }

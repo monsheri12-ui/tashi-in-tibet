@@ -1,0 +1,118 @@
+{
+  "published": true,
+  "url": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "assetCommit": "8cb523806fc8202b9a497373d07175808322d7e5",
+  "tests": [
+    {
+      "kind": "jorlok",
+      "playing": 1,
+      "rate": "1",
+      "selected": 0,
+      "status": "Мужской голос · по слогам · слог 1 · bao",
+      "voice": "male",
+      "word": "བཙན་འཛུལ་བྱེད་"
+    },
+    {
+      "kind": "jorlok",
+      "playing": 1,
+      "rate": "0.8",
+      "selected": 0,
+      "status": "Мужской голос · по слогам · слог 1 · bao",
+      "voice": "male",
+      "word": "བཙན་འཛུལ་བྱེད་"
+    },
+    {
+      "kind": "jorlok",
+      "playing": 1,
+      "rate": "0.6",
+      "selected": 0,
+      "status": "Мужской голос · по слогам · слог 1 · bao",
+      "voice": "male",
+      "word": "བཙན་འཛུལ་བྱེད་"
+    },
+    {
+      "kind": "jorlok",
+      "playing": 1,
+      "rate": "1",
+      "selected": 0,
+      "status": "Женский голос · по слогам · слог 1 · bao",
+      "voice": "female",
+      "word": "བཙན་འཛུལ་བྱེད་"
+    },
+    {
+      "kind": "jorlok",
+      "playing": 1,
+      "rate": "0.8",
+      "selected": 0,
+      "status": "Женский голос · по слогам · слог 1 · bao",
+      "voice": "female",
+      "word": "བཙན་འཛུལ་བྱེད་"
+    },
+    {
+      "kind": "jorlok",
+      "playing": 1,
+      "rate": "0.6",
+      "selected": 0,
+      "status": "Женский голос · по слогам · слог 1 · bao",
+      "voice": "female",
+      "word": "བཙན་འཛུལ་བྱེད་"
+    },
+    {
+      "kind": "word",
+      "playing": 1,
+      "rate": "0.6",
+      "status": "Женский голос · очень медленный темп",
+      "voice": "female"
+    },
+    {
+      "kind": "ga-prefix",
+      "playing": 1,
+      "rate": "0.6",
+      "status": "Женский голос · по слогам · слог 2 · gao",
+      "voice": "female"
+    },
+    {
+      "kind": "ga-prefix",
+      "playing": 1,
+      "rate": "0.6",
+      "status": "Мужской голос · по слогам · слог 2 · gao",
+      "voice": "male"
+    },
+    {
+      "kind": "phrase",
+      "playing": 1,
+      "rate": "0.6",
+      "status": "Мужской голос · очень медленный темп",
+      "voice": "male"
+    }
+  ],
+  "phrase": {
+    "buttons": [
+      "Словосочетание",
+      "Разбор"
+    ],
+    "label": "Словосочетание",
+    "tibetan": "ཤ་བཙིར་རྒྱག་",
+    "title": "Послушать словосочетание целиком ཤ་བཙིར་རྒྱག་"
+  },
+  "preferencesAndProgressRestored": true,
+  "originalUserTabsUntouched": true,
+  "sourceSha256": "9bb4eb0545546bdeb27d06498085265f053e832095edbdb27133f44e46dce164",
+  "integrationCommit": "2d9fbc11416cf82f3e710590292eb8752563e18a",
+  "additionalTimeStretch": false,
+  "wordSourceWavsCopiedExactly": 1000,
+  "prefixVoiceRecordings": 10,
+  "prefixTempos": [
+    1,
+    0.8,
+    0.6
+  ],
+  "originalWholeWordAudioInNormalAndSlowUnchanged": true,
+  "phraseReRecordings": 0,
+  "fullCorpusHumanPhoneticCertification": false,
+  "horizontalOverflow": false,
+  "pinCounts": {
+    "new": 4,
+    "old": 2
+  }
+}

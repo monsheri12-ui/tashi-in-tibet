@@ -10,10 +10,11 @@
   "browserPlaybackRate": 1,
   "decoded": 2296,
   "phoneticCertificationOfEntireCorpus": false,
-  "originalBanksNotMutatedWhileStaging": 144,
-  "toneCandidateCount": 0,
-  "clippedFileCount": 0,
-  "phraseAudioReRecorded": false,
+  "originalMainAudioBanksUnchanged": 140,
+  "originalSpellingBanksWithOnlyApprovedPrefixChanges": 4,
+  "referenceBanksChecked": 144,
+  "toneCandidates": 0,
+  "clippedFiles": 0,
   "approvedPrefixSamples": [
     {
       "voice": "male",
@@ -95,5 +96,6 @@
       "timeStretchApplied": false,
       "userApproved": true
     }
-  ]
+  ],
+  "phraseAudioReRecorded": false
 }

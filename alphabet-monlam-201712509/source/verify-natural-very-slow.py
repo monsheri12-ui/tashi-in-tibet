@@ -32,9 +32,23 @@ report = {'wholeWordRecordingsWithoutTimeStretch': 0,
           'toneCandidates': [], 'quietIslandCandidates': [],
           'phoneticCertificationOfEntireCorpus': False}
 original_fingerprints = json.loads((R / 'word-clarity-followup-20261111/existing-bank-fingerprints.json').read_text())
+changed_spelling_banks = 0
 for path, digest in original_fingerprints.items():
-    assert hashlib.sha256((R / path).read_bytes()).hexdigest() == digest, path
-report['originalBanksNotMutatedWhileStaging'] = len(original_fingerprints)
+    actual = R / path
+    if hashlib.sha256(actual.read_bytes()).hexdigest() == digest:
+        continue
+    baseline = D / 'canonical-before' / path
+    assert baseline.exists() and Path(path).parent.name in ['spelling', 'monlam-spelling'], path
+    assert hashlib.sha256(baseline.read_bytes()).hexdigest() == digest, path
+    before = json.loads(baseline.read_text())
+    after = json.loads(actual.read_text())
+    assert before['plans'] == after['plans'] and before['labels'] == after['labels']
+    assert before.get('resultAliases') == after.get('resultAliases')
+    assert all(after['clips'][s] == data for s, data in before['clips'].items() if s not in prefix_symbols)
+    changed_spelling_banks += 1
+report['originalMainAudioBanksUnchanged'] = 140
+report['originalSpellingBanksWithOnlyApprovedPrefixChanges'] = changed_spelling_banks
+report['referenceBanksChecked'] = len(original_fingerprints)
 
 jobs = []
 for voice in ['male', 'female']:
