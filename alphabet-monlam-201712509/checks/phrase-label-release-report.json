@@ -1,0 +1,45 @@
+{
+  "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "reviewedEntries": 500,
+  "phraseLabels": 183,
+  "newPhraseLabels": 182,
+  "wordLabels": 317,
+  "audioChanges": false,
+  "preservation": {
+    "audioBanksChecked": 216,
+    "allAudioBankSha256Unchanged": true,
+    "changedAudioBanks": [],
+    "allSixAudioBaseUrlsUnchanged": true,
+    "audioPlayerCodeByteIdentical": true,
+    "displayedTibetanCorpusUnchanged": true,
+    "scope": "Button captions and an explicit phrase registry only."
+  },
+  "liveUiCasesPassed": 12,
+  "liveCaptionInstancesChecked": 96,
+  "settingsAndProgressPreserved": true,
+  "sourceSha256": "77dfb3d20d88e09550ee03e8ffa9b900544ae491301ce8c089c7528ac855a79a",
+  "codeCommit": "f8f9aa0b8ff4bb7654454980d7900bcd87f7ff7a",
+  "screenshot": "outputs/phrase-labels-published.png",
+  "archive": {
+    "path": "outputs/tibetan-alphabet-monlam-jorlok.zip",
+    "sha256": "73fec2295ca8c617295a5a0f3d6d7a88024c201a0c5b25fef6bb6d368da2565d",
+    "crcPassed": true,
+    "duplicateMembers": 0,
+    "members": 2686,
+    "existingMembersPreservedByteForByte": 2675,
+    "existingAudioMembersPreservedByteForByte": 2526,
+    "updatedOrAddedMembers": [
+      "tilda.html",
+      "hosting.json",
+      "source/phrase-labels.json",
+      "source/phrase-labels-build.py",
+      "source/phrase-audio-labels.js",
+      "checks/phrase-label-classification.json",
+      "checks/phrase-label-client.json",
+      "checks/phrase-label-dictionary-spot-checks.json",
+      "checks/phrase-label-audio-preservation.json",
+      "checks/public-phrase-labels-20261111.json",
+      "screenshots/phrase-labels-published.png"
+    ]
+  }
+}

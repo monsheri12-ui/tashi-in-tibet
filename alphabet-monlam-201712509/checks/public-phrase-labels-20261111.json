@@ -1,0 +1,181 @@
+{
+  "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "publicationSuccessVisible": true,
+  "editorBeforeSourceMatched": true,
+  "editorPastedSourceMatched": true,
+  "checkedAt": "2026-11-11T13:22:16.410Z",
+  "cases": [
+    {
+      "mode": "glyph",
+      "voice": "male",
+      "rate": "1",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "glyph",
+      "voice": "male",
+      "rate": "0.8",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "glyph",
+      "voice": "male",
+      "rate": "0.6",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "glyph",
+      "voice": "female",
+      "rate": "1",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "glyph",
+      "voice": "female",
+      "rate": "0.8",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "glyph",
+      "voice": "female",
+      "rate": "0.6",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "syllable",
+      "voice": "male",
+      "rate": "1",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "syllable",
+      "voice": "male",
+      "rate": "0.8",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "syllable",
+      "voice": "male",
+      "rate": "0.6",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "syllable",
+      "voice": "female",
+      "rate": "1",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "syllable",
+      "voice": "female",
+      "rate": "0.8",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    },
+    {
+      "mode": "syllable",
+      "voice": "female",
+      "rate": "0.6",
+      "rows": 8,
+      "phraseButtons": 3,
+      "wordButtons": 5,
+      "allLabelsPassed": true
+    }
+  ],
+  "checkedCaptionInstances": 96,
+  "finalVisibleRows": [
+    {
+      "labels": [
+        "Слово",
+        "Разбор"
+      ],
+      "text": "བར་འཛུལ་"
+    },
+    {
+      "labels": [
+        "Словосочетание",
+        "Разбор"
+      ],
+      "text": "འགོ་འཛུགས་"
+    },
+    {
+      "labels": [
+        "Слово",
+        "Разбор"
+      ],
+      "text": "སྣང་ཆུང་"
+    },
+    {
+      "labels": [
+        "Словосочетание",
+        "Разбор"
+      ],
+      "text": "རྟགས་རྒྱག་"
+    },
+    {
+      "labels": [
+        "Слово",
+        "Разбор"
+      ],
+      "text": "ཉེས་འཛུགས་"
+    },
+    {
+      "labels": [
+        "Слово",
+        "Разбор"
+      ],
+      "text": "རྫུས་མ་"
+    },
+    {
+      "labels": [
+        "Слово",
+        "Разбор"
+      ],
+      "text": "སྐད་"
+    },
+    {
+      "labels": [
+        "Слово",
+        "Разбор"
+      ],
+      "text": "བཙན་འཛུལ་"
+    }
+  ],
+  "settingsAndProgressPreserved": true,
+  "answersSubmitted": false,
+  "audioPlayed": false,
+  "audioChanges": false,
+  "screenshot": "outputs/phrase-labels-published.png"
+}
