@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-11",
+  "allTenSamplesAccepted": true,
+  "gaFemaleAcceptedSample": "female-kao-native-20261111.wav",
+  "gaMaleAcceptedSample": "male-kao-native-v3-20261111.wav",
+  "gaMaleFeedback": "Да, подходит",
+  "otherFourPrefixNamesPerVoice": "Earlier new sample set: user asked to correct only the first ka-o",
+  "records": [
+    {
+      "voice": "male",
+      "unit": "gao",
+      "symbol": "@ga-prefix",
+      "seconds": 1.2,
+      "pcmSha256": "3ef8e6e72934be149829a1d46d7d0f2da1ec15fc40aa4cef4fc476359cc95322",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    },
+    {
+      "voice": "male",
+      "unit": "dao",
+      "symbol": "@da-prefix",
+      "seconds": 0.7120833333333333,
+      "pcmSha256": "cab82d24802e097551cebdabc9430654a55c28bfd688ff0667fcecc651cc17cd",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    },
+    {
+      "voice": "male",
+      "unit": "bao",
+      "symbol": "@ba-prefix",
+      "seconds": 0.7067916666666667,
+      "pcmSha256": "7c684d67ef9af114ee8dd95c64949fbcc812840d983b45ae6bdc2d39df8c1774",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    },
+    {
+      "voice": "male",
+      "unit": "mao",
+      "symbol": "@ma-prefix",
+      "seconds": 0.7038333333333333,
+      "pcmSha256": "5cefdf10119c1e385133977080930d4fcedc63039c7e6fa8be6c79bceb3cb085",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    },
+    {
+      "voice": "male",
+      "unit": "ao",
+      "symbol": "@achung-prefix",
+      "seconds": 0.7045416666666666,
+      "pcmSha256": "888ab6d8db936496a7814d680a6b22c1470de161784e1aadee6c499e2ca19994",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    },
+    {
+      "voice": "female",
+      "unit": "gao",
+      "symbol": "@ga-prefix",
+      "seconds": 1.2,
+      "pcmSha256": "f89f6561e792789e496acfa480a139eca04f526d28b8e8e9a9dcf43f2021b2f9",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    },
+    {
+      "voice": "female",
+      "unit": "dao",
+      "symbol": "@da-prefix",
+      "seconds": 0.7010416666666667,
+      "pcmSha256": "ef066c113769674c1951a495a8d0dd17977d6578658c412cab7afbbc984768b2",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    },
+    {
+      "voice": "female",
+      "unit": "bao",
+      "symbol": "@ba-prefix",
+      "seconds": 0.7185833333333334,
+      "pcmSha256": "0cd4a1189edcdba9e014942c28d3a3ebd4096d6345bce5ba1a05c107cfcd2b71",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    },
+    {
+      "voice": "female",
+      "unit": "mao",
+      "symbol": "@ma-prefix",
+      "seconds": 0.6970416666666667,
+      "pcmSha256": "46ecbadb521d0c255ac50668ef0e15771d023c07ec713133e3d08ed216d940c9",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    },
+    {
+      "voice": "female",
+      "unit": "ao",
+      "symbol": "@achung-prefix",
+      "seconds": 0.7077916666666667,
+      "pcmSha256": "c546333496d774c223c3ea34caa729ef46f68019a9ae1b718a628fce0f6000b6",
+      "approvedPcmCopiedExactly": true,
+      "timeStretchApplied": false
+    }
+  ]
+}
