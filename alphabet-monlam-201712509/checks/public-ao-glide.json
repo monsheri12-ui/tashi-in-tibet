@@ -1,0 +1,43 @@
+{
+  "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "assetCommit": "8ef12171b6ace955dda3ab17b2619371ab433bb9",
+  "integrationCommit": "96f16d5063c6d9fd186742703182b3d61e06ffe0",
+  "savedEditorCodeMatched": true,
+  "publicationSuccessVisible": true,
+  "normal": {
+    "playing": [
+      "Учебный разбор по слогам འཇམ་པོ་"
+    ],
+    "rate": "1",
+    "status": "Мужской голос · по слогам · слог 1 · ao"
+  },
+  "slow": {
+    "highlighted": [
+      "འ"
+    ],
+    "playing": [
+      "Учебный разбор по слогам འཇམ་པོ་"
+    ],
+    "rate": "0.8",
+    "status": "Мужской голос · по слогам · слог 1 · ao"
+  },
+  "userBefore": {
+    "mode": "wylie",
+    "rate": "0.8",
+    "selected": 0,
+    "target": "Выберите запись Вайли",
+    "voice": "male"
+  },
+  "userAfter": {
+    "mode": "wylie",
+    "pins": 4,
+    "rate": "0.8",
+    "selected": 0,
+    "target": "Выберите запись Вайли",
+    "task": "Выберите Вайли для ཙ",
+    "voice": "male"
+  },
+  "userSettingsRestored": true,
+  "selectedAnswersPreserved": true,
+  "screenshot": "outputs/ao-glide-published.png"
+}

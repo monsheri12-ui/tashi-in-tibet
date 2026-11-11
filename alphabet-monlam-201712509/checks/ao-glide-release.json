@@ -1,0 +1,126 @@
+{
+  "affectedWords": [
+    "གཏན་འཇགས་",
+    "ཉེས་འཛུགས་",
+    "ཉེས་འཛུགས་བྱེད་",
+    "དམའ་འབེབས་གཏོང་",
+    "ནང་ཟོག་ཕྱི་འདྲེན་",
+    "ཕྱི་ཟོག་ནང་འདྲེན་",
+    "བཙན་འཛུལ་",
+    "བཙན་འཛུལ་བྱེད་",
+    "བར་འཛུལ་",
+    "བར་འཛུལ་བྱེད་",
+    "འཁྱག་པ་རྒྱག་",
+    "འཁྱགས་པ་",
+    "འཁྱགས་པ་གཏོང་",
+    "འཁྱགས་ཤུད་གཏོང་",
+    "འཁྲེགས་པོ་",
+    "འགོ་",
+    "འགོ་འཛུགས་",
+    "འགྱེད་",
+    "འགྲིག་པ་",
+    "འགྲུལ་རྒྱག་",
+    "འགྲུལ་རྟགས་",
+    "འགྲོ་སོང་",
+    "འཆམ་",
+    "འཆམས་པོ་",
+    "འཆམས་པོ་བྱེད་",
+    "འཆི་བ་",
+    "འཇམ་པོ་",
+    "འཇིབ་",
+    "འཇིབ་རྒྱག་",
+    "འཐབ་ར་",
+    "འཐབ་ར་རྒྱག་",
+    "འདེམས་བསྒྲུགས་",
+    "འདེམས་བསྒྲུགས་བྱེད་",
+    "འདྲ་ཤུས་",
+    "འཕྱ་བ་",
+    "འཕྱ་སྨོད་རྒྱག་",
+    "འཕྲལ་སེལ་",
+    "འབྱོར་བ་",
+    "འབྲུག་སྐད་",
+    "འཚོ་བ་",
+    "འཚོ་བ་མྱོང་",
+    "འཚོང་བ་",
+    "འཚོལ་བ་",
+    "འོས་འདེམས་",
+    "འོས་འདེམས་བྱེད་",
+    "ཡོང་འབབ་",
+    "སྒྲ་འཁོར་"
+  ],
+  "allPlanReferencesResolved": true,
+  "oldClipsPreserved": true,
+  "femaleBanksPreserved": true,
+  "mainAudioChunksPreserved": true,
+  "newClipChecks": {
+    "normal": {
+      "seconds": 0.648,
+      "peak": 0.21404974162578583,
+      "clippedSamples": 0,
+      "tones": [],
+      "quietIslands": []
+    },
+    "slow": {
+      "seconds": 0.69521,
+      "peak": 0.211310476064682,
+      "clippedSamples": 0,
+      "tones": [],
+      "quietIslands": []
+    }
+  },
+  "wordVoiceTempoChecks": 2000,
+  "vowelVoiceTempoChecks": 600,
+  "changedSyllablePlans": 30,
+  "affectedWordCount": 47,
+  "browserPlaybackRate": 1,
+  "phoneticCertificationOfCorpus": false,
+  "assetCommit": "8ef12171b6ace955dda3ab17b2619371ab433bb9",
+  "integrationCommit": "96f16d5063c6d9fd186742703182b3d61e06ffe0",
+  "sourceSha256": "14064bc20be3ecd0934bd76450251fa20137152fa26d4742f50801d15f789656",
+  "publishedVerified": true,
+  "publicBrowserVerification": {
+    "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+    "assetCommit": "8ef12171b6ace955dda3ab17b2619371ab433bb9",
+    "integrationCommit": "96f16d5063c6d9fd186742703182b3d61e06ffe0",
+    "savedEditorCodeMatched": true,
+    "publicationSuccessVisible": true,
+    "normal": {
+      "playing": [
+        "Учебный разбор по слогам འཇམ་པོ་"
+      ],
+      "rate": "1",
+      "status": "Мужской голос · по слогам · слог 1 · ao"
+    },
+    "slow": {
+      "highlighted": [
+        "འ"
+      ],
+      "playing": [
+        "Учебный разбор по слогам འཇམ་པོ་"
+      ],
+      "rate": "0.8",
+      "status": "Мужской голос · по слогам · слог 1 · ao"
+    },
+    "userBefore": {
+      "mode": "wylie",
+      "rate": "0.8",
+      "selected": 0,
+      "target": "Выберите запись Вайли",
+      "voice": "male"
+    },
+    "userAfter": {
+      "mode": "wylie",
+      "pins": 4,
+      "rate": "0.8",
+      "selected": 0,
+      "target": "Выберите запись Вайли",
+      "task": "Выберите Вайли для ཙ",
+      "voice": "male"
+    },
+    "userSettingsRestored": true,
+    "selectedAnswersPreserved": true,
+    "screenshot": "outputs/ao-glide-published.png"
+  },
+  "userFeedback": "похоже!",
+  "adoptedAsWorkingVariant": true
+}
