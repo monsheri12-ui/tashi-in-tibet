@@ -4,5 +4,7 @@
   "allSixVoiceTempoRoutes": true,
   "mainAndSpellingTempoChecks": 12,
   "finalLNoteWords": 31,
-  "progressStorageKeyPreserved": true
+  "progressStorageKeyPreserved": true,
+  "wholeWordPlaybackRateAlwaysOne": true,
+  "noAdditionalClientSlowdown": true
 }

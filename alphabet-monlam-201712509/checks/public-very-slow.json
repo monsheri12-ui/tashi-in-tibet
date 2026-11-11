@@ -1,0 +1,61 @@
+{
+  "published": true,
+  "publicationMessage": "Публикация прошла успешно!",
+  "tests": [
+    {
+      "voice": "female",
+      "kind": "word",
+      "word": "བཟོད་གསོལ་ཞུ",
+      "note": "Конечная ལ་ может ослабляться, удлиняя гласный. В разборе по буквам её название произносится как «ла».",
+      "playing": 1,
+      "rate": "0.6",
+      "status": "Женский голос · очень медленный темп"
+    },
+    {
+      "voice": "male",
+      "kind": "word",
+      "word": "བཟོད་གསོལ་ཞུ",
+      "playing": 1,
+      "rate": "0.6",
+      "status": "Мужской голос · очень медленный темп"
+    },
+    {
+      "voice": "male",
+      "kind": "jorlok",
+      "word": "བཟོད་གསོལ་ཞུ",
+      "playing": 1,
+      "rate": "0.6",
+      "status": "Мужской голос · по слогам · слог 1 · bao"
+    }
+  ],
+  "view": {
+    "horizontalOverflow": false,
+    "newPins": 2,
+    "notes": [
+      "Конечная ལ་ может ослабляться, удлиняя гласный. В разборе по буквам её название произносится как «ла»."
+    ],
+    "oldPins": 4,
+    "options": [
+      "Обычный",
+      "Медленный",
+      "Очень медленный"
+    ],
+    "selectMaxWidth": "190px"
+  },
+  "userOriginalTabUntouched": true,
+  "testInitialStateRestored": true,
+  "verySlowPreferencePersistedAfterReload": true,
+  "publicUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "verySlowAssetCommit": "0b98ba2dbdc713382d4602a6dd74ff8f7f3e73f1",
+  "originalAudioCommit": "8380e77d69835342d67bc783baa797f3bb89aa87",
+  "integrationCommit": "af46538e8aaa85374974c6ede299ddbdde60f275",
+  "sourceSha256": "7593bc823279fb2a15159264700c3c9e1af752fba53a5b7959f99150452ff80b",
+  "clearWholeWords": 500,
+  "wordVoiceRecordings": 1000,
+  "preparedWordsCopiedExactly": 1000,
+  "wholeWordAdditionalTimeStretch": false,
+  "browserPlaybackRate": 1,
+  "ordinaryAndSlowAudioUnchanged": true,
+  "finalLNoteWords": 31,
+  "wholeCorpusHumanPhoneticCertification": false
+}
