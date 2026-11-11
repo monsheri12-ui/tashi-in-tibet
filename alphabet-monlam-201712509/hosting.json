@@ -12,7 +12,7 @@
   "spellingPlans": 512,
   "words": 500,
   "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
-  "publishedVerified": false,
+  "publishedVerified": true,
   "spellingCommit": "2529e9452cb3b9edc074947c3504a4e6692bb927",
   "audioCleanup": {
     "changedSyllablePlans": 105,
@@ -36,7 +36,7 @@
     "sharedFragmentAutomaticTranscripts": 519,
     "nativePhoneticCertification": false
   },
-  "publicVerification": "checks/public-ao-glide.json",
+  "publicVerification": "checks/public-female-ao-glide.json",
   "slowAudioCommit": "2529e9452cb3b9edc074947c3504a4e6692bb927",
   "slowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/2529e9452cb3b9edc074947c3504a4e6692bb927/alphabet-monlam-201712509/audio-slow/",
   "slowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/2529e9452cb3b9edc074947c3504a4e6692bb927/alphabet-monlam-201712509/spelling-slow/",
@@ -130,7 +130,7 @@
       "རྒ": "དགའ"
     }
   },
-  "integrationCommit": "96f16d5063c6d9fd186742703182b3d61e06ffe0",
+  "integrationCommit": "aa29391330d0f644350ef75f046aa683f932e471",
   "previousAudioCommit": "8ef12171b6ace955dda3ab17b2619371ab433bb9",
   "continuousAoGlide": {
     "voice": "male",

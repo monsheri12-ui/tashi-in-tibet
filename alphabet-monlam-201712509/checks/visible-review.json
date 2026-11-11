@@ -1,0 +1,18 @@
+[
+  {
+    "file": "tibetan-audio-review-visible.html",
+    "staticCards": 930,
+    "nativeAudioPlayers": 1860,
+    "allCardsBeforeScripts": true,
+    "uniqueCardIds": true,
+    "bytes": 40942654
+  },
+  {
+    "file": "tibetan-audio-review-first20.html",
+    "staticCards": 20,
+    "nativeAudioPlayers": 40,
+    "allCardsBeforeScripts": true,
+    "uniqueCardIds": true,
+    "bytes": 1973510
+  }
+]
