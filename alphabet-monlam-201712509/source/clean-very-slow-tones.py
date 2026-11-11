@@ -36,13 +36,21 @@ for row in candidates:
  subprocess.run([str(FF),'-v','error','-nostdin','-y','-i',str(p),'-ar','24000','-ac','1','-c:a','libmp3lame','-b:a','128k','-map_metadata','-1',str(mp3)],check=True)
  f=ns['features'](ns['decode'](mp3));assert not f['tones']and not f['clippedSamples'],(voice,ident,f)
  meta=json.loads(side.read_text());meta.update({'renderedPcmSha256':hashlib.sha256(out).hexdigest(),'encodedSha256':hashlib.sha256(mp3.read_bytes()).hexdigest(),'toneResidueWindows':windows,'speechOutsideWindowsPcmUnchanged':True});side.write_text(json.dumps(meta,indent=2))
+ is_prepared_word=any(e['id']==ident and e['clearWholeWordSource']for e in M['voices'][voice])
+ if is_prepared_word:
+  # Noise cleanup changes no timing. Keep the prepared recording and the
+  # served copy byte-identical, with no additional time-stretch operation.
+  prepared=D/'rendered'/voice/(ident+'.wav');shutil.copy2(p,prepared);shutil.copy2(mp3,prepared.with_suffix('.mp3'))
+  meta['sourcePcmSha256']=hashlib.sha256(out).hexdigest();meta['fingerprint']='prepared-clear-word-as-is-v2:'+meta['sourcePcmSha256'];meta['additionalTimeStretch']=False;meta['preparedAudioCopiedExactly']=True;side.write_text(json.dumps(meta,indent=2))
+  prepared_info=prepared.with_suffix('.json');info=json.loads(prepared_info.read_text());info['normalPcmSha256']=meta['renderedPcmSha256'];info['toneResidueWindows']=windows;prepared_info.write_text(json.dumps(info,ensure_ascii=False,indent=2))
  for entry in M['voices'][voice]:
-  if entry['id']==ident:entry.update({k:meta[k]for k in ['renderedPcmSha256','encodedSha256','toneResidueWindows','speechOutsideWindowsPcmUnchanged']})
+  if entry['id']==ident:entry.update({k:meta[k]for k in ['renderedPcmSha256','encodedSha256','toneResidueWindows','speechOutsideWindowsPcmUnchanged','sourcePcmSha256','fingerprint']})
  chunk=T/'audio'/voice/(f'{indexes[ident]//32:03}.json');bank=json.loads(chunk.read_text());bank['clips'][ident]=base64.b64encode(mp3.read_bytes()).decode();chunk.write_text(json.dumps(bank,separators=(',',':')))
  new={'voice':voice,'id':ident,'path':str(mp3),**{k:f[k]for k in ['seconds','peak','tones','quietIslands','clippedSamples']}}
  details=[new if r['voice']==voice and r['id']==ident else r for r in details]
  changes.append({'voice':voice,'id':ident,'windows':windows,'sourcePcmOutsideWindowsIdentical':True,'remainingToneCandidates':len(f['tones'])})
-M['toneCleanup']={'files':len(changes),'changes':changes,'scope':'very slow only; other tempos unchanged'}
+all_changes=[{'voice':v,'id':e['id'],'windows':e['toneResidueWindows'],'sourcePcmOutsideWindowsIdentical':True}for v,rows in M['voices'].items()for e in rows if e.get('toneResidueWindows')]
+M['toneCleanup']={'files':len(all_changes),'changes':all_changes,'scope':'very slow only; ordinary and slow tempos unchanged'}
 (T/'manifest.json').write_text(json.dumps(M,ensure_ascii=False,indent=2))
 report['initialToneCandidateCount']=len(candidates);report['toneCleanup']=M['toneCleanup'];report['toneCandidates']=[r for r in details if r['tones']];report['quietIslandCandidates']=[r for r in details if r['quietIslands']]
 (D/'very-slow-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));(D/'very-slow-acoustic-details.json').write_text(json.dumps(details,ensure_ascii=False,indent=2))

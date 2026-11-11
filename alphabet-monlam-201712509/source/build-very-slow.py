@@ -28,6 +28,16 @@ def render(source,dest):
  return dest.read_bytes(),json.loads(side.read_text())
 def main(voice,index,e):
  ident=e['id'];is_word=ident in word_ids
+ if is_word:
+  # The user chose the audition's own cadence for this option. Copy the
+  # prepared clear recording exactly; do not apply another atempo pass.
+  source_wav=D/'rendered'/voice/(ident+'.wav');source_mp3=source_wav.with_suffix('.mp3')
+  raw=pcm(source_wav);encoded=source_mp3.read_bytes();digest=hashlib.sha256(raw).hexdigest()
+  dest=T/'mp3'/voice/(ident+'.mp3');dest.parent.mkdir(parents=True,exist_ok=True)
+  dest.write_bytes(encoded);dest.with_suffix('.wav').write_bytes(source_wav.read_bytes())
+  meta={'fingerprint':'prepared-clear-word-as-is-v2:'+digest,'sourcePcmSha256':digest,'renderedPcmSha256':digest,'seconds':len(raw)/48000,'encodedSha256':hashlib.sha256(encoded).hexdigest(),'additionalTimeStretch':False,'preparedAudioCopiedExactly':True}
+  dest.with_suffix('.json').write_text(json.dumps(meta,indent=2))
+  return voice,index,ident,encoded,{**meta,'id':ident,'text':e['text'],'clearWholeWordSource':True}
  source=D/'rendered'/voice/(ident+'-level.wav')if is_word else R/('monlam-wav'if voice=='female'else'monlam-wav-male')/(ident+'.wav')
  dest=T/'mp3'/voice/(ident+'.mp3');encoded,meta=render(source,dest)
  return voice,index,ident,encoded,{**meta,'id':ident,'text':e['text'],'clearWholeWordSource':is_word}
@@ -37,7 +47,7 @@ with ThreadPoolExecutor(max_workers=4)as pool:
  for n,f in enumerate(as_completed(fs),1):
   results.append(f.result())
   if n%400==0:print(json.dumps({'verySlowPrepared':n,'total':len(fs),'seconds':round(time.monotonic()-started)}),flush=True)
-manifest={'recordedRate':TEMPO,'browserPlaybackRate':1,'words':500,'bitRateKbps':128,'normalAndSlowBanksUnchanged':True,'voices':{},'spelling':{}}
+manifest={'recordedRate':TEMPO,'tempoValueIsVariantId':True,'browserPlaybackRate':1,'words':500,'wholeWordAdditionalTimeStretch':False,'wholeWordCadence':'same as the approved audition style; prepared recording copied as-is','bitRateKbps':128,'normalAndSlowBanksUnchanged':True,'voices':{},'spelling':{}}
 for voice in ['male','female']:
  rows=sorted([r for r in results if r[0]==voice],key=lambda x:x[1]);manifest['voices'][voice]=[r[4]for r in rows]
  for start in range(0,len(rows),32):

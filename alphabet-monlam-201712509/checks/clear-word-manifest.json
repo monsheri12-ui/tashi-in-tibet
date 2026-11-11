@@ -4953,7 +4953,7 @@
         "newNativeRecording": false,
         "seconds": 1.0494166666666667,
         "slowSeconds": 1.2976666666666667,
-        "normalPcmSha256": "ca929ce241d8f9d3cf72484f7acae13b3843bc8dc26eebf0a09522f1d26fba45",
+        "normalPcmSha256": "cecfa970d87409f9349f939cea1fcb3fea8d6b68784dd4c8cb38ec805fcf70f3",
         "slowPcmSha256": "34d901eca67f4a62b8cfef4794223cb6475bea16e13eb76f040617c7c62f7c71",
         "retainedSourceRange": [
           0.685625,
@@ -4961,7 +4961,13 @@
         ],
         "maxSmoothLocalGain": 1.5436973939286052,
         "peakBeforeTimeStretch": 0.7390329149936951,
-        "sourceSpeechSamples": 13904
+        "sourceSpeechSamples": 13904,
+        "toneResidueWindows": [
+          [
+            0.9269999999999999,
+            0.978
+          ]
+        ]
       },
       {
         "fingerprint": "whole-word-clarity-v1-level-soft25-tempo078-128k:14b4f514e5dfa4f3f0aa8d09f7602225eb230bdc998e1127df66f2e84889f9c8",
@@ -6473,7 +6479,7 @@
         "newNativeRecording": false,
         "seconds": 0.909125,
         "slowSeconds": 1.1249583333333333,
-        "normalPcmSha256": "f0f794598b8fc3447069ed5b243c681a3b4975d71799c288ecb79002e22d7bac",
+        "normalPcmSha256": "24a06cb0a11ae9ec6dfbdb8dd026b0de6c9da5c7f8729fc8b695a5675714280f",
         "slowPcmSha256": "927c6e5d5ff5953acc877ab3c9781e5027f9f2a5199392ed48d0a5225af2ea3c",
         "retainedSourceRange": [
           0.680625,
@@ -6481,7 +6487,13 @@
         ],
         "maxSmoothLocalGain": 1.4732623436156196,
         "peakBeforeTimeStretch": 0.6652431259666974,
-        "sourceSpeechSamples": 10596
+        "sourceSpeechSamples": 10596,
+        "toneResidueWindows": [
+          [
+            0.767,
+            0.873
+          ]
+        ]
       },
       {
         "fingerprint": "whole-word-clarity-v1-level-soft25-tempo078-128k:4d0a26dd4b2eddf4276bd0ce6b45772f17dc7cbe5b186041b3d6d440fb53dc4e",
@@ -6587,7 +6599,7 @@
         "newNativeRecording": false,
         "seconds": 1.8231666666666666,
         "slowSeconds": 2.2580416666666667,
-        "normalPcmSha256": "5506f83d226eb172b874b8bfa6e04c66f805e07f70cffe435bc186678a6795af",
+        "normalPcmSha256": "3eca0f375ef39419d0565530db2fb4f6daf78edc73851350d7763aa7ff49a670",
         "slowPcmSha256": "9cd36aadc529d7db82105f9ab022c39d7d533eb149b52dc68102735097b38b49",
         "retainedSourceRange": [
           0.07891666666666666,
@@ -6595,7 +6607,13 @@
         ],
         "maxSmoothLocalGain": 1.3695944910877713,
         "peakBeforeTimeStretch": 0.82,
-        "sourceSpeechSamples": 15928
+        "sourceSpeechSamples": 15928,
+        "toneResidueWindows": [
+          [
+            0.062,
+            0.123
+          ]
+        ]
       },
       {
         "fingerprint": "whole-word-clarity-v1-level-soft25-tempo078-128k:a0502ba9ca1fefe89562161cc1350617f19c58f8c6d6dad1006d0e80f121c39e",
@@ -19013,5 +19031,6 @@
   "browserPlaybackRate": 1,
   "bitRateKbps": 128,
   "wholeCorpusPhoneticCertification": false,
-  "existingMainAndSpellingBanksUnchanged": true
+  "existingMainAndSpellingBanksUnchanged": true,
+  "usedAsVerySlowWithoutAdditionalStretch": true
 }

@@ -9,21 +9,6 @@
   "quietIslandCandidates": [
     {
       "voice": "male",
-      "id": "m0232",
-      "seconds": 2.53142,
-      "peak": 0.7561987638473511,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 2.4,
-          "end": 2.472,
-          "relativeRms": 0.0168
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
       "id": "m1000",
       "seconds": 1.68425,
       "peak": 0.2754875123500824,
@@ -160,14 +145,14 @@
     {
       "voice": "male",
       "id": "m0330",
-      "seconds": 1.72554,
-      "peak": 0.4941921830177307,
+      "seconds": 1.32879,
+      "peak": 0.4967900812625885,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.1,
-          "end": 0.172,
-          "relativeRms": 0.0104
+          "start": 0.065,
+          "end": 0.142,
+          "relativeRms": 0.0106
         }
       ],
       "clippedSamples": 0
@@ -175,14 +160,14 @@
     {
       "voice": "male",
       "id": "m0344",
-      "seconds": 2.10367,
-      "peak": 0.6480358242988586,
+      "seconds": 1.62875,
+      "peak": 0.6478737592697144,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.157,
-          "relativeRms": 0.0183
+          "start": 0.055,
+          "end": 0.132,
+          "relativeRms": 0.0182
         }
       ],
       "clippedSamples": 0
@@ -190,29 +175,14 @@
     {
       "voice": "male",
       "id": "m0205",
-      "seconds": 1.82812,
-      "peak": 0.5751482844352722,
+      "seconds": 1.41263,
+      "peak": 0.5669474601745605,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.105,
-          "end": 0.182,
-          "relativeRms": 0.0191
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0208",
-      "seconds": 0.91987,
-      "peak": 0.5173241496086121,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.755,
-          "end": 0.842,
-          "relativeRms": 0.0144
+          "start": 0.065,
+          "end": 0.142,
+          "relativeRms": 0.0175
         }
       ],
       "clippedSamples": 0
@@ -220,14 +190,14 @@
     {
       "voice": "male",
       "id": "m0206",
-      "seconds": 2.44129,
-      "peak": 0.5682274103164673,
+      "seconds": 1.88283,
+      "peak": 0.5726766586303711,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.157,
-          "relativeRms": 0.0156
+          "start": 0.075,
+          "end": 0.132,
+          "relativeRms": 0.012
         }
       ],
       "clippedSamples": 0
@@ -235,14 +205,14 @@
     {
       "voice": "male",
       "id": "m0209",
-      "seconds": 1.94846,
-      "peak": 0.4874528646469116,
+      "seconds": 1.50737,
+      "peak": 0.4878735840320587,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.07,
-          "end": 0.137,
-          "relativeRms": 0.0163
+          "start": 0.055,
+          "end": 0.117,
+          "relativeRms": 0.0145
         }
       ],
       "clippedSamples": 0
@@ -335,14 +305,14 @@
     {
       "voice": "male",
       "id": "m0551",
-      "seconds": 2.06787,
-      "peak": 0.5353515148162842,
+      "seconds": 1.59596,
+      "peak": 0.5358851552009583,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.137,
-          "relativeRms": 0.0078
+          "start": 0.065,
+          "end": 0.122,
+          "relativeRms": 0.0067
         }
       ],
       "clippedSamples": 0
@@ -350,19 +320,14 @@
     {
       "voice": "male",
       "id": "m0565",
-      "seconds": 1.57046,
-      "peak": 0.6519379019737244,
+      "seconds": 1.21104,
+      "peak": 0.6592229008674622,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.115,
-          "end": 0.152,
-          "relativeRms": 0.0064
-        },
-        {
-          "start": 0.325,
-          "end": 0.367,
-          "relativeRms": 0.0062
+          "start": 0.245,
+          "end": 0.282,
+          "relativeRms": 0.0063
         }
       ],
       "clippedSamples": 0
@@ -370,43 +335,13 @@
     {
       "voice": "male",
       "id": "m0566",
-      "seconds": 1.72192,
-      "peak": 0.6645094752311707,
+      "seconds": 1.31075,
+      "peak": 0.6605600714683533,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.105,
-          "end": 0.147,
-          "relativeRms": 0.0066
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0513",
-      "seconds": 1.01788,
-      "peak": 0.676942765712738,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.955,
-          "end": 1.017,
-          "relativeRms": 0.0381
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0515",
-      "seconds": 1.19762,
-      "peak": 0.5259869694709778,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.155,
-          "end": 0.217,
+          "start": 0.07,
+          "end": 0.107,
           "relativeRms": 0.0062
         }
       ],
@@ -414,15 +349,45 @@
     },
     {
       "voice": "male",
-      "id": "m0518",
-      "seconds": 2.07633,
-      "peak": 0.6539108753204346,
+      "id": "m0513",
+      "seconds": 0.79433,
+      "peak": 0.6786926984786987,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.085,
-          "end": 0.142,
-          "relativeRms": 0.0075
+          "start": 0.735,
+          "end": 0.792,
+          "relativeRms": 0.0374
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0515",
+      "seconds": 0.92958,
+      "peak": 0.5227039456367493,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.11,
+          "end": 0.167,
+          "relativeRms": 0.0065
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0518",
+      "seconds": 1.59079,
+      "peak": 0.6470651626586914,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.05,
+          "end": 0.107,
+          "relativeRms": 0.0068
         }
       ],
       "clippedSamples": 0
@@ -535,29 +500,14 @@
     {
       "voice": "male",
       "id": "m0611",
-      "seconds": 1.84508,
-      "peak": 0.4344630837440491,
+      "seconds": 1.40512,
+      "peak": 0.437142938375473,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.172,
-          "relativeRms": 0.0105
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0630",
-      "seconds": 1.25546,
-      "peak": 0.6904534101486206,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 1.1,
-          "end": 1.227,
-          "relativeRms": 0.0196
+          "start": 0.06,
+          "end": 0.132,
+          "relativeRms": 0.0098
         }
       ],
       "clippedSamples": 0
@@ -579,21 +529,6 @@
     },
     {
       "voice": "male",
-      "id": "m0484",
-      "seconds": 2.375,
-      "peak": 0.7717158794403076,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.07,
-          "end": 0.157,
-          "relativeRms": 0.0593
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
       "id": "m0077",
       "seconds": 1.35625,
       "peak": 0.35755491256713867,
@@ -609,45 +544,15 @@
     },
     {
       "voice": "male",
-      "id": "m0474",
-      "seconds": 1.699,
-      "peak": 0.554801344871521,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.09,
-          "end": 0.127,
-          "relativeRms": 0.0063
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0476",
-      "seconds": 2.37796,
-      "peak": 0.5934191346168518,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.09,
-          "end": 0.127,
-          "relativeRms": 0.0061
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
       "id": "m0599",
-      "seconds": 2.17192,
-      "peak": 0.7114195823669434,
+      "seconds": 1.66817,
+      "peak": 0.7104560732841492,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.222,
-          "relativeRms": 0.0516
+          "start": 0.055,
+          "end": 0.167,
+          "relativeRms": 0.0446
         }
       ],
       "clippedSamples": 0
@@ -755,14 +660,14 @@
     {
       "voice": "male",
       "id": "m0417",
-      "seconds": 2.17533,
-      "peak": 0.4536411166191101,
+      "seconds": 1.67483,
+      "peak": 0.4766840934753418,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.162,
-          "relativeRms": 0.0266
+          "start": 0.055,
+          "end": 0.132,
+          "relativeRms": 0.0269
         }
       ],
       "clippedSamples": 0
@@ -770,29 +675,14 @@
     {
       "voice": "male",
       "id": "m0418",
-      "seconds": 1.88767,
-      "peak": 0.523037850856781,
+      "seconds": 1.45312,
+      "peak": 0.5363970398902893,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.075,
-          "end": 0.147,
-          "relativeRms": 0.0109
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0428",
-      "seconds": 1.18833,
-      "peak": 0.7688986659049988,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.94,
-          "end": 1.142,
-          "relativeRms": 0.0786
+          "start": 0.055,
+          "end": 0.112,
+          "relativeRms": 0.0089
         }
       ],
       "clippedSamples": 0
@@ -800,14 +690,14 @@
     {
       "voice": "male",
       "id": "m0436",
-      "seconds": 2.62321,
-      "peak": 0.6258094906806946,
+      "seconds": 2.022,
+      "peak": 0.6259368062019348,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.222,
-          "relativeRms": 0.0205
+          "start": 0.06,
+          "end": 0.182,
+          "relativeRms": 0.0197
         }
       ],
       "clippedSamples": 0
@@ -815,14 +705,14 @@
     {
       "voice": "male",
       "id": "m0440",
-      "seconds": 1.741,
-      "peak": 0.6640569567680359,
+      "seconds": 1.34079,
+      "peak": 0.6650506258010864,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.09,
-          "end": 0.152,
-          "relativeRms": 0.0073
+          "start": 0.07,
+          "end": 0.112,
+          "relativeRms": 0.0068
         }
       ],
       "clippedSamples": 0
@@ -830,29 +720,14 @@
     {
       "voice": "male",
       "id": "m0441",
-      "seconds": 2.11121,
-      "peak": 0.6097198128700256,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.095,
-          "end": 0.157,
-          "relativeRms": 0.0101
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0447",
-      "seconds": 1.19129,
-      "peak": 0.5902854800224304,
+      "seconds": 1.61888,
+      "peak": 0.6032785177230835,
       "tones": [],
       "quietIslands": [
         {
           "start": 0.085,
           "end": 0.142,
-          "relativeRms": 0.0063
+          "relativeRms": 0.0089
         }
       ],
       "clippedSamples": 0
@@ -860,14 +735,14 @@
     {
       "voice": "male",
       "id": "m0169",
-      "seconds": 1.86338,
-      "peak": 0.5123035311698914,
+      "seconds": 1.44196,
+      "peak": 0.5104933381080627,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.085,
-          "end": 0.157,
-          "relativeRms": 0.0092
+          "start": 0.06,
+          "end": 0.117,
+          "relativeRms": 0.0084
         }
       ],
       "clippedSamples": 0
@@ -875,29 +750,14 @@
     {
       "voice": "male",
       "id": "m0173",
-      "seconds": 2.06296,
-      "peak": 0.47572794556617737,
+      "seconds": 1.58596,
+      "peak": 0.4752516448497772,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.095,
-          "end": 0.157,
-          "relativeRms": 0.0071
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0183",
-      "seconds": 1.56896,
-      "peak": 0.40860965847969055,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.1,
-          "end": 0.142,
-          "relativeRms": 0.0062
+          "start": 0.075,
+          "end": 0.122,
+          "relativeRms": 0.0068
         }
       ],
       "clippedSamples": 0
@@ -985,29 +845,14 @@
     {
       "voice": "male",
       "id": "m0291",
-      "seconds": 1.45079,
-      "peak": 0.750782310962677,
+      "seconds": 1.10862,
+      "peak": 0.7753554582595825,
       "tones": [],
       "quietIslands": [
         {
-          "start": 1.285,
-          "end": 1.347,
-          "relativeRms": 0.0284
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0295",
-      "seconds": 1.11796,
-      "peak": 0.6967483162879944,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 1.065,
-          "end": 1.117,
-          "relativeRms": 0.0075
+          "start": 0.99,
+          "end": 1.087,
+          "relativeRms": 0.029
         }
       ],
       "clippedSamples": 0
@@ -1015,14 +860,14 @@
     {
       "voice": "male",
       "id": "m0299",
-      "seconds": 1.97954,
-      "peak": 0.4738262891769409,
+      "seconds": 1.53158,
+      "peak": 0.4732747972011566,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.095,
-          "end": 0.147,
-          "relativeRms": 0.008
+          "start": 0.06,
+          "end": 0.117,
+          "relativeRms": 0.0084
         }
       ],
       "clippedSamples": 0
@@ -1030,14 +875,14 @@
     {
       "voice": "male",
       "id": "m0305",
-      "seconds": 2.16196,
-      "peak": 0.779533326625824,
+      "seconds": 1.65796,
+      "peak": 0.7810922265052795,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.075,
-          "end": 0.137,
-          "relativeRms": 0.0072
+          "start": 0.055,
+          "end": 0.117,
+          "relativeRms": 0.007
         }
       ],
       "clippedSamples": 0
@@ -1045,14 +890,14 @@
     {
       "voice": "male",
       "id": "m0261",
-      "seconds": 1.87646,
-      "peak": 0.7627260684967041,
+      "seconds": 1.44983,
+      "peak": 0.7623629570007324,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.075,
-          "end": 0.192,
-          "relativeRms": 0.0595
+          "start": 0.055,
+          "end": 0.157,
+          "relativeRms": 0.0561
         }
       ],
       "clippedSamples": 0
@@ -1060,29 +905,14 @@
     {
       "voice": "male",
       "id": "m0260",
-      "seconds": 2.13304,
-      "peak": 0.5612712502479553,
+      "seconds": 1.63396,
+      "peak": 0.5623242855072021,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.07,
-          "end": 0.202,
-          "relativeRms": 0.0368
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0263",
-      "seconds": 0.84892,
-      "peak": 0.5524652004241943,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.685,
-          "end": 0.847,
-          "relativeRms": 0.0485
+          "start": 0.06,
+          "end": 0.157,
+          "relativeRms": 0.0384
         }
       ],
       "clippedSamples": 0
@@ -1090,14 +920,14 @@
     {
       "voice": "male",
       "id": "m0281",
-      "seconds": 1.63138,
-      "peak": 0.43279895186424255,
+      "seconds": 1.25496,
+      "peak": 0.43186265230178833,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.065,
-          "end": 0.147,
-          "relativeRms": 0.0151
+          "start": 0.06,
+          "end": 0.122,
+          "relativeRms": 0.012
         }
       ],
       "clippedSamples": 0
@@ -1105,14 +935,14 @@
     {
       "voice": "male",
       "id": "m0283",
-      "seconds": 1.91125,
-      "peak": 0.4932974576950073,
+      "seconds": 1.46833,
+      "peak": 0.48931729793548584,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.085,
-          "end": 0.157,
-          "relativeRms": 0.0137
+          "start": 0.06,
+          "end": 0.127,
+          "relativeRms": 0.013
         }
       ],
       "clippedSamples": 0
@@ -1120,14 +950,14 @@
     {
       "voice": "male",
       "id": "m0284",
-      "seconds": 1.87667,
-      "peak": 0.6038562655448914,
+      "seconds": 1.44829,
+      "peak": 0.6068875789642334,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.137,
-          "relativeRms": 0.0079
+          "start": 0.06,
+          "end": 0.122,
+          "relativeRms": 0.0078
         }
       ],
       "clippedSamples": 0
@@ -1210,29 +1040,14 @@
     {
       "voice": "male",
       "id": "m0157",
-      "seconds": 2.10396,
-      "peak": 0.6273166537284851,
+      "seconds": 1.62763,
+      "peak": 0.63348388671875,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.085,
-          "end": 0.172,
-          "relativeRms": 0.0246
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "male",
-      "id": "m0390",
-      "seconds": 2.38083,
-      "peak": 0.5345374345779419,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.095,
-          "end": 0.152,
-          "relativeRms": 0.0069
+          "start": 0.06,
+          "end": 0.137,
+          "relativeRms": 0.0228
         }
       ],
       "clippedSamples": 0
@@ -1240,14 +1055,14 @@
     {
       "voice": "male",
       "id": "m0396",
-      "seconds": 2.10033,
-      "peak": 0.5465641021728516,
+      "seconds": 1.61637,
+      "peak": 0.4804733395576477,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.085,
-          "end": 0.157,
-          "relativeRms": 0.0148
+          "start": 0.065,
+          "end": 0.127,
+          "relativeRms": 0.0115
         }
       ],
       "clippedSamples": 0
@@ -1255,14 +1070,14 @@
     {
       "voice": "female",
       "id": "m0233",
-      "seconds": 2.36654,
-      "peak": 0.36628565192222595,
+      "seconds": 1.82313,
+      "peak": 0.37188416719436646,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.075,
-          "end": 0.367,
-          "relativeRms": 0.0607
+          "start": 0.055,
+          "end": 0.287,
+          "relativeRms": 0.0594
         }
       ],
       "clippedSamples": 0
@@ -1270,14 +1085,14 @@
     {
       "voice": "female",
       "id": "m0379",
-      "seconds": 1.78658,
-      "peak": 0.3682888150215149,
+      "seconds": 1.3785,
+      "peak": 0.37011030316352844,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.217,
-          "relativeRms": 0.0175
+          "start": 0.055,
+          "end": 0.177,
+          "relativeRms": 0.0179
         }
       ],
       "clippedSamples": 0
@@ -1300,14 +1115,14 @@
     {
       "voice": "female",
       "id": "m0205",
-      "seconds": 1.31946,
-      "peak": 0.37963250279426575,
+      "seconds": 1.01862,
+      "peak": 0.37993109226226807,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.08,
-          "end": 0.182,
-          "relativeRms": 0.0124
+          "start": 0.055,
+          "end": 0.142,
+          "relativeRms": 0.013
         }
       ],
       "clippedSamples": 0
@@ -1315,13 +1130,13 @@
     {
       "voice": "female",
       "id": "m0207",
-      "seconds": 1.85417,
-      "peak": 0.38986825942993164,
+      "seconds": 1.42446,
+      "peak": 0.38970980048179626,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.1,
-          "end": 0.187,
+          "start": 0.075,
+          "end": 0.157,
           "relativeRms": 0.0076
         }
       ],
@@ -1330,29 +1145,14 @@
     {
       "voice": "female",
       "id": "m0538",
-      "seconds": 1.78871,
-      "peak": 0.42024534940719604,
+      "seconds": 1.377,
+      "peak": 0.42014840245246887,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.09,
-          "end": 0.182,
-          "relativeRms": 0.0104
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "female",
-      "id": "m0618",
-      "seconds": 1.75396,
-      "peak": 0.4402381479740143,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.085,
-          "end": 0.137,
-          "relativeRms": 0.0074
+          "start": 0.065,
+          "end": 0.142,
+          "relativeRms": 0.0103
         }
       ],
       "clippedSamples": 0
@@ -1420,14 +1220,14 @@
     {
       "voice": "female",
       "id": "m0308",
-      "seconds": 1.6165,
-      "peak": 0.2950068414211273,
+      "seconds": 1.24996,
+      "peak": 0.2944137454032898,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.085,
-          "end": 0.332,
-          "relativeRms": 0.0103
+          "start": 0.06,
+          "end": 0.257,
+          "relativeRms": 0.0102
         }
       ],
       "clippedSamples": 0
@@ -1435,14 +1235,14 @@
     {
       "voice": "female",
       "id": "m0264",
-      "seconds": 1.77946,
-      "peak": 0.5217695832252502,
+      "seconds": 1.37317,
+      "peak": 0.5215653777122498,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.095,
-          "end": 0.182,
-          "relativeRms": 0.0079
+          "start": 0.07,
+          "end": 0.132,
+          "relativeRms": 0.0076
         }
       ],
       "clippedSamples": 0
@@ -1465,29 +1265,14 @@
     {
       "voice": "female",
       "id": "m0156",
-      "seconds": 1.91758,
-      "peak": 0.42471468448638916,
+      "seconds": 1.476,
+      "peak": 0.4264940321445465,
       "tones": [],
       "quietIslands": [
         {
-          "start": 0.085,
-          "end": 0.372,
-          "relativeRms": 0.016
-        }
-      ],
-      "clippedSamples": 0
-    },
-    {
-      "voice": "female",
-      "id": "m0406",
-      "seconds": 0.88621,
-      "peak": 0.4742291569709778,
-      "tones": [],
-      "quietIslands": [
-        {
-          "start": 0.735,
-          "end": 0.817,
-          "relativeRms": 0.0373
+          "start": 0.06,
+          "end": 0.292,
+          "relativeRms": 0.0154
         }
       ],
       "clippedSamples": 0
@@ -1495,33 +1280,42 @@
   ],
   "decoded": 2296,
   "phoneticCertificationOfEntireCorpus": false,
-  "initialToneCandidateCount": 9,
+  "initialToneCandidateCount": 3,
   "toneCleanup": {
-    "files": 9,
+    "files": 6,
     "changes": [
       {
         "voice": "male",
-        "id": "m0677",
+        "id": "m0398",
         "windows": [
           [
-            1.48,
-            1.9114166666666668
+            0.9269999999999999,
+            0.978
           ]
         ],
-        "sourcePcmOutsideWindowsIdentical": true,
-        "remainingToneCandidates": 0
+        "sourcePcmOutsideWindowsIdentical": true
       },
       {
         "voice": "male",
-        "id": "m0540",
+        "id": "m0478",
         "windows": [
           [
-            1.197,
-            1.2419166666666666
+            0.767,
+            0.873
           ]
         ],
-        "sourcePcmOutsideWindowsIdentical": true,
-        "remainingToneCandidates": 0
+        "sourcePcmOutsideWindowsIdentical": true
+      },
+      {
+        "voice": "male",
+        "id": "m0484",
+        "windows": [
+          [
+            0.062,
+            0.123
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true
       },
       {
         "voice": "male",
@@ -1532,48 +1326,18 @@
             1.848
           ]
         ],
-        "sourcePcmOutsideWindowsIdentical": true,
-        "remainingToneCandidates": 0
+        "sourcePcmOutsideWindowsIdentical": true
       },
       {
         "voice": "male",
-        "id": "m0504",
+        "id": "m0677",
         "windows": [
           [
-            0.092,
-            0.143
+            1.48,
+            1.9114166666666668
           ]
         ],
-        "sourcePcmOutsideWindowsIdentical": true,
-        "remainingToneCandidates": 0
-      },
-      {
-        "voice": "male",
-        "id": "m0478",
-        "windows": [
-          [
-            1.012,
-            1.083
-          ],
-          [
-            1.077,
-            1.123
-          ]
-        ],
-        "sourcePcmOutsideWindowsIdentical": true,
-        "remainingToneCandidates": 0
-      },
-      {
-        "voice": "male",
-        "id": "m0291",
-        "windows": [
-          [
-            1.327,
-            1.413
-          ]
-        ],
-        "sourcePcmOutsideWindowsIdentical": true,
-        "remainingToneCandidates": 0
+        "sourcePcmOutsideWindowsIdentical": true
       },
       {
         "voice": "male",
@@ -1584,34 +1348,12 @@
             2.073
           ]
         ],
-        "sourcePcmOutsideWindowsIdentical": true,
-        "remainingToneCandidates": 0
-      },
-      {
-        "voice": "male",
-        "id": "m0398",
-        "windows": [
-          [
-            1.212,
-            1.278
-          ]
-        ],
-        "sourcePcmOutsideWindowsIdentical": true,
-        "remainingToneCandidates": 0
-      },
-      {
-        "voice": "female",
-        "id": "m0391",
-        "windows": [
-          [
-            0.087,
-            0.158
-          ]
-        ],
-        "sourcePcmOutsideWindowsIdentical": true,
-        "remainingToneCandidates": 0
+        "sourcePcmOutsideWindowsIdentical": true
       }
     ],
-    "scope": "very slow only; other tempos unchanged"
-  }
+    "scope": "very slow only; ordinary and slow tempos unchanged"
+  },
+  "wholeWordAdditionalTimeStretch": false,
+  "preparedWordRecordingsCopiedExactly": 1000,
+  "noAdditionalWordStretchVerifiedAfterCleanup": true
 }
