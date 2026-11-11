@@ -1,0 +1,63 @@
+{
+  "published": true,
+  "publicationMessage": "Публикация прошла успешно!",
+  "publicUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "assetCommit": "8380e77d69835342d67bc783baa797f3bb89aa87",
+  "integrationCommit": "4a3a367ecb52d880ac51d509300b3275b8312d64",
+  "sourceSha256": "f72742a128ec822a73159f886a91b00160b23ac1e3c7d175a766ffa76fe3fc88",
+  "newPins": 4,
+  "actualPlaybackTests": [
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "word": "མཉམ་དུ",
+      "loading": 0,
+      "playing": 1,
+      "status": "Мужской голос · по слогам · слог 1 · mao"
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "word": "མཉམ་དུ",
+      "loading": 0,
+      "playing": 1,
+      "status": "Женский голос · по слогам · слог 1 · mao"
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "word": "མཉམ་དུ",
+      "loading": 0,
+      "playing": 1,
+      "status": "Женский голос · по слогам · слог 1 · mao"
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "word": "མཉམ་དུ",
+      "loading": 0,
+      "playing": 1,
+      "status": "Мужской голос · по слогам · слог 1 · mao"
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "word": "གཞོག",
+      "loading": 0,
+      "playing": 1,
+      "status": "Мужской голос · по слогам · слог 1 · gao"
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "word": "ཉིན་མོ",
+      "kind": "word",
+      "status": "Мужской голос · обычный темп",
+      "playing": 1,
+      "loading": 0
+    }
+  ],
+  "userUiRestored": true,
+  "allModeProgressCountsPreserved": true,
+  "nativePhoneticCertification": false
+}

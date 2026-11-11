@@ -12,7 +12,7 @@
   "spellingPlans": 512,
   "words": 500,
   "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
-  "publishedVerified": false,
+  "publishedVerified": true,
   "spellingCommit": "8380e77d69835342d67bc783baa797f3bb89aa87",
   "audioCleanup": {
     "changedSyllablePlans": 105,
@@ -190,5 +190,6 @@
     "allEightUserApprovedSourcesPreserved": true,
     "phoneticCertificationOfEntireCorpus": false,
     "verification": "checks/prefix-ny-20261111.json"
-  }
+  },
+  "integrationCommit": "4a3a367ecb52d880ac51d509300b3275b8312d64"
 }
