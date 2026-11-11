@@ -1,0 +1,21 @@
+{
+  "publishedUrl": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "text": "Некоторые буквы могут встречаться отдельно или в сочетании с другими буквами — в надписной или подписной форме. Отмечайте букву и в том случае, если она присутствует в таком сочетании.",
+  "sourceSha256": "ba33736e009c3930d26221ffebb0459955f7e2a214c1136539f4c9e15923ae7f",
+  "codeCommit": "50e99e5c7cde256412f1c5e4f741bf9fd81aa578",
+  "replacements": 2,
+  "onlyTwoTextReplacements": true,
+  "audioPlayerCodeUnchanged": true,
+  "audioBanksUnchanged": 216,
+  "phraseLabelsUnchanged": true,
+  "liveTextVerified": true,
+  "settingsAndProgressPreserved": true,
+  "screenshot": "outputs/alphabet-hint-published.png",
+  "archive": {
+    "crcPassed": true,
+    "members": 2689,
+    "existingMembersUnchanged": 2684,
+    "audioMembersUnchanged": 2526,
+    "sha256": "e7f38525f4e0c3974a3ff832256c68517d7e1f40b7d738b7d4404811b073a3f9"
+  }
+}

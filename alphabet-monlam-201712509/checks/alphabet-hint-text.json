@@ -7,5 +7,6 @@
   "onlyTwoTextReplacements": true,
   "audioPlayerCodeUnchanged": true,
   "audioBanksUnchanged": 216,
-  "phraseLabelRegistryUnchanged": true
+  "phraseLabelRegistryUnchanged": true,
+  "allAudioBankSha256Unchanged": true
 }

@@ -21,7 +21,7 @@
     "wordVoicePairsChecked": 1000,
     "fragmentBoundariesChecked": 21508
   },
-  "previousIntegrationCommit": "2d9fbc11416cf82f3e710590292eb8752563e18a",
+  "previousIntegrationCommit": "f8f9aa0b8ff4bb7654454980d7900bcd87f7ff7a",
   "malePronunciationRepairs": {
     "changedRecordings": 24,
     "isolatedTonesRemoved": 11,
@@ -36,7 +36,7 @@
     "sharedFragmentAutomaticTranscripts": 519,
     "nativePhoneticCertification": false
   },
-  "publicVerification": "checks/public-phrase-labels-20261111.json",
+  "publicVerification": "checks/public-alphabet-hint-20261111.json",
   "slowAudioCommit": "8380e77d69835342d67bc783baa797f3bb89aa87",
   "slowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8380e77d69835342d67bc783baa797f3bb89aa87/alphabet-monlam-201712509/audio-slow/",
   "slowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8cb523806fc8202b9a497373d07175808322d7e5/alphabet-monlam-201712509/spelling-slow/",
@@ -52,7 +52,7 @@
     "playerTests": "checks/slow-player.json",
     "scope": "tempo rendering only; ordinary word repairs are documented separately"
   },
-  "sourceSha256": "77dfb3d20d88e09550ee03e8ffa9b900544ae491301ce8c089c7528ac855a79a",
+  "sourceSha256": "ba33736e009c3930d26221ffebb0459955f7e2a214c1136539f4c9e15923ae7f",
   "reportedWordCorrections": {
     "wordRecordingsRepaired": 7,
     "sharedFragmentsRepaired": 2,
@@ -218,7 +218,7 @@
     "preparedWordCopies": 1000,
     "wholeWordCadence": "prepared audition style; no further slowdown"
   },
-  "integrationCommit": "f8f9aa0b8ff4bb7654454980d7900bcd87f7ff7a",
+  "integrationCommit": "50e99e5c7cde256412f1c5e4f741bf9fd81aa578",
   "previousSpellingCommit": "8380e77d69835342d67bc783baa797f3bb89aa87",
   "slowSpellingCommit": "8cb523806fc8202b9a497373d07175808322d7e5",
   "previousVerySlowAudioCommit": "0b98ba2dbdc713382d4602a6dd74ff8f7f3e73f1",
@@ -240,5 +240,11 @@
     "verification": "checks/phrase-label-client.json",
     "audioPreservation": "checks/phrase-label-audio-preservation.json",
     "audioChanged": false
+  },
+  "alphabetHint": {
+    "text": "Некоторые буквы могут встречаться отдельно или в сочетании с другими буквами — в надписной или подписной форме. Отмечайте букву и в том случае, если она присутствует в таком сочетании.",
+    "scope": "glyph exercise side-card hint",
+    "audioChanged": false,
+    "verification": "checks/alphabet-hint-text.json"
   }
 }
