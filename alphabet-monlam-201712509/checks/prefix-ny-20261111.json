@@ -1,0 +1,915 @@
+{
+  "mainSourcesChanged": 33,
+  "newClipChecks": [
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0232",
+      "seconds": 1.608,
+      "peak": 0.7110834121704102,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0893",
+      "seconds": 0.768,
+      "peak": 0.3357124924659729,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0846",
+      "seconds": 0.744,
+      "peak": 0.3594418466091156,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0847",
+      "seconds": 0.696,
+      "peak": 0.5091710090637207,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0697",
+      "seconds": 0.696,
+      "peak": 0.4485686421394348,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0698",
+      "seconds": 0.696,
+      "peak": 0.3690476715564728,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0700",
+      "seconds": 0.696,
+      "peak": 0.5519670248031616,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0059",
+      "seconds": 0.696,
+      "peak": 0.4102785885334015,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0061",
+      "seconds": 0.768,
+      "peak": 0.762439489364624,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0008",
+      "seconds": 0.84,
+      "peak": 0.6630921363830566,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0499",
+      "seconds": 0.768,
+      "peak": 0.6260790228843689,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m1082",
+      "seconds": 0.72,
+      "peak": 0.5228500366210938,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m1083",
+      "seconds": 0.696,
+      "peak": 0.34845593571662903,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0268",
+      "seconds": 1.296,
+      "peak": 0.44622802734375,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m1043",
+      "seconds": 0.888,
+      "peak": 0.5193092823028564,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m1044",
+      "seconds": 0.72,
+      "peak": 0.41048645973205566,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m1045",
+      "seconds": 0.696,
+      "peak": 0.44581177830696106,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "main-m0775",
+      "seconds": 0.696,
+      "peak": 0.4561770260334015,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "@ga-prefix",
+      "seconds": 0.744,
+      "peak": 0.6700373888015747,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "@da-prefix",
+      "seconds": 0.768,
+      "peak": 0.46614623069763184,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "@ba-prefix",
+      "seconds": 0.744,
+      "peak": 0.467152863740921,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "@ma-prefix",
+      "seconds": 0.768,
+      "peak": 0.37162622809410095,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "@achung-prefix",
+      "seconds": 0.768,
+      "peak": 0.4470248222351074,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 1,
+      "symbol": "ཉ",
+      "seconds": 0.816,
+      "peak": 0.6680168509483337,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0893",
+      "seconds": 0.696,
+      "peak": 0.33532166481018066,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0846",
+      "seconds": 0.696,
+      "peak": 0.2924047112464905,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0847",
+      "seconds": 0.696,
+      "peak": 0.30627548694610596,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0697",
+      "seconds": 0.696,
+      "peak": 0.2726181447505951,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0698",
+      "seconds": 0.696,
+      "peak": 0.3403540253639221,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0700",
+      "seconds": 0.696,
+      "peak": 0.321713924407959,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0059",
+      "seconds": 0.696,
+      "peak": 0.2555175721645355,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0061",
+      "seconds": 0.72,
+      "peak": 0.33783599734306335,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0008",
+      "seconds": 0.768,
+      "peak": 0.3458029627799988,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m1082",
+      "seconds": 0.72,
+      "peak": 0.362461656332016,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m1083",
+      "seconds": 0.696,
+      "peak": 0.25246793031692505,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m1043",
+      "seconds": 0.696,
+      "peak": 0.3537575304508209,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m1044",
+      "seconds": 0.696,
+      "peak": 0.22601938247680664,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m1045",
+      "seconds": 0.696,
+      "peak": 0.3055673837661743,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "main-m0775",
+      "seconds": 0.792,
+      "peak": 0.30810829997062683,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "@ga-prefix",
+      "seconds": 0.744,
+      "peak": 0.76374351978302,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "@da-prefix",
+      "seconds": 0.768,
+      "peak": 0.4149034023284912,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "@ba-prefix",
+      "seconds": 0.768,
+      "peak": 0.41489091515541077,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "@ma-prefix",
+      "seconds": 0.768,
+      "peak": 0.2458457201719284,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "@achung-prefix",
+      "seconds": 0.768,
+      "peak": 0.36622247099876404,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 1,
+      "symbol": "ཉ",
+      "seconds": 0.768,
+      "peak": 0.34617555141448975,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0232",
+      "seconds": 1.90425,
+      "peak": 0.7079269886016846,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0893",
+      "seconds": 0.84196,
+      "peak": 0.33702409267425537,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0846",
+      "seconds": 0.81575,
+      "peak": 0.35924115777015686,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0847",
+      "seconds": 0.77421,
+      "peak": 0.5055371522903442,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0697",
+      "seconds": 0.77729,
+      "peak": 0.44964128732681274,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0698",
+      "seconds": 0.77642,
+      "peak": 0.3719685673713684,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0700",
+      "seconds": 0.77767,
+      "peak": 0.5455589890480042,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0059",
+      "seconds": 0.77179,
+      "peak": 0.4087316691875458,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0061",
+      "seconds": 0.86213,
+      "peak": 0.7573164701461792,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0008",
+      "seconds": 0.92146,
+      "peak": 0.6633937358856201,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0499",
+      "seconds": 0.85233,
+      "peak": 0.6249442100524902,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m1082",
+      "seconds": 0.80379,
+      "peak": 0.518003523349762,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m1083",
+      "seconds": 0.77296,
+      "peak": 0.3452904224395752,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0268",
+      "seconds": 1.50537,
+      "peak": 0.4439106285572052,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m1043",
+      "seconds": 0.99387,
+      "peak": 0.5182847380638123,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m1044",
+      "seconds": 0.77804,
+      "peak": 0.4047430455684662,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m1045",
+      "seconds": 0.77129,
+      "peak": 0.44669094681739807,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "main-m0775",
+      "seconds": 0.77867,
+      "peak": 0.43827417492866516,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "@ga-prefix",
+      "seconds": 0.83442,
+      "peak": 0.6667225956916809,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "@da-prefix",
+      "seconds": 0.86142,
+      "peak": 0.4392794370651245,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "@ba-prefix",
+      "seconds": 0.84196,
+      "peak": 0.4643043577671051,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "@ma-prefix",
+      "seconds": 0.84446,
+      "peak": 0.3712140619754791,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "@achung-prefix",
+      "seconds": 0.84454,
+      "peak": 0.4456927478313446,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "rate": 0.8,
+      "symbol": "ཉ",
+      "seconds": 0.91683,
+      "peak": 0.6633937358856201,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0893",
+      "seconds": 0.77825,
+      "peak": 0.33422544598579407,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0846",
+      "seconds": 0.75713,
+      "peak": 0.29072344303131104,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0847",
+      "seconds": 0.77792,
+      "peak": 0.3056116998195648,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0697",
+      "seconds": 0.77771,
+      "peak": 0.2718423306941986,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0698",
+      "seconds": 0.76633,
+      "peak": 0.3392324447631836,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0700",
+      "seconds": 0.75567,
+      "peak": 0.3208123445510864,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0059",
+      "seconds": 0.77242,
+      "peak": 0.25594666600227356,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0061",
+      "seconds": 0.79571,
+      "peak": 0.3358878493309021,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0008",
+      "seconds": 0.85033,
+      "peak": 0.3462217450141907,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m1082",
+      "seconds": 0.79846,
+      "peak": 0.359856516122818,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m1083",
+      "seconds": 0.76183,
+      "peak": 0.2520841956138611,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m1043",
+      "seconds": 0.77025,
+      "peak": 0.3527311384677887,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m1044",
+      "seconds": 0.75871,
+      "peak": 0.22399716079235077,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m1045",
+      "seconds": 0.74271,
+      "peak": 0.30532127618789673,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "main-m0775",
+      "seconds": 0.8815,
+      "peak": 0.30789756774902344,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "@ga-prefix",
+      "seconds": 0.82583,
+      "peak": 0.7655717730522156,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "@da-prefix",
+      "seconds": 0.84613,
+      "peak": 0.40826594829559326,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "@ba-prefix",
+      "seconds": 0.85504,
+      "peak": 0.4132220149040222,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "@ma-prefix",
+      "seconds": 0.84213,
+      "peak": 0.24275155365467072,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "@achung-prefix",
+      "seconds": 0.85713,
+      "peak": 0.3372012972831726,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "rate": 0.8,
+      "symbol": "ཉ",
+      "seconds": 0.84954,
+      "peak": 0.3462217450141907,
+      "tones": [],
+      "quietIslands": [],
+      "clippedSamples": 0
+    }
+  ],
+  "approvedSourcesPreserved": 8,
+  "allOtherMainClipsByteIdentical": true,
+  "coverageChecks": 2600,
+  "published": false,
+  "phoneticCertification": false,
+  "prefixPlans": 116,
+  "newlyFusedPlans": 86,
+  "wordsWithPrefixes": 189,
+  "encodedClipsChecked": 90,
+  "browserPlaybackRate": 1
+}

@@ -1,0 +1,30 @@
+{
+  "reviewedAt": "2026-11-11",
+  "sources": [
+    {
+      "url": "https://www.itibet.org/tibetan_reader/?page=hint",
+      "points": [
+        "Prefix name immediately followed by o",
+        "Order: prefix, superscript, root, subscript, vowel, suffix, postsuffix, cumulative result"
+      ]
+    },
+    {
+      "url": "https://tibetanlanguage.school/learn/standard-tibetan/unit-3/",
+      "sections": "4.1-4.3",
+      "points": [
+        "o(k) is the prefix spelling marker",
+        "Voicing changes are incorporated into cumulative jorlok results",
+        "Stacks use btags and cumulative results"
+      ]
+    },
+    {
+      "url": "https://tibetanlanguage.school/learn/standard-tibetan/unit-1/",
+      "section": "3.2",
+      "points": [
+        "Nya is a palatal nasal; keep its nasal consonant in nya/nyi/nye"
+      ]
+    }
+  ],
+  "userConvention": "One connected prefix-name-plus-o unit with an audible a-to-o glide, no internal inter-clip gap; retain later syllable-component pauses.",
+  "scope": "All five prefixes in both voices; clear NY family; user-reported source tail and unclear words; preserve accepted recordings."
+}

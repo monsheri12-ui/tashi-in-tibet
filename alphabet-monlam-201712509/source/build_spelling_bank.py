@@ -5,7 +5,7 @@ import hashlib
 import json
 import sys
 import wave
-from ao_glide_plans import AO_SYMBOL, with_ao_glide
+from ao_glide_plans import PREFIX_GLIDES, with_prefix_glides
 
 ROOT = Path(__file__).resolve().parent
 corpus = json.loads((ROOT / 'monlam-corpus.json').read_text())
@@ -83,12 +83,12 @@ for voice, folder in [('female', 'monlam-wav'), ('male', 'monlam-wav-male')]:
             if ch in '་།༎༏༐༑༔ \n\r\t':
                 continue
             assert aliases.get(ch, ch) in bank['clips'], (word, ch)
-    if voice in ('male', 'female'):
-        audio, metadata = pcm(ROOT / 'monlam-spelling-extra' / f'{voice}-ao-prefix.wav')
-        bank['clips'][AO_SYMBOL] = encoded(audio, bit_rate=128)
-        bank['labels'][AO_SYMBOL] = 'ao'
-        records[AO_SYMBOL] = metadata
-    bank['plans'] = with_ao_glide(
+    for unit in PREFIX_GLIDES.values():
+        audio, metadata = pcm(ROOT / 'monlam-spelling-extra' / f"{voice}-{unit['filename']}.wav")
+        bank['clips'][unit['symbol']] = encoded(audio, bit_rate=128)
+        bank['labels'][unit['symbol']] = unit['label']
+        records[unit['symbol']] = metadata
+    bank['plans'] = with_prefix_glides(
         json.loads((ROOT / 'monlam-jorlok-plans.json').read_text()), voice)
     for item in bank['plans'].values():
         for step in item['steps']:
