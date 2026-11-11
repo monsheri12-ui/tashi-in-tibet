@@ -1,0 +1,41 @@
+{
+  "compiled": true,
+  "unchangedArrays": {
+    "LETTERS": true,
+    "WORDS": true,
+    "VOWELS": true,
+    "CONFUSABLE_GROUPS": true
+  },
+  "labels": {
+    "ཤ་བཙིར་": "Слово",
+    "ཤ་བཙིར་རྒྱག་": "Словосочетание"
+  },
+  "wordAndJorlokBothPresent": true,
+  "browserPlaybackRateOne": true,
+  "allSixBases": [
+    {
+      "name": "MONLAM_AUDIO_BASE",
+      "url": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8380e77d69835342d67bc783baa797f3bb89aa87/alphabet-monlam-201712509/audio/"
+    },
+    {
+      "name": "MONLAM_SLOW_AUDIO_BASE",
+      "url": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8380e77d69835342d67bc783baa797f3bb89aa87/alphabet-monlam-201712509/audio-slow/"
+    },
+    {
+      "name": "MONLAM_VERY_SLOW_AUDIO_BASE",
+      "url": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8cb523806fc8202b9a497373d07175808322d7e5/alphabet-monlam-201712509/audio-very-slow/"
+    },
+    {
+      "name": "MONLAM_SPELLING_BASE",
+      "url": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8cb523806fc8202b9a497373d07175808322d7e5/alphabet-monlam-201712509/spelling/"
+    },
+    {
+      "name": "MONLAM_SLOW_SPELLING_BASE",
+      "url": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8cb523806fc8202b9a497373d07175808322d7e5/alphabet-monlam-201712509/spelling-slow/"
+    },
+    {
+      "name": "MONLAM_VERY_SLOW_SPELLING_BASE",
+      "url": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/8cb523806fc8202b9a497373d07175808322d7e5/alphabet-monlam-201712509/spelling-very-slow/"
+    }
+  ]
+}
