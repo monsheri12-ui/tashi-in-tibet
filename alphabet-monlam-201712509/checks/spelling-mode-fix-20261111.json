@@ -1,0 +1,59 @@
+{
+  "published": true,
+  "url": "https://foxsaywawa.tilda.ws/page201712509.html",
+  "sourceSha256": "fbebcd96f399fff8903e5a039dd77dadeb95886034df2ccc518adf328d8acdf6",
+  "audioAssetsChanged": false,
+  "allAudioUrlsUnchanged": true,
+  "editorSourceComparedBeforeReplacement": true,
+  "editorPasteVerified": true,
+  "publicationMessage": "Публикация прошла успешно!",
+  "wordAndJorlokAvailableIn": [
+    "glyph",
+    "syllable"
+  ],
+  "temposWithBothButtons": [
+    1,
+    0.8,
+    0.6
+  ],
+  "verySlowPlaybackVerified": [
+    {
+      "mode": "syllable",
+      "voice": "male",
+      "kind": "jorlok",
+      "playing": 1,
+      "syllableHighlighted": true
+    },
+    {
+      "mode": "syllable",
+      "voice": "female",
+      "kind": "jorlok",
+      "playing": 1,
+      "syllableHighlighted": true
+    },
+    {
+      "mode": "syllable",
+      "voice": "male",
+      "kind": "word",
+      "playing": 1
+    },
+    {
+      "mode": "syllable",
+      "voice": "female",
+      "kind": "word",
+      "playing": 1
+    },
+    {
+      "mode": "glyph",
+      "voice": "female",
+      "kind": "jorlok",
+      "playing": 1
+    }
+  ],
+  "answersNotSubmitted": true,
+  "learnerProgressPreserved": true,
+  "initialModeVoiceAndTempoRestored": true,
+  "screenshot": "screenshots/spelling-restored-very-slow.png",
+  "idempotentPatch": true,
+  "integrationCommit": "43f603c54d3f4adabe467a81149e43cc1b4d1678"
+}
