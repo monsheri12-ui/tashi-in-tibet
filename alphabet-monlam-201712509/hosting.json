@@ -21,7 +21,7 @@
     "wordVoicePairsChecked": 1000,
     "fragmentBoundariesChecked": 21508
   },
-  "previousIntegrationCommit": "4a3a367ecb52d880ac51d509300b3275b8312d64",
+  "previousIntegrationCommit": "2f05d954b7e9dcfd45867e6e719b5c2eadb2416b",
   "malePronunciationRepairs": {
     "changedRecordings": 24,
     "isolatedTonesRemoved": 11,
@@ -52,7 +52,7 @@
     "playerTests": "checks/slow-player.json",
     "scope": "tempo rendering only; ordinary word repairs are documented separately"
   },
-  "sourceSha256": "2046c890bb3e3730dc3d4a5bc283be357ea78fc400229ab1b710c5415d21e776",
+  "sourceSha256": "6346e3ae8e09d978dfa90b3b203734f32048f33d40162ec0e933c78697d3a703",
   "reportedWordCorrections": {
     "wordRecordingsRepaired": 7,
     "sharedFragmentsRepaired": 2,
@@ -192,16 +192,15 @@
     "phoneticCertificationOfEntireCorpus": false,
     "verification": "checks/prefix-ny-20261111.json"
   },
-  "verySlowAudioCommit": "4cf4fdb2e6e81db3e49edcd8ff6673eda6841364",
-  "verySlowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/4cf4fdb2e6e81db3e49edcd8ff6673eda6841364/alphabet-monlam-201712509/audio-very-slow/",
-  "verySlowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/4cf4fdb2e6e81db3e49edcd8ff6673eda6841364/alphabet-monlam-201712509/spelling-very-slow/",
+  "verySlowAudioCommit": "0b98ba2dbdc713382d4602a6dd74ff8f7f3e73f1",
+  "verySlowAudioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/0b98ba2dbdc713382d4602a6dd74ff8f7f3e73f1/alphabet-monlam-201712509/audio-very-slow/",
+  "verySlowSpellingBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/0b98ba2dbdc713382d4602a6dd74ff8f7f3e73f1/alphabet-monlam-201712509/spelling-very-slow/",
   "availableTempos": [
     1,
     0.8,
     0.6
   ],
   "verySlowReading": {
-    "rate": 0.6,
     "browserPlaybackRate": 1,
     "clearWholeWords": 500,
     "voices": [
@@ -209,10 +208,14 @@
       "female"
     ],
     "ordinaryAndSlowAudioUnchanged": true,
-    "toneResidueFilesCleaned": 9,
+    "toneResidueFilesCleaned": 6,
     "existingPrefixAndNySourcesPreserved": true,
     "fullCorpusHumanPhoneticCertification": false,
     "finalLNoteWordCount": 31,
-    "verification": "checks/very-slow-verification.json"
+    "verification": "checks/very-slow-verification.json",
+    "tempoSelectorValue": 0.6,
+    "wholeWordAdditionalTimeStretch": false,
+    "preparedWordCopies": 1000,
+    "wholeWordCadence": "prepared audition style; no further slowdown"
   }
 }
