@@ -1,0 +1,5133 @@
+{
+  "reviewedEntries": 500,
+  "phraseEntries": 183,
+  "newPhraseLabels": 182,
+  "wordLabels": 317,
+  "method": "Explicit structural review for this trainer; includes complex verb/adjective constructions in the learner-facing phrase label. Not a universal lexicographic word-boundary claim.",
+  "sources": {
+    "verbs": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+    "adjectives": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+    "phrases": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/"
+  },
+  "categoryCounts": {
+    "word_or_lexicalized_entry": 317,
+    "verbal_combination": 134,
+    "nominal_adjectival_combination": 17,
+    "other_verbal_combination": 8,
+    "particle_or_distributive_combination": 11,
+    "negative_predicative_combination": 11,
+    "coordination": 2
+  },
+  "audioChanged": false,
+  "displayedTibetanTextChanged": false,
+  "records": [
+    {
+      "index": 1,
+      "text": "ཀི་",
+      "key": "ཀི",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 2,
+      "text": "ཀོ་ཐག་",
+      "key": "ཀོ་ཐག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 3,
+      "text": "ཀོ་བ་",
+      "key": "ཀོ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 4,
+      "text": "ཀོ་བ་གཏོང་",
+      "key": "ཀོ་བ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཀོ་བ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 5,
+      "text": "ཀྱོག་ཀྱོག་",
+      "key": "ཀྱོག་ཀྱོག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 6,
+      "text": "ཀྲབ་པོ་",
+      "key": "ཀྲབ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 7,
+      "text": "ཁ་",
+      "key": "ཁ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 8,
+      "text": "ཁ་ཁུ་སིམ་པོ་",
+      "key": "ཁ་ཁུ་སིམ་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "ཁ",
+        "ཁུ་སིམ་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 9,
+      "text": "ཁ་གཅོད་",
+      "key": "ཁ་གཅོད",
+      "label": "Словосочетание",
+      "category": "other_verbal_combination",
+      "components": [
+        "ཁ",
+        "གཅོད"
+      ],
+      "reason": "Глагольное/предикативное сочетание с самостоятельным зависимым компонентом.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 10,
+      "text": "ཁ་གཏོང་",
+      "key": "ཁ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཁ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 11,
+      "text": "ཁ་གསང་པོ་",
+      "key": "ཁ་གསང་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "ཁ",
+        "གསང་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 12,
+      "text": "ཁ་ཆད་",
+      "key": "ཁ་ཆད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 13,
+      "text": "ཁ་ཆད་བྱེད་",
+      "key": "ཁ་ཆད་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཁ་ཆད",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 14,
+      "text": "ཁ་པར་",
+      "key": "ཁ་པར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 15,
+      "text": "ཁ་མཆུ་",
+      "key": "ཁ་མཆུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 16,
+      "text": "ཁ་རྒྱག་",
+      "key": "ཁ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཁ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 17,
+      "text": "ཁ་རྡུང་གཏོང་",
+      "key": "ཁ་རྡུང་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཁ་རྡུང",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 18,
+      "text": "ཁ་ལག་",
+      "key": "ཁ་ལག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 19,
+      "text": "ཁག་",
+      "key": "ཁག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 20,
+      "text": "ཁག་ཁག་",
+      "key": "ཁག་ཁག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 21,
+      "text": "ཁག་པོ་",
+      "key": "ཁག་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 22,
+      "text": "ཁབ་",
+      "key": "ཁབ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 23,
+      "text": "ཁབ་གཟེར་",
+      "key": "ཁབ་གཟེར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 24,
+      "text": "ཁབ་རྒྱག་",
+      "key": "ཁབ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཁབ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 25,
+      "text": "ཁར་ཐུག་",
+      "key": "ཁར་ཐུག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 26,
+      "text": "ཁུལ་",
+      "key": "ཁུལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 27,
+      "text": "ཁེ་པོ་",
+      "key": "ཁེ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 28,
+      "text": "ཁེ་བཟང་",
+      "key": "ཁེ་བཟང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 29,
+      "text": "ཁོང་ཁྲོ་",
+      "key": "ཁོང་ཁྲོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 30,
+      "text": "ཁོང་ཁྲོ་ཟ་བ་",
+      "key": "ཁོང་ཁྲོ་ཟ་བ",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཁོང་ཁྲོ",
+        "ཟ་བ"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 31,
+      "text": "ཁྱབ་བསྒྲགས་",
+      "key": "ཁྱབ་བསྒྲགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 32,
+      "text": "ཁྱབ་བསྒྲགས་བྱེད་",
+      "key": "ཁྱབ་བསྒྲགས་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཁྱབ་བསྒྲགས",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 33,
+      "text": "ཁྲི་",
+      "key": "ཁྲི",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 34,
+      "text": "ཁྲི་རྒྱག་",
+      "key": "ཁྲི་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཁྲི",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 35,
+      "text": "ཁྲིད་",
+      "key": "ཁྲིད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 36,
+      "text": "ཁྲིད་བྱེད་",
+      "key": "ཁྲིད་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཁྲིད",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 37,
+      "text": "གང་ཡང་",
+      "key": "གང་ཡང",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "གང",
+        "ཡང"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 38,
+      "text": "གང་ཡང་མེད་པ་",
+      "key": "གང་ཡང་མེད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "གང་ཡང",
+        "མེད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 39,
+      "text": "གངས་",
+      "key": "གངས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 40,
+      "text": "གངས་ཤུད་",
+      "key": "གངས་ཤུད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 41,
+      "text": "གངས་ཤུད་གཏོང་",
+      "key": "གངས་ཤུད་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གངས་ཤུད",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 42,
+      "text": "གཅིག་པ་",
+      "key": "གཅིག་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 43,
+      "text": "གཅིག་པུ་",
+      "key": "གཅིག་པུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 44,
+      "text": "གཅིན་པ་",
+      "key": "གཅིན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 45,
+      "text": "གཅིན་པ་གཏོང་",
+      "key": "གཅིན་པ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གཅིན་པ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 46,
+      "text": "གཏན་འཇགས་",
+      "key": "གཏན་འཇགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 47,
+      "text": "གཏིང་",
+      "key": "གཏིང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 48,
+      "text": "གཏིང་མེད་པ་",
+      "key": "གཏིང་མེད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "གཏིང",
+        "མེད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 49,
+      "text": "གཏིང་རིང་པོ་",
+      "key": "གཏིང་རིང་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "གཏིང",
+        "རིང་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 50,
+      "text": "གཏོང་",
+      "key": "གཏོང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 51,
+      "text": "གཏོང་ཕོད་པོ་",
+      "key": "གཏོང་ཕོད་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания.",
+      "reviewNote": "Сохранена исходная лексическая единица: составная адъективная основа с окончанием; нет уверенной границы свободного сочетания."
+    },
+    {
+      "index": 52,
+      "text": "གདན་",
+      "key": "གདན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 53,
+      "text": "གདན་རྒྱག་",
+      "key": "གདན་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གདན",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 54,
+      "text": "གནོད་པ་",
+      "key": "གནོད་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 55,
+      "text": "གབ་པ་",
+      "key": "གབ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 56,
+      "text": "གཙང་མ་",
+      "key": "གཙང་མ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 57,
+      "text": "གཞན་",
+      "key": "གཞན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 58,
+      "text": "གཞི་གཞུང་པོ་",
+      "key": "གཞི་གཞུང་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 59,
+      "text": "གཞུག་གུ་",
+      "key": "གཞུག་གུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 60,
+      "text": "གཞོག་",
+      "key": "གཞོག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 61,
+      "text": "གཞོན་ནུ་",
+      "key": "གཞོན་ནུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 62,
+      "text": "གཞོན་པ་",
+      "key": "གཞོན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 63,
+      "text": "གཟེར་",
+      "key": "གཟེར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 64,
+      "text": "གཟེར་རྒྱག་",
+      "key": "གཟེར་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གཟེར",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 65,
+      "text": "གཟོང་",
+      "key": "གཟོང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 66,
+      "text": "གར་པོ་",
+      "key": "གར་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 67,
+      "text": "གཤག་བཅོས་",
+      "key": "གཤག་བཅོས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 68,
+      "text": "གཤག་བཅོས་བྱེད་",
+      "key": "གཤག་བཅོས་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གཤག་བཅོས",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 69,
+      "text": "གཤམ་ལ་",
+      "key": "གཤམ་ལ",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "གཤམ",
+        "ལ"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 70,
+      "text": "གསོལ་ཚིགས་",
+      "key": "གསོལ་ཚིགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 71,
+      "text": "གསོལ་ཚིགས་གཏོང་",
+      "key": "གསོལ་ཚིགས་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གསོལ་ཚིགས",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 72,
+      "text": "གསོས་",
+      "key": "གསོས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 73,
+      "text": "གསོས་པ་",
+      "key": "གསོས་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 74,
+      "text": "གུ་ཡངས་པོ་",
+      "key": "གུ་ཡངས་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "གུ",
+        "ཡངས་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 75,
+      "text": "གུག་གུག་",
+      "key": "གུག་གུག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 76,
+      "text": "གུར་",
+      "key": "གུར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 77,
+      "text": "གུར་རྒྱག་",
+      "key": "གུར་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གུར",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 78,
+      "text": "གུས་ཞབས་",
+      "key": "གུས་ཞབས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 79,
+      "text": "གུས་ཞབས་བྱེད་",
+      "key": "གུས་ཞབས་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གུས་ཞབས",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 80,
+      "text": "གོ་རིམ་མེད་པ་",
+      "key": "གོ་རིམ་མེད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "གོ་རིམ",
+        "མེད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 81,
+      "text": "གོང་ཆེན་པོ་",
+      "key": "གོང་ཆེན་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "གོང",
+        "ཆེན་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 82,
+      "text": "གོམ་པ་",
+      "key": "གོམ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 83,
+      "text": "གྱོང་གུན་",
+      "key": "གྱོང་གུན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 84,
+      "text": "གྲ་སྒྲིག་བྱེད་",
+      "key": "གྲ་སྒྲིག་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གྲ་སྒྲིག",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 85,
+      "text": "གྲངས་ཚད་མེད་པ་",
+      "key": "གྲངས་ཚད་མེད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "གྲངས་ཚད",
+        "མེད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 86,
+      "text": "གྲི་",
+      "key": "གྲི",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 87,
+      "text": "གྲུ་",
+      "key": "གྲུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 88,
+      "text": "གྲུ་གཏོང་",
+      "key": "གྲུ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གྲུ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 89,
+      "text": "གྲུང་པོ་",
+      "key": "གྲུང་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 90,
+      "text": "གྲྭ་པ་",
+      "key": "གྲྭ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 91,
+      "text": "གྲྭ་པ་བྱེད་",
+      "key": "གྲྭ་པ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གྲྭ་པ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 92,
+      "text": "གླིང་བུ་གཏོང་",
+      "key": "གླིང་བུ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གླིང་བུ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 93,
+      "text": "གླུ་",
+      "key": "གླུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 94,
+      "text": "གླུ་གཏོང་",
+      "key": "གླུ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གླུ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 95,
+      "text": "གླེན་པ་",
+      "key": "གླེན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 96,
+      "text": "གློ་",
+      "key": "གློ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 97,
+      "text": "གློ་རྒྱག་",
+      "key": "གློ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གློ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 98,
+      "text": "གློག་རྒྱག་",
+      "key": "གློག་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "གློག",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 99,
+      "text": "ང་རྒྱལ་",
+      "key": "ང་རྒྱལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 100,
+      "text": "ང་རྒྱལ་བྱེད་",
+      "key": "ང་རྒྱལ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ང་རྒྱལ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 101,
+      "text": "ངན་",
+      "key": "ངན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 102,
+      "text": "ངོ་མ་",
+      "key": "ངོ་མ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 103,
+      "text": "ངོ་རྒོལ་",
+      "key": "ངོ་རྒོལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 104,
+      "text": "ངོ་རྒོལ་བྱེད་",
+      "key": "ངོ་རྒོལ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ངོ་རྒོལ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 105,
+      "text": "ངོ་རྒོལ་རྒྱག་",
+      "key": "ངོ་རྒོལ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ངོ་རྒོལ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 106,
+      "text": "ཆང་ས་",
+      "key": "ཆང་ས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 107,
+      "text": "ཆབ་སྒྲོག་",
+      "key": "ཆབ་སྒྲོག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 108,
+      "text": "ཆབ་སྒྲོག་རྒྱག་",
+      "key": "ཆབ་སྒྲོག་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཆབ་སྒྲོག",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 109,
+      "text": "ཆམ་པ་",
+      "key": "ཆམ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 110,
+      "text": "ཆམ་པ་རྒྱག་",
+      "key": "ཆམ་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཆམ་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 111,
+      "text": "ཆར་པ་",
+      "key": "ཆར་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 112,
+      "text": "ཆུ་",
+      "key": "ཆུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 113,
+      "text": "ཆུ་གཏོང་",
+      "key": "ཆུ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཆུ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 114,
+      "text": "ཆུ་རྒྱག་",
+      "key": "ཆུ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཆུ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 115,
+      "text": "ཆེན་པོ་",
+      "key": "ཆེན་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 116,
+      "text": "ཆོས་",
+      "key": "ཆོས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 117,
+      "text": "ཇ་",
+      "key": "ཇ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 118,
+      "text": "ཇ་གཏོང་",
+      "key": "ཇ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཇ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 119,
+      "text": "ཇག་པ་",
+      "key": "ཇག་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 120,
+      "text": "ཇག་པ་རྒྱག་",
+      "key": "ཇག་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཇག་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 121,
+      "text": "ཉིན་གུང་",
+      "key": "ཉིན་གུང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 122,
+      "text": "ཉིན་མོ་",
+      "key": "ཉིན་མོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 123,
+      "text": "ཉིས་བརྩེགས་",
+      "key": "ཉིས་བརྩེགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 124,
+      "text": "ཉུང་ཉུང་",
+      "key": "ཉུང་ཉུང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 125,
+      "text": "ཉུང་བ་",
+      "key": "ཉུང་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 126,
+      "text": "ཉེས་འཛུགས་",
+      "key": "ཉེས་འཛུགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания.",
+      "reviewNote": "Сохранена короткая именная основа; отдельно помечена развёрнутая форма с བྱེད་."
+    },
+    {
+      "index": 127,
+      "text": "ཉེས་འཛུགས་བྱེད་",
+      "key": "ཉེས་འཛུགས་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཉེས་འཛུགས",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 128,
+      "text": "ཉོ་བ་",
+      "key": "ཉོ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 129,
+      "text": "ཉོབ་པོ་",
+      "key": "ཉོབ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 130,
+      "text": "ཐག་ཉེ་",
+      "key": "ཐག་ཉེ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "ཐག",
+        "ཉེ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 131,
+      "text": "ཐག་རིང་",
+      "key": "ཐག་རིང",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "ཐག",
+        "རིང"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 132,
+      "text": "ཐབས་ཤེས་",
+      "key": "ཐབས་ཤེས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 133,
+      "text": "ཐུང་",
+      "key": "ཐུང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 134,
+      "text": "ཐུང་ཐུང་",
+      "key": "ཐུང་ཐུང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 135,
+      "text": "ཐོག་",
+      "key": "ཐོག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 136,
+      "text": "ཐོག་རྒྱག་",
+      "key": "ཐོག་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཐོག",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 137,
+      "text": "ཐོན་པ་",
+      "key": "ཐོན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 138,
+      "text": "ཐོབ་པ་",
+      "key": "ཐོབ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 139,
+      "text": "ད་ག་རང་",
+      "key": "ད་ག་རང",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "ད་ག",
+        "རང"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 140,
+      "text": "ད་ལྟ་",
+      "key": "ད་ལྟ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 141,
+      "text": "དཀའ་ངལ་མྱོང་",
+      "key": "དཀའ་ངལ་མྱོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "དཀའ་ངལ",
+        "མྱོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 142,
+      "text": "དཀའ་པོ་བྱེད་",
+      "key": "དཀའ་པོ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "དཀའ་པོ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 143,
+      "text": "དཀའ་ལས་",
+      "key": "དཀའ་ལས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 144,
+      "text": "དཀའ་ལས་ཁག་པོ་",
+      "key": "དཀའ་ལས་ཁག་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "དཀའ་ལས",
+        "ཁག་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 145,
+      "text": "དཀའ་ལས་རྒྱག་",
+      "key": "དཀའ་ལས་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "དཀའ་ལས",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 146,
+      "text": "དཀོན་པོ་",
+      "key": "དཀོན་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 147,
+      "text": "དཀྱུས་མ་",
+      "key": "དཀྱུས་མ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 148,
+      "text": "དགག་བྱ་",
+      "key": "དགག་བྱ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 149,
+      "text": "དགག་བྱ་བྱེད་",
+      "key": "དགག་བྱ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "དགག་བྱ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 150,
+      "text": "དགའ་པོ་",
+      "key": "དགའ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 151,
+      "text": "དགའ་བ་",
+      "key": "དགའ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 152,
+      "text": "དགེ་རྒན་",
+      "key": "དགེ་རྒན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 153,
+      "text": "དགོང་དྲོ་",
+      "key": "དགོང་དྲོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 154,
+      "text": "དགོངས་དག་ཐུགས་བདེན་ཞུ་",
+      "key": "དགོངས་དག་ཐུགས་བདེན་ཞུ",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "དགོངས་དག་ཐུགས་བདེན",
+        "ཞུ"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 155,
+      "text": "དགོངས་སེལ་ཞུ་",
+      "key": "དགོངས་སེལ་ཞུ",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "དགོངས་སེལ",
+        "ཞུ"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 156,
+      "text": "དགྲ་",
+      "key": "དགྲ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 157,
+      "text": "དབུལ་པོ་",
+      "key": "དབུལ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 158,
+      "text": "དམག་",
+      "key": "དམག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 159,
+      "text": "དམག་རྒྱག་",
+      "key": "དམག་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "དམག",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 160,
+      "text": "དམའ་བོ་",
+      "key": "དམའ་བོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 161,
+      "text": "དམའ་འབེབས་གཏོང་",
+      "key": "དམའ་འབེབས་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "དམའ་འབེབས",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 162,
+      "text": "དེ་ནས་",
+      "key": "དེ་ནས",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "དེ",
+        "ནས"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 163,
+      "text": "དེང་སང་",
+      "key": "དེང་སང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 164,
+      "text": "དོ་སྣང་",
+      "key": "དོ་སྣང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 165,
+      "text": "དྲི་བ་",
+      "key": "དྲི་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 166,
+      "text": "དྲོ་པོ་",
+      "key": "དྲོ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 167,
+      "text": "ནང་",
+      "key": "ནང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 168,
+      "text": "ནང་ཟོག་ཕྱི་འདྲེན་",
+      "key": "ནང་ཟོག་ཕྱི་འདྲེན",
+      "label": "Словосочетание",
+      "category": "other_verbal_combination",
+      "components": [
+        "ནང་ཟོག",
+        "ཕྱི་འདྲེན"
+      ],
+      "reason": "Глагольное/предикативное сочетание с самостоятельным зависимым компонентом.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 169,
+      "text": "ནང་ཤ་",
+      "key": "ནང་ཤ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 170,
+      "text": "ནང་ཤ་རྒྱག་",
+      "key": "ནང་ཤ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ནང་ཤ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 171,
+      "text": "ནུབ་",
+      "key": "ནུབ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 172,
+      "text": "ནུབ་པ་",
+      "key": "ནུབ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 173,
+      "text": "པར་",
+      "key": "པར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 174,
+      "text": "པར་རྒྱག་",
+      "key": "པར་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "པར",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 175,
+      "text": "པར་སྐྱར་",
+      "key": "པར་སྐྱར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 176,
+      "text": "ཕན་པ་",
+      "key": "ཕན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 177,
+      "text": "ཕམས་པ་",
+      "key": "ཕམས་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 178,
+      "text": "ཕར་",
+      "key": "ཕར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 179,
+      "text": "ཕུར་པ་",
+      "key": "ཕུར་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 180,
+      "text": "ཕོ་",
+      "key": "ཕོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 181,
+      "text": "ཕྱི་",
+      "key": "ཕྱི",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 182,
+      "text": "ཕྱི་པོ་",
+      "key": "ཕྱི་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 183,
+      "text": "ཕྱི་ཟོག་ནང་འདྲེན་",
+      "key": "ཕྱི་ཟོག་ནང་འདྲེན",
+      "label": "Словосочетание",
+      "category": "other_verbal_combination",
+      "components": [
+        "ཕྱི་ཟོག",
+        "ནང་འདྲེན"
+      ],
+      "reason": "Глагольное/предикативное сочетание с самостоятельным зависимым компонентом.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 184,
+      "text": "ཕྱུག་པོ་",
+      "key": "ཕྱུག་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 185,
+      "text": "ཕྲ་པོ་",
+      "key": "ཕྲ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 186,
+      "text": "བཀག་བསྐྱིལ་བྱེད་",
+      "key": "བཀག་བསྐྱིལ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བཀག་བསྐྱིལ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 187,
+      "text": "བཀའ་",
+      "key": "བཀའ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 188,
+      "text": "བཀའ་གཏོང་",
+      "key": "བཀའ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བཀའ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 189,
+      "text": "བཀའ་སྐྱོན་གཏོང་",
+      "key": "བཀའ་སྐྱོན་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བཀའ་སྐྱོན",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 190,
+      "text": "བཀོད་པ་",
+      "key": "བཀོད་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 191,
+      "text": "བཀོད་པ་གཏོང་",
+      "key": "བཀོད་པ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བཀོད་པ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 192,
+      "text": "བཀྲེན་པོ་",
+      "key": "བཀྲེན་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 193,
+      "text": "བང་ཆེན་གཏོང་",
+      "key": "བང་ཆེན་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བང་ཆེན",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 194,
+      "text": "བཅོས་མ་",
+      "key": "བཅོས་མ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 195,
+      "text": "བདེ་བ་",
+      "key": "བདེ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 196,
+      "text": "བཙན་གནོན་",
+      "key": "བཙན་གནོན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 197,
+      "text": "བཙན་འཛུལ་",
+      "key": "བཙན་འཛུལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 198,
+      "text": "བཙན་འཛུལ་བྱེད་",
+      "key": "བཙན་འཛུལ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བཙན་འཛུལ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 199,
+      "text": "བཙོག་པ་",
+      "key": "བཙོག་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 200,
+      "text": "བཙོག་པ་གཏོང་",
+      "key": "བཙོག་པ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བཙོག་པ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 201,
+      "text": "བཞུར་",
+      "key": "བཞུར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 202,
+      "text": "བཞུར་བ་",
+      "key": "བཞུར་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 203,
+      "text": "བཟང་",
+      "key": "བཟང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 204,
+      "text": "བཟོ་པ་",
+      "key": "བཟོ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 205,
+      "text": "བཟོད་གསོལ་ཞུ་",
+      "key": "བཟོད་གསོལ་ཞུ",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བཟོད་གསོལ",
+        "ཞུ"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 206,
+      "text": "བར་འཛུལ་",
+      "key": "བར་འཛུལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 207,
+      "text": "བར་འཛུལ་བྱེད་",
+      "key": "བར་འཛུལ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བར་འཛུལ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 208,
+      "text": "བརྡ་",
+      "key": "བརྡ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 209,
+      "text": "བསམ་བློ་",
+      "key": "བསམ་བློ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 210,
+      "text": "བསམ་བློ་གཏོང་",
+      "key": "བསམ་བློ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བསམ་བློ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 211,
+      "text": "བསྐོ་བཞག་བྱེད་",
+      "key": "བསྐོ་བཞག་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བསྐོ་བཞག",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 212,
+      "text": "བསྐོར་ར་རྒྱག་",
+      "key": "བསྐོར་ར་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བསྐོར་ར",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 213,
+      "text": "བསླབ་བྱ་",
+      "key": "བསླབ་བྱ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 214,
+      "text": "བསླབ་བྱ་བྱེད་",
+      "key": "བསླབ་བྱ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བསླབ་བྱ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 215,
+      "text": "བུ་ལོན་གཏོང་",
+      "key": "བུ་ལོན་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བུ་ལོན",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 216,
+      "text": "བྱམས་པ་",
+      "key": "བྱམས་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 217,
+      "text": "བྱམས་པ་བྱེད་",
+      "key": "བྱམས་པ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བྱམས་པ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 218,
+      "text": "བྱེ་བྲག་",
+      "key": "བྱེ་བྲག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 219,
+      "text": "བྱེད་",
+      "key": "བྱེད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 220,
+      "text": "བྱེད་ལ་ལེ་ལོ་",
+      "key": "བྱེད་ལ་ལེ་ལོ",
+      "label": "Словосочетание",
+      "category": "other_verbal_combination",
+      "components": [
+        "བྱེད་ལ",
+        "ལེ་ལོ"
+      ],
+      "reason": "Глагольное/предикативное сочетание с самостоятельным зависимым компонентом.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 221,
+      "text": "བྲེལ་བ་ཚ་པོ་",
+      "key": "བྲེལ་བ་ཚ་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "བྲེལ་བ",
+        "ཚ་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 222,
+      "text": "བྲོ་བ་མྱོང་",
+      "key": "བྲོ་བ་མྱོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བྲོ་བ",
+        "མྱོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 223,
+      "text": "བློས་",
+      "key": "བློས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 224,
+      "text": "བློས་གཏོང་",
+      "key": "བློས་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "བློས",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 225,
+      "text": "མཁྲེགས་པོ་",
+      "key": "མཁྲེགས་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 226,
+      "text": "མགོ་",
+      "key": "མགོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 227,
+      "text": "མགྱོགས་པོ་",
+      "key": "མགྱོགས་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 228,
+      "text": "མང་པོ་",
+      "key": "མང་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 229,
+      "text": "མངར་མོ་",
+      "key": "མངར་མོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 230,
+      "text": "མཆོད་པ་",
+      "key": "མཆོད་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 231,
+      "text": "མཆོད་པ་བྱེད་",
+      "key": "མཆོད་པ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "མཆོད་པ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 232,
+      "text": "མཇུག་",
+      "key": "མཇུག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 233,
+      "text": "མཇུག་ལ་",
+      "key": "མཇུག་ལ",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "མཇུག",
+        "ལ"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 234,
+      "text": "མཉམ་དུ་",
+      "key": "མཉམ་དུ",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "མཉམ",
+        "དུ"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 235,
+      "text": "མཐིལ་",
+      "key": "མཐིལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 236,
+      "text": "མཐུ་",
+      "key": "མཐུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 237,
+      "text": "མཐུ་རྒྱག་",
+      "key": "མཐུ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "མཐུ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 238,
+      "text": "མཐོ་པོ་",
+      "key": "མཐོ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 239,
+      "text": "མཐོ་བོ་",
+      "key": "མཐོ་བོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 240,
+      "text": "མཐོང་རྒྱ་ཆེན་པོ་",
+      "key": "མཐོང་རྒྱ་ཆེན་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "མཐོང་རྒྱ",
+        "ཆེན་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 241,
+      "text": "མདའ་",
+      "key": "མདའ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 242,
+      "text": "མདུད་པ་",
+      "key": "མདུད་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 243,
+      "text": "མདུད་པ་རྒྱག་",
+      "key": "མདུད་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "མདུད་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 244,
+      "text": "མདུན་",
+      "key": "མདུན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 245,
+      "text": "མདོག་ཉེས་པོ་",
+      "key": "མདོག་ཉེས་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "མདོག",
+        "ཉེས་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 246,
+      "text": "མཚན་མོ་",
+      "key": "མཚན་མོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 247,
+      "text": "མར་",
+      "key": "མར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 248,
+      "text": "མི་ཆོག་པ་",
+      "key": "མི་ཆོག་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "མི",
+        "ཆོག་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 249,
+      "text": "མི་དགེ་བ་",
+      "key": "མི་དགེ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания.",
+      "reviewNote": "Лексикализованное название/номинализация с отрицанием; не приравнивается автоматически к свободной отрицательной фразе."
+    },
+    {
+      "index": 250,
+      "text": "མི་ཚུད་པ་",
+      "key": "མི་ཚུད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "མི",
+        "ཚུད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 251,
+      "text": "མེ་",
+      "key": "མེ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 252,
+      "text": "མེ་གཏོང་",
+      "key": "མེ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "མེ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 253,
+      "text": "མེ་མདའ་",
+      "key": "མེ་མདའ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 254,
+      "text": "མེ་མདའ་རྒྱག་",
+      "key": "མེ་མདའ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "མེ་མདའ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 255,
+      "text": "མོ་",
+      "key": "མོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 256,
+      "text": "མོས་མཐུན་བྱེད་པ་",
+      "key": "མོས་མཐུན་བྱེད་པ",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "མོས་མཐུན",
+        "བྱེད་པ"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 257,
+      "text": "མོས་མཐུན་མེད་པ་",
+      "key": "མོས་མཐུན་མེད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "མོས་མཐུན",
+        "མེད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 258,
+      "text": "མྱོང་",
+      "key": "མྱོང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 259,
+      "text": "ཚ་ག་",
+      "key": "ཚ་ག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 260,
+      "text": "ཚ་པོ་",
+      "key": "ཚ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 261,
+      "text": "ཚག་པོ་",
+      "key": "ཚག་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 262,
+      "text": "ཚད་",
+      "key": "ཚད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 263,
+      "text": "ཚབ་",
+      "key": "ཚབ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 264,
+      "text": "ཚབ་བྱེད་",
+      "key": "ཚབ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཚབ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 265,
+      "text": "ཚབ་ཚུབ་",
+      "key": "ཚབ་ཚུབ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 266,
+      "text": "ཚབ་ཚུབ་བྱེད་",
+      "key": "ཚབ་ཚུབ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཚབ་ཚུབ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 267,
+      "text": "ཚུད་པ་",
+      "key": "ཚུད་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 268,
+      "text": "ཚུར་",
+      "key": "ཚུར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 269,
+      "text": "ཚེམ་བུ་",
+      "key": "ཚེམ་བུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 270,
+      "text": "ཚེམ་བུ་རྒྱག་",
+      "key": "ཚེམ་བུ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཚེམ་བུ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 271,
+      "text": "ཚོང་",
+      "key": "ཚོང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 272,
+      "text": "ཚོང་རྒྱག་",
+      "key": "ཚོང་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཚོང",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 273,
+      "text": "ཚོན་",
+      "key": "ཚོན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 274,
+      "text": "ཚོན་གཏོང་",
+      "key": "ཚོན་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཚོན",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 275,
+      "text": "ཚོར་བ་",
+      "key": "ཚོར་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 276,
+      "text": "ཚོར་བ་མྱོང་",
+      "key": "ཚོར་བ་མྱོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཚོར་བ",
+        "མྱོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 277,
+      "text": "ཚྭ་",
+      "key": "ཚྭ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 278,
+      "text": "ཚྭ་རྒྱག་",
+      "key": "ཚྭ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཚྭ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 279,
+      "text": "ཝ་",
+      "key": "ཝ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 280,
+      "text": "ཝ་ཕྲུག་",
+      "key": "ཝ་ཕྲུག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 281,
+      "text": "ཝ་མོ་",
+      "key": "ཝ་མོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 282,
+      "text": "ཝ་ཚང་",
+      "key": "ཝ་ཚང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 283,
+      "text": "ཝ་སྐད་",
+      "key": "ཝ་སྐད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 284,
+      "text": "ཞབས་བྲོ་རྒྱག་",
+      "key": "ཞབས་བྲོ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཞབས་བྲོ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 285,
+      "text": "ཞེན་ཁོག་མེད་པ་",
+      "key": "ཞེན་ཁོག་མེད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "ཞེན་ཁོག",
+        "མེད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 286,
+      "text": "ཞྭ་ཐག་",
+      "key": "ཞྭ་ཐག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 287,
+      "text": "ཞྭ་ཐག་རྒྱག་",
+      "key": "ཞྭ་ཐག་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཞྭ་ཐག",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 288,
+      "text": "ཟ་གཡའ་",
+      "key": "ཟ་གཡའ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 289,
+      "text": "ཟ་གཡའ་རྒྱག་",
+      "key": "ཟ་གཡའ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཟ་གཡའ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 290,
+      "text": "ཟུག་",
+      "key": "ཟུག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 291,
+      "text": "འཁྱག་པ་རྒྱག་",
+      "key": "འཁྱག་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འཁྱག་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 292,
+      "text": "འཁྱགས་པ་",
+      "key": "འཁྱགས་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 293,
+      "text": "འཁྱགས་པ་གཏོང་",
+      "key": "འཁྱགས་པ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འཁྱགས་པ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 294,
+      "text": "འཁྱགས་ཤུད་གཏོང་",
+      "key": "འཁྱགས་ཤུད་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འཁྱགས་ཤུད",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 295,
+      "text": "འཁྲེགས་པོ་",
+      "key": "འཁྲེགས་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 296,
+      "text": "འགོ་",
+      "key": "འགོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 297,
+      "text": "འགོ་འཛུགས་",
+      "key": "འགོ་འཛུགས",
+      "label": "Словосочетание",
+      "category": "other_verbal_combination",
+      "components": [
+        "འགོ",
+        "འཛུགས"
+      ],
+      "reason": "Глагольное/предикативное сочетание с самостоятельным зависимым компонентом.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 298,
+      "text": "འགྱེད་",
+      "key": "འགྱེད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 299,
+      "text": "འགྲིག་པ་",
+      "key": "འགྲིག་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 300,
+      "text": "འགྲུལ་རྒྱག་",
+      "key": "འགྲུལ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འགྲུལ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 301,
+      "text": "འགྲུལ་རྟགས་",
+      "key": "འགྲུལ་རྟགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 302,
+      "text": "འགྲོ་སོང་",
+      "key": "འགྲོ་སོང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 303,
+      "text": "འཆམ་",
+      "key": "འཆམ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 304,
+      "text": "འཆམས་པོ་",
+      "key": "འཆམས་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 305,
+      "text": "འཆམས་པོ་བྱེད་",
+      "key": "འཆམས་པོ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འཆམས་པོ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 306,
+      "text": "འཆི་བ་",
+      "key": "འཆི་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 307,
+      "text": "འཇམ་པོ་",
+      "key": "འཇམ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 308,
+      "text": "འཇིབ་",
+      "key": "འཇིབ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 309,
+      "text": "འཇིབ་རྒྱག་",
+      "key": "འཇིབ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འཇིབ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 310,
+      "text": "འཐབ་ར་",
+      "key": "འཐབ་ར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 311,
+      "text": "འཐབ་ར་རྒྱག་",
+      "key": "འཐབ་ར་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འཐབ་ར",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 312,
+      "text": "འདེམས་བསྒྲུགས་",
+      "key": "འདེམས་བསྒྲུགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 313,
+      "text": "འདེམས་བསྒྲུགས་བྱེད་",
+      "key": "འདེམས་བསྒྲུགས་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འདེམས་བསྒྲུགས",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 314,
+      "text": "འདྲ་ཤུས་",
+      "key": "འདྲ་ཤུས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 315,
+      "text": "འཕྱ་བ་",
+      "key": "འཕྱ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 316,
+      "text": "འཕྱ་སྨོད་རྒྱག་",
+      "key": "འཕྱ་སྨོད་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འཕྱ་སྨོད",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 317,
+      "text": "འཕྲལ་སེལ་",
+      "key": "འཕྲལ་སེལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 318,
+      "text": "འབྱོར་བ་",
+      "key": "འབྱོར་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 319,
+      "text": "འབྲུག་སྐད་",
+      "key": "འབྲུག་སྐད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 320,
+      "text": "འཚོ་བ་",
+      "key": "འཚོ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 321,
+      "text": "འཚོ་བ་མྱོང་",
+      "key": "འཚོ་བ་མྱོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འཚོ་བ",
+        "མྱོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 322,
+      "text": "འཚོང་བ་",
+      "key": "འཚོང་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 323,
+      "text": "འཚོལ་བ་",
+      "key": "འཚོལ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 324,
+      "text": "འོས་འདེམས་",
+      "key": "འོས་འདེམས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 325,
+      "text": "འོས་འདེམས་བྱེད་",
+      "key": "འོས་འདེམས་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "འོས་འདེམས",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 326,
+      "text": "ཡང་པོ་",
+      "key": "ཡང་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 327,
+      "text": "ཡང་སེ་",
+      "key": "ཡང་སེ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 328,
+      "text": "ཡར་",
+      "key": "ཡར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 329,
+      "text": "ཡར་བརྩེགས་པ་",
+      "key": "ཡར་བརྩེགས་པ",
+      "label": "Словосочетание",
+      "category": "other_verbal_combination",
+      "components": [
+        "ཡར",
+        "བརྩེགས་པ"
+      ],
+      "reason": "Глагольное/предикативное сочетание с самостоятельным зависимым компонентом.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 330,
+      "text": "ཡར་རྒྱས་",
+      "key": "ཡར་རྒྱས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 331,
+      "text": "ཡར་རྒྱས་གཏོང་",
+      "key": "ཡར་རྒྱས་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཡར་རྒྱས",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 332,
+      "text": "ཡི་གེ་",
+      "key": "ཡི་གེ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 333,
+      "text": "ཡིག་ཐོག་",
+      "key": "ཡིག་ཐོག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания.",
+      "reviewNote": "Сохранено исходное лексикализованное выражение; свободное словосочетание не установлено."
+    },
+    {
+      "index": 334,
+      "text": "ཡིན་དང་མིན་",
+      "key": "ཡིན་དང་མིན",
+      "label": "Словосочетание",
+      "category": "coordination",
+      "components": [
+        "ཡིན",
+        "དང",
+        "མིན"
+      ],
+      "reason": "Самостоятельные компоненты соединены частицей དང་.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 335,
+      "text": "ཡིན་དང་ཡིན་",
+      "key": "ཡིན་དང་ཡིན",
+      "label": "Словосочетание",
+      "category": "coordination",
+      "components": [
+        "ཡིན",
+        "དང",
+        "ཡིན"
+      ],
+      "reason": "Самостоятельные компоненты соединены частицей དང་.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 336,
+      "text": "ཡོང་འབབ་",
+      "key": "ཡོང་འབབ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 337,
+      "text": "རགས་",
+      "key": "རགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 338,
+      "text": "རང་",
+      "key": "རང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 339,
+      "text": "རང་སྐྱོན་སྦས་པ་",
+      "key": "རང་སྐྱོན་སྦས་པ",
+      "label": "Словосочетание",
+      "category": "other_verbal_combination",
+      "components": [
+        "རང་སྐྱོན",
+        "སྦས་པ"
+      ],
+      "reason": "Глагольное/предикативное сочетание с самостоятельным зависимым компонентом.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 340,
+      "text": "རབ་",
+      "key": "རབ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 341,
+      "text": "རབ་རྒྱག་",
+      "key": "རབ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རབ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 342,
+      "text": "རིག་པ་གཏོང་",
+      "key": "རིག་པ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རིག་པ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 343,
+      "text": "རིང་",
+      "key": "རིང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 344,
+      "text": "རིང་པོ་",
+      "key": "རིང་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 345,
+      "text": "རེ་བ་",
+      "key": "རེ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 346,
+      "text": "རེ་རེ་བཞིན་",
+      "key": "རེ་རེ་བཞིན",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "རེ་རེ",
+        "བཞིན"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 347,
+      "text": "རེ་རེ་བྱས་",
+      "key": "རེ་རེ་བྱས",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "རེ་རེ",
+        "བྱས"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 348,
+      "text": "རོ་",
+      "key": "རོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 349,
+      "text": "རོ་མྱོང་",
+      "key": "རོ་མྱོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རོ",
+        "མྱོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 350,
+      "text": "རྐུབ་ཀྱག་",
+      "key": "རྐུབ་ཀྱག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 351,
+      "text": "རྐུབ་ཀྱག་རྒྱག་",
+      "key": "རྐུབ་ཀྱག་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རྐུབ་ཀྱག",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 352,
+      "text": "རྐྱལ་",
+      "key": "རྐྱལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 353,
+      "text": "རྐྱོང་བ་",
+      "key": "རྐྱོང་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 354,
+      "text": "རྒན་པ་",
+      "key": "རྒན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 355,
+      "text": "རྒྱ་ཆུང་ཆུང་",
+      "key": "རྒྱ་ཆུང་ཆུང",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "རྒྱ",
+        "ཆུང་ཆུང"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 356,
+      "text": "རྒྱ་ཆེན་པོ་",
+      "key": "རྒྱ་ཆེན་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "རྒྱ",
+        "ཆེན་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 357,
+      "text": "རྒྱག་",
+      "key": "རྒྱག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 358,
+      "text": "རྒྱགས་པ་",
+      "key": "རྒྱགས་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 359,
+      "text": "རྒྱན་པོ་",
+      "key": "རྒྱན་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 360,
+      "text": "རྒྱན་པོ་རྒྱག་",
+      "key": "རྒྱན་པོ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རྒྱན་པོ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 361,
+      "text": "རྒྱབ་",
+      "key": "རྒྱབ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 362,
+      "text": "རྗེན་པ་",
+      "key": "རྗེན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 363,
+      "text": "རྙིང་པ་",
+      "key": "རྙིང་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 364,
+      "text": "རྙེད་པ་",
+      "key": "རྙེད་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 365,
+      "text": "རྟ་",
+      "key": "རྟ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 366,
+      "text": "རྟ་གཏོང་",
+      "key": "རྟ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རྟ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 367,
+      "text": "རྟགས་",
+      "key": "རྟགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 368,
+      "text": "རྟགས་རྒྱག་",
+      "key": "རྟགས་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རྟགས",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 369,
+      "text": "རྟུལ་པོ་",
+      "key": "རྟུལ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 370,
+      "text": "རྡེབ་པ་",
+      "key": "རྡེབ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 371,
+      "text": "རྡེབ་པ་རྒྱག་",
+      "key": "རྡེབ་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རྡེབ་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 372,
+      "text": "རྣག་",
+      "key": "རྣག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 373,
+      "text": "རྣག་རྒྱག་",
+      "key": "རྣག་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རྣག",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 374,
+      "text": "རྩིས་",
+      "key": "རྩིས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 375,
+      "text": "རྩུབ་པོ་",
+      "key": "རྩུབ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 376,
+      "text": "རྩོད་པ་",
+      "key": "རྩོད་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 377,
+      "text": "རྩོད་པ་རྒྱག་",
+      "key": "རྩོད་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རྩོད་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 378,
+      "text": "རྫུས་མ་",
+      "key": "རྫུས་མ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 379,
+      "text": "རྫོར་པོ་",
+      "key": "རྫོར་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 380,
+      "text": "རླུང་པ་",
+      "key": "རླུང་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 381,
+      "text": "རླུང་པ་རྒྱག་",
+      "key": "རླུང་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "རླུང་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 382,
+      "text": "རློན་པ་",
+      "key": "རློན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 383,
+      "text": "ལ་",
+      "key": "ལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 384,
+      "text": "ལ་རྒྱག་",
+      "key": "ལ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ལ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 385,
+      "text": "ལག་པ་",
+      "key": "ལག་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 386,
+      "text": "ལག་པ་གཡུག་",
+      "key": "ལག་པ་གཡུག",
+      "label": "Словосочетание",
+      "category": "other_verbal_combination",
+      "components": [
+        "ལག་པ",
+        "གཡུག"
+      ],
+      "reason": "Глагольное/предикативное сочетание с самостоятельным зависимым компонентом.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 387,
+      "text": "ལག་བརྡ་",
+      "key": "ལག་བརྡ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 388,
+      "text": "ལགས་",
+      "key": "ལགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 389,
+      "text": "ལན་",
+      "key": "ལན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 390,
+      "text": "ལན་བུ་",
+      "key": "ལན་བུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 391,
+      "text": "ལན་བུ་རྒྱག་",
+      "key": "ལན་བུ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ལན་བུ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 392,
+      "text": "ལན་རྒྱག་",
+      "key": "ལན་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ལན",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 393,
+      "text": "ལས་ཀ་",
+      "key": "ལས་ཀ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 394,
+      "text": "ལས་ཀ་མེད་པ་",
+      "key": "ལས་ཀ་མེད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "ལས་ཀ",
+        "མེད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 395,
+      "text": "ལས་བརྩོན་ཅན་",
+      "key": "ལས་བརྩོན་ཅན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 396,
+      "text": "ལུད་",
+      "key": "ལུད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 397,
+      "text": "ལུད་རྒྱག་",
+      "key": "ལུད་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ལུད",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 398,
+      "text": "ལེ་ལོ་ཅན་",
+      "key": "ལེ་ལོ་ཅན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 399,
+      "text": "ལོ་ཏོག་",
+      "key": "ལོ་ཏོག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 400,
+      "text": "ལོ་ཏོག་རྒྱག་",
+      "key": "ལོ་ཏོག་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ལོ་ཏོག",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 401,
+      "text": "ལོག་",
+      "key": "ལོག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 402,
+      "text": "ལོའོ་",
+      "key": "ལོའོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 403,
+      "text": "ལྐུགས་པ་",
+      "key": "ལྐུགས་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 404,
+      "text": "ལྐོག་རྔན་བྱེད་",
+      "key": "ལྐོག་རྔན་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ལྐོག་རྔན",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 405,
+      "text": "ལྕགས་",
+      "key": "ལྕགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 406,
+      "text": "ལྗིད་པོ་",
+      "key": "ལྗིད་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 407,
+      "text": "ལྡོག་ཕྱོགས་",
+      "key": "ལྡོག་ཕྱོགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 408,
+      "text": "ལྷན་པ་",
+      "key": "ལྷན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 409,
+      "text": "ལྷན་པ་རྒྱག་",
+      "key": "ལྷན་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ལྷན་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 410,
+      "text": "ལྷུག་ལྷུག་",
+      "key": "ལྷུག་ལྷུག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 411,
+      "text": "ཤ་བཙིར་",
+      "key": "ཤ་བཙིར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания.",
+      "reviewNote": "Сохранена прежняя осторожная разметка: короткая лексическая единица; статус свободного сочетания не подтверждён."
+    },
+    {
+      "index": 412,
+      "text": "ཤ་བཙིར་རྒྱག་",
+      "key": "ཤ་བཙིར་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཤ་བཙིར",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 413,
+      "text": "ཤར་",
+      "key": "ཤར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 414,
+      "text": "ཤར་བ་",
+      "key": "ཤར་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 415,
+      "text": "ཤུ་",
+      "key": "ཤུ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 416,
+      "text": "ཤུ་རྒྱག་",
+      "key": "ཤུ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཤུ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 417,
+      "text": "ཤུགས་",
+      "key": "ཤུགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 418,
+      "text": "ཤུགས་མེད་པ་",
+      "key": "ཤུགས་མེད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "ཤུགས",
+        "མེད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 419,
+      "text": "ཤུགས་རྒྱག་",
+      "key": "ཤུགས་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཤུགས",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 420,
+      "text": "ཤུལ་",
+      "key": "ཤུལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 421,
+      "text": "ཤུལ་རྒྱག་",
+      "key": "ཤུལ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཤུལ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 422,
+      "text": "ཤེས་",
+      "key": "ཤེས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 423,
+      "text": "ཤོ་",
+      "key": "ཤོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 424,
+      "text": "ཤོར་བ་",
+      "key": "ཤོར་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 425,
+      "text": "ས་ཡོམ་",
+      "key": "ས་ཡོམ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 426,
+      "text": "སེམས་ཁྲལ་",
+      "key": "སེམས་ཁྲལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 427,
+      "text": "སེམས་གསོ་",
+      "key": "སེམས་གསོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания.",
+      "reviewNote": "Сохранена короткая лексическая единица; отдельно помечена развёрнутая форма с གཏོང་."
+    },
+    {
+      "index": 428,
+      "text": "སེམས་གསོ་གཏོང་",
+      "key": "སེམས་གསོ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སེམས་གསོ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 429,
+      "text": "སོ་",
+      "key": "སོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 430,
+      "text": "སོ་གཏོང་",
+      "key": "སོ་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སོ",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 431,
+      "text": "སོ་རྒྱག་",
+      "key": "སོ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སོ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 432,
+      "text": "སོ་ཤད་",
+      "key": "སོ་ཤད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 433,
+      "text": "སོ་ཤད་རྒྱག་",
+      "key": "སོ་ཤད་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སོ་ཤད",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 434,
+      "text": "སྐད་",
+      "key": "སྐད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 435,
+      "text": "སྐད་གཏོང་",
+      "key": "སྐད་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྐད",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 436,
+      "text": "སྐད་གྲགས་ཆུང་ངུས་",
+      "key": "སྐད་གྲགས་ཆུང་ངུས",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "སྐད་གྲགས",
+        "ཆུང་ངུས"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 437,
+      "text": "སྐད་གྲགས་ཆེན་པོས་",
+      "key": "སྐད་གྲགས་ཆེན་པོས",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "སྐད་གྲགས",
+        "ཆེན་པོས"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 438,
+      "text": "སྐད་ཅོར་",
+      "key": "སྐད་ཅོར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 439,
+      "text": "སྐད་ཅོར་རྒྱག་",
+      "key": "སྐད་ཅོར་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྐད་ཅོར",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 440,
+      "text": "སྐད་ཆ་",
+      "key": "སྐད་ཆ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 441,
+      "text": "སྐད་རྒྱག་",
+      "key": "སྐད་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྐད",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 442,
+      "text": "སྐབས་རེ་",
+      "key": "སྐབས་རེ",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "སྐབས",
+        "རེ"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 443,
+      "text": "སྐམ་པོ་",
+      "key": "སྐམ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 444,
+      "text": "སྐུམ་པ་",
+      "key": "སྐུམ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 445,
+      "text": "སྐྱིགས་པ་",
+      "key": "སྐྱིགས་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 446,
+      "text": "སྐྱིགས་པ་རྒྱག་",
+      "key": "སྐྱིགས་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྐྱིགས་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 447,
+      "text": "སྐྱིད་པོ་",
+      "key": "སྐྱིད་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 448,
+      "text": "སྐྱིད་པོ་གཏོང་བ་",
+      "key": "སྐྱིད་པོ་གཏོང་བ",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྐྱིད་པོ",
+        "གཏོང་བ"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 449,
+      "text": "སྐྱོ་པོ་",
+      "key": "སྐྱོ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 450,
+      "text": "སྐྱོ་བ་",
+      "key": "སྐྱོ་བ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 451,
+      "text": "སྐྱོན་",
+      "key": "སྐྱོན",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 452,
+      "text": "སྐྱོན་བརྗོད་",
+      "key": "སྐྱོན་བརྗོད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 453,
+      "text": "སྐྱོར་",
+      "key": "སྐྱོར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 454,
+      "text": "སྐྱོར་རྒྱག་",
+      "key": "སྐྱོར་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྐྱོར",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 455,
+      "text": "སྒ་",
+      "key": "སྒ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 456,
+      "text": "སྒམ་པོ་",
+      "key": "སྒམ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 457,
+      "text": "སྒུག་",
+      "key": "སྒུག",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 458,
+      "text": "སྒུག་རྒྱག་",
+      "key": "སྒུག་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྒུག",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 459,
+      "text": "སྒེའུ་ཁུང་",
+      "key": "སྒེའུ་ཁུང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 460,
+      "text": "སྒེའུ་ཡོལ་",
+      "key": "སྒེའུ་ཡོལ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 461,
+      "text": "སྒོ་ཡོལ་རྒྱག་",
+      "key": "སྒོ་ཡོལ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྒོ་ཡོལ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 462,
+      "text": "སྒོ་ལྕགས་",
+      "key": "སྒོ་ལྕགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 463,
+      "text": "སྒོམ་",
+      "key": "སྒོམ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 464,
+      "text": "སྒོམ་པ་བྱེད་",
+      "key": "སྒོམ་པ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྒོམ་པ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 465,
+      "text": "སྒྲ་འཁོར་",
+      "key": "སྒྲ་འཁོར",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 466,
+      "text": "སྒྲུབ་པ་",
+      "key": "སྒྲུབ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 467,
+      "text": "སྔ་དྲོ་",
+      "key": "སྔ་དྲོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 468,
+      "text": "སྔ་པོ་",
+      "key": "སྔ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 469,
+      "text": "སྔ་མོ་",
+      "key": "སྔ་མོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 470,
+      "text": "སྔགས་",
+      "key": "སྔགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 471,
+      "text": "སྔོན་ལ་",
+      "key": "སྔོན་ལ",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "སྔོན",
+        "ལ"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 472,
+      "text": "སྙིང་རྗེ་པོ་",
+      "key": "སྙིང་རྗེ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания.",
+      "reviewNote": "Именная основа སྙིང་རྗེ + функциональное окончание པོ་; источник прямо относит такую форму к простым прилагательным."
+    },
+    {
+      "index": 473,
+      "text": "སྙིང་རྗེ་མེད་པ་",
+      "key": "སྙིང་རྗེ་མེད་པ",
+      "label": "Словосочетание",
+      "category": "negative_predicative_combination",
+      "components": [
+        "སྙིང་རྗེ",
+        "མེད་པ"
+      ],
+      "reason": "Именной компонент + отрицательное сказуемое либо отрицание + предикат.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 474,
+      "text": "སྟེང་ལ་",
+      "key": "སྟེང་ལ",
+      "label": "Словосочетание",
+      "category": "particle_or_distributive_combination",
+      "components": [
+        "སྟེང",
+        "ལ"
+      ],
+      "reason": "Сочетание с послелогом/частицей либо распределительная конструкция.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 475,
+      "text": "སྟོང་པ་",
+      "key": "སྟོང་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 476,
+      "text": "སྡུག་པོ་",
+      "key": "སྡུག་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 477,
+      "text": "སྡུག་པོ་མྱོང་བ་",
+      "key": "སྡུག་པོ་མྱོང་བ",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྡུག་པོ",
+        "མྱོང་བ"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 478,
+      "text": "སྡུག་བསྔལ་མྱོང་",
+      "key": "སྡུག་བསྔལ་མྱོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྡུག་བསྔལ",
+        "མྱོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 479,
+      "text": "སྣང་ཆུང་",
+      "key": "སྣང་ཆུང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 480,
+      "text": "སྣོན་སྐྱེད་རྒྱག་",
+      "key": "སྣོན་སྐྱེད་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྣོན་སྐྱེད",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 481,
+      "text": "སྤུས་ཀ་ཞན་པ་",
+      "key": "སྤུས་ཀ་ཞན་པ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "སྤུས་ཀ",
+        "ཞན་པ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 482,
+      "text": "སྤུས་ཀ་ཞན་པོ་",
+      "key": "སྤུས་ཀ་ཞན་པོ",
+      "label": "Словосочетание",
+      "category": "nominal_adjectival_combination",
+      "components": [
+        "སྤུས་ཀ",
+        "ཞན་པོ"
+      ],
+      "reason": "Существительное + самостоятельное прилагательное; у некоторых форм есть падежное окончание.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 483,
+      "text": "སྤོབས་པ་",
+      "key": "སྤོབས་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 484,
+      "text": "སྤོབས་པ་བྱེད་",
+      "key": "སྤོབས་པ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྤོབས་པ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 485,
+      "text": "སྤྱང་པོ་",
+      "key": "སྤྱང་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 486,
+      "text": "སྤྱིར་བཏང་",
+      "key": "སྤྱིར་བཏང",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 487,
+      "text": "སྤྲོ་སྐྱིད་",
+      "key": "སྤྲོ་སྐྱིད",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 488,
+      "text": "སྤྲོ་སྐྱིད་གཏོང་",
+      "key": "སྤྲོ་སྐྱིད་གཏོང",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སྤྲོ་སྐྱིད",
+        "གཏོང"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 489,
+      "text": "སྦོམ་པོ་",
+      "key": "སྦོམ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 490,
+      "text": "སྦྱིན་པ་",
+      "key": "སྦྱིན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 491,
+      "text": "སྨིན་པ་",
+      "key": "སྨིན་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 492,
+      "text": "སྲབ་པོ་",
+      "key": "སྲབ་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 493,
+      "text": "སླེ་པ་རྒྱག་",
+      "key": "སླེ་པ་རྒྱག",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "སླེ་པ",
+        "རྒྱག"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 494,
+      "text": "ཧ་གོ་",
+      "key": "ཧ་གོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания.",
+      "reviewNote": "Сохранён лексикализованный глагол; не делится на свободное сочетание по числу слогов."
+    },
+    {
+      "index": 495,
+      "text": "ཧམ་པ་",
+      "key": "ཧམ་པ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 496,
+      "text": "ཧམ་པ་བྱེད་",
+      "key": "ཧམ་པ་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཧམ་པ",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    },
+    {
+      "index": 497,
+      "text": "ཧུར་པོ་",
+      "key": "ཧུར་པོ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 498,
+      "text": "ཨཱ་",
+      "key": "ཨཱ",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 499,
+      "text": "ཨུ་ཚུགས་",
+      "key": "ཨུ་ཚུགས",
+      "label": "Слово",
+      "category": "word_or_lexicalized_entry",
+      "reason": "Отдельная лексическая единица, форма с функциональным окончанием или редупликацией; число слогов не служит признаком словосочетания."
+    },
+    {
+      "index": 500,
+      "text": "ཨུ་ཚུགས་བྱེད་",
+      "key": "ཨུ་ཚུགས་བྱེད",
+      "label": "Словосочетание",
+      "category": "verbal_combination",
+      "components": [
+        "ཨུ་ཚུགས",
+        "བྱེད"
+      ],
+      "reason": "Именной/описательный компонент или дополнение + глагольный компонент.",
+      "structuralSource": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+      "classificationIsStructuralReview": true
+    }
+  ]
+}

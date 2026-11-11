@@ -1,0 +1,24 @@
+{
+  "reviewedEntries": 500,
+  "phraseEntries": 183,
+  "newPhraseLabels": 182,
+  "wordLabels": 317,
+  "method": "Explicit structural review for this trainer; includes complex verb/adjective constructions in the learner-facing phrase label. Not a universal lexicographic word-boundary claim.",
+  "sources": {
+    "verbs": "https://tibetanlanguage.school/learn/standard-tibetan/unit-8/#6-verbalizers",
+    "adjectives": "https://tibetanlanguage.school/learn/standard-tibetan/unit-6/#1-1-simple-and-complex-adjectives",
+    "phrases": "https://tibetanlanguage.school/learn/standard-tibetan/unit-7/"
+  },
+  "categoryCounts": {
+    "word_or_lexicalized_entry": 317,
+    "verbal_combination": 134,
+    "nominal_adjectival_combination": 17,
+    "other_verbal_combination": 8,
+    "particle_or_distributive_combination": 11,
+    "negative_predicative_combination": 11,
+    "coordination": 2
+  },
+  "audioChanged": false,
+  "displayedTibetanTextChanged": false,
+  "sourceSha256": "77dfb3d20d88e09550ee03e8ffa9b900544ae491301ce8c089c7528ac855a79a"
+}

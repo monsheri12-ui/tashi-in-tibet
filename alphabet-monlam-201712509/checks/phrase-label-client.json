@@ -1,0 +1,16 @@
+{
+  "compiled": true,
+  "labelInputVariantsChecked": 1500,
+  "reviewedEntries": 500,
+  "phraseLabels": 183,
+  "newLabels": 182,
+  "wordLabels": 317,
+  "corpusArraysUnchanged": {
+    "LETTERS": true,
+    "WORDS": true,
+    "VOWELS": true,
+    "CONFUSABLE_GROUPS": true
+  },
+  "allSixAudioBasesUnchanged": true,
+  "audioPlayerCodeUnchanged": true
+}
