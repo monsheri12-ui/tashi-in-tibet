@@ -1,0 +1,11 @@
+{
+  "oldText": "Буква может стоять отдельно или входить в состав связки.",
+  "newText": "Некоторые буквы могут встречаться отдельно или в сочетании с другими буквами — в надписной или подписной форме. Отмечайте букву и в том случае, если она присутствует в таком сочетании.",
+  "replacements": 2,
+  "sourceSha256Before": "77dfb3d20d88e09550ee03e8ffa9b900544ae491301ce8c089c7528ac855a79a",
+  "sourceSha256": "ba33736e009c3930d26221ffebb0459955f7e2a214c1136539f4c9e15923ae7f",
+  "onlyTwoTextReplacements": true,
+  "audioPlayerCodeUnchanged": true,
+  "audioBanksUnchanged": 216,
+  "phraseLabelRegistryUnchanged": true
+}
