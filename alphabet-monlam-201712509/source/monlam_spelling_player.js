@@ -1,6 +1,7 @@
 // Traditional jorlok plans are prepared from verified syllable components.
 var MONLAM_SPELLING_BASE=__SPELLING_BASE__;
 var MONLAM_SLOW_SPELLING_BASE=__SLOW_SPELLING_BASE__;
+var MONLAM_VERY_SLOW_SPELLING_BASE=__VERY_SLOW_SPELLING_BASE__;
 var spellingBanks=new Map(),spellingResults=new Map(),spellingDecoder=null;
 var spellingUrl=null,spellingTimeline=[],spellingRow=null,spellingHighlight=[],spellingKind="";
 function resetSpellingPlayback(){
@@ -9,8 +10,8 @@ function resetSpellingPlayback(){
  if(spellingUrl){URL.revokeObjectURL(spellingUrl);spellingUrl=null}
 }
 function loadSpellingBank(voice,rate){
- rate=rate===.8?.8:1;var key=voice+"/"+rate;
- if(!spellingBanks.has(key))spellingBanks.set(key,fetch((rate===.8?MONLAM_SLOW_SPELLING_BASE:MONLAM_SPELLING_BASE)+voice+".json").then(function(response){if(!response.ok)throw new Error("Spelling HTTP "+response.status);return response.json()}).then(function(bank){if(bank.sampleRate!==24000||bank.sampleWidth!==2||bank.channels!==1||(bank.recordedRate||1)!==rate)throw new Error("Unexpected spelling audio format");bank.decoded=new Map();return bank}).catch(function(error){spellingBanks.delete(key);throw error}));
+ rate=rate===.6?.6:rate===.8?.8:1;var key=voice+"/"+rate;
+ if(!spellingBanks.has(key))spellingBanks.set(key,fetch((rate===.6?MONLAM_VERY_SLOW_SPELLING_BASE:rate===.8?MONLAM_SLOW_SPELLING_BASE:MONLAM_SPELLING_BASE)+voice+".json").then(function(response){if(!response.ok)throw new Error("Spelling HTTP "+response.status);return response.json()}).then(function(bank){if(bank.sampleRate!==24000||bank.sampleWidth!==2||bank.channels!==1||(bank.recordedRate||1)!==rate)throw new Error("Unexpected spelling audio format");bank.decoded=new Map();return bank}).catch(function(error){spellingBanks.delete(key);throw error}));
  return spellingBanks.get(key);
 }
 function spellingPcm(bank,symbol){
@@ -40,7 +41,7 @@ function decodeSpellingAudio(encoded){
 }
 function loadSpellingResult(voice,text,bank,rate){
  text=bank&&bank.resultAliases&&bank.resultAliases[text]||text;
- var index=audioIndex.get(audioKey(text)),key=voice+"/"+(rate===.8?.8:1)+"/"+index;
+ var index=audioIndex.get(audioKey(text)),key=voice+"/"+(rate===.6?.6:rate===.8?.8:1)+"/"+index;
  if(index===undefined)return Promise.reject(new Error("Missing syllable recording "+text));
  if(!spellingResults.has(key))spellingResults.set(key,loadAudioChunk(voice,index,rate).then(function(chunk){
   var encoded=chunk.clips["m"+String(index+1).padStart(4,"0")];if(!encoded)throw new Error("Missing syllable audio");
@@ -49,7 +50,7 @@ function loadSpellingResult(voice,text,bank,rate){
  return spellingResults.get(key);
 }
 async function spellingParts(text,bank,voice,rate){
- rate=rate===.8?.8:1;
+ rate=rate===.6?.6:rate===.8?.8:1;
  var parts=[],glyphOffset=0,number=0;
  var syllables=splitSyllables(String(text).normalize("NFC")),needed=new Set();
  syllables.forEach(function(syllable){if(!syllable.selectable)return;var plan=bank.plans[syllable.text];if(!plan)throw new Error("Missing jorlok plan "+syllable.text);plan.steps.forEach(function(step){if(step.kind==="result")needed.add(step.text)})});

@@ -1,0 +1,1617 @@
+{
+  "mainRecordings": 2210,
+  "wordVoiceRecords": 1000,
+  "spellingSymbols": 86,
+  "planChecks": 1024,
+  "normalAndSlowBanksUnchanged": true,
+  "clippedFiles": [],
+  "toneCandidates": [],
+  "quietIslandCandidates": [
+    {
+      "voice": "male",
+      "id": "m0232",
+      "seconds": 2.53142,
+      "peak": 0.7561987638473511,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 2.4,
+          "end": 2.472,
+          "relativeRms": 0.0168
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m1000",
+      "seconds": 1.68425,
+      "peak": 0.2754875123500824,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.185,
+          "end": 0.242,
+          "relativeRms": 0.0087
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0880",
+      "seconds": 1.89525,
+      "peak": 0.3307342231273651,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.825,
+          "end": 1.887,
+          "relativeRms": 0.0071
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0882",
+      "seconds": 1.70654,
+      "peak": 0.1400439441204071,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.205,
+          "end": 0.377,
+          "relativeRms": 0.0834
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0888",
+      "seconds": 1.71792,
+      "peak": 0.11779101938009262,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.49,
+          "end": 1.587,
+          "relativeRms": 0.1345
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0894",
+      "seconds": 1.70229,
+      "peak": 0.46324995160102844,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.165,
+          "end": 0.222,
+          "relativeRms": 0.0077
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0896",
+      "seconds": 1.72275,
+      "peak": 0.6039839386940002,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.61,
+          "end": 1.672,
+          "relativeRms": 0.0103
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0970",
+      "seconds": 1.69642,
+      "peak": 0.47696617245674133,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.235,
+          "end": 0.292,
+          "relativeRms": 0.0071
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0971",
+      "seconds": 1.71904,
+      "peak": 0.7137426733970642,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.105,
+          "end": 0.167,
+          "relativeRms": 0.0073
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0977",
+      "seconds": 1.71275,
+      "peak": 0.7947280406951904,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.145,
+          "end": 0.232,
+          "relativeRms": 0.024
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0330",
+      "seconds": 1.72554,
+      "peak": 0.4941921830177307,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.1,
+          "end": 0.172,
+          "relativeRms": 0.0104
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0344",
+      "seconds": 2.10367,
+      "peak": 0.6480358242988586,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.157,
+          "relativeRms": 0.0183
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0205",
+      "seconds": 1.82812,
+      "peak": 0.5751482844352722,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.105,
+          "end": 0.182,
+          "relativeRms": 0.0191
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0208",
+      "seconds": 0.91987,
+      "peak": 0.5173241496086121,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.755,
+          "end": 0.842,
+          "relativeRms": 0.0144
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0206",
+      "seconds": 2.44129,
+      "peak": 0.5682274103164673,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.157,
+          "relativeRms": 0.0156
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0209",
+      "seconds": 1.94846,
+      "peak": 0.4874528646469116,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.07,
+          "end": 0.137,
+          "relativeRms": 0.0163
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0677",
+      "seconds": 1.91142,
+      "peak": 0.7449408173561096,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.685,
+          "end": 0.762,
+          "relativeRms": 0.026
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0694",
+      "seconds": 1.71879,
+      "peak": 0.2723228335380554,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.285,
+          "end": 0.342,
+          "relativeRms": 0.0076
+        },
+        {
+          "start": 0.395,
+          "end": 0.457,
+          "relativeRms": 0.0075
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0695",
+      "seconds": 1.70329,
+      "peak": 0.25519421696662903,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.695,
+          "end": 0.727,
+          "relativeRms": 0.007
+        },
+        {
+          "start": 1.605,
+          "end": 1.702,
+          "relativeRms": 0.0296
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0702",
+      "seconds": 1.71096,
+      "peak": 0.3835975229740143,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.155,
+          "end": 0.222,
+          "relativeRms": 0.0118
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0064",
+      "seconds": 1.37946,
+      "peak": 0.4562223553657532,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.18,
+          "end": 0.237,
+          "relativeRms": 0.0077
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0551",
+      "seconds": 2.06787,
+      "peak": 0.5353515148162842,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.137,
+          "relativeRms": 0.0078
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0565",
+      "seconds": 1.57046,
+      "peak": 0.6519379019737244,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.115,
+          "end": 0.152,
+          "relativeRms": 0.0064
+        },
+        {
+          "start": 0.325,
+          "end": 0.367,
+          "relativeRms": 0.0062
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0566",
+      "seconds": 1.72192,
+      "peak": 0.6645094752311707,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.105,
+          "end": 0.147,
+          "relativeRms": 0.0066
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0513",
+      "seconds": 1.01788,
+      "peak": 0.676942765712738,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.955,
+          "end": 1.017,
+          "relativeRms": 0.0381
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0515",
+      "seconds": 1.19762,
+      "peak": 0.5259869694709778,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.155,
+          "end": 0.217,
+          "relativeRms": 0.0062
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0518",
+      "seconds": 2.07633,
+      "peak": 0.6539108753204346,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.085,
+          "end": 0.142,
+          "relativeRms": 0.0075
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0647",
+      "seconds": 1.37996,
+      "peak": 0.5262051820755005,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.175,
+          "end": 0.237,
+          "relativeRms": 0.0116
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0658",
+      "seconds": 1.91187,
+      "peak": 0.5996267199516296,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.765,
+          "end": 1.822,
+          "relativeRms": 0.0102
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0748",
+      "seconds": 1.91433,
+      "peak": 0.423870712518692,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.68,
+          "end": 1.782,
+          "relativeRms": 0.0123
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0751",
+      "seconds": 2.10479,
+      "peak": 0.4424304962158203,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.535,
+          "end": 0.617,
+          "relativeRms": 0.0084
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0758",
+      "seconds": 2.09704,
+      "peak": 0.5532884001731873,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 2.005,
+          "end": 2.097,
+          "relativeRms": 0.0829
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0762",
+      "seconds": 1.89796,
+      "peak": 0.34668275713920593,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.565,
+          "end": 0.602,
+          "relativeRms": 0.0064
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0765",
+      "seconds": 1.72192,
+      "peak": 0.7464415431022644,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.58,
+          "end": 1.647,
+          "relativeRms": 0.0143
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0611",
+      "seconds": 1.84508,
+      "peak": 0.4344630837440491,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.172,
+          "relativeRms": 0.0105
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0630",
+      "seconds": 1.25546,
+      "peak": 0.6904534101486206,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.1,
+          "end": 1.227,
+          "relativeRms": 0.0196
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0639",
+      "seconds": 1.70596,
+      "peak": 0.4173271358013153,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.565,
+          "end": 1.702,
+          "relativeRms": 0.0342
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0484",
+      "seconds": 2.375,
+      "peak": 0.7717158794403076,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.07,
+          "end": 0.157,
+          "relativeRms": 0.0593
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0077",
+      "seconds": 1.35625,
+      "peak": 0.35755491256713867,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.265,
+          "end": 0.327,
+          "relativeRms": 0.0082
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0474",
+      "seconds": 1.699,
+      "peak": 0.554801344871521,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.09,
+          "end": 0.127,
+          "relativeRms": 0.0063
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0476",
+      "seconds": 2.37796,
+      "peak": 0.5934191346168518,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.09,
+          "end": 0.127,
+          "relativeRms": 0.0061
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0599",
+      "seconds": 2.17192,
+      "peak": 0.7114195823669434,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.222,
+          "relativeRms": 0.0516
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0706",
+      "seconds": 1.90721,
+      "peak": 0.24398064613342285,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.795,
+          "end": 0.897,
+          "relativeRms": 0.0168
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0716",
+      "seconds": 1.90992,
+      "peak": 0.3265072703361511,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.245,
+          "end": 0.287,
+          "relativeRms": 0.0061
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0731",
+      "seconds": 1.89796,
+      "peak": 0.29775041341781616,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.225,
+          "end": 0.357,
+          "relativeRms": 0.0087
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0733",
+      "seconds": 1.72242,
+      "peak": 0.2304987907409668,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.615,
+          "end": 0.667,
+          "relativeRms": 0.0075
+        },
+        {
+          "start": 0.77,
+          "end": 0.807,
+          "relativeRms": 0.0071
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0934",
+      "seconds": 1.7035,
+      "peak": 0.5513677000999451,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.14,
+          "end": 0.217,
+          "relativeRms": 0.0248
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0950",
+      "seconds": 1.37633,
+      "peak": 0.3346267640590668,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.16,
+          "end": 0.282,
+          "relativeRms": 0.0477
+        },
+        {
+          "start": 0.315,
+          "end": 0.347,
+          "relativeRms": 0.0061
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0417",
+      "seconds": 2.17533,
+      "peak": 0.4536411166191101,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.162,
+          "relativeRms": 0.0266
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0418",
+      "seconds": 1.88767,
+      "peak": 0.523037850856781,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.075,
+          "end": 0.147,
+          "relativeRms": 0.0109
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0428",
+      "seconds": 1.18833,
+      "peak": 0.7688986659049988,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.94,
+          "end": 1.142,
+          "relativeRms": 0.0786
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0436",
+      "seconds": 2.62321,
+      "peak": 0.6258094906806946,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.222,
+          "relativeRms": 0.0205
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0440",
+      "seconds": 1.741,
+      "peak": 0.6640569567680359,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.09,
+          "end": 0.152,
+          "relativeRms": 0.0073
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0441",
+      "seconds": 2.11121,
+      "peak": 0.6097198128700256,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.095,
+          "end": 0.157,
+          "relativeRms": 0.0101
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0447",
+      "seconds": 1.19129,
+      "peak": 0.5902854800224304,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.085,
+          "end": 0.142,
+          "relativeRms": 0.0063
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0169",
+      "seconds": 1.86338,
+      "peak": 0.5123035311698914,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.085,
+          "end": 0.157,
+          "relativeRms": 0.0092
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0173",
+      "seconds": 2.06296,
+      "peak": 0.47572794556617737,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.095,
+          "end": 0.157,
+          "relativeRms": 0.0071
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0183",
+      "seconds": 1.56896,
+      "peak": 0.40860965847969055,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.1,
+          "end": 0.142,
+          "relativeRms": 0.0062
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0802",
+      "seconds": 1.91021,
+      "peak": 0.41675296425819397,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.525,
+          "end": 0.607,
+          "relativeRms": 0.0091
+        },
+        {
+          "start": 1.63,
+          "end": 1.782,
+          "relativeRms": 0.027
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0807",
+      "seconds": 2.10742,
+      "peak": 0.7837610840797424,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.9,
+          "end": 2.062,
+          "relativeRms": 0.0335
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0815",
+      "seconds": 1.88958,
+      "peak": 0.4691535234451294,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.17,
+          "end": 0.242,
+          "relativeRms": 0.011
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0817",
+      "seconds": 1.92837,
+      "peak": 0.6213236451148987,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.76,
+          "end": 1.927,
+          "relativeRms": 0.1293
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m1080",
+      "seconds": 1.40017,
+      "peak": 0.549437940120697,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.56,
+          "end": 0.592,
+          "relativeRms": 0.0062
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0291",
+      "seconds": 1.45079,
+      "peak": 0.750782310962677,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.285,
+          "end": 1.347,
+          "relativeRms": 0.0284
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0295",
+      "seconds": 1.11796,
+      "peak": 0.6967483162879944,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.065,
+          "end": 1.117,
+          "relativeRms": 0.0075
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0299",
+      "seconds": 1.97954,
+      "peak": 0.4738262891769409,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.095,
+          "end": 0.147,
+          "relativeRms": 0.008
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0305",
+      "seconds": 2.16196,
+      "peak": 0.779533326625824,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.075,
+          "end": 0.137,
+          "relativeRms": 0.0072
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0261",
+      "seconds": 1.87646,
+      "peak": 0.7627260684967041,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.075,
+          "end": 0.192,
+          "relativeRms": 0.0595
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0260",
+      "seconds": 2.13304,
+      "peak": 0.5612712502479553,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.07,
+          "end": 0.202,
+          "relativeRms": 0.0368
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0263",
+      "seconds": 0.84892,
+      "peak": 0.5524652004241943,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.685,
+          "end": 0.847,
+          "relativeRms": 0.0485
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0281",
+      "seconds": 1.63138,
+      "peak": 0.43279895186424255,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.065,
+          "end": 0.147,
+          "relativeRms": 0.0151
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0283",
+      "seconds": 1.91125,
+      "peak": 0.4932974576950073,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.085,
+          "end": 0.157,
+          "relativeRms": 0.0137
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0284",
+      "seconds": 1.87667,
+      "peak": 0.6038562655448914,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.137,
+          "relativeRms": 0.0079
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0770",
+      "seconds": 2.12213,
+      "peak": 0.6294004321098328,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.96,
+          "end": 2.072,
+          "relativeRms": 0.029
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0772",
+      "seconds": 1.91888,
+      "peak": 0.7213922739028931,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.17,
+          "end": 0.242,
+          "relativeRms": 0.014
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0774",
+      "seconds": 1.90362,
+      "peak": 0.6543169021606445,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.77,
+          "end": 1.812,
+          "relativeRms": 0.0061
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0781",
+      "seconds": 1.91208,
+      "peak": 0.4304181635379791,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.29,
+          "end": 0.347,
+          "relativeRms": 0.0107
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0799",
+      "seconds": 1.90663,
+      "peak": 0.6698341965675354,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 1.74,
+          "end": 1.862,
+          "relativeRms": 0.0296
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0157",
+      "seconds": 2.10396,
+      "peak": 0.6273166537284851,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.085,
+          "end": 0.172,
+          "relativeRms": 0.0246
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0390",
+      "seconds": 2.38083,
+      "peak": 0.5345374345779419,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.095,
+          "end": 0.152,
+          "relativeRms": 0.0069
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "male",
+      "id": "m0396",
+      "seconds": 2.10033,
+      "peak": 0.5465641021728516,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.085,
+          "end": 0.157,
+          "relativeRms": 0.0148
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0233",
+      "seconds": 2.36654,
+      "peak": 0.36628565192222595,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.075,
+          "end": 0.367,
+          "relativeRms": 0.0607
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0379",
+      "seconds": 1.78658,
+      "peak": 0.3682888150215149,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.217,
+          "relativeRms": 0.0175
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0994",
+      "seconds": 1.70229,
+      "peak": 0.410342276096344,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.555,
+          "end": 0.667,
+          "relativeRms": 0.0081
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0205",
+      "seconds": 1.31946,
+      "peak": 0.37963250279426575,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.08,
+          "end": 0.182,
+          "relativeRms": 0.0124
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0207",
+      "seconds": 1.85417,
+      "peak": 0.38986825942993164,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.1,
+          "end": 0.187,
+          "relativeRms": 0.0076
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0538",
+      "seconds": 1.78871,
+      "peak": 0.42024534940719604,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.09,
+          "end": 0.182,
+          "relativeRms": 0.0104
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0618",
+      "seconds": 1.75396,
+      "peak": 0.4402381479740143,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.085,
+          "end": 0.137,
+          "relativeRms": 0.0074
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0105",
+      "seconds": 1.35625,
+      "peak": 0.2920270264148712,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.5,
+          "end": 0.547,
+          "relativeRms": 0.0066
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0107",
+      "seconds": 1.36429,
+      "peak": 0.5557472109794617,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.51,
+          "end": 0.542,
+          "relativeRms": 0.0061
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m1100",
+      "seconds": 1.40488,
+      "peak": 0.42135384678840637,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.225,
+          "end": 0.392,
+          "relativeRms": 0.0127
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0823",
+      "seconds": 1.88958,
+      "peak": 0.33954760432243347,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.48,
+          "end": 0.557,
+          "relativeRms": 0.0066
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0308",
+      "seconds": 1.6165,
+      "peak": 0.2950068414211273,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.085,
+          "end": 0.332,
+          "relativeRms": 0.0103
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0264",
+      "seconds": 1.77946,
+      "peak": 0.5217695832252502,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.095,
+          "end": 0.182,
+          "relativeRms": 0.0079
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0139",
+      "seconds": 1.35604,
+      "peak": 0.4441071152687073,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.25,
+          "end": 0.327,
+          "relativeRms": 0.027
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0156",
+      "seconds": 1.91758,
+      "peak": 0.42471468448638916,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.085,
+          "end": 0.372,
+          "relativeRms": 0.016
+        }
+      ],
+      "clippedSamples": 0
+    },
+    {
+      "voice": "female",
+      "id": "m0406",
+      "seconds": 0.88621,
+      "peak": 0.4742291569709778,
+      "tones": [],
+      "quietIslands": [
+        {
+          "start": 0.735,
+          "end": 0.817,
+          "relativeRms": 0.0373
+        }
+      ],
+      "clippedSamples": 0
+    }
+  ],
+  "decoded": 2296,
+  "phoneticCertificationOfEntireCorpus": false,
+  "initialToneCandidateCount": 9,
+  "toneCleanup": {
+    "files": 9,
+    "changes": [
+      {
+        "voice": "male",
+        "id": "m0677",
+        "windows": [
+          [
+            1.48,
+            1.9114166666666668
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true,
+        "remainingToneCandidates": 0
+      },
+      {
+        "voice": "male",
+        "id": "m0540",
+        "windows": [
+          [
+            1.197,
+            1.2419166666666666
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true,
+        "remainingToneCandidates": 0
+      },
+      {
+        "voice": "male",
+        "id": "m0664",
+        "windows": [
+          [
+            1.767,
+            1.848
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true,
+        "remainingToneCandidates": 0
+      },
+      {
+        "voice": "male",
+        "id": "m0504",
+        "windows": [
+          [
+            0.092,
+            0.143
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true,
+        "remainingToneCandidates": 0
+      },
+      {
+        "voice": "male",
+        "id": "m0478",
+        "windows": [
+          [
+            1.012,
+            1.083
+          ],
+          [
+            1.077,
+            1.123
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true,
+        "remainingToneCandidates": 0
+      },
+      {
+        "voice": "male",
+        "id": "m0291",
+        "windows": [
+          [
+            1.327,
+            1.413
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true,
+        "remainingToneCandidates": 0
+      },
+      {
+        "voice": "male",
+        "id": "m0769",
+        "windows": [
+          [
+            1.962,
+            2.073
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true,
+        "remainingToneCandidates": 0
+      },
+      {
+        "voice": "male",
+        "id": "m0398",
+        "windows": [
+          [
+            1.212,
+            1.278
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true,
+        "remainingToneCandidates": 0
+      },
+      {
+        "voice": "female",
+        "id": "m0391",
+        "windows": [
+          [
+            0.087,
+            0.158
+          ]
+        ],
+        "sourcePcmOutsideWindowsIdentical": true,
+        "remainingToneCandidates": 0
+      }
+    ],
+    "scope": "very slow only; other tempos unchanged"
+  }
+}
