@@ -1,4 +1,4 @@
-"""Use the reviewed continuous AO recording for male achung prefixes."""
+"""Use a voice-specific continuous AO recording for achung prefixes."""
 import copy
 
 AO_SYMBOL = '@achung-prefix'
@@ -6,7 +6,7 @@ AO_SYMBOL = '@achung-prefix'
 
 def with_ao_glide(plans, voice):
     result = copy.deepcopy(plans)
-    if voice != 'male':
+    if voice not in ('male', 'female'):
         return result
     for plan in result.values():
         if plan['parts'].get('prefix') != 'འ':

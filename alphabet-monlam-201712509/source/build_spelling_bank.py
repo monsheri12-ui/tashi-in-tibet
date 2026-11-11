@@ -83,8 +83,8 @@ for voice, folder in [('female', 'monlam-wav'), ('male', 'monlam-wav-male')]:
             if ch in '་།༎༏༐༑༔ \n\r\t':
                 continue
             assert aliases.get(ch, ch) in bank['clips'], (word, ch)
-    if voice == 'male':
-        audio, metadata = pcm(ROOT / 'monlam-spelling-extra/male-ao-prefix.wav')
+    if voice in ('male', 'female'):
+        audio, metadata = pcm(ROOT / 'monlam-spelling-extra' / f'{voice}-ao-prefix.wav')
         bank['clips'][AO_SYMBOL] = encoded(audio, bit_rate=128)
         bank['labels'][AO_SYMBOL] = 'ao'
         records[AO_SYMBOL] = metadata
