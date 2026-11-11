@@ -9,6 +9,7 @@ def change(old,new,count=1):
  html=html.replace(old,new)
 
 change('<option value="0.8">Медленный</option>','<option value="0.8">Медленный</option><option value="0.6">Очень медленный</option>')
+change('#tw-alphabet-lab .tw-audio-speed select{max-width:145px','#tw-alphabet-lab .tw-audio-speed select{max-width:190px')
 line='var MONLAM_SLOW_AUDIO_BASE='
 pos=html.index('\n',html.index(line))+1
 html=html[:pos]+'var MONLAM_VERY_SLOW_AUDIO_BASE="__VERY_SLOW_AUDIO_BASE__";\n'+html[pos:]
