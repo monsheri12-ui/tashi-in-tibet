@@ -36,6 +36,11 @@ change('function renderWordRows(partsFunction,buttonClass){',helper+'function re
 change('false));wrap.appendChild(row);','false));appendWordPronunciationNote(row,word);wrap.appendChild(row);')
 css='#tw-alphabet-lab .tw-pronunciation-note{flex-basis:100%;min-width:0;margin:8px 0 0;padding:8px 10px;border-radius:9px;background:#f2f6f1;color:var(--muted);font-family:inherit;font-size:12px;line-height:1.45;text-align:left}\n'
 change('#tw-alphabet-lab .tw-word-audio{',css+'#tw-alphabet-lab .tw-word-audio{')
+import runpy
+spelling_mode_patch_path=R/'spelling-mode-fix-20261111/patch.py'
+if not spelling_mode_patch_path.exists():spelling_mode_patch_path=D/'spelling-mode-fix.py'
+spelling_mode_patch=runpy.run_path(str(spelling_mode_patch_path))
+html=spelling_mode_patch['patch_html'](html)
 (D/'tilda-template.html').write_text(html)
 
 # Keep the reusable player and the review builder compatible with all tempos.
@@ -48,7 +53,7 @@ player=player.replace(needle,needle+'\nvar MONLAM_VERY_SLOW_SPELLING_BASE=__VERY
 player=player.replace('rate=rate===.8?.8:1;','rate=rate===.6?.6:rate===.8?.8:1;')
 player=player.replace('(rate===.8?MONLAM_SLOW_SPELLING_BASE:MONLAM_SPELLING_BASE)','(rate===.6?MONLAM_VERY_SLOW_SPELLING_BASE:rate===.8?MONLAM_SLOW_SPELLING_BASE:MONLAM_SPELLING_BASE)')
 player=player.replace('(rate===.8?.8:1)+"/"+index','(rate===.6?.6:rate===.8?.8:1)+"/"+index')
-player_path.write_text(player)
+player_path.write_text(spelling_mode_patch['patch_player'](player))
 visible_path=R/'full-audio-review/build-visible.py';visible=visible_path.read_text();backup=D/'baseline/build-visible.py'
 if not backup.exists():backup.write_text(visible)
 visible=backup.read_text();needle=".replace('__SLOW_SPELLING_BASE__',json.dumps(H['slowSpellingBase']))";assert visible.count(needle)==1

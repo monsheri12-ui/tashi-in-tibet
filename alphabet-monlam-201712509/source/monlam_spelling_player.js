@@ -93,7 +93,7 @@ function updateSpellingPosition(){
  if(!spellingTimeline.length)return;
  var current=spellingTimeline.find(function(part){return audioPlayer.currentTime>=part.start&&audioPlayer.currentTime<part.end});
  spellingHighlight.forEach(function(el){el.classList.remove("is-sounding")});spellingHighlight=[];
- if(current&&spellingRow){var glyphs=spellingRow.querySelectorAll(".tw-glyph");current.glyphIndices.forEach(function(i){if(glyphs[i]){glyphs[i].classList.add("is-sounding");spellingHighlight.push(glyphs[i])}})}
+ if(current&&spellingRow){var glyphs=spellingRow.querySelectorAll(".tw-glyph");if(glyphs.length){current.glyphIndices.forEach(function(i){if(glyphs[i]){glyphs[i].classList.add("is-sounding");spellingHighlight.push(glyphs[i])}})}else{var syllable=spellingRow.querySelectorAll(".tw-syllable")[current.syllable-1];if(syllable){syllable.classList.add("is-sounding");spellingHighlight.push(syllable)}}}
  audioStatus.textContent=(audioVoice==="female"?"Женский":"Мужской")+" голос · "+spellingKind+(current?" · "+(spellingKind==="по слогам"?"слог "+current.syllable+" · ":"")+current.label:"");
 }
 audioPlayer.addEventListener("timeupdate",updateSpellingPosition);

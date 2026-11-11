@@ -237,7 +237,7 @@
 #tw-alphabet-lab .tw-audio-choice>.tw-choice{width:100%;height:100%;padding-top:27px;padding-bottom:23px}
 #tw-alphabet-lab .tw-audio-choice>.tw-audio-button{position:absolute;right:5px;top:5px;min-width:29px;min-height:29px;padding:5px}
 #tw-alphabet-lab .tw-audio-choice>.tw-audio-button svg{width:15px;height:15px}
-#tw-alphabet-lab .tw-glyph.is-sounding{box-shadow:inset 0 0 0 2px var(--jade);background:#e7f2ed}
+#tw-alphabet-lab .tw-glyph.is-sounding,#tw-alphabet-lab .tw-syllable.is-sounding{box-shadow:inset 0 0 0 2px var(--jade);background:#e7f2ed}
 #tw-alphabet-lab .tw-word.tw-word-spelling{padding-right:13px}
 #tw-alphabet-lab .tw-pronunciation-note{flex-basis:100%;min-width:0;margin:8px 0 0;padding:8px 10px;border-radius:9px;background:#f2f6f1;color:var(--muted);font-family:inherit;font-size:12px;line-height:1.45;text-align:left}
 #tw-alphabet-lab .tw-word-audio{display:flex;flex-basis:100%;justify-content:center;gap:8px;margin-top:5px}
@@ -440,7 +440,7 @@ function updateSpellingPosition(){
  if(!spellingTimeline.length)return;
  var current=spellingTimeline.find(function(part){return audioPlayer.currentTime>=part.start&&audioPlayer.currentTime<part.end});
  spellingHighlight.forEach(function(el){el.classList.remove("is-sounding")});spellingHighlight=[];
- if(current&&spellingRow){var glyphs=spellingRow.querySelectorAll(".tw-glyph");current.glyphIndices.forEach(function(i){if(glyphs[i]){glyphs[i].classList.add("is-sounding");spellingHighlight.push(glyphs[i])}})}
+ if(current&&spellingRow){var glyphs=spellingRow.querySelectorAll(".tw-glyph");if(glyphs.length){current.glyphIndices.forEach(function(i){if(glyphs[i]){glyphs[i].classList.add("is-sounding");spellingHighlight.push(glyphs[i])}})}else{var syllable=spellingRow.querySelectorAll(".tw-syllable")[current.syllable-1];if(syllable){syllable.classList.add("is-sounding");spellingHighlight.push(syllable)}}}
  audioStatus.textContent=(audioVoice==="female"?"Женский":"Мужской")+" голос · "+spellingKind+(current?" · "+(spellingKind==="по слогам"?"слог "+current.syllable+" · ":"")+current.label:"");
 }
 audioPlayer.addEventListener("timeupdate",updateSpellingPosition);
@@ -594,7 +594,7 @@ function renderWordRows(partsFunction,buttonClass){
   partsFunction(word).forEach(function(part,partIndex){
    if(!part.selectable){var sep=document.createElement("span");sep.className="tw-separator";sep.textContent=part.text;sep.setAttribute("aria-hidden","true");row.appendChild(sep);return}
    var key="w"+wordIndex+"p"+partIndex,btn=document.createElement("button");btn.type="button";btn.className=buttonClass;btn.textContent=part.text;btn.setAttribute("aria-label","Выбрать "+part.text);addAnswer(btn,key);if(hasTarget(part.text,letter()))correct.add(key);row.appendChild(btn);
-  });if(round.kind==="glyph"){row.classList.add("tw-word-spelling");var tools=document.createElement("div");tools.className="tw-word-audio";tools.appendChild(makeAudioButton(word,"Послушать слово целиком "+word,"Слово"));tools.appendChild(makeAudioButton(word,"Учебный разбор по слогам "+word,"Разбор","syllables"));row.appendChild(tools)}else row.appendChild(makeAudioButton(word,"Послушать слово "+word,false));appendWordPronunciationNote(row,word);wrap.appendChild(row);
+  });row.classList.add("tw-word-spelling");var tools=document.createElement("div");tools.className="tw-word-audio";tools.appendChild(makeAudioButton(word,"Послушать слово целиком "+word,"Слово"));tools.appendChild(makeAudioButton(word,"Учебный разбор по буквам "+word,"Разбор","syllables"));row.appendChild(tools);appendWordPronunciationNote(row,word);wrap.appendChild(row);
  });exerciseEl.appendChild(wrap);
 }
 function renderChoices(){
@@ -621,7 +621,7 @@ function renderExercise(){
   instruction.textContent="Нажимайте на буквы и связки. Разделители выбирать не нужно. «Слово» — чтение целиком; «Разбор» — учебное чтение каждого слога.";renderWordRows(splitGlyphs,"tw-glyph");
  }else if(round.kind==="syllable"){
   title.innerHTML='Отметьте все слоги с <span class="bo" lang="bo">'+escapeHTML(item.base)+'</span>';
-  instruction.textContent="Выбирайте слог целиком. В одном слове подходящих слогов может быть несколько.";renderWordRows(splitSyllables,"tw-syllable");
+  instruction.textContent="Выбирайте слог целиком. В одном слове подходящих слогов может быть несколько. «Слово» — чтение целиком; «Разбор» — буквы, огласовки и результат каждого слога.";renderWordRows(splitSyllables,"tw-syllable");
  }else if(round.kind==="similar"){
   title.innerHTML='Найдите <span class="bo" lang="bo">'+escapeHTML(item.base)+'</span> среди вариантов';
   instruction.textContent="Выберите одну букву, которая в точности совпадает с образцом.";renderChoices();
