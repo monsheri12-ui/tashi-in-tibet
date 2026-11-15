@@ -1,0 +1,13 @@
+{
+  "version": "monlam-practice-v1",
+  "lessons": 30,
+  "segments": 96,
+  "numericTasks": 347,
+  "audioTexts": 427,
+  "banks": 17,
+  "bundleSha256": "1922092c3e112f1af35bfce23275f926657c5177a04133b4a5ca8d31def38e78",
+  "bundleBytes": 152201,
+  "audioBase": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/068d689afcf2aef4265f55dc95fff65fa12c5f79/trainer-monlam-215106809/practice-v1/audio/",
+  "scriptUrl": null,
+  "baseSha256": "99071336703edf326f1088ffa8e5c5d850bc2e1f1edec49c11d16022778a745a"
+}

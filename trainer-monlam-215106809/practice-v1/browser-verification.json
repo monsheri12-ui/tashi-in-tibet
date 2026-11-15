@@ -1,0 +1,17 @@
+{
+  "sentencePlayback": "whole and segment completed",
+  "meaningDisclosure": "verified",
+  "numericSession": "10/10 completed",
+  "numberValidation": "fraction rejected; integer accepted",
+  "dateValidation": "nonexistent date rejected; correct date accepted",
+  "clockChoices": "four distinct choices; correct answer accepted",
+  "relativeTime": "playback and hint handling verified",
+  "recordingUI": "tested with supplied audio fixture; no real microphone opened",
+  "recordingLifecycle": "stop releases tracks, local playback works, changing task clears recording",
+  "baseAudioComparison": "recording retained while switching to Monlam sample",
+  "mobileViewport": {
+    "width": 390,
+    "overflow": false
+  },
+  "originalLetterMode": "Monlam recorder widget hidden"
+}
