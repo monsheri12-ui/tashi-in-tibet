@@ -1,0 +1,26 @@
+{
+  "changes": [
+    "word audio",
+    "example audio",
+    "verbalizer audio",
+    "relation audio",
+    "honorific audio",
+    "text audio routing",
+    "buttons for all lexical forms",
+    "audio coverage count",
+    "loopback preview support",
+    "audio build version",
+    "selected voice label"
+  ],
+  "indexUrl": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/353d7897e5759c84e59013150d98fb10f08de378/trainer-monlam-215106809/audio/index.json",
+  "runtimeBytes": 209299,
+  "packedChars": 138956,
+  "partsChars": [
+    17952,
+    64788,
+    56216
+  ],
+  "originalTrainingUnchanged": true,
+  "sourceSha256": "d075c7842b9a6fc013c30ada362d86c4091e62adf29237c2e44f9f701a3379b6",
+  "outputSha256": "931cd9f2341c561d9356c164784ce24cdfe0d30bda9be183621c3f7cedbffdc9"
+}

@@ -1,0 +1,17 @@
+{
+  "indexUrl": "https://raw.githubusercontent.com/monsheri12-ui/tashi-in-tibet/353d7897e5759c84e59013150d98fb10f08de378/trainer-monlam-215106809/audio/index.json",
+  "modes": {
+    "audio": "playback completed",
+    "audio_meaning": "playback completed",
+    "dictation_gap": "playback completed",
+    "verb_translate": "playback completed",
+    "honorific": "playback completed",
+    "relations": "playback completed",
+    "lrztp": "Monlam badge hidden"
+  },
+  "wordCards": 1841,
+  "monlamTexts": 3915,
+  "trainingUnchanged": true,
+  "githubBlobsVerified": 159,
+  "rangeRequestsVerified": true
+}
