@@ -1,0 +1,10 @@
+{
+  "newWords": 15,
+  "newExamples": 67,
+  "audioCoverage": true,
+  "originalWordIdsPreserved": true,
+  "duplicateWords": 0,
+  "sentenceIdsUnique": true,
+  "sentenceChunksReconstructSource": true,
+  "passed": true
+}
