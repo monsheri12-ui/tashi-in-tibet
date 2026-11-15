@@ -1,0 +1,13 @@
+{
+  "conversationTasks": 200,
+  "perTopic": 50,
+  "formsTasks": 30,
+  "existing20Preserved": true,
+  "listening230Preserved": true,
+  "numeric347Preserved": true,
+  "gradedQuestions": 460,
+  "shortSessions": 47,
+  "noRepeatsBeforePoolExhaustion": true,
+  "audioCoverage": "complete",
+  "passed": true
+}

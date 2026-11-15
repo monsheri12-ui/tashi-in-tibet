@@ -1,0 +1,1240 @@
+{
+  "decodedBanks": 11,
+  "checkedClips": 176,
+  "minimumCorrelation": 0.999,
+  "minimumTailMarginSeconds": 0.07396,
+  "checks": [
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr2cabf2da6166aa9585be",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr27f899ec683cb1451236",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr619c639ead70283a67b0",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr426b929b16008357759b",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr71c4d06780b431d9e26a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "grf072819b24389ce37c2d",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr05750329eed0855205dc",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "grda0769a1656b3d8eedfc",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr4047e5e3f72973563c7c",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr23a7337d5cab7de39cea",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr0f54a6a07a68c3273615",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gre390ece783bf95bc8d44",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "grc4e8197500b916112a45",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr11dde24445938290d828",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "grf15e6ea1e42bf1af08cf",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-000.mp3",
+      "id": "gr035f2576c600d174c4e1",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gr34305dd25352f4c433e5",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gre508dbd99a6a906bfa4d",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gr36633e4cc2a03ef219d7",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gre7a3d3141df871dfdb0e",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "grf2c795e69a7805a50a24",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gra3c477e0c0874f3d4b9c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gr0b9f1a144b6091ac60ec",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gre2a05731030cec32fd85",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gr5656bb0450a3c39c2f83",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gr34b7e9e0ed04f6e93a86",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gr5d077dc49270da1e9b96",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gr4504deff1e99da1ca2f4",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gr3fd0d40fbb960b52821b",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-001.mp3",
+      "id": "gr40cb88ad60f6eca7b32b",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gra2812ef1bd216b51a23b",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "grc0ff0c486f7869e8b2af",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gr071966f63cc7f0d62faf",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gr1e4da24f60f4dbc76bec",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "grc285fe954a36b1714136",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gr2ca4fef7d556b5fe6284",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gre0d6fcffba0c7b90a07e",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gr46c41f12b107c83beef1",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gr452b29c4189569ae303d",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gr9b78bf7c303053181773",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gr9db36c9595f62a8d946d",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "grdef84ba1feb31f311f2a",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "grc86bbfd38efa36c71151",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-002.mp3",
+      "id": "gr796c17f3ef8708c0d947",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gra66f4ffc755c54bb5b12",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr01dd462b3f13995a84fa",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr8e8f7cf8ab6feea97502",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr5cc7ed67366f57b4e629",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "grceb8281e05846fc17262",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr8c4b7b4a79f5ea80a211",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr978dea6068783b19db94",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr6ff56f2034128b245d82",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr5bc4f048808194eee294",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gra2d8656d7b8c179f46f8",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gre3ef1c1e79b962dcfb2a",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr5c0eea1c220803b6c152",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gre99859fdaf610f3dedce",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr55b84519cbf6acd15e18",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr9f95a30c52e2ba244d60",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr4903bb3df45a246cb5ca",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr5cd3c118613a788b9e76",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gra3b9e690a9f65e4a842a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-003.mp3",
+      "id": "gr7857a2a651e8b7b1c12a",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr0998598f4b8e5a636392",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "grf7073017f4ef2c1b0c90",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr955f33cbde689f7b7dee",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gra9ea1bb893946398d1fe",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr3785d16000b206f9447c",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr7981db3b2d37f12da124",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr9706df6a14d7c760bab6",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr051886d1710708219b1c",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr520f8e2b35052274b4c2",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr2f7d35feda29cc165916",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "grc0a6e4d9098b2efd1e31",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr2427205faf4c76faa138",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gre7184c6dc2d5f35ccb2b",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr6acf529af1724ce1e704",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "gr9cf17489d3d26472261c",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-004.mp3",
+      "id": "grae0f0b75d6ef54066b68",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "grc94bbfc1d1cb11ff12fc",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "grb6e824a12a52284269b3",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "gr00882fbc4d9c02c8167f",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "gr0e10d5342b6e16379d77",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "grf4bbe342cc0fbfe25130",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "gr4dd0059255e8eadc0528",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "gr1f61c36eeb5e200039bb",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "grf94cdbedc5797673f5ee",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "grb95652357a82856c7d32",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "gred5920e043926aa1ca22",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "gr75ced540511998ae072b",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "gr9b5da163806379fffeaf",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "gr494939bf05878072549c",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-005.mp3",
+      "id": "grb892992920d6a667a3f1",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr11ce115968cd3bb3c1f1",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr58794eff8d8e10f2e86e",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "grad771ff408d03107d2ec",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr9bda6665ca8adddbcc2c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr226bd0b181fa7b35464c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr953a1c05e8f6e6fcc5d8",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr4caa48efab632c04d0cd",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr77e8ed9bfcb5cf9f74e2",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr363dd6ec707fecd43d99",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr1ac793f69c6290692148",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gra4cce1a63c6d03d722d7",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr8437a19dec87b17cf42f",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr5f262574ecc017c3967e",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr444236f30fed4a2af232",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-006.mp3",
+      "id": "gr936936bdb7a9ce123a3e",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gr7d94939282ad452e9035",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "grddee6e2e4444203ab4fe",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gr082736b0370b62086168",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gr0ffca800c6ad774b76be",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "grd0386700672f0049a286",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gre6045c59b33493d895ff",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gr6839184cdd4de084479e",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "grcc72cb87e0e3410c195d",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "grb6126c210769f3c1f556",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gr933c4c5b1bb9eb6c1147",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gr134d0ae47318f2e9d06a",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gr170d09a1c475ccd84b2f",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gr52f57a9fa2a0be62115d",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gra30fe26edaa7dd5a12ee",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gr396ce83bcf5bad0f608d",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-007.mp3",
+      "id": "gre54f7d68bade13a6ab00",
+      "correlation": 0.999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gr12b8685bc905ff12cded",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gr6f7569442b2f37313b58",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "grd8cbeffce72c0ce9484e",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gr20de9fa1e650302b046e",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gre350f11a7f1452dc5e5f",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gr81dfe87fcbbc8ef4eb34",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gr5d575166c1e419c70d95",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gr00d383d4e57d19be3009",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gr9da637e9edca69c73783",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gree1b69fb3c65fd24216b",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "grfeb27b4dff0027c0e526",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gr97bc5c52e97ab711cad4",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gre1dbb05078c548487348",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-008.mp3",
+      "id": "gr16b5844bf8d937410514",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr72e4878815751dc6a4d0",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gra71bb2b41242b5823724",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "grfb0ef356fc803bdabe4d",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr624493dfbc1274166385",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "grdc7b307862697901e90c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "grb914d94ee929f3a9282b",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr5ca5aac39b60afc3da62",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr55e42483bdd102d68635",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr2d440a329b5a13ad430a",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr742d6968f33a2d81cd12",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr18880048b1bfb8fead75",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr03419699c6b0ebc856cb",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "grac1f007a97d67b79586f",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "grfb4e3c325ef24c750694",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "grd20278bf365aa164f132",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "grd10157049834905e3f2c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr6ee6fb85b9a3e8e96ed2",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-009.mp3",
+      "id": "gr681ce097c9e4597a1be8",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr249ebfd70261af65ffaa",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "grd2e80802e86db3401931",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "grddca06cd23fe4dc773a5",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gre6300849057640da7c89",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr586b9888da56bac3c3bf",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr95f5f74d0b661eb58636",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr40a2acf581e632a430b6",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "grbf0df2fa5a9ef59fae25",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr3139c0584c3b45471150",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gra4e002026a9fc31b529d",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "grd45f4f8c58f29cfdaa6b",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr41802ba8ac26547ba694",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr054961c5c63ec7ff18e8",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr7bc048fe4fb3c772ba48",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr8d318347ca4201616f3d",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr7482bdcb86e5a84035a8",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr526d7165444e561a2b0a",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "grca59d910f70775e7215e",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr8b56fecc7e605952fa3d",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "grammar-female-010.mp3",
+      "id": "gr0fd7f812e2f9ee69198a",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    }
+  ]
+}
