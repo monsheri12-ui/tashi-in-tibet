@@ -1,0 +1,9 @@
+{
+  "lessons": 30,
+  "segments": 96,
+  "numericChecks": 347,
+  "clockConfigurations": 720,
+  "recorderLifecycleCases": 7,
+  "audioCoverage": "complete",
+  "passed": true
+}

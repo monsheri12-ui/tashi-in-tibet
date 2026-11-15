@@ -1,0 +1,365 @@
+{
+  "decodedBanks": 17,
+  "checkedClips": 51,
+  "minimumCorrelation": 0.9975,
+  "minimumTailMarginSeconds": 0.07396,
+  "checks": [
+    {
+      "bank": "practice-female-000.mp3",
+      "id": "f0d1c46e9def46ec7b9c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-000.mp3",
+      "id": "5651ba3b450df5ab07da",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-000.mp3",
+      "id": "90379d3599a9df9ba219",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-001.mp3",
+      "id": "f73dfeb41f42d78d24a0",
+      "correlation": 0.9987,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-001.mp3",
+      "id": "44d95fce74e4989ded13",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-001.mp3",
+      "id": "ac9dd53d765391985b7e",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-002.mp3",
+      "id": "cce5b565b77763d5cdc3",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-002.mp3",
+      "id": "8db95fad3ef59f76ad5c",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-002.mp3",
+      "id": "9375d7d911a5f3d3eff5",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-003.mp3",
+      "id": "a9e49d9ca009a763e260",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-003.mp3",
+      "id": "f57ae5a59214ccf4e51e",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-003.mp3",
+      "id": "90390195fb42cb9a8514",
+      "correlation": 0.999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-004.mp3",
+      "id": "dae57577101b9a1679ae",
+      "correlation": 0.9989,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-004.mp3",
+      "id": "f5df5ec834099030cc0e",
+      "correlation": 0.9975,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-004.mp3",
+      "id": "3f93810cd48a59e7c7f6",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-005.mp3",
+      "id": "8700a7ec4bb0970a2326",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-005.mp3",
+      "id": "b46193aebd696fc6315d",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-005.mp3",
+      "id": "12d9b6df805c8f972e60",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-006.mp3",
+      "id": "4e97c8aeb9032e594ac9",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-006.mp3",
+      "id": "c1624ebd94ac3a810fe4",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-006.mp3",
+      "id": "f6a9863d9d91cda514dc",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-007.mp3",
+      "id": "300c6b4fdab403ebebeb",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-007.mp3",
+      "id": "01e9ee902f1c9a0420cb",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-007.mp3",
+      "id": "9484c733a78525bbeef0",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-008.mp3",
+      "id": "8a872d9499420249e3ef",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-008.mp3",
+      "id": "f1601900a053a2e8e2aa",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-008.mp3",
+      "id": "be2d80d357a66be876a5",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-009.mp3",
+      "id": "f352656f7c8e2fce4de5",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-009.mp3",
+      "id": "a9dea4744b97b1266b3a",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-009.mp3",
+      "id": "d598147141eb1f8d1744",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-010.mp3",
+      "id": "cee310627f08851180cd",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-010.mp3",
+      "id": "bf2af544fa4acbf4cc7a",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-010.mp3",
+      "id": "5a3a15ba339088b41773",
+      "correlation": 0.9981,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-011.mp3",
+      "id": "ab776ee754e5dd64a69f",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-011.mp3",
+      "id": "b588339a94e4cb1309b1",
+      "correlation": 0.999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-011.mp3",
+      "id": "85e09861e7ebf14da968",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-012.mp3",
+      "id": "6084ef358c42573c302f",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-012.mp3",
+      "id": "1347b0e288813dc0960e",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-012.mp3",
+      "id": "8ba838d169a016a1f873",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-013.mp3",
+      "id": "e944f0c7212f3f22d43a",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-013.mp3",
+      "id": "ba476427bbadd9dc606e",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-013.mp3",
+      "id": "030f35dcba33fb63b9b3",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-014.mp3",
+      "id": "cf46879de54ee134907c",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-014.mp3",
+      "id": "b30106317c47e18de184",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-014.mp3",
+      "id": "8118bf87ead7ae226f12",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-015.mp3",
+      "id": "b339838bf4ec9c87d824",
+      "correlation": 0.9984,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-015.mp3",
+      "id": "19fb24075c1e53a42a57",
+      "correlation": 0.999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-015.mp3",
+      "id": "62886bce6aabeaf1bdbf",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-016.mp3",
+      "id": "752dad3e458260272d03",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-016.mp3",
+      "id": "2d006f353f02efd3c1ac",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "practice-female-016.mp3",
+      "id": "6964df6fc2961400f488",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    }
+  ]
+}
