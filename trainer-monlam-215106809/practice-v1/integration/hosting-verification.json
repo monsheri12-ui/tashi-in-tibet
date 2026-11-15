@@ -1,0 +1,110 @@
+{
+  "scriptSha256": "1922092c3e112f1af35bfce23275f926657c5177a04133b4a5ca8d31def38e78",
+  "scriptMatches": true,
+  "cors": "*",
+  "banks": [
+    {
+      "file": "practice-female-000.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/677088",
+      "valid": true
+    },
+    {
+      "file": "practice-female-001.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/678528",
+      "valid": true
+    },
+    {
+      "file": "practice-female-002.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/649152",
+      "valid": true
+    },
+    {
+      "file": "practice-female-003.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/711936",
+      "valid": true
+    },
+    {
+      "file": "practice-female-004.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/741888",
+      "valid": true
+    },
+    {
+      "file": "practice-female-005.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/750816",
+      "valid": true
+    },
+    {
+      "file": "practice-female-006.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/765792",
+      "valid": true
+    },
+    {
+      "file": "practice-female-007.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/739008",
+      "valid": true
+    },
+    {
+      "file": "practice-female-008.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/764352",
+      "valid": true
+    },
+    {
+      "file": "practice-female-009.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/776448",
+      "valid": true
+    },
+    {
+      "file": "practice-female-010.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/762912",
+      "valid": true
+    },
+    {
+      "file": "practice-female-011.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/757152",
+      "valid": true
+    },
+    {
+      "file": "practice-female-012.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/760032",
+      "valid": true
+    },
+    {
+      "file": "practice-female-013.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/761472",
+      "valid": true
+    },
+    {
+      "file": "practice-female-014.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/780768",
+      "valid": true
+    },
+    {
+      "file": "practice-female-015.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/766656",
+      "valid": true
+    },
+    {
+      "file": "practice-female-016.mp3",
+      "status": 206,
+      "range": "bytes 10000-10255/243936",
+      "valid": true
+    }
+  ],
+  "verified": true
+}
