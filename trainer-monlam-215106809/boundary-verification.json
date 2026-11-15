@@ -1,0 +1,3347 @@
+{
+  "decodedBanks": 159,
+  "checkedClips": 477,
+  "minimumCorrelation": 0.9948,
+  "minimumTailMarginSeconds": 0.07396,
+  "checks": [
+    {
+      "bank": "female-000.mp3",
+      "id": "ml799949f054785cc7",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-000.mp3",
+      "id": "ml83f12a1ba785d33b",
+      "correlation": 0.9985,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-000.mp3",
+      "id": "mlfef5c382b4c91c42",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-001.mp3",
+      "id": "mld5f495d71d3a2570",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-001.mp3",
+      "id": "ml689e5cbc601436c8",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-001.mp3",
+      "id": "ml1e76bb1b1948c197",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-002.mp3",
+      "id": "ml04aaacfe402c4e49",
+      "correlation": 0.9984,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-002.mp3",
+      "id": "ml5155f3b3f132116c",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-002.mp3",
+      "id": "ml5973246da7800d23",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-003.mp3",
+      "id": "ml273f01293dd4f449",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-003.mp3",
+      "id": "mlf715b44c828e47b8",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-003.mp3",
+      "id": "mldaba49c5a683b5e9",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-004.mp3",
+      "id": "mlb9fe87d6ae02d90c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-004.mp3",
+      "id": "ml150d214ec4292be0",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-004.mp3",
+      "id": "ml34f4fdcb4f28042f",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-005.mp3",
+      "id": "mlee1caeb4ae4cca01",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-005.mp3",
+      "id": "ml2d39b2195e81e6b5",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-005.mp3",
+      "id": "ml8138bbb148078865",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-006.mp3",
+      "id": "mldcd3484d95ec18b2",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-006.mp3",
+      "id": "ml2c0efbffffab588b",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-006.mp3",
+      "id": "ml96cbc348b257b33a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-007.mp3",
+      "id": "mlccf08a332f8053d4",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-007.mp3",
+      "id": "ml774d0c0ba1c98f3d",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-007.mp3",
+      "id": "ml0a52b72028bac7ad",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-008.mp3",
+      "id": "ml786e4d5b8a5cd4c4",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-008.mp3",
+      "id": "ml96c410dfcbd962b4",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-008.mp3",
+      "id": "ml89b740d07333c111",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-009.mp3",
+      "id": "ml053ea0645547332f",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-009.mp3",
+      "id": "ml9b95a73bf39fa57b",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-009.mp3",
+      "id": "ml31962bab31b3ba08",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-010.mp3",
+      "id": "mledcf56e4712a2f3f",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-010.mp3",
+      "id": "ml69921c1a189f76fa",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-010.mp3",
+      "id": "ml08d329755711a437",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-011.mp3",
+      "id": "mlc0749382f946fe23",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-011.mp3",
+      "id": "ml5324847fd336870c",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-011.mp3",
+      "id": "ml4d30fb142d5ae36e",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-012.mp3",
+      "id": "ml492586a28c77cdd1",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-012.mp3",
+      "id": "ml29dddaae13853a84",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-012.mp3",
+      "id": "ml5dc7948ab72ff2ab",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-013.mp3",
+      "id": "ml25afd5f61efb8cf0",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-013.mp3",
+      "id": "mle6f5b3615946cff8",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-013.mp3",
+      "id": "mlc8090af4126e0492",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-014.mp3",
+      "id": "mldc6e2be21985e154",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-014.mp3",
+      "id": "mle4496ba3a011dbed",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-014.mp3",
+      "id": "ml979d99ce8313bb62",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-015.mp3",
+      "id": "ml97785f138efe90b4",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-015.mp3",
+      "id": "mlb6dec6f06ab080d2",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-015.mp3",
+      "id": "mlbe81ba54bfecf42c",
+      "correlation": 0.9982,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-016.mp3",
+      "id": "ml1b419baa0de39ef5",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-016.mp3",
+      "id": "ml36058d95fad8f21d",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-016.mp3",
+      "id": "mla561786ebc1e8a64",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-017.mp3",
+      "id": "mled41667b22fd4464",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-017.mp3",
+      "id": "mlece2a14d8a528dbf",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-017.mp3",
+      "id": "ml09f10ec0c512fa3b",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-018.mp3",
+      "id": "mldb0e5f58ce4023be",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-018.mp3",
+      "id": "ml7fdb972188f6b1ce",
+      "correlation": 0.9989,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-018.mp3",
+      "id": "mle573d1e1a2ea1bad",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-019.mp3",
+      "id": "mlbe7affd943367b92",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-019.mp3",
+      "id": "ml6ebc094f5655b235",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-019.mp3",
+      "id": "ml1285a858614dd14e",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-020.mp3",
+      "id": "ml984e1ed4c6170287",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-020.mp3",
+      "id": "mlb48782ea19375012",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-020.mp3",
+      "id": "ml40f6d4a54fbb5491",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-021.mp3",
+      "id": "ml52d0ac195039e65c",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-021.mp3",
+      "id": "mle44c9e58572df7de",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-021.mp3",
+      "id": "ml39167e43a7f7e8a8",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-022.mp3",
+      "id": "mle1ae467084658078",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-022.mp3",
+      "id": "mlb5105bb6ad8e67f7",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-022.mp3",
+      "id": "ml25b79e1369f44fa7",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-023.mp3",
+      "id": "mlc56c1a0db9ac0fd9",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-023.mp3",
+      "id": "ml7d2355803e5d9fac",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-023.mp3",
+      "id": "mlfd674b0023cb7192",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-024.mp3",
+      "id": "ml4e62609a341948df",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-024.mp3",
+      "id": "mlae098252de56bddd",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-024.mp3",
+      "id": "ml503219dcb9e380ef",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-025.mp3",
+      "id": "ml1412f54b2a79267c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-025.mp3",
+      "id": "ml43c99e4fa9ad3f48",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-025.mp3",
+      "id": "mle2afc09376094466",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-026.mp3",
+      "id": "ml2879651c33e8312f",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-026.mp3",
+      "id": "ml1a995ec9ac4a3c11",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-026.mp3",
+      "id": "mlc941699a8cf7c1f1",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-027.mp3",
+      "id": "mlb19c066847582d90",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-027.mp3",
+      "id": "mld63994c1316bbcbc",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-027.mp3",
+      "id": "mlcea04586375174ef",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-028.mp3",
+      "id": "ml5946bb9877c2c867",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-028.mp3",
+      "id": "ml3d021f2831f937e4",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-028.mp3",
+      "id": "ml3b37158b8190f662",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-029.mp3",
+      "id": "ml717c56baa0257561",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-029.mp3",
+      "id": "mlff023e5ed4db1bf2",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-029.mp3",
+      "id": "ml30eb5e00fb87ce3f",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-030.mp3",
+      "id": "mlfcead97e4794f4b4",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-030.mp3",
+      "id": "ml1a2030f4b479d831",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-030.mp3",
+      "id": "ml979329b15eadf2d9",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-031.mp3",
+      "id": "ml113fff67d3724fde",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-031.mp3",
+      "id": "mlc968aec6f8dd32e2",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-031.mp3",
+      "id": "mlb35df5f2b4303f12",
+      "correlation": 0.9989,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-032.mp3",
+      "id": "mld5fa04115d2af6d9",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-032.mp3",
+      "id": "ml7697bb43a0782cfb",
+      "correlation": 0.999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-032.mp3",
+      "id": "ml0885ceb0b9c6c358",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-033.mp3",
+      "id": "mlc9e603296bbad81b",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-033.mp3",
+      "id": "ml0a13c9866a1850e6",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-033.mp3",
+      "id": "ml1083b54f8a2b4d24",
+      "correlation": 0.9988,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-034.mp3",
+      "id": "ml164b4f3c2620bd9d",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-034.mp3",
+      "id": "mlf7be11db6504314c",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-034.mp3",
+      "id": "ml2e5f7181b86f2b5b",
+      "correlation": 0.9948,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-035.mp3",
+      "id": "mle9e03ffaa0a354d1",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-035.mp3",
+      "id": "ml151f3f7e3e8189ee",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-035.mp3",
+      "id": "ml942fc4c24b960438",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-036.mp3",
+      "id": "ml368109aeaeedde9d",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-036.mp3",
+      "id": "ml243b6ec62552bf49",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-036.mp3",
+      "id": "ml7f67a85cc02dad10",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-037.mp3",
+      "id": "mla2ebcaf571acacfd",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-037.mp3",
+      "id": "ml6fe06698928dc9f7",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-037.mp3",
+      "id": "mlfe8649a327fc8ad4",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-038.mp3",
+      "id": "ml1a494544ac029cdc",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-038.mp3",
+      "id": "ml0b1183e36f31a5ba",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-038.mp3",
+      "id": "ml2801960cd63df2e3",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-039.mp3",
+      "id": "ml30ab4676f67565c6",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-039.mp3",
+      "id": "ml95967496b462f403",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-039.mp3",
+      "id": "ml83650049d104f028",
+      "correlation": 0.9983,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-040.mp3",
+      "id": "mlb25c1d9089d36453",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-040.mp3",
+      "id": "ml64943ceed9c524f2",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-040.mp3",
+      "id": "ml8235efbb443f76ec",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-041.mp3",
+      "id": "ml12e199127fa015e1",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-041.mp3",
+      "id": "ml44487de902ece885",
+      "correlation": 0.9988,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-041.mp3",
+      "id": "ml706eb298617db4bd",
+      "correlation": 0.9987,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-042.mp3",
+      "id": "mlb237fad6df65a9cd",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-042.mp3",
+      "id": "ml94f3bb1071de5e9a",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-042.mp3",
+      "id": "mld3e29f6bab35e6ea",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-043.mp3",
+      "id": "mlb4d56e54197e4a1b",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-043.mp3",
+      "id": "mle7de64a26123b423",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-043.mp3",
+      "id": "mla35e33f38571964c",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-044.mp3",
+      "id": "ml7682e16229a55297",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-044.mp3",
+      "id": "mlb792b1e8e5552e40",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-044.mp3",
+      "id": "mlcbbc90986519181c",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-045.mp3",
+      "id": "ml036be5163348aa86",
+      "correlation": 0.999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-045.mp3",
+      "id": "ml8045b42ec72184b0",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-045.mp3",
+      "id": "ml18045853ab358d1e",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-046.mp3",
+      "id": "ml55637b550791ccbc",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-046.mp3",
+      "id": "ml6d0e4bbdfd37fe29",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-046.mp3",
+      "id": "ml7095cc2bebc0ee87",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-047.mp3",
+      "id": "mlbec55f59d510cdcf",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-047.mp3",
+      "id": "mldb05d443fc04ad5d",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-047.mp3",
+      "id": "ml52d8241497e9a1c0",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-048.mp3",
+      "id": "mlbdcd7cf189fea65a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-048.mp3",
+      "id": "ml61db5fbdded1a41b",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-048.mp3",
+      "id": "ml1de87abb09b494e2",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-049.mp3",
+      "id": "ml40278352dff10339",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-049.mp3",
+      "id": "mld81aa333459a5f06",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-049.mp3",
+      "id": "ml79afd98baf912d85",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-050.mp3",
+      "id": "mld34969215f3105f8",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-050.mp3",
+      "id": "mlc2b80aef38b7cff4",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-050.mp3",
+      "id": "mle39f6e7f902b03a1",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-051.mp3",
+      "id": "mld5f3d626aec1e94e",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-051.mp3",
+      "id": "ml4a68a82d86ce068d",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-051.mp3",
+      "id": "mlb5954eccb535bd17",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-052.mp3",
+      "id": "ml201df9632eb8532d",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-052.mp3",
+      "id": "mlbdde39b41e69bb3a",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-052.mp3",
+      "id": "ml52a4503c0371173d",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-053.mp3",
+      "id": "ml04bb8797af5f5ff6",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-053.mp3",
+      "id": "mlcde6886a0fff3dc5",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-053.mp3",
+      "id": "mld0a4a836734bf6bf",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-054.mp3",
+      "id": "ml7a1ee34f15a95d20",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-054.mp3",
+      "id": "ml77b4282cc43646c1",
+      "correlation": 0.999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-054.mp3",
+      "id": "mlec2bc9633c86d24c",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-055.mp3",
+      "id": "ml46da2e3446c2245a",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-055.mp3",
+      "id": "mld61c771f4194f00c",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-055.mp3",
+      "id": "ml59b2d323ab9995af",
+      "correlation": 0.9982,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-056.mp3",
+      "id": "ml588b1876112fc318",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-056.mp3",
+      "id": "ml950129118ac67e03",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-056.mp3",
+      "id": "ml20b5bb9de5d65bc7",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-057.mp3",
+      "id": "ml43537d126d3ed158",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-057.mp3",
+      "id": "ml4b90bb8858c5e222",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-057.mp3",
+      "id": "mla098bff1d4468a49",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-058.mp3",
+      "id": "ml1c42b327cbacc298",
+      "correlation": 0.999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-058.mp3",
+      "id": "ml0b68142425f251af",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-058.mp3",
+      "id": "ml23cbaeec5dca84ac",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-059.mp3",
+      "id": "ml772e5365b4fa767b",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-059.mp3",
+      "id": "mlac6c53376dbc902d",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-059.mp3",
+      "id": "mla9b94309008598f4",
+      "correlation": 0.9988,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-060.mp3",
+      "id": "ml65efe7ffb563572f",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-060.mp3",
+      "id": "ml44379b9860deaaad",
+      "correlation": 0.9987,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-060.mp3",
+      "id": "ml1d27c2d48be39ab1",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-061.mp3",
+      "id": "ml8239aad17c08ef82",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-061.mp3",
+      "id": "ml10dc57c63b57830c",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-061.mp3",
+      "id": "ml4135b449cb93a14c",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-062.mp3",
+      "id": "mld512f9a5156b20bf",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-062.mp3",
+      "id": "ml31c8077adea8038c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-062.mp3",
+      "id": "ml467507dff1eadbcc",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-063.mp3",
+      "id": "ml8f9177e99d0469aa",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-063.mp3",
+      "id": "mla7ae3db9ea418e25",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-063.mp3",
+      "id": "mlf1e0b50e6a7a2056",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-064.mp3",
+      "id": "ml00c8cba3faae2fd8",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-064.mp3",
+      "id": "mld9803c4a5efe300f",
+      "correlation": 0.9982,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-064.mp3",
+      "id": "ml111c47cdfabc6ca7",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-065.mp3",
+      "id": "ml33d480d2f73ce636",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-065.mp3",
+      "id": "mlc910c2de07f6fc73",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-065.mp3",
+      "id": "ml9518a166c8ffb064",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-066.mp3",
+      "id": "ml6f06d2a71f2d846a",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-066.mp3",
+      "id": "ml64875e6b46b0e7bf",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-066.mp3",
+      "id": "ml38f82d04960483ed",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-067.mp3",
+      "id": "ml49beb4981eab604a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-067.mp3",
+      "id": "mlded6e1b235f6319d",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-067.mp3",
+      "id": "mldf90361470f007ef",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-068.mp3",
+      "id": "mlbfe541b7671d0ac0",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-068.mp3",
+      "id": "mlc0a5d7497e2e0a93",
+      "correlation": 0.9989,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-068.mp3",
+      "id": "ml89c1d90da515f9a1",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-069.mp3",
+      "id": "ml6bd2724b368857a9",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-069.mp3",
+      "id": "mld807fe9f0ec74b54",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-069.mp3",
+      "id": "ml50a36f4aa129e981",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-070.mp3",
+      "id": "ml7adf31031f26f887",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-070.mp3",
+      "id": "mld678afe98fcca83a",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-070.mp3",
+      "id": "mlf02a61a2bb4f725c",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-071.mp3",
+      "id": "ml6b82c19e4d226e8b",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-071.mp3",
+      "id": "mld99d85cb3d2b1010",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-071.mp3",
+      "id": "mlb869651ac73c0dab",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-072.mp3",
+      "id": "ml7d7e899235664d50",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-072.mp3",
+      "id": "ml8ff4cf776d8a06d6",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-072.mp3",
+      "id": "mlbd1c2bd812e7754b",
+      "correlation": 0.9982,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-073.mp3",
+      "id": "ml2b03807596070b70",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-073.mp3",
+      "id": "ml46186bedbd792bb0",
+      "correlation": 0.9989,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-073.mp3",
+      "id": "ml74ecf18e4851397e",
+      "correlation": 0.998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-074.mp3",
+      "id": "ml2a8966134edd5636",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-074.mp3",
+      "id": "mld1520f3db8360179",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-074.mp3",
+      "id": "ml42b686f33a9e23ff",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-075.mp3",
+      "id": "ml851d60c84b718b11",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-075.mp3",
+      "id": "ml38036bb3e05d28e5",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-075.mp3",
+      "id": "ml809de9d93935bc6d",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-076.mp3",
+      "id": "ml0a5edb8951cae6c9",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-076.mp3",
+      "id": "mlac4997b5d9b34469",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-076.mp3",
+      "id": "ml0a1c8892ae2a0c39",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-077.mp3",
+      "id": "ml78d9dea0a5f858ef",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-077.mp3",
+      "id": "ml29c29545c0aae10c",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-077.mp3",
+      "id": "ml602c2895e5fc4358",
+      "correlation": 0.9983,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-078.mp3",
+      "id": "ml5f765ba3efd5e1d4",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-078.mp3",
+      "id": "mlf58c20300139ab3b",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-078.mp3",
+      "id": "ml209b31f09635c5e6",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-079.mp3",
+      "id": "ml1d2a518ad4ddd2b8",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-079.mp3",
+      "id": "ml770ed7e597ac9cd3",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-079.mp3",
+      "id": "ml470dbbc7b39104b3",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-080.mp3",
+      "id": "mlc470de260dec0077",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-080.mp3",
+      "id": "mlab73f7f28c10fc4d",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-080.mp3",
+      "id": "mle1a8b05276b32e59",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-081.mp3",
+      "id": "ml95b3f2e9efbf178e",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-081.mp3",
+      "id": "mlab176ace887a876a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-081.mp3",
+      "id": "ml31b252ec55361dfc",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-082.mp3",
+      "id": "mlec4ea29b3fd26fc6",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-082.mp3",
+      "id": "mlb40955e1cb5a7618",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-082.mp3",
+      "id": "mle39a1c52602cd849",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-083.mp3",
+      "id": "ml805d8e644b506b5d",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-083.mp3",
+      "id": "ml090f24ea93397aef",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-083.mp3",
+      "id": "mlbc8e5247985ce916",
+      "correlation": 0.9987,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-084.mp3",
+      "id": "ml26495ab67ac3d003",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-084.mp3",
+      "id": "mlbd2f587acf48cd2d",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-084.mp3",
+      "id": "ml19c41d0b0a0584a8",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-085.mp3",
+      "id": "ml175776545d0ec347",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-085.mp3",
+      "id": "ml76b1c9f665a3db5f",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-085.mp3",
+      "id": "ml02881af461234630",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-086.mp3",
+      "id": "ml7db1ea25dbcfabd4",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-086.mp3",
+      "id": "ml3313b76e6713816e",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-086.mp3",
+      "id": "ml22c96dd80ae26be6",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-087.mp3",
+      "id": "ml30c2b5442c5ba342",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-087.mp3",
+      "id": "ml1fdc72a4b03657bd",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-087.mp3",
+      "id": "mla0438454a34fe9ff",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-088.mp3",
+      "id": "ml8e0ee1450b6a0ca3",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-088.mp3",
+      "id": "ml41cf4c988e9e22c6",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-088.mp3",
+      "id": "ml6cd227daffc683b5",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-089.mp3",
+      "id": "mlc79707253cffbcf2",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-089.mp3",
+      "id": "ml841ff288d6099e94",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-089.mp3",
+      "id": "mlb3111fcdb307ca95",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-090.mp3",
+      "id": "mlc231c8432ba0e23c",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-090.mp3",
+      "id": "mlbb5320d75e959a0c",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-090.mp3",
+      "id": "ml831a9999b2cffb91",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-091.mp3",
+      "id": "ml176fa67ec7018f1f",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-091.mp3",
+      "id": "ml30ffaabb7eac3dc1",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-091.mp3",
+      "id": "ml87f89b2110dcd1f1",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-092.mp3",
+      "id": "mld0e0a4bae0b4fd11",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-092.mp3",
+      "id": "ml75fef8efa8b6e645",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-092.mp3",
+      "id": "mlaafff02d327b4e7f",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-093.mp3",
+      "id": "ml77c2f89c66e1ef4c",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-093.mp3",
+      "id": "ml1a964b8a2e07a056",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-093.mp3",
+      "id": "ml71e6770ea5cf2be8",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-094.mp3",
+      "id": "ml68b5007654df9b06",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-094.mp3",
+      "id": "ml90a6b6b5a306849f",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-094.mp3",
+      "id": "ml10d418811474fe7e",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-095.mp3",
+      "id": "mld7839659fbbd3233",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-095.mp3",
+      "id": "mlca10ca6a048541d8",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-095.mp3",
+      "id": "ml281b4beb452f2bc6",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-096.mp3",
+      "id": "ml956e25e114647fdb",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-096.mp3",
+      "id": "mla3a72d71a0aea75e",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-096.mp3",
+      "id": "ml0f7d205f002a5259",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-097.mp3",
+      "id": "mlc367ac23dbe97d9a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-097.mp3",
+      "id": "ml296172f13929afbc",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-097.mp3",
+      "id": "ml7b7aaec2c436f0d5",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-098.mp3",
+      "id": "ml0844b0caea9ee2b1",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-098.mp3",
+      "id": "ml2ba1596a2073909a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-098.mp3",
+      "id": "mlaa52bdf0287ebca2",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-099.mp3",
+      "id": "mlf98f849dca0def4c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-099.mp3",
+      "id": "ml503186cf11708d1e",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-099.mp3",
+      "id": "mldc41318cfd9db57b",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-100.mp3",
+      "id": "ml25f7e7248ab8fd93",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-100.mp3",
+      "id": "mld0c0cd60c95a1735",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-100.mp3",
+      "id": "ml2c2c251e8ee40a1b",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-101.mp3",
+      "id": "ml516a641d96f91f59",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-101.mp3",
+      "id": "ml9e879ec0d3294f9c",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-101.mp3",
+      "id": "ml6e801e0935a2dc09",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-102.mp3",
+      "id": "ml198c9ce61044be05",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-102.mp3",
+      "id": "ml6e59eeac1316e2b4",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-102.mp3",
+      "id": "ml2f2db590c974d208",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-103.mp3",
+      "id": "ml917ff3fb8f7331ac",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-103.mp3",
+      "id": "ml7b2ed3decddc86f9",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-103.mp3",
+      "id": "ml6dafba725cb60cf2",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-104.mp3",
+      "id": "mlf389fb947b4d2274",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-104.mp3",
+      "id": "mlf60deff2d75974d2",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-104.mp3",
+      "id": "ml24cf1f350c05635d",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-105.mp3",
+      "id": "mlea9811442982a63a",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-105.mp3",
+      "id": "mlcf8fd8a3dbfd9c7f",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-105.mp3",
+      "id": "mla7bfcbd980001708",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-106.mp3",
+      "id": "mld9c32c25e0a47d75",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-106.mp3",
+      "id": "mlf4ef78215693b136",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-106.mp3",
+      "id": "mlb92adbef84057306",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-107.mp3",
+      "id": "ml50c55997a15a3e41",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-107.mp3",
+      "id": "ml00fb86663e6eb21e",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-107.mp3",
+      "id": "mlc53dcf9a5aa3f7a2",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-108.mp3",
+      "id": "ml6496ad23410a9253",
+      "correlation": 0.999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-108.mp3",
+      "id": "mld9ab747ff9026a52",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-108.mp3",
+      "id": "ml2b89a2b1dc6bf896",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-109.mp3",
+      "id": "ml719b366772660952",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-109.mp3",
+      "id": "ml33c21b7b53ee9c29",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-109.mp3",
+      "id": "mlf8b27d33708a0cf5",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-110.mp3",
+      "id": "mlab01e6a83cb55834",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-110.mp3",
+      "id": "ml9e68de344a1972cd",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-110.mp3",
+      "id": "mlabcf48737ec12582",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-111.mp3",
+      "id": "ml00052075115c7441",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-111.mp3",
+      "id": "ml691af9cd35498e98",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-111.mp3",
+      "id": "mld3bacb385fa2f8d6",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-112.mp3",
+      "id": "mlfadb64cc8bc80a93",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-112.mp3",
+      "id": "mlc170e9b1cd530405",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-112.mp3",
+      "id": "ml68a7d7ece7cd545c",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-113.mp3",
+      "id": "ml497f68366c19e832",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-113.mp3",
+      "id": "ml831dbe5ff97d6647",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-113.mp3",
+      "id": "ml090a1c8f3245475e",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-114.mp3",
+      "id": "mlaccae316edb5dfbb",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-114.mp3",
+      "id": "mlf5392dd33c38dd9e",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-114.mp3",
+      "id": "mla76f71353448c181",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-115.mp3",
+      "id": "ml36d2bba5bb207a4b",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-115.mp3",
+      "id": "mlecc8298cb6df10fd",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-115.mp3",
+      "id": "ml9a6d067d4924f9eb",
+      "correlation": 0.9984,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-116.mp3",
+      "id": "mlc9ec4b39e35e01dc",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-116.mp3",
+      "id": "ml0cd75c43bd3f0e40",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-116.mp3",
+      "id": "mla70e9682504269b0",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-117.mp3",
+      "id": "ml35a8244ac5b5b45f",
+      "correlation": 0.9987,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-117.mp3",
+      "id": "ml39f4cabc6060474e",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-117.mp3",
+      "id": "ml53be7798d470e133",
+      "correlation": 0.9973,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-118.mp3",
+      "id": "mlbd8c73bacef24c48",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-118.mp3",
+      "id": "ml04dc816c97c5bb55",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-118.mp3",
+      "id": "ml3351814f85e9e609",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-119.mp3",
+      "id": "ml8a32b8543ccd6d28",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-119.mp3",
+      "id": "mld5062863dd7b714d",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-119.mp3",
+      "id": "ml31f042bc944421fd",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-120.mp3",
+      "id": "ml0e22181589364951",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-120.mp3",
+      "id": "ml402abcda341f6e5b",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-120.mp3",
+      "id": "mlb2c4de990af87dc5",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-121.mp3",
+      "id": "mle3b1be94ebb40f1f",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-121.mp3",
+      "id": "mlda9fa8e786b34be4",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-121.mp3",
+      "id": "mle71072e06d11c0eb",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-122.mp3",
+      "id": "mlb238ea4e114c04a3",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-122.mp3",
+      "id": "mla52eec433a527e1b",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-122.mp3",
+      "id": "ml15e25b8d9d65131e",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-123.mp3",
+      "id": "mla7e545f07b1e6e80",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-123.mp3",
+      "id": "ml106032df175bea21",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-123.mp3",
+      "id": "ml80d365b02431f041",
+      "correlation": 0.9988,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-124.mp3",
+      "id": "ml7a3137be86095765",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-124.mp3",
+      "id": "ml4f43eae93ec72600",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-124.mp3",
+      "id": "ml2bfbd3c1d93e0737",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-125.mp3",
+      "id": "ml0c4840836d9efbe5",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-125.mp3",
+      "id": "ml01edb5e2a996410e",
+      "correlation": 0.9992,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-125.mp3",
+      "id": "ml31a15c69e55d452f",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-126.mp3",
+      "id": "mlcda8b2645c91d0af",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-126.mp3",
+      "id": "ml83b9bc63e86b14c5",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-126.mp3",
+      "id": "mla212fa02efb1358f",
+      "correlation": 0.9989,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-127.mp3",
+      "id": "ml979379c5690dfe3d",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-127.mp3",
+      "id": "mld56673a3a8aeb547",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-127.mp3",
+      "id": "mle8602571882286c2",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-128.mp3",
+      "id": "mlc5b1bf45225caa14",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-128.mp3",
+      "id": "ml5f8c73c401c59e3d",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-128.mp3",
+      "id": "mlb89d71c25f1c77ce",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-129.mp3",
+      "id": "mle6db8c0d13194a55",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-129.mp3",
+      "id": "ml4e1008b9b9db4b0d",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-129.mp3",
+      "id": "ml5156b195cfac9cd1",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-130.mp3",
+      "id": "ml33d57254b1afa0fd",
+      "correlation": 1.0,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-130.mp3",
+      "id": "ml7b68ab33c0ae6f86",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-130.mp3",
+      "id": "ml6c90086ad1859f3e",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-131.mp3",
+      "id": "ml830757de9e09e3b1",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-131.mp3",
+      "id": "ml23034598976a1cba",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-131.mp3",
+      "id": "ml6e60e4187d780394",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-132.mp3",
+      "id": "mlbb237224c3b44f47",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-132.mp3",
+      "id": "mla50bc692f5cf3019",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-132.mp3",
+      "id": "mlf5a9ae8837828690",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-133.mp3",
+      "id": "ml1e202b3525118d55",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-133.mp3",
+      "id": "ml6f1a13e8feeb5ce9",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-133.mp3",
+      "id": "mlb3ec549234a5d168",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-134.mp3",
+      "id": "mlac182683ebc0a8d0",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-134.mp3",
+      "id": "mlc84f6fd103be2179",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-134.mp3",
+      "id": "ml496fbcda46b9dc09",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-135.mp3",
+      "id": "ml2fd354532d63dc67",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-135.mp3",
+      "id": "mlfd0584554dc4df0c",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-135.mp3",
+      "id": "mlf19a1f37fa679542",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-136.mp3",
+      "id": "mlf94b56e2dcc0d701",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-136.mp3",
+      "id": "ml2875cf2d1a714df6",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-136.mp3",
+      "id": "ml6942a47d046c9587",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-137.mp3",
+      "id": "ml12dc56544763f01a",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-137.mp3",
+      "id": "mle67d89fa866c444a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-137.mp3",
+      "id": "ml028d949d1ab40373",
+      "correlation": 0.9987,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-138.mp3",
+      "id": "mld7e4da8ebdab775b",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-138.mp3",
+      "id": "ml8702953de098d7bf",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-138.mp3",
+      "id": "ml39f811c9fbb9e190",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-139.mp3",
+      "id": "mld67b661aa2edb867",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-139.mp3",
+      "id": "mlfbf4134f5d4a3388",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-139.mp3",
+      "id": "mlc76ff69c9eeb91f3",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-140.mp3",
+      "id": "ml1b7e3973d058e13b",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-140.mp3",
+      "id": "ml99167fed3fa29807",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-140.mp3",
+      "id": "mle80bbe727464460c",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-141.mp3",
+      "id": "ml3e1e1573ff89ad49",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-141.mp3",
+      "id": "mlf393be4af3a98023",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-141.mp3",
+      "id": "mldf5859865b8f5417",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-142.mp3",
+      "id": "ml6060b9833789e5a3",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-142.mp3",
+      "id": "mld795f2f3712b691a",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-142.mp3",
+      "id": "ml6aed916eb43a809a",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-143.mp3",
+      "id": "mld4d183e5d1d823ab",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-143.mp3",
+      "id": "mlb6cf8952b852b489",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-143.mp3",
+      "id": "ml94412c29737304cc",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-144.mp3",
+      "id": "ml37bf6ba4fab35e49",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-144.mp3",
+      "id": "ml37506e4fb1d8952b",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-144.mp3",
+      "id": "ml0b33c30929df2056",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-145.mp3",
+      "id": "mlfe4e1ca61369cf04",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-145.mp3",
+      "id": "ml49b2c7514d7754a1",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-145.mp3",
+      "id": "mlc4ff02112c05cb06",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-146.mp3",
+      "id": "ml67e28840097ec4eb",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-146.mp3",
+      "id": "ml83e80fd56ab5e86a",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-146.mp3",
+      "id": "mlc475c1eaa87f1ec8",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-147.mp3",
+      "id": "ml5b7f04f0820109af",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-147.mp3",
+      "id": "ml1998f201e9728dc2",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-147.mp3",
+      "id": "mlc95b3496783b79a8",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-148.mp3",
+      "id": "mle4c5303b497fb76e",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-148.mp3",
+      "id": "ml3caa02ed519930b8",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-148.mp3",
+      "id": "ml8495e45c4f998a10",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-149.mp3",
+      "id": "ml50a56415f9b07cf5",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-149.mp3",
+      "id": "ml1e7d2a8cd91cb07c",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-149.mp3",
+      "id": "mlf187b19214ded93a",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-150.mp3",
+      "id": "mlfe2789472e8f6012",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-150.mp3",
+      "id": "ml4ee4b15c83a61394",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-150.mp3",
+      "id": "ml80a51d40f8d00b0c",
+      "correlation": 0.9991,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-151.mp3",
+      "id": "mlc92beaa9c499a59a",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-151.mp3",
+      "id": "mlb3cfc156c498610c",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-151.mp3",
+      "id": "ml58b7b47056e49dd0",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-152.mp3",
+      "id": "ml2de64901162d37eb",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-152.mp3",
+      "id": "ml65d72f5f04111b81",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-152.mp3",
+      "id": "ml384cbf5112425828",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-153.mp3",
+      "id": "ml71aa197f201444fc",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-153.mp3",
+      "id": "ml3476af65f70321fd",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-153.mp3",
+      "id": "ml3d8c6c4c7c09f960",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-154.mp3",
+      "id": "ml8e977e7ed9c00cc6",
+      "correlation": 0.9998,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-154.mp3",
+      "id": "mldd6d9e51791fdf4a",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-154.mp3",
+      "id": "ml5c15d29c720bda1c",
+      "correlation": 0.9996,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-155.mp3",
+      "id": "ml5a1f8183b09bba4b",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-155.mp3",
+      "id": "ml592db4560b6298bc",
+      "correlation": 0.9989,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-155.mp3",
+      "id": "ml903e4cdc5dcc5867",
+      "correlation": 0.9979,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-156.mp3",
+      "id": "mlca0fe0f80971693a",
+      "correlation": 0.9978,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-156.mp3",
+      "id": "mlfdbc839d9feccb5c",
+      "correlation": 0.9994,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-156.mp3",
+      "id": "ml5334b555d075db32",
+      "correlation": 0.9997,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-157.mp3",
+      "id": "mlcc0a53f5bbc942d0",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-157.mp3",
+      "id": "mlfa1a76de740dc278",
+      "correlation": 0.9993,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-157.mp3",
+      "id": "ml6e4cf8f9d799e31a",
+      "correlation": 0.9995,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-158.mp3",
+      "id": "ml3cdbcca670d5daa4",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-158.mp3",
+      "id": "mlb8224a97564151b2",
+      "correlation": 0.9981,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    },
+    {
+      "bank": "female-158.mp3",
+      "id": "ml34c442a258c1c68a",
+      "correlation": 0.9999,
+      "codecDelaySeconds": 0.04604,
+      "tailMarginSeconds": 0.07396
+    }
+  ]
+}
