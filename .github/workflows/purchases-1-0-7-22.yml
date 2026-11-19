@@ -1,0 +1,159 @@
+name: Publish verified purchases 1.0.7.22 on Ubuntu
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/purchases-1-0-7-22.yml]
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: verified-purchases-recovery
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check which version is public
+        id: current
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/fallback"
+          cat > "$RUNNER_TEMP/fallback/guard.sh" <<'CHECK_PUBLIC'
+          #!/usr/bin/env bash
+          set -euo pipefail
+          latest=$(gh api "repos/$GITHUB_REPOSITORY/commits/main" --jq .sha)
+          if [[ "$latest" != "$GITHUB_SHA" ]]; then
+            echo 'Main has moved. This release must be reassessed.' >&2
+            exit 1
+          fi
+          url="https://monsheri12-ui.github.io/tashi-in-tibet/?check_fallback=$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT-$RANDOM"
+          curl --retry 3 --fail --silent --show-error --location -H 'Cache-Control: no-cache' "$url" -o "$RUNNER_TEMP/tashi-public-index"
+          digest=$(sha256sum "$RUNNER_TEMP/tashi-public-index" | cut -d' ' -f1)
+          case "$digest" in
+            cc1e9e48a45cfc642d4bb2dc75e06bb75cbd09494681e771e239f58eeac6a684) echo 'deploy=false' >> "$GITHUB_OUTPUT" ;;
+            91e624ebb26b9f97f9153b6776dc5b77d5d01c7a19caf10fb9375da141fbd4ab) echo 'deploy=true' >> "$GITHUB_OUTPUT" ;;
+            *) echo "Unexpected published index digest $digest" >&2; exit 1 ;;
+          esac
+          CHECK_PUBLIC
+          bash "$RUNNER_TEMP/fallback/guard.sh"
+
+      - name: Check out the fixed purchase patch
+        if: steps.current.outputs.deploy == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: e56831119fb471c2c242ad270c331a20478e13e6
+          path: school-update
+          sparse-checkout: patches
+          persist-credentials: false
+
+      - name: Restore and verify the exact previous Pages artifact
+        if: steps.current.outputs.deploy == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          artifact="$RUNNER_TEMP/previous-pages.zip"
+          curl --retry 3 --fail --silent --show-error --location \
+            --header "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/monsheri12-ui/tashi-in-tibet/actions/artifacts/14538729161/zip" \
+            -o "$artifact"
+          echo "827fbe075f355cf3ac54c57d8f971059ba8ebf34693b340d14dceac1ba4f8360  $artifact" | sha256sum -c -
+          python3 - <<'RESTORE'
+          import os, shutil, tarfile, zipfile
+          from pathlib import Path, PurePosixPath
+          from tempfile import TemporaryFile
+          root = Path('dist')
+          root.mkdir()
+          with zipfile.ZipFile(Path(os.environ['RUNNER_TEMP'])/'previous-pages.zip') as archive, TemporaryFile() as tar:
+              if archive.namelist() != ['artifact.tar']:
+                  raise SystemExit('Expected exactly one Pages tar')
+              with archive.open('artifact.tar') as source:
+                  shutil.copyfileobj(source, tar)
+              tar.seek(0)
+              with tarfile.open(fileobj=tar, mode='r:') as members:
+                  for member in members:
+                      name = PurePosixPath(member.name)
+                      if name.is_absolute() or '..' in name.parts:
+                          raise SystemExit('Unexpected path in artifact')
+                      path = root / name
+                      if member.isdir():
+                          path.mkdir(parents=True, exist_ok=True)
+                      elif member.isfile():
+                          path.parent.mkdir(parents=True, exist_ok=True)
+                          with members.extractfile(member) as source, path.open('xb') as output:
+                              shutil.copyfileobj(source, output)
+                      else:
+                          raise SystemExit('Unexpected type in artifact')
+          RESTORE
+          cat > "$RUNNER_TEMP/fallback/inventory.py" <<'INVENTORY'
+          import hashlib, json, sys
+          from pathlib import Path
+          root = Path('dist')
+          inventory = {}
+          for path in root.rglob('*'):
+              if path.is_symlink():
+                  raise SystemExit(f'Unexpected symbolic link: {path}')
+              if path.is_file():
+                  inventory[path.relative_to(root).as_posix()] = hashlib.sha256(path.read_bytes()).hexdigest()
+          digest = hashlib.sha256(json.dumps(inventory, ensure_ascii=False, separators=(',', ':'), sort_keys=True).encode()).hexdigest()
+          if len(inventory) != 544 or digest != sys.argv[1]:
+              raise SystemExit(f'Wrong release inventory: {len(inventory)} files, {digest}')
+          print(f'Verified {len(inventory)} release files: {digest}')
+          INVENTORY
+          python3 "$RUNNER_TEMP/fallback/inventory.py" 7f00d8ca433e29ba54f08852e01ad90eb0ef2a1ee468ffdd0108c95f73b4d970
+
+      - name: Apply and verify shop and dining transactions
+        if: steps.current.outputs.deploy == 'true'
+        working-directory: dist
+        run: |
+          git apply --unidiff-zero --whitespace=nowarn ../school-update/patches/purchases.patch
+          python - <<'PYVERIFY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('assets/manifest.json')
+          data=json.loads(p.read_text())
+          data['htmlBytes']=Path('index.html').stat().st_size
+          data['scriptBytes']=sum(p.stat().st_size for p in Path('assets/js').glob('game-[0-9][0-9].js'))
+          p.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
+          expected={'assets/js/game-08.js': '6b7933d0174d65a79df7501dcad2ffd03d270f17e773efe3f20c25e806fc16e7', 'assets/js/game-09.js': 'dc9fdca7332e35de76fe2d4edf9d869736c2431bbb35bcbbbfc07145d3466c18', 'assets/js/game-11.js': '706df0217dd9f23ff03d530ca73ccb281c0788e1b50a5b877e7740464da4b6a5', 'assets/js/game-27.js': 'cafb2bf61078d715c7a867dd22a788aeada9bde6b56cc9183509bfc648e750b5', 'assets/js/game-29.js': '121336858e4fa97de91d74126ff8a0ac2067edf3405348775790fe7267f9887b', 'assets/manifest.json': 'f054a8d04a3c935de62813b2729237aa562a91b5b843478ffd56d06af18e73fb', 'assets/styles.css': '3cec2ac16a1fe55fbd09f853d630213501411d195f7c17cbfea7cba21e131b07', 'characters-preview.html': '1096caa1e875d1aabc041bb2656f8c1550cfdc5a123249174233655155341495', 'index.html': 'cc1e9e48a45cfc642d4bb2dc75e06bb75cbd09494681e771e239f58eeac6a684'}
+          for name,digest in expected.items():
+              assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
+          PYVERIFY
+
+      - name: Verify all files before upload
+        if: steps.current.outputs.deploy == 'true'
+        run: python3 "$RUNNER_TEMP/fallback/inventory.py" 5ee65d229a9f0239f5320e06a5a27e9574645a15b2c154ed7a5bc47909f62ced
+
+      - name: Configure Pages
+        if: steps.current.outputs.deploy == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload the verified site
+        if: steps.current.outputs.deploy == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Recheck the public release immediately before deployment
+        if: steps.current.outputs.deploy == 'true'
+        id: recheck
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash "$RUNNER_TEMP/fallback/guard.sh"
+
+      - name: Deploy the verified site
+        if: steps.recheck.outputs.deploy == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v5
