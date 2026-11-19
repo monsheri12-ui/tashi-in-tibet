@@ -3,7 +3,7 @@ name: Publish Tashi to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: [.github/workflows/pages.yml, patches/school-dialogue.patch, patches/cinema-cashier.patch, patches/location-labels.patch]
+    paths: [.github/workflows/pages.yml, patches/school-dialogue.patch, patches/cinema-cashier.patch, patches/location-labels.patch, patches/object-labels.patch]
   workflow_dispatch:
 
 permissions:
@@ -654,6 +654,23 @@ jobs:
           data['scriptBytes']=sum(p.stat().st_size for p in Path('assets/js').glob('game-[0-9][0-9].js'))
           p.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
           expected={'assets/js/game-08.js': 'ec37034d296b7199a685393ace8e0674f3f5a90e0179a14fce8649c6f9ce922f', 'assets/js/game-09.js': 'eefb3d0a4c55defddb345789ffa4d1a9dbb6bd3e4b1f63e74b86c91f34b507bc', 'assets/js/game-28.js': '04e54a9516f582a88a473c792da3e2fb04ae555364416216ec15ae3aa9cce13a', 'assets/js/game-29.js': 'fb7e9601fea13d294dd2be227c8c7daba20bce4bac43f0d6554151f76c56a0c1', 'assets/manifest.json': '8fb398b5bbb6b39ca5662fae93f172c087ef6e951d19b4bb4b71bd427a079653', 'characters-preview.html': 'b01aca665fc047c3887b2ae23ebf46fe697c5b6d8d40452d1181784aad2486d5', 'index.html': '55f612a4dbde6f5ac1b977b1c422d845052ac066988c3e6b3333ec7ce61bbd58'}
+          for name,digest in expected.items():
+              assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
+          PYVERIFY
+
+      - name: Apply and verify contextual object labels and actions
+        working-directory: dist
+        run: |
+          git apply --unidiff-zero --whitespace=nowarn ../school-update/patches/object-labels.patch
+          python - <<'PYVERIFY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('assets/manifest.json')
+          data=json.loads(p.read_text())
+          data['htmlBytes']=Path('index.html').stat().st_size
+          data['scriptBytes']=sum(p.stat().st_size for p in Path('assets/js').glob('game-[0-9][0-9].js'))
+          p.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
+          expected={'assets/js/game-02.js': '702bf74128e958fa01850c6e61c17c067190d3896eef0edb928f567e6ea7ea6b', 'assets/js/game-08.js': 'c79a32f32df51905a3074f8fccac3ce7a94a4c7bd16c261f71e4932c3f1cce0f', 'assets/js/game-09.js': '36d33f3bc7d95763848b202f744c7f626d160aff76edd6f3bc921c19410a041a', 'assets/js/game-28.js': '39000f0e7fdc4302ae2bb304faa064fb30a293ce6f77b77bf735954b3f7b11ed', 'assets/js/game-29.js': '75c8a51f88e392b776ae47215e12dd77d9c879ce8f26dd6eb33d3d359e2fa3b8', 'assets/manifest.json': '66fffc4320d0ea7a23c3fb0c8f9acfcec64f09b15d5de683f7f4a954947d2b68', 'characters-preview.html': '4d6b1cb3155f102a7b46c5bcf136beeea8ac58e820e70ea629432c8f9bbc0d36', 'index.html': '91e624ebb26b9f97f9153b6776dc5b77d5d01c7a19caf10fb9375da141fbd4ab'}
           for name,digest in expected.items():
               assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
           PYVERIFY
