@@ -3,7 +3,7 @@ name: Publish Tashi to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: [.github/workflows/pages.yml, patches/school-dialogue.patch]
+    paths: [.github/workflows/pages.yml, patches/school-dialogue.patch, patches/cinema-cashier.patch]
   workflow_dispatch:
 
 permissions:
@@ -620,6 +620,23 @@ jobs:
           data['scriptBytes']=sum(p.stat().st_size for p in Path('assets/js').glob('game-[0-9][0-9].js'))
           p.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
           expected={'assets/js/game-08.js': 'f3eb25d8ab03fa27a927664efc644261405aa9bd54c0f1d1a9e67404651dcde0', 'assets/js/game-16.js': 'f36dc44b43246c0644195304779394be3ad1590379d80bd788d1cccc1533e95d', 'assets/js/game-29.js': '1c2f4398288eb1914404b0ebe411d7af9286e990e66217e5e285252a6d0442cb', 'assets/manifest.json': '3394ee744db30b6a81778ed28ff1eb5a956057597dda2362f16622f9c7fa1223', 'assets/styles.css': '267d1e6c358136553b0c3c94604e89e4ca6b75a6a50a83a22ecba7cf2f430ed3', 'characters-preview.html': '0faeab08d727e6ca05d842229c0c08da16d433f8b7ac60bed2b51b3ce8f2cf4b', 'index.html': '9aa16d6a8d364c3ff89235937dfcd51f687db105b3f85c5f1a44f805391d590d'}
+          for name,digest in expected.items():
+              assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
+          PYVERIFY
+
+      - name: Apply and verify the cinema cashier and tickets
+        working-directory: dist
+        run: |
+          git apply --whitespace=nowarn ../school-update/patches/cinema-cashier.patch
+          python - <<'PYVERIFY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('assets/manifest.json')
+          data=json.loads(p.read_text())
+          data['htmlBytes']=Path('index.html').stat().st_size
+          data['scriptBytes']=sum(p.stat().st_size for p in Path('assets/js').glob('game-[0-9][0-9].js'))
+          p.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
+          expected={'assets/js/game-08.js': '2f32f8d7fab52bc659a95962a74a9522daab2624a1f07feb69d308c2bf7b6210', 'assets/js/game-09.js': '0ec9a58f147630b8d1bb99ecfcdafc62b2d5e8bcdf3a2aa97671b05dd2b1adc5', 'assets/js/game-29.js': 'cc1fbe4f7a616cce9a961955b1b01b6e1f7e424ddd7ce02a4c9ae6f7718de41f', 'assets/manifest.json': '7b65453eb99c8d7df0f3b483efd17be3ce309f2cc184d358792b53956578ff5e', 'assets/styles.css': 'f37ef8e4e187cb0bf696a6f477b7b96e95a7150a0308e13444b7509579598d5a', 'characters-preview.html': '4f37fee622530944222672f98cc8b1f6211660d3113be98994a075cb3912fa67', 'index.html': 'd776344095d7e3588cefd8645552f424147e6fab70a7e5674d800b175b2e8c7d'}
           for name,digest in expected.items():
               assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
           PYVERIFY
