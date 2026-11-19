@@ -3,7 +3,7 @@ name: Publish Tashi to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: [.github/workflows/pages.yml, patches/school-dialogue.patch, patches/cinema-cashier.patch, patches/location-labels.patch, patches/object-labels.patch]
+    paths: [.github/workflows/pages.yml, patches/school-dialogue.patch, patches/cinema-cashier.patch, patches/location-labels.patch, patches/object-labels.patch, patches/purchases.patch]
   workflow_dispatch:
 
 permissions:
@@ -671,6 +671,23 @@ jobs:
           data['scriptBytes']=sum(p.stat().st_size for p in Path('assets/js').glob('game-[0-9][0-9].js'))
           p.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
           expected={'assets/js/game-02.js': '702bf74128e958fa01850c6e61c17c067190d3896eef0edb928f567e6ea7ea6b', 'assets/js/game-08.js': 'c79a32f32df51905a3074f8fccac3ce7a94a4c7bd16c261f71e4932c3f1cce0f', 'assets/js/game-09.js': '36d33f3bc7d95763848b202f744c7f626d160aff76edd6f3bc921c19410a041a', 'assets/js/game-28.js': '39000f0e7fdc4302ae2bb304faa064fb30a293ce6f77b77bf735954b3f7b11ed', 'assets/js/game-29.js': '75c8a51f88e392b776ae47215e12dd77d9c879ce8f26dd6eb33d3d359e2fa3b8', 'assets/manifest.json': '66fffc4320d0ea7a23c3fb0c8f9acfcec64f09b15d5de683f7f4a954947d2b68', 'characters-preview.html': '4d6b1cb3155f102a7b46c5bcf136beeea8ac58e820e70ea629432c8f9bbc0d36', 'index.html': '91e624ebb26b9f97f9153b6776dc5b77d5d01c7a19caf10fb9375da141fbd4ab'}
+          for name,digest in expected.items():
+              assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
+          PYVERIFY
+
+      - name: Apply and verify shop and dining transactions
+        working-directory: dist
+        run: |
+          git apply --unidiff-zero --whitespace=nowarn ../school-update/patches/purchases.patch
+          python - <<'PYVERIFY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('assets/manifest.json')
+          data=json.loads(p.read_text())
+          data['htmlBytes']=Path('index.html').stat().st_size
+          data['scriptBytes']=sum(p.stat().st_size for p in Path('assets/js').glob('game-[0-9][0-9].js'))
+          p.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
+          expected={'assets/js/game-08.js': '6b7933d0174d65a79df7501dcad2ffd03d270f17e773efe3f20c25e806fc16e7', 'assets/js/game-09.js': 'dc9fdca7332e35de76fe2d4edf9d869736c2431bbb35bcbbbfc07145d3466c18', 'assets/js/game-11.js': '706df0217dd9f23ff03d530ca73ccb281c0788e1b50a5b877e7740464da4b6a5', 'assets/js/game-27.js': 'cafb2bf61078d715c7a867dd22a788aeada9bde6b56cc9183509bfc648e750b5', 'assets/js/game-29.js': '121336858e4fa97de91d74126ff8a0ac2067edf3405348775790fe7267f9887b', 'assets/manifest.json': 'f054a8d04a3c935de62813b2729237aa562a91b5b843478ffd56d06af18e73fb', 'assets/styles.css': '3cec2ac16a1fe55fbd09f853d630213501411d195f7c17cbfea7cba21e131b07', 'characters-preview.html': '1096caa1e875d1aabc041bb2656f8c1550cfdc5a123249174233655155341495', 'index.html': 'cc1e9e48a45cfc642d4bb2dc75e06bb75cbd09494681e771e239f58eeac6a684'}
           for name,digest in expected.items():
               assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
           PYVERIFY
