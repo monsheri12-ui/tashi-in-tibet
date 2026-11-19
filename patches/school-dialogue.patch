@@ -1,0 +1,227 @@
+--- a/assets/js/game-08.js
++++ b/assets/js/game-08.js
+@@ -1914,2 +1914,3 @@
+  if(typeof CITY_POPULATION!=='undefined')for(const incoming of CITY_POPULATION.profiles){const p=byId.get(incoming.id);if(p)Object.assign(p,incoming);}
++ const schoolPupils=profiles.filter(p=>p.isChild&&p.age>=7&&p.destinationScene==='school');
+  const localCasts=typeof CITY_POPULATION==='undefined'?{}:CITY_POPULATION.localCasts;
+@@ -1935,3 +1936,14 @@
+  function location(p,d,minute){if(p.regional)return minute>=420&&minute<(p.isChild?1140:1320)?p.scene:'home';if(minute<420||minute>=(p.isChild?1140:1260))return 'home';if(p.isChild)return minute>=540&&minute<900&&d%7<5?(p.destinationScene||p.homeScene):p.homeScene;if(minute>=540&&minute<1020&&d%7!==p.dayOff&&!p.isRetired)return p.destinationScene||p.workplace;return p.homeScene;}
+- function eligible(state,scene,minute,task={}){if(scene==='festival')return festivalOpen(state,minute,task)?regionalProfiles.filter(p=>p.region==='home'&&location(p,day(state),minute)!=='home'):[];const d=day(state),regional=(regionalBySite.get(scene)||[]).filter(p=>location(p,d,minute)===scene);if(regional.length)return regional;const cast=localCasts[scene];if(cast){const ids=new Set([...cast.staff,...cast.visitors]);return profiles.filter(p=>ids.has(p.id)&&(location(p,d,minute)===scene||cast.visitors.includes(p.id)&&location(p,d,minute)!=='home'&&(minute>=1020||d%7===p.dayOff||p.isRetired)));}return profiles.filter(p=>location(p,d,minute)===scene);}
++ function eligible(state,scene,minute,task={}){if(scene==='festival')return festivalOpen(state,minute,task)?regionalProfiles.filter(p=>p.region==='home'&&location(p,day(state),minute)!=='home'):[];const d=day(state),regional=(regionalBySite.get(scene)||[]).filter(p=>location(p,d,minute)===scene);
++  if(regional.length){
++   if(scene==='school'){
++    const attending=schoolPupils.filter(p=>location(p,d,minute)===scene);
++    if(attending.length){
++     const visit=state.residents?.walks?.school||0;
++     return [...regional,attending[(d+visit)%attending.length]];
++    }
++   }
++   return regional;
++  }
++  const cast=localCasts[scene];if(cast){const ids=new Set([...cast.staff,...cast.visitors]);return profiles.filter(p=>ids.has(p.id)&&(location(p,d,minute)===scene||cast.visitors.includes(p.id)&&location(p,d,minute)!=='home'&&(minute>=1020||d%7===p.dayOff||p.isRetired)));}return profiles.filter(p=>location(p,d,minute)===scene);}
+  function visible(state,scene,minute,task={}){
+--- a/assets/js/game-16.js
++++ b/assets/js/game-16.js
+@@ -77,4 +77,11 @@
+   const en=typeof GameLocale!=='undefined'&&GameLocale.language==='en',label=value?(en?'Hide panel':'Скрыть панель'):(en?'Show tasks and actions':'Показать задания и действия');
+-  toggle.setAttribute('aria-label',label);
+-  $('dialogue-toggle-label').textContent=label;$('dialogue-toggle-icon').textContent=value?'−':'+';
++  const tibetan=typeof GameLocale!=='undefined'&&GameLocale.immersed;
++  const objective=$('collapsed-objective'),goal=value?'':previous.objective||'';
++  objective.hidden=!goal;objective.textContent=goal;
++  objective.lang=/[\u0f00-\u0fff]/.test(goal)?'bo':en?'en':'ru';
++  const action=tibetan?tr(value?'Свернуть':'Текущее задание'):label;
++  toggle.setAttribute('aria-label',goal?goal+' · '+action:action);
++  toggle.title=action;
++  $('dialogue-toggle-label').textContent=goal&&!tibetan?(en?'Open':'Открыть'):action;
++  $('dialogue-toggle-icon').textContent=value?'−':'+';
+   zoom.textContent=zoomLabel;zoom.setAttribute('aria-label',zoomLabel);zoom.title=zoomLabel;
+--- a/assets/js/game-29.js
++++ b/assets/js/game-29.js
+@@ -71,3 +71,3 @@
+   if(raw.contacts!==undefined){if(!record(raw.contacts))throw Error('Некорректная адресная книга.');for(const[id,number]of Object.entries(raw.contacts)){const c=DATA.gameContacts.find(x=>x.id===id);if(!c||number!==c.number)throw Error('Неизвестный контакт или номер.');s.contacts[id]=number}}
+-  if(raw.wardrobeProgress!==undefined){if(!record(raw.wardrobeProgress))throw Error('Некорректное действие у шкафа.');for(const[id,w]of Object.entries(raw.wardrobeProgress)){const t=allTasks.get(id);if(!t||t.type!=='wardrobe'||!record(w)||!['open','choose','translate','close'].includes(w.step)||w.choice!==null&&(!Number.isInteger(w.choice)||w.choice<0||w.choice>=t.wardrobeScene.choices.length)||['translate','close'].includes(w.step)&&w.choice===null)throw Error('Некорректное действие у шкафа.');s.wardrobeProgress[id]={step:w.step,choice:w.choice}}}
++  if(raw.wardrobeProgress!==undefined){if(!record(raw.wardrobeProgress))throw Error('Некорректное действие у шкафа.');for(const[id,w]of Object.entries(raw.wardrobeProgress)){const t=allTasks.get(id);if(!t||t.type!=='wardrobe'||!record(w)||!['open','choose','translate','close'].includes(w.step)||w.choice!==null&&(!Number.isInteger(w.choice)||w.choice<0||w.choice>=t.wardrobeScene.choices.length)||['translate','close'].includes(w.step)&&w.choice===null)throw Error('Некорректное действие у шкафа.');s.wardrobeProgress[id]={step:w.step,choice:w.choice};if(['clue','translation'].includes(w.help))s.wardrobeProgress[id].help=w.help;if(w.usedTranslation===true)s.wardrobeProgress[id].usedTranslation=true}}
+   if(raw.radio!==undefined){const r=raw.radio;if(!record(r)||typeof r.on!=='boolean'||!DATA.radioTracks.some(t=>t.id===r.track)||!Number.isInteger(r.turns)||r.turns<0||r.turns>1000000||!Number.isFinite(r.volume)||r.volume<0||r.volume>1)throw Error('Некорректное состояние радио.');const station=DATA.radioTracks.find(t=>t.id===r.track).station,allowed=DATA.radioTracks.filter(t=>t.station===station).map(t=>t.id);if(r.shuffle!==undefined&&typeof r.shuffle!=='boolean'||r.queue!==undefined&&(!Array.isArray(r.queue)||r.queue.some(id=>!allowed.includes(id))||new Set(r.queue).size!==r.queue.length))throw Error('Некорректная очередь радио.');s.radio={on:r.on,track:r.track,turns:r.turns,volume:r.volume,shuffle:r.shuffle??false,queue:[...(r.queue||[])]}}
+@@ -93,3 +93,24 @@
+  // The shell owns viewport layout only; lesson state and saving stay in the app.
+- function syncGameShell(context){if(typeof GameShell!=='undefined')GameShell.sync(context)}
++ function collapsedObjective(context){
++  const task=current&&context.key===current.id?current:null;
++  const instruction=$('#challenge .task-instruction')?.textContent.trim();
++  let goal;
++  if(context.type==='summary')goal='Итоги дня';
++  else if(context.passed)goal='Дальше';
++  else if(task){
++   // A task title, translation or object name can itself be the required answer.
++   const protectedAnswer=task.type==='object'||task.translationDirection||task._dailyExercise==='meaning'||task.gap;
++   if(!protectedAnswer)goal=currentNeed(task);
++   if(!goal||goal==='Продолжить день')goal=instruction;
++  }else if(context.withPerson||context.type==='resident')goal='Разговор';
++  else if(worldPanel||context.type==='expeditions'){
++   // While exploring, keep the outstanding daily goal in view.
++   goal=currentNeed(GameDaytime.nextMain(state,DATA));
++  }
++  if(!goal)return '';
++  if(state.immersion==='immersed'||state.immersion==='auto'&&context.immersion>=3)
++   return GameTibetanUI.lookup(goal)||GameTibetanUI.lookup(instruction||'Текущее задание')||GameTibetanUI.lookup('Текущее задание');
++  return GameLocale.text(goal);
++ }
++ function syncGameShell(context){if(typeof GameShell!=='undefined')GameShell.sync({...context,objective:collapsedObjective(context)})}
+  function focusGameShell(target,options={behavior:'instant',block:'start'}){if(typeof GameShell!=='undefined'){GameShell.focus(target);return}const node=target==='route'?$('#challenge .route-board'):target==='scene'?$('#scene-name'):$('#challenge');node?.scrollIntoView(options)}
+@@ -572,2 +593,3 @@
+   const w=wardrobeProgress(),scene=current.wardrobeScene,step=w.step;
++  if(w.help&&!feedback&&step!=='choose')feedback=wardrobeFeedback(w);
+   current.thought=step==='choose'?'Что я сегодня надену? Выберу одежду.':step==='translate'?scene.choices[w.choice].bo:scene[step].bo;
+@@ -578,11 +600,52 @@
+  }
+- function bindWardrobe(){const c=$('#challenge');$('#wardrobe-categories-open')?.addEventListener('click',()=>openWeatherScene({stage:'clothes'}));c.querySelectorAll('[data-wardrobe-outfit]').forEach(b=>b.onclick=()=>{if(passed)return;const w=wardrobeProgress();w.choice=+b.dataset.wardrobeOutfit;w.step='translate';option=null;feedback='';save();renderTask()});c.querySelectorAll('[data-wardrobe-answer]').forEach(b=>b.onclick=()=>{if(passed)return;option=+b.dataset.wardrobeAnswer;renderTask()})}
++ function wardrobePhrase(w){
++  const scene=current.wardrobeScene;
++  return w.step==='translate'?scene.choices[w.choice]:scene[w.step];
++ }
++ function wardrobeFeedback(w){
++  const immersed=state.immersion==='immersed';
++  const clue=immersed
++   ?GameTibetanUI.lookup(w.step==='translate'?'Одежда и цвета':'Сравни смысл фраз с тем, что произошло в сцене.')
++   :w.step==='translate'
++   ?gmNative('Сопоставь названия одежды и оба цвета с выбранным нарядом.','Match the clothing words and both colours to the outfit you chose.')
++   :gmNative('Прочитай глагол в конце фразы. Что Таши делает с дверцей?','Read the verb at the end of the sentence. What is Tashi doing with the wardrobe door?');
++  const phrase=wardrobePhrase(w);
++  const help=w.help==='translation'
++   ?`<p id="wardrobe-translation" data-learning-source tabindex="-1">${abEscape(GameLocale.language==='en'?(phrase.en||GameLocale.nativeText(phrase.ru)):phrase.ru)}</p>`
++   :`<button id="wardrobe-show-translation" class="quiet">${immersed?'ཡིག་སྒྱུར།':gmNative('Показать перевод','Show translation')}</button>`;
++  return `<strong>${immersed?GameTibetanUI.lookup('Попробуй ещё раз.'):gmNative('Попробуй ещё раз.','Try again.')}</strong><p>${clue}</p>${help}`;
++ }
++ function bindWardrobe(){
++  const c=$('#challenge');
++  $('#wardrobe-categories-open')?.addEventListener('click',()=>openWeatherScene({stage:'clothes'}));
++  c.querySelectorAll('[data-wardrobe-outfit]').forEach(b=>b.onclick=()=>{
++   if(passed)return;
++   const w=wardrobeProgress();
++   w.choice=+b.dataset.wardrobeOutfit;w.step='translate';option=null;feedback='';save();renderTask();
++  });
++  c.querySelectorAll('[data-wardrobe-answer]').forEach(b=>b.onclick=()=>{
++   if(passed)return;
++   option=+b.dataset.wardrobeAnswer;renderTask();
++  });
++  $('#wardrobe-show-translation')?.addEventListener('click',()=>{
++   if(passed)return;
++   const w=wardrobeProgress();
++   if(w.help!=='clue')return;
++   w.help='translation';w.usedTranslation=true;
++   if(!state.hinted.includes(current.id))state.hinted.push(current.id);
++   feedback=wardrobeFeedback(w);save();renderTask();$('#wardrobe-translation')?.focus();
++  });
++ }
+  function checkWardrobe(){
+   const w=wardrobeProgress(),scene=current.wardrobeScene;if(w.step==='choose'){toast('Выбери предложение о наряде.');return}if(option===null){toast('Выбери перевод фразы.');return}
+-  const phrase=w.step==='translate'?scene.choices[w.choice]:scene[w.step],ok=option===(w.step==='translate'?w.choice:0);current._wardrobeShown??={};recordPhrase(phrase,'bo-ru',ok,!!current._wardrobeShown[phrase.bo]||!!current._hintUsed||hintOpen);current._wardrobeShown[phrase.bo]=true;
+-  if(!ok){state.mistakes[current.id]=(state.mistakes[current.id]||0)+1;save();feedback=`<strong>Попробуй ещё раз.</strong><p class=bo lang=bo>${e(phrase.bo)}</p><p>${e(phrase.ru)}</p>`;renderTask();return}
+-  feedback='';option=null;
++  const phrase=wardrobePhrase(w),ok=option===(w.step==='translate'?w.choice:0);
++  recordPhrase(phrase,'bo-ru',ok,!!w.help||!!current._hintUsed||hintOpen);
++  if(!ok){
++   state.mistakes[current.id]=(state.mistakes[current.id]||0)+1;
++   w.help??='clue';feedback=wardrobeFeedback(w);option=null;save();renderTask();return;
++  }
++  delete w.help;feedback='';option=null;
+   if(w.step==='open'){state.household.wardrobeOpen=true;w.step='choose';save();wardrobeRefresh();renderTask();toast(phrase.ru);return}
+   if(w.step==='translate'){const pair=scene.choices[w.choice].outfit;state.outfits[current.day??state.day]=pair.slice();current.actualOutfit=pair.slice();current.traditional=false;w.step='close';save();wardrobeRefresh();renderTask();toast(phrase.ru);return}
+-  const pair=scene.choices[w.choice].outfit;top=pair[0];bottom=pair[1];current.outfit=pair.slice();current.answerBo=scene.close.bo;current.ru=scene.close.ru;current.rule='wardrobeDoors';state.household.wardrobeOpen=false;delete state.wardrobeProgress[current.id];current.houseState={...current.houseState,wardrobeOpen:false};result(true,'Я выбрал одежду и закрыл шкаф.');
++  const pair=scene.choices[w.choice].outfit;top=pair[0];bottom=pair[1];current.outfit=pair.slice();current.answerBo=scene.close.bo;current.ru=scene.close.ru;current.rule='wardrobeDoors';if(w.usedTranslation)current._answerShown=true;state.household.wardrobeOpen=false;delete state.wardrobeProgress[current.id];current.houseState={...current.houseState,wardrobeOpen:false};result(true,'Я выбрал одежду и закрыл шкаф.');
+  }
+@@ -1833,2 +1896,3 @@
+  function residentResponseChoices(topic,p){const self=residentSelfProfile(),answer=(id,changes={})=>GameResidents.phrase(id,{...self,...changes},state);
++  if(topic==='cartoons'&&p.isChild&&p.age>=7)return ['answer-cartoons-yes-child','answer-cartoons-no-child'].map(id=>answer(id));
+   if(topic==='name')return tashiNameVariants();
+@@ -1841,4 +1905,21 @@
+  function residentResponseQuestion(topic,p){return residentCounterQuestion(topic,p)||(topic==='name'?GameResidents.question('name',residentSelfProfile(),state):null);}
+- function residentResponseMarkup(topic,p){const choices=residentResponseChoices(topic,p),question=choices.length&&residentResponseQuestion(topic,p),draft=GameResidents.translationDraft(state.residents,p.id,topic);if(!question||!draft.passed)return '';const selected=GameResidents.relation(state.residents,p.id).replies?.[topic];return `<section class=resident-counter-question>${residentSpeaker(p)}${socialLine(question)}${residentSpeaker('tashi')}<p data-native-ui>${gmNative('Выбери реплику Таши для этого разговора.','Choose Tashi’s reply for this conversation.')}</p><div class=resident-name-variants>${choices.map((f,i)=>`<button class=secondary data-resident-reply=${i} aria-pressed="${selected==='tashi:'+f.bo}">${socialButton(f)}</button>`).join('')}</div>${choices.some(f=>selected==='tashi:'+f.bo)?`<p role=status data-native-ui>${gmNative('Таши ответил. Можно спросить дальше.','Tashi has replied. You can ask another question.')}</p>`:''}</section>`;}
+- function residentCounterQuestion(topic,p){if(p.isChild){const id=({'school-route':'question-child-to-tashi-destination','cartoons':'question-child-to-tashi-cartoons','subject':'question-child-to-tashi-school-subject'})[topic];if(id)return GameResidents.phrase(id,p,state);const direct=({'family':'family','hobby':'hobby','favorite-place':'favorite-place'})[topic];return direct?GameResidents.phrase('question-npc-to-tashi-'+direct+'-polite',p,state):null;}const direct=({'family':'family','hobby':'hobby','favorite-place':'favorite-place'})[topic];if(direct)return GameResidents.phrase('question-npc-to-tashi-'+direct+'-polite',p,state);if(['name','age','place','job','now','free-time','plans','plan','recent','goal','memory','childhood','friends','work-like','advice'].includes(topic))return GameResidents.question(topic,{...p,age:28,job:'student',isChild:false},state);return null;}
++ // The schoolchild addresses Tashi politely. The favourite-cartoon question uses
++ // the same form as question-child-to-tashi-school-subject with the cartoon noun.
++ function schoolFollowup(p,choice){
++  const likes=choice.id==='answer-cartoons-yes-child',self=residentSelfProfile();
++  const question=likes?{bo:'ཁྱེད་རང་འགུལ་རིས་ག་གི་ལ་དགའ་པོ་ཡོད།',ru:'А какой мультфильм Вам нравится?',en:'Which cartoon do you like?'}:GameResidents.phrase('question-child-to-tashi-school-subject',p,state);
++  const words=RESIDENT_DIALOGUES.child.vocabulary[likes?'cartoons':'subjects'];
++  const answers=words.map(word=>{
++   const profile=likes?{...self,favoriteCartoon:word}:{...self,school:{subject:[word.bo,word.ru,word.en]}};
++   return {key:word.id,phrase:GameResidents.phrase(likes?'answer-favorite-cartoon-child':'answer-favorite-subject-child',profile,state)};
++  });
++  const response=GameResidents.answer(likes?(p.likesCartoons?'cartoon-favorite':'hobby'):'subject',p,state);
++  return {question,answers,response};
++ }
++ function schoolFollowupMarkup(p,choice,draft){
++  const {question,answers,response}=schoolFollowup(p,choice),selected=answers.find(a=>a.key===draft.schoolDetail);
++  return `<section class=school-followup aria-live=polite>${residentSpeaker(p)}${socialLine(question)}${residentSpeaker('tashi')}<div class=resident-name-variants>${answers.map(a=>`<button class=secondary data-school-detail="${abEscape(a.key)}" aria-pressed="${a===selected}">${socialButton(a.phrase)}</button>`).join('')}</div>${selected?residentSpeaker(p)+socialLine(response):''}</section>`;
++ }
++ function residentResponseMarkup(topic,p){const choices=residentResponseChoices(topic,p),question=choices.length&&residentResponseQuestion(topic,p),draft=GameResidents.translationDraft(state.residents,p.id,topic);if(!question||!draft.passed)return '';const selected=GameResidents.relation(state.residents,p.id).replies?.[topic],reply=choices.find(f=>selected==='tashi:'+f.bo);return `<section class=resident-counter-question>${residentSpeaker(p)}${socialLine(question)}${residentSpeaker('tashi')}<p data-native-ui>${gmNative('Выбери реплику Таши для этого разговора.','Choose Tashi’s reply for this conversation.')}</p><div class=resident-name-variants>${choices.map((f,i)=>`<button class=secondary data-resident-reply=${i} aria-pressed="${selected==='tashi:'+f.bo}">${socialButton(f)}</button>`).join('')}</div>${reply&&topic==='cartoons'?schoolFollowupMarkup(p,reply,draft):reply?`<p role=status data-native-ui>${gmNative('Таши ответил. Можно спросить дальше.','Tashi has replied. You can ask another question.')}</p>`:''}</section>`;}
++ function residentCounterQuestion(topic,p){if(p.isChild){if(topic==='cartoons'&&!p.likesCartoons)return {bo:'ཁྱེད་རང་འགུལ་རིས་གཟིགས་ཡག་ལ་དགའ་པོ་ཡོད་པས།',ru:'А Вам нравится смотреть мультфильмы?',en:'Do you like watching cartoons?'};const id=({'school-route':'question-child-to-tashi-destination','cartoons':'question-child-to-tashi-cartoons','subject':'question-child-to-tashi-school-subject'})[topic];if(id)return GameResidents.phrase(id,p,state);const direct=({'family':'family','hobby':'hobby','favorite-place':'favorite-place'})[topic];return direct?GameResidents.phrase('question-npc-to-tashi-'+direct+'-polite',p,state):null;}const direct=({'family':'family','hobby':'hobby','favorite-place':'favorite-place'})[topic];if(direct)return GameResidents.phrase('question-npc-to-tashi-'+direct+'-polite',p,state);if(['name','age','place','job','now','free-time','plans','plan','recent','goal','memory','childhood','friends','work-like','advice'].includes(topic))return GameResidents.question(topic,{...p,age:28,job:'student',isChild:false},state);return null;}
+  function residentMarkup(panel){const p=GameResidents.byId.get(panel.resident),s=state.residents,r=GameResidents.relation(s,p.id),q=Object.values(s.quests).find(q=>q.owner===p.id&&['offered','accepted','ready'].includes(q.status)),deliveries=Object.values(s.quests).filter(q=>q.target===p.id&&q.status==='accepted'&&q.destination===panel.scene),familiarity=r.score>=3?'གྲོགས་པོ།':r.score?'ངོ་ཤེས།':'ངོ་མི་ཤེས་པ།';
+@@ -1859,3 +1940,12 @@
+   const r=GameResidents.relation(state.residents,p.id);if(p.regional&&panel.topic==='life')bindRegionalStory(p,refresh);else if(panel.topic){const d=GameResidents.translationDraft(state.residents,p.id,panel.topic);$('#challenge').querySelectorAll('[name=resident-meaning]').forEach(input=>input.onchange=()=>{d.choice=input.value;save();});$('#resident-meaning-check')?.addEventListener('click',()=>{d.attempts=(d.attempts||0)+1;d.passed=d.choice===p.id;refresh();});$('#resident-meaning-hint')?.addEventListener('click',()=>{d.revealed=true;refresh();});}
+-  $('#challenge').querySelectorAll('[data-resident-reply]').forEach(b=>b.onclick=()=>{const draft=GameResidents.translationDraft(state.residents,p.id,panel.topic),choice=residentResponseChoices(panel.topic,p)[Number(b.dataset.residentReply)];if(!draft.passed||!choice||!residentResponseQuestion(panel.topic,p))return;r.replies??={};r.replies[panel.topic]='tashi:'+choice.bo;panel.turns=[...(panel.turns||[]),{speaker:'tashi',topic:panel.topic,bo:choice.bo}].slice(-12);refresh();});
++  $('#challenge').querySelectorAll('[data-resident-reply]').forEach(b=>b.onclick=()=>{const draft=GameResidents.translationDraft(state.residents,p.id,panel.topic),choice=residentResponseChoices(panel.topic,p)[Number(b.dataset.residentReply)];if(!draft.passed||!choice||!residentResponseQuestion(panel.topic,p))return;r.replies??={};if(r.replies[panel.topic]==='tashi:'+choice.bo)return;if(panel.topic==='cartoons')delete draft.schoolDetail;r.replies[panel.topic]='tashi:'+choice.bo;panel.turns=[...(panel.turns||[]),{speaker:'tashi',topic:panel.topic,bo:choice.bo}].slice(-12);refresh();});
++  $('#challenge').querySelectorAll('[data-school-detail]').forEach(b=>b.onclick=()=>{
++   if(panel.topic!=='cartoons')return;
++   const draft=GameResidents.translationDraft(state.residents,p.id,panel.topic);
++   const choice=residentResponseChoices(panel.topic,p).find(f=>r.replies?.cartoons==='tashi:'+f.bo);
++   if(!draft.passed||!choice||draft.schoolDetail===b.dataset.schoolDetail)return;
++   const answer=schoolFollowup(p,choice).answers.find(a=>a.key===b.dataset.schoolDetail);
++   if(!answer)return;
++   draft.schoolDetail=answer.key;refresh();
++  });
+   $('#challenge').querySelectorAll('[data-resident-introduction],[data-resident-name-reply]').forEach(b=>b.onclick=()=>{const f=tashiNameVariants().find(f=>f.id===(b.dataset.residentIntroduction||b.dataset.residentNameReply));if(!f)return;r.replies??={};r.replies.name='tashi:'+f.bo;if(b.dataset.residentIntroduction){panel.topic='name';GameResidents.talk(state.residents,p.id,'name',GameResidents.day(state));}refresh();});
+--- a/assets/styles.css
++++ b/assets/styles.css
+@@ -1273,3 +1273,8 @@
+ #game-app .is-exploring #dialogue-toggle{width:auto;min-width:220px;border-radius:12px;padding:10px 16px;display:flex;gap:10px;align-items:center;justify-content:center}
+-#game-app .is-exploring #dialogue-toggle-label{display:inline;font-size:16px;line-height:1.3}
++#game-app .is-exploring #dialogue-toggle-label{display:inline;font-size:16px;line-height:1.4}
++#game-app .is-exploring .dialogue-bar{height:auto}
++#game-app .is-exploring #dialogue-toggle{height:auto;max-width:100%;min-width:0;white-space:normal}
++#game-app #collapsed-objective:not([hidden]){min-width:0;text-align:start;font-size:16px;line-height:1.4;font-weight:650;overflow-wrap:anywhere}
++#game-app #collapsed-objective:not([hidden])+span{padding-inline-start:10px;border-inline-start:1px solid currentColor}
++#game-app #collapsed-objective[lang=bo]:not([hidden]),html.tibetan-interface #game-app .is-exploring #dialogue-toggle-label{font-family:var(--bo);font-size:19px;line-height:1.85;font-weight:400}
+ 
+--- a/characters-preview.html
++++ b/characters-preview.html
+@@ -6,6 +6,6 @@
+ <title>Жители и их истории — Таши в Тибете</title>
+-<link rel="stylesheet" href="assets/regional-gallery.css?v=1.0.7.17">
+-<script src="assets/game-assets.js?v=1.0.7.17" defer></script>
+-<script src="assets/regional-gallery-data.js?v=1.0.7.17" defer></script>
+-<script src="assets/regional-gallery.js?v=1.0.7.17" defer></script>
++<link rel="stylesheet" href="assets/regional-gallery.css?v=1.0.7.18">
++<script src="assets/game-assets.js?v=1.0.7.18" defer></script>
++<script src="assets/regional-gallery-data.js?v=1.0.7.18" defer></script>
++<script src="assets/regional-gallery.js?v=1.0.7.18" defer></script>
+ </head>
+--- a/index.html
++++ b/index.html
+@@ -3,4 +3,4 @@
+ 
+-<link rel="stylesheet" href="assets/styles.css?v=1.0.7.17">
+-<script src="assets/game-assets.js?v=1.0.7.17"></script>
++<link rel="stylesheet" href="assets/styles.css?v=1.0.7.18">
++<script src="assets/game-assets.js?v=1.0.7.18"></script>
+ </head><body>
+@@ -32,3 +32,3 @@
+    <div class="scene-card" id="scene-stage"><div class="scene-top" id="scene-top"><span id="scene-name"></span></div><div class="scene-viewport" id="scene-viewport"><div class="world-mat" id="world-mat"><canvas id="world-backdrop" aria-hidden="true"></canvas><div id="world" aria-label="Игровая сцена. Нажми на предмет, чтобы Таши подошёл к нему."><canvas id="canvas" width="640" height="400" aria-label="Иллюстрированная сцена с Таши"></canvas><div id="hotspots"></div><div id="scene-board" hidden></div><div id="scene-hours" hidden></div><div id="scene-labels"></div><div id="scene-toast" aria-live="polite"></div></div></div></div><div class="scene-tools"><button id="scene-zoom" aria-label="Приблизить сцену" title="Приблизить сцену"><span aria-hidden="true">＋</span></button></div><details id="scene-price-list" class="scene-price-list" hidden></details><div class="scene-bottom"><span id="world-guide">Нажми на предмет, к которому хочешь подойти</span></div></div>
+-   <svg id="dialogue-tail" aria-hidden="true" hidden><path></path></svg><section class="dialogue-dock" id="dialogue-dock" aria-label="Реплики и действия"><div class="dialogue-bar"><span class="dialogue-context" id="dialogue-context">Таши</span><button id="dialogue-toggle" aria-controls="dialogue-scroll" aria-expanded="true"><span id="dialogue-toggle-label">Осмотреть</span><span id="dialogue-toggle-icon" aria-hidden="true">⌄</span></button></div><div id="dialogue-scroll" class="dialogue-scroll" tabindex="-1"><details id="scene-story" class="scene-story" hidden open><summary>Что происходит</summary><p id="scene-story-text"></p></details><section id="challenge" class="challenge" aria-label="Текущее задание"></section></div><div id="dialogue-actions" class="dialogue-actions" hidden></div></section>
++   <svg id="dialogue-tail" aria-hidden="true" hidden><path></path></svg><section class="dialogue-dock" id="dialogue-dock" aria-label="Реплики и действия"><div class="dialogue-bar"><span class="dialogue-context" id="dialogue-context">Таши</span><button id="dialogue-toggle" aria-controls="dialogue-scroll" aria-expanded="true"><span id="collapsed-objective" hidden></span><span id="dialogue-toggle-label">Осмотреть</span><span id="dialogue-toggle-icon" aria-hidden="true">⌄</span></button></div><div id="dialogue-scroll" class="dialogue-scroll" tabindex="-1"><details id="scene-story" class="scene-story" hidden open><summary>Что происходит</summary><p id="scene-story-text"></p></details><section id="challenge" class="challenge" aria-label="Текущее задание"></section></div><div id="dialogue-actions" class="dialogue-actions" hidden></div></section>
+   </section>
+@@ -38,7 +38,7 @@
+ <dialog id="modal"><div class="modal-head"><h2 id="modal-title"></h2><button id="modal-close" class="iconbutton" aria-label="Закрыть">×</button></div><div id="modal-body"></div></dialog><input id="import-file" type="file" accept="application/json,.json" hidden>
+-<script src="assets/js/game-00.js?v=1.0.7.17"></script><script src="assets/js/game-01.js?v=1.0.7.17"></script><script src="assets/js/game-02.js?v=1.0.7.17"></script><script src="assets/js/game-03.js?v=1.0.7.17"></script><script src="assets/js/game-04.js?v=1.0.7.17"></script><script src="assets/js/game-05.js?v=1.0.7.17"></script>
+-<script src="assets/js/game-06.js?v=1.0.7.17"></script><script src="assets/js/game-07.js?v=1.0.7.17"></script>
+-<script src="assets/js/game-08.js?v=1.0.7.17"></script>
+-<script src="assets/js/game-09.js?v=1.0.7.17"></script><script src="assets/js/game-10.js?v=1.0.7.17"></script><script src="assets/js/game-11.js?v=1.0.7.17"></script><script src="assets/js/game-12.js?v=1.0.7.17"></script><script src="assets/js/game-13.js?v=1.0.7.17"></script><script src="assets/js/game-14.js?v=1.0.7.17"></script><script src="assets/js/game-15.js?v=1.0.7.17"></script><script src="assets/js/game-16.js?v=1.0.7.17"></script><script src="assets/js/game-17.js?v=1.0.7.17"></script><script src="assets/js/game-18.js?v=1.0.7.17"></script><script src="assets/js/game-19.js?v=1.0.7.17"></script><script src="assets/js/game-20.js?v=1.0.7.17"></script><script src="assets/js/game-21.js?v=1.0.7.17"></script><script src="assets/js/game-22.js?v=1.0.7.17"></script><script src="assets/js/game-23.js?v=1.0.7.17"></script><script src="assets/js/game-24.js?v=1.0.7.17"></script><script src="assets/js/game-25.js?v=1.0.7.17"></script><script src="assets/js/game-26.js?v=1.0.7.17"></script><script src="assets/js/game-27.js?v=1.0.7.17"></script><script src="assets/js/game-28.js?v=1.0.7.17"></script>
+-<script src="assets/js/game-29.js?v=1.0.7.17"></script>
++<script src="assets/js/game-00.js?v=1.0.7.18"></script><script src="assets/js/game-01.js?v=1.0.7.18"></script><script src="assets/js/game-02.js?v=1.0.7.18"></script><script src="assets/js/game-03.js?v=1.0.7.18"></script><script src="assets/js/game-04.js?v=1.0.7.18"></script><script src="assets/js/game-05.js?v=1.0.7.18"></script>
++<script src="assets/js/game-06.js?v=1.0.7.18"></script><script src="assets/js/game-07.js?v=1.0.7.18"></script>
++<script src="assets/js/game-08.js?v=1.0.7.18"></script>
++<script src="assets/js/game-09.js?v=1.0.7.18"></script><script src="assets/js/game-10.js?v=1.0.7.18"></script><script src="assets/js/game-11.js?v=1.0.7.18"></script><script src="assets/js/game-12.js?v=1.0.7.18"></script><script src="assets/js/game-13.js?v=1.0.7.18"></script><script src="assets/js/game-14.js?v=1.0.7.18"></script><script src="assets/js/game-15.js?v=1.0.7.18"></script><script src="assets/js/game-16.js?v=1.0.7.18"></script><script src="assets/js/game-17.js?v=1.0.7.18"></script><script src="assets/js/game-18.js?v=1.0.7.18"></script><script src="assets/js/game-19.js?v=1.0.7.18"></script><script src="assets/js/game-20.js?v=1.0.7.18"></script><script src="assets/js/game-21.js?v=1.0.7.18"></script><script src="assets/js/game-22.js?v=1.0.7.18"></script><script src="assets/js/game-23.js?v=1.0.7.18"></script><script src="assets/js/game-24.js?v=1.0.7.18"></script><script src="assets/js/game-25.js?v=1.0.7.18"></script><script src="assets/js/game-26.js?v=1.0.7.18"></script><script src="assets/js/game-27.js?v=1.0.7.18"></script><script src="assets/js/game-28.js?v=1.0.7.18"></script>
++<script src="assets/js/game-29.js?v=1.0.7.18"></script>
+ </body></html>
