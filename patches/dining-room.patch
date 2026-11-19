@@ -1,0 +1,224 @@
+--- a/assets/js/game-29.js
++++ b/assets/js/game-29.js
+@@ -2548,3 +2548,3 @@
+ function countryCommerceTitle(t,o){if(o.kind==='site'&&o.direction==='out')return GameCountrySites.label(t,o.siteKey,o.main);const p=GameCountryCommerce.entry(t);return o.direction==='back'?{bo:DATA.sceneBo.hotel,ru:'Обратно в гостиницу',en:'Back to the guesthouse'}:o.kind?p[o.kind]:{bo:DATA.sceneBo.hotel,ru:'Перед гостиницей',en:'Outside the guesthouse'};}
+-function renderCountryCommerce(){const t=countryCommerceTrip(),o=GameCountryCommerce.active(t);if(!o||o.kind==='site'&&!GameCountrySites.journeyView(t)){countryCommerceHide();worldPanel={kind:'expeditions'};renderExpeditions();return;}countryCommerceHide();vehicleRideHide();streetWalkHide();worldPanel={kind:'country-commerce',scene:o.stage==='inside'?o.kind:'street'};const title=countryCommerceTitle(t,o),view=document.createElement('section');view.className='country-commerce-view vehicle-ride-view';view.setAttribute('aria-label',gmNative(title.ru,title.en));view.innerHTML=`<div class=vehicle-header><span class=bo lang=bo>${abEscape(title.bo)}</span><span>${abEscape(GamePlaceLabels.stop(t.destination,0))}</span><time>${countryCommerceTime(t)}</time><small>${gmNative('В кошельке: ','Wallet: ')}${state.story.balance}</small></div><div class="country-scene vehicle-map"><canvas role=application tabindex=0 aria-label="${gmNative('Предметы и маршрут местной поездки','Local journey, objects and route')}"></canvas><div class=country-objects></div></div><div class="country-controls vehicle-controls" data-native-ui></div>`;$('#game-shell').append(view);countryCommerceView=view;GameWeatherOverlay.mount(view.querySelector('.country-scene'),()=>{const outing=GameCountryCommerce.active(countryCommerceTrip());return {...GameWeather.context(state,DATA),scene:outing?.stage==='inside'?outing.kind:'street'};},{sky:true,painted:true});document.body.classList.add('country-outing');$('#challenge').innerHTML='';$('#dialogue-dock').classList.add('compact-dialogue');countryCommerceObserver=new ResizeObserver(()=>countryCommercePaint());countryCommerceObserver.observe(view.querySelector('.country-scene'));const box=view.querySelector('.country-scene');let drag=null,dragged=false;box.onwheel=ev=>{if(o.stage!=='ride')return;ev.preventDefault();countryCommerceCamera.zoom=Math.max(1,Math.min(4,countryCommerceCamera.zoom*(ev.deltaY<0?1.12:.89)));countryCommercePaint();};box.onpointerdown=ev=>{if(o.stage==='ride'&&ev.target.tagName==='CANVAS'){drag={x:ev.clientX,y:ev.clientY,px:countryCommerceCamera.panX,py:countryCommerceCamera.panY};dragged=false;box.setPointerCapture(ev.pointerId);}};box.onpointermove=ev=>{if(!drag)return;const dpr=Math.min(devicePixelRatio||1,1.6);if(Math.hypot(ev.clientX-drag.x,ev.clientY-drag.y)>4)dragged=true;countryCommerceCamera.panX=drag.px+(ev.clientX-drag.x)*dpr;countryCommerceCamera.panY=drag.py+(ev.clientY-drag.y)*dpr;countryCommercePaint();};box.onpointerup=()=>{drag=null;};box.ondblclick=()=>{if(o.stage==='ride'){countryCommerceCamera={zoom:countryCommerceCamera.zoom>2?1:2.4,panX:0,panY:0};countryCommercePaint();}};countryCommercePanel();countryCommercePaint();GameArtV2.ready.then(()=>{if(countryCommerceView===view)countryCommercePaint();});countryCommerceSchedule();}
++function renderCountryCommerce(){const t=countryCommerceTrip(),o=GameCountryCommerce.active(t);if(!o||o.kind==='site'&&!GameCountrySites.journeyView(t)){countryCommerceHide();worldPanel={kind:'expeditions'};renderExpeditions();return;}countryCommerceHide();vehicleRideHide();streetWalkHide();worldPanel={kind:'country-commerce',scene:o.stage==='inside'?o.kind:'street'};const title=countryCommerceTitle(t,o),view=document.createElement('section');view.className='country-commerce-view vehicle-ride-view';view.setAttribute('aria-label',gmNative(title.ru,title.en));view.innerHTML=`<div class=vehicle-header><span class=bo lang=bo>${abEscape(title.bo)}</span><span>${abEscape(GamePlaceLabels.stop(t.destination,0))}</span><time>${countryCommerceTime(t)}</time><small>${gmNative('В кошельке: ','Wallet: ')}${state.story.balance}</small></div><div class="country-scene vehicle-map"><canvas role=application tabindex=0 aria-label="${gmNative('Предметы и маршрут местной поездки','Local journey, objects and route')}"></canvas><div class=country-objects></div></div><div class="country-controls vehicle-controls" data-native-ui></div>`;$('#game-shell').append(view);countryCommerceView=view;if(o.stage==='inside')countryInteriorControls(view,o);GameWeatherOverlay.mount(view.querySelector('.country-scene'),()=>{const outing=GameCountryCommerce.active(countryCommerceTrip());return {...GameWeather.context(state,DATA),scene:outing?.stage==='inside'?outing.kind:'street'};},{sky:true,painted:true});document.body.classList.add('country-outing');$('#challenge').innerHTML='';$('#dialogue-dock').classList.add('compact-dialogue');countryCommerceObserver=new ResizeObserver(()=>countryCommercePaint());countryCommerceObserver.observe(view.querySelector('.country-scene'));const box=view.querySelector('.country-scene');let drag=null,dragged=false;box.onwheel=ev=>{if(o.stage!=='ride')return;ev.preventDefault();countryCommerceCamera.zoom=Math.max(1,Math.min(4,countryCommerceCamera.zoom*(ev.deltaY<0?1.12:.89)));countryCommercePaint();};box.onpointerdown=ev=>{if(o.stage==='ride'&&ev.target.tagName==='CANVAS'){drag={x:ev.clientX,y:ev.clientY,px:countryCommerceCamera.panX,py:countryCommerceCamera.panY};dragged=false;box.setPointerCapture(ev.pointerId);}};box.onpointermove=ev=>{if(!drag)return;const dpr=Math.min(devicePixelRatio||1,1.6);if(Math.hypot(ev.clientX-drag.x,ev.clientY-drag.y)>4)dragged=true;countryCommerceCamera.panX=drag.px+(ev.clientX-drag.x)*dpr;countryCommerceCamera.panY=drag.py+(ev.clientY-drag.y)*dpr;countryCommercePaint();};box.onpointerup=()=>{drag=null;};box.ondblclick=()=>{if(o.stage==='ride'){countryCommerceCamera={zoom:countryCommerceCamera.zoom>2?1:2.4,panX:0,panY:0};countryCommercePaint();}};countryCommercePanel();countryCommercePaint();GameArtV2.ready.then(()=>{if(countryCommerceView===view)countryCommercePaint();});countryCommerceSchedule();}
+ function countryCommerceHotspot(layer,id,name,x,y,w,h,action,value=''){const button=document.createElement('button');button.className='country-object';button.dataset.countryObject=id;button.dataset.objectLabel=name;button.setAttribute('aria-label',name);button.style.cssText=`left:${x}px;top:${y}px;width:${w}px;height:${h}px;`;button.onclick=()=>{if(action==='focus'){if(value==='speak'&&GameShopDialogue.countryContext(state)&&openShopDialogue('souvenir'))return;countryCommerceFocus=value;countryCommercePanel();countryCommercePaint();}else countryCommerceMove(action,value);};layer.append(button);}
+@@ -2587,5 +2587,110 @@
+ function countryCommerceHero(g,t,x,y,w,h,width,height){const colours={red:'#cc6348',green:'#5b8c5a',blue:'#5e92a7',yellow:'#dfbb5c',white:'#eee9d7',black:'#414a42'},outfit=GameWeather.outfit(state,DATA),weather=GameWeather.context(state,DATA),scale=h*height/51,task={...weather,outdoorOutfit:outfit,actualOutfit:state.outfits[state.day]||['red','green'],wetness:GameWeather.wetness(state,DATA,'street')};g.save();g.translate((x+w/2)*width,(y+h)*height);g.scale(scale,scale);if(!GameRainHero.draw(g,{x:0,y:0,colours},task,'street'))GameArtV2.hero(g,{traditional:false,season:GameClothing.heroSeason('street',{seasonGear:outfit.gear}),outfit:outfit.colours||task.actualOutfit,colours,x:-w*width/scale/2,y:-51,w:w*width/scale,h:51});g.restore();}
++function countryInteriorControls(view,outing){
++ const scene=view.querySelector('.country-scene');
++ function control(id,text,bo,parent,onClick){
++  const button=document.createElement('button');
++  button.type='button';
++  button.className='country-object country-room-control country-room-'+id;
++  button.dataset.countryObject=id;
++  button.dataset.objectLabel=bo;
++  button.title=bo;
++  button.setAttribute('aria-label',text+' · '+bo);
++  button.textContent=text;
++  button.onclick=onClick;
++  parent.append(button);
++  return button;
++ }
++ control('door',gmNative('На улицу','Go outside'),GameDoorLabels.outside.bo,scene,()=>countryCommerceMove('leave'));
++ if(outing.kind!=='shop')return;
++ function focus(value){countryCommerceFocus=value;countryCommercePanel();countryCommercePaint();}
++ control('basket',gmNative('Корзина','Basket'),'ཉོ་ཆའི་སླེ་པོ།',scene,()=>focus('basket'));
++ const balance=view.querySelector('.vehicle-header small');
++ const wallet=control('cash',gmNative('Кошелёк','Wallet'),DINING_DATA.labels.wallet,balance.parentElement,()=>{
++  const active=GameCountryCommerce.active(countryCommerceTrip());
++  if(active.paid)focus('receipt');
++  else if(countryCommerceFocus==='checkout')countryCommerceMove('cash');
++  else focus('checkout');
++ });
++ wallet.replaceChildren(balance);
++}
++
++// The painted countertop is the trapezoid in the upper third of the table sprite.
++// Work in its actual fitted dimensions so objects retain their support when the canvas changes shape.
++function countryInteriorTable(g,hot,w,h){
++ const width=Math.min(w*.90,h*1.22),height=width*159/320;
++ const left=(w-width)*.37,top=h*.70-height*.22;
++ GameArtV2.sprite(g,'room',2,left,top,width,height);
++ function target(id,name,cx,foot,dw,dh,action,value=''){
++  hot(id,name,(left+cx*width-dw/2)/w,(top+foot*height-dh)/h,dw/w,dh/h,action,value);
++ }
++ function object(art,cx,foot,dw,dh){
++  const x=left+cx*width-dw/2,y=top+foot*height-dh;
++  if(art.artLayers?.length){
++   for(const layer of art.artLayers){
++    const [ax,ay,aw,ah]=layer.box;
++    GameArtV2.sprite(g,...layer.art,x+ax*dw,y+ay*dh,aw*dw,ah*dh);
++   }
++  }else GameArtV2.sprite(g,...(art.art||['room',13]),x,y,dw,dh);
++ }
++ function paper(id,name,cell,cx,foot,size,action,value){
++  const dw=width*size,dh=dw*.58,x=left+cx*width,y=top+foot*height;
++  const image=GameArtV2.cropCanvas('room-details',cell);
++  if(image){
++   g.save();g.translate(x,y);g.transform(1,0,-.22,1,0,0);
++   g.drawImage(image,-dw/2,-dh,dw,dh);
++   if(id==='receipt'){
++    g.strokeStyle='rgba(82,65,47,.70)';g.lineWidth=Math.max(.65,dw*.023);g.beginPath();
++    for(const [row,length] of [.48,.37,.27].entries()){
++     const y=-dh*(.70-row*.18);g.moveTo(-dw*.19,y);g.lineTo(dw*(length-.19),y);
++    }
++    g.stroke();
++   }
++   g.restore();
++  }
++  const hitHeight=Math.max(dh,Math.min(30,width*.11));
++  target(id,name,cx,foot,dw*1.15,hitHeight,action,value);
++ }
++ return {left,top,width,height,object,target,paper};
++}
++function countryTableDishes(g,table,servings,action,value=''){
++ const end=.80,start=.13,group=(end-start)/Math.max(1,servings.length);
++ for(const [i,line] of servings.entries()){
++  const {item,qty}=line,center=start+(i+.5)*group;
++  const spread=qty===1?0:Math.min(group*.24,.064);
++  const dw=table.width*Math.min(group*(qty===1?.84:.46),item.category==='drink'?.111:.15);
++  const dh=dw*(item.category==='drink'?1.00:.88);
++  const places=qty===1?[[center,.22]]:qty===2?[[center-spread,.19],[center+spread,.24]]:[[center-spread,.14],[center+spread,.14],[center,.275]];
++  for(const [cx,foot] of places){
++   g.save();g.fillStyle='rgba(56,34,22,.18)';g.beginPath();
++   g.ellipse(table.left+cx*table.width,table.top+foot*table.height-dw*.018,dw*.32,dw*.055,0,0,Math.PI*2);g.fill();g.restore();
++   table.object(item,cx,foot,dw,dh);
++  }
++  const hitW=Math.min(group*table.width,dw+2*spread*table.width);
++  const hitH=Math.max(dh+(qty>1?.13*table.height:0),Math.min(36,table.width*.10));
++  table.target('dish-'+item.id,GameCountryCommerce.itemLabel(item),center,qty===3?.275:qty===2?.24:.22,hitW,hitH,action,value);
++ }
++}
++function countryInteriorShop(g,hot,sprite,t,o,w,h){
++ sprite('residents',2,.73,.27,.17,.44);
++ hot('staff','དྲན་རྟགས་འཚོང་མཁན།',.73,.27,.17,.44,'focus','speak');
++ const table=countryInteriorTable(g,hot,w,h),items=GameCountryCommerce.stock(t,o);
++ const group=.69/Math.max(items.length,1);
++ for(const [i,item] of items.entries()){
++  const cx=.105+(i+.5)*group,x=table.left+cx*table.width;
++  const dw=table.width*Math.min(group*.72,.16),dh=dw*.88,foot=.23;
++  if(o.cart.includes(item.id)){
++   g.save();g.beginPath();g.ellipse(x,table.top+foot*table.height,dw*.57,dw*.12,0,0,Math.PI*2);
++   g.fillStyle='rgba(240,186,88,.50)';g.fill();g.strokeStyle='#a66b27';g.lineWidth=Math.max(1,table.width*.003);g.stroke();g.restore();
++  }
++  table.object(item,cx,foot,dw,dh);
++  const tagW=Math.min(group*.77,.102)*table.width,tagH=Math.min(23,Math.max(15,table.width*.038)),tagY=table.top+.30*table.height;
++  g.save();g.fillStyle='#f5e7c8';g.strokeStyle='#826346';g.lineWidth=1.3;g.beginPath();g.roundRect(x-tagW/2,tagY,tagW,tagH,3);g.fill();g.stroke();
++  g.fillStyle='#304137';g.font='600 '+Math.round(tagH*.72)+'px system-ui';g.textAlign='center';g.textBaseline='middle';g.fillText(String(item.price),x,tagY+tagH*.52);g.restore();
++  const bound=tagY+tagH-(table.top+foot*table.height-dh);
++  table.target('product-'+item.id,GameCountryCommerce.itemLabel(item),cx,.30+tagH/table.height,Math.max(dw,tagW),bound,o.paid?'focus':'product',o.paid?'receipt':item.id);
++ }
++ if(o.paid)table.paper('receipt','འཛིན་ཤོག',12,.85,.22,.075,'focus','receipt');
++}
+ function countryCommercePaint(position=null){const t=countryCommerceTrip(),o=GameCountryCommerce.active(t),view=countryCommerceView;if(!view||!o)return;const canvas=view.querySelector('canvas'),rect=canvas.getBoundingClientRect(),ratio=Math.min(devicePixelRatio||1,1.6);if(rect.width<2||rect.height<2)return;canvas.width=Math.round(rect.width*ratio);canvas.height=Math.round(rect.height*ratio);const g=canvas.getContext('2d'),w=canvas.width,h=canvas.height,layer=view.querySelector('.country-objects');layer.replaceChildren();g.imageSmoothingEnabled=true;g.imageSmoothingQuality='high';
+  const hot=(id,name,x,y,dw,dh,action,value='')=>countryCommerceHotspot(layer,id,name,x*w/ratio,y*h/ratio,dw*w/ratio,dh*h/ratio,action,value),sprite=(sheet,cell,x,y,dw,dh)=>GameArtV2.sprite(g,sheet,cell,x*w,y*h,dw*w,dh*h);
+- const productArt=(item,x,y,dw,dh)=>{if(item.artLayers?.length){for(const part of item.artLayers){const [px,py,pw,ph]=part.box;sprite(part.art[0],part.art[1],x+px*dw,y+py*dh,pw*dw,ph*dh);}}else sprite(item.art[0],item.art[1],x,y,dw,dh);};
+  if(o.stage==='ride'||o.stage==='alight'){
+@@ -2594,11 +2699,5 @@
+  const inside=o.stage==='inside',atStop=['stop','waiting'].includes(o.stage)||o.stage==='boarding'&&o.mode==='bus',background=inside?(o.kind==='shop'?'bookstore-background':'teahouse-background'):atStop?'busstop-background':'street-background';countryCommerceBackground(g,background,w,h);
+- if(inside&&o.kind==='restaurant'&&!o.paid){diningCountryPaint(g,hot,sprite,t,o,w,h);countryCommerceSeparateTargets(layer);GameHotspotCaptions.schedule();return;}
+- if(inside){sprite('residents',2,.76,.40,.18,.4);sprite('room',2,.05,.59,.81,.60);const items=GameCountryCommerce.stock(t,o),start=.10,spacing=.22;for(let i=0;o.kind==='shop'&&i<items.length;i++){const item=items[i],x=start+i*spacing,y=.38;productArt(item,x,y,.17,.22);hot('product-'+item.id,GameCountryCommerce.itemLabel(item),x,y,.17,.305,o.paid?'focus':'product',o.paid?'receipt':item.id);if(o.cart.includes(item.id)){g.strokeStyle='#e9a957';g.lineWidth=4;g.beginPath();g.ellipse((x+.085)*w,(y+.16)*h,.084*w,.06*h,0,0,Math.PI*2);g.stroke();}g.fillStyle='#f3e7c8';g.strokeStyle='#977e54';g.lineWidth=2;g.beginPath();g.roundRect(x*w,(y+.24)*h,.17*w,.065*h,5);g.fill();g.stroke();g.fillStyle='#2f4c3f';g.font=Math.max(13,w*.012)+'px system-ui';g.textAlign='center';g.fillText(String(item.price),(x+.085)*w,(y+.28)*h);}
+-  sprite('market-items',12,.1,.69,.16,.18);hot('basket','ཉོ་ཆའི་སླེ་པོ།',.1,.69,.16,.18,'focus','basket');hot('staff',o.kind==='restaurant'?DINING_DATA.labels.staff:'དྲན་རྟགས་འཚོང་མཁན།',.76,.40,.18,.4,'focus','speak');sprite('market-items',10,.72,.76,.095,.11);hot('cash',DINING_DATA.labels.wallet,.72,.76,.095,.11,!o.paid&&countryCommerceFocus==='checkout'?'cash':'focus',o.paid?'receipt':'checkout');sprite('room-details',12,.85,.75,.08,.12);hot('receipt','འཛིན་ཤོག',.85,.75,.08,.12,'focus','receipt');sprite('room',7,.93,.36,.06,.44);hot('door',GameDoorLabels.outside.bo,.93,.36,.06,.44,'leave');if(o.kind==='restaurant'){sprite('room-details',1,.46,.72,.14,.17);hot('menu',DATA.objectBo.menu,.46,.72,.14,.17,'focus','menu');if(o.paid&&!o.served){
+-    const receipt=t.commerce.purchases.find(x=>x.id===o.receipt);
+-    for(const [i,id] of (receipt?.items||[]).entries()){
+-     const food=items.find(x=>x.id===id),x=.27+i*.15;
+-     if(food){productArt(food,x,.51,.13,.16);hot('dish-'+id,GameCountryCommerce.itemLabel(food),x,.51,.13,.16,'eat');}
+-    }
+-   }}
++ if(inside){
++  if(o.kind==='restaurant')diningCountryPaint(g,hot,sprite,t,o,w,h);
++  else countryInteriorShop(g,hot,sprite,t,o,w,h);
+  }else if(atStop){
+@@ -2632,3 +2731,3 @@
+   if(countryCommerceFocus==='speak'&&!o.paid){body+=say('Скажу, что хочу сделать с выбранными предметами.','I will say what I want to do with the selected items.');const choices=[['price',COUNTRY_COMMERCE_DATA.language.price.bo],['buy',o.kind==='shop'?COUNTRY_COMMERCE_DATA.language.buy.bo:'ང་ཁ་ལག་ཟ་འདོད་ཡོད།'],['ticket',COUNTRY_COMMERCE_DATA.language.ticket.bo]];body+=`<div class=spatial-sentences>${choices.map(([id,text])=>button('speak',bo(text),id)).join('')}</div>`;}
+-  if(countryCommerceFocus==='checkout'&&!o.paid){body+=`<section class=country-bill><p>${gmNative('Счёт. Сложите цены выбранных предметов и выберите общую сумму. В кошельке нужно оставить 12 монет на обратный автобус.','Bill. Add the selected prices and choose the total. Keep 12 coins for a return bus.')}</p>${o.cart.map(id=>{const x=items.find(x=>x.id===id);return `<p>${gmNative(x.ru,x.en)} — ${x.price}</p>`;}).join('')}<label>${gmNative('Сумма счёта','Bill total')} <select id=country-total><option value="" disabled ${countryCommerceTotals(t,o).map(String).includes(o.totalDraft)?'':'selected'}>—</option>${countryCommerceTotals(t,o).map(value=>`<option value="${value}" ${String(value)===o.totalDraft?'selected':''}>${value}</option>`).join('')}</select></label><p>${o.spoken?gmNative('Сотруднику объяснили заказ. Открою кошелёк на прилавке.','The staff have heard the order. I will open the wallet on the counter.'):gmNative('Сначала обращусь к сотруднику.','I will speak to the staff first.')}</p></section>`;}
++  if(countryCommerceFocus==='checkout'&&!o.paid){body+=`<section class=country-bill><p>${gmNative('Счёт. Сложите цены выбранных предметов и выберите общую сумму. В кошельке нужно оставить 12 монет на обратный автобус.','Bill. Add the selected prices and choose the total. Keep 12 coins for a return bus.')}</p>${o.cart.map(id=>{const x=items.find(x=>x.id===id);return `<p>${gmNative(x.ru,x.en)} — ${x.price}</p>`;}).join('')}<label>${gmNative('Сумма счёта','Bill total')} <select id=country-total><option value="" disabled ${countryCommerceTotals(t,o).map(String).includes(o.totalDraft)?'':'selected'}>—</option>${countryCommerceTotals(t,o).map(value=>`<option value="${value}" ${String(value)===o.totalDraft?'selected':''}>${value}</option>`).join('')}</select></label><p>${o.spoken?gmNative('Сотрудник подтвердил заказ. Для оплаты нажму на кошелёк вверху.','The staff confirmed the order. I will open the wallet at the top to pay.'):gmNative('Сначала обращусь к сотруднику.','I will speak to the staff first.')}</p></section>`;}
+   if(o.paid&&!o.served)body+=say(o.kind==='shop'?'Покупка оплачена; сувениры лежат в багаже. Чек на прилавке.':'Заказ оплачен. Блюдо на столе; поем, затем выйду через дверь.',o.kind==='shop'?'The purchase is paid and the souvenirs are in my luggage. The receipt is on the counter.':'The meal is paid and on the table. I will eat, then leave through the door.');
+@@ -3077,6 +3176,28 @@
+ function diningCountryMove(action,value){const t=countryCommerceTrip(),o=GameCountryCommerce.active(t),order=GameDining.open(state,DATA,GameDining.countryContext(t,o));if(!order)return;if(action==='dining-focus'){GameDining.act(state,DATA,'focus',value);save();countryCommercePanel();countryCommercePaint();}else diningAct(action.slice(7),value);}
+-function diningCountryPaint(g,hot,sprite,t,o,w,h){const order=GameDining.currentFor(state,GameDining.countryContext(t,o));sprite('residents',2,.74,.28,.17,.45);hot('staff',DINING_DATA.labels.staff,.74,.28,.17,.45,'dining-focus','staff');sprite('room',2,.08,.60,.76,.57);sprite('room-details',1,.17,.63,.16,.19);hot('menu',DINING_DATA.labels.menu,.17,.63,.16,.19,'dining-focus','menu');sprite('room',7,.91,.27,.08,.51);hot('door',GameDoorLabels.outside.bo,.91,.27,.08,.51,'leave');sprite('market-items',10,.77,.77,.10,.14);hot('cash',DINING_DATA.labels.wallet,.77,.77,.10,.14,order?.stage==='bill'?'dining-pay':'dining-focus','wallet');
+- if(!order)return;const rows=GameDining.tableLines(order);for(let i=0;i<rows.length;i++){const l=rows[i],x=GameDining.item(order,l.item),px=.32+(i%2)*.18,py=.51+Math.floor(i/2)*.17;if(x.artLayers?.length){for(const part of x.artLayers){const [ax,ay,aw,ah]=part.box;sprite(part.art[0],part.art[1],px+ax*.15,py+ay*.18,aw*.15,ah*.18);}}else if(x.art)sprite(x.art[0],x.art[1],px,py,.15,.18);else sprite('room',13,px,py,.15,.18);g.fillStyle='#f8edcf';g.beginPath();g.roundRect((px+.10)*w,(py+.12)*h,.045*w,.065*h,4);g.fill();g.fillStyle='#2e4739';g.textAlign='center';g.font=Math.max(16,w*.022)+'px system-ui';g.fillText(String(l.qty),(px+.123)*w,(py+.168)*h);hot('dish-'+l.item,GameCountryCommerce.itemLabel(x),px,py,.15,.18,order.stage==='eating'||order.stage==='receipt'&&!order.eaten?'dining-eat':'dining-focus','table');}
+- if(['bill','receipt','done'].includes(order.stage)){sprite('room-details',12,.48,.74,.09,.15);hot('receipt',DINING_DATA.labels.bill,.48,.74,.09,.15,order.stage==='receipt'&&order.eaten?'dining-take-receipt':'dining-focus',order.stage==='bill'?'bill':'receipt');}
+- if(order.stage==='waiting')hot('table',DINING_DATA.labels.table,.35,.68,.29,.18,'dining-serve');
++function diningCountryPaint(g,hot,sprite,t,o,w,h){
++ const legacy=o.paid;
++ const order=legacy?null:GameDining.currentFor(state,GameDining.countryContext(t,o));
++ sprite('residents',2,.73,.27,.17,.44);
++ hot('staff',DINING_DATA.labels.staff,.73,.27,.17,.44,legacy?'focus':'dining-focus',legacy?'speak':'staff');
++ const table=countryInteriorTable(g,hot,w,h);
++ let servings=[];
++ if(legacy&&!o.served){
++  const receipt=t.commerce.purchases.find(record=>record.id===o.receipt);
++  const items=GameCountryCommerce.stock(t,o);
++  servings=(receipt?.items||[]).map(id=>({item:items.find(item=>item.id===id),qty:1})).filter(line=>line.item);
++ }else if(order){
++  servings=GameDining.tableLines(order).map(line=>({item:GameDining.item(order,line.item),qty:line.qty}));
++ }
++ if(!servings.length&&(!order||order.stage==='menu'||order.stage==='done'||legacy)){
++  table.paper('menu',DINING_DATA.labels.menu,1,.48,.22,.145,legacy?'focus':'dining-focus','menu');
++ }
++ if(servings.length){
++  const edible=order?.stage==='eating'||(order?.stage==='receipt'&&!order.eaten);
++  countryTableDishes(g,table,servings,legacy?'eat':edible?'dining-eat':'dining-focus','table');
++ }
++ if(legacy||order?.stage==='bill'||order?.stage==='receipt'){
++  const take=order?.stage==='receipt'&&order.eaten;
++  table.paper('receipt',DINING_DATA.labels.bill,12,.865,.235,.082,legacy?'focus':take?'dining-take-receipt':'dining-focus',order?.stage==='bill'?'bill':'receipt');
++ }
++ if(order?.stage==='waiting')table.target('table',DINING_DATA.labels.table,.50,.28,table.width*.58,table.height*.26,'dining-serve');
+ }
+--- a/assets/styles.css
++++ b/assets/styles.css
+@@ -1392 +1392,14 @@
+ .country-owned-souvenirs article{text-align:center;min-width:0}
++
++.country-commerce-view .country-room-control{
++ position:absolute;z-index:3;display:inline-flex;align-items:center;justify-content:center;gap:.35em;
++ min-height:38px!important;padding:5px 11px!important;border:1px solid #947955!important;border-radius:7px;
++ background:#f8efdc!important;color:#294337;box-shadow:0 2px 3px #3d2e2526;
++ font:600 14px/1.2 system-ui;white-space:nowrap;cursor:pointer
++}
++.country-commerce-view .country-room-control:is(:hover,:focus-visible){outline:2px solid #805b33;outline-offset:1px;background:#fff8e8!important}
++.country-commerce-view .country-room-door{left:8px;top:8px}
++.country-room-door::before{content:'←';font-size:1.15em}
++.country-commerce-view .country-room-basket{right:8px;top:8px}
++.country-commerce-view .country-room-cash{position:static;align-self:center}
++.country-room-cash small{font:inherit}
+--- a/characters-preview.html
++++ b/characters-preview.html
+@@ -6,6 +6,6 @@
+ <title>Жители и их истории — Таши в Тибете</title>
+-<link rel="stylesheet" href="assets/regional-gallery.css?v=1.0.7.22">
+-<script src="assets/game-assets.js?v=1.0.7.22" defer></script>
+-<script src="assets/regional-gallery-data.js?v=1.0.7.22" defer></script>
+-<script src="assets/regional-gallery.js?v=1.0.7.22" defer></script>
++<link rel="stylesheet" href="assets/regional-gallery.css?v=1.0.7.23">
++<script src="assets/game-assets.js?v=1.0.7.23" defer></script>
++<script src="assets/regional-gallery-data.js?v=1.0.7.23" defer></script>
++<script src="assets/regional-gallery.js?v=1.0.7.23" defer></script>
+ </head>
+--- a/index.html
++++ b/index.html
+@@ -3,4 +3,4 @@
+ 
+-<link rel="stylesheet" href="assets/styles.css?v=1.0.7.22">
+-<script src="assets/game-assets.js?v=1.0.7.22"></script>
++<link rel="stylesheet" href="assets/styles.css?v=1.0.7.23">
++<script src="assets/game-assets.js?v=1.0.7.23"></script>
+ </head><body>
+@@ -38,7 +38,7 @@
+ <dialog id="modal"><div class="modal-head"><h2 id="modal-title"></h2><button id="modal-close" class="iconbutton" aria-label="Закрыть">×</button></div><div id="modal-body"></div></dialog><input id="import-file" type="file" accept="application/json,.json" hidden>
+-<script src="assets/js/game-00.js?v=1.0.7.22"></script><script src="assets/js/game-01.js?v=1.0.7.22"></script><script src="assets/js/game-02.js?v=1.0.7.22"></script><script src="assets/js/game-03.js?v=1.0.7.22"></script><script src="assets/js/game-04.js?v=1.0.7.22"></script><script src="assets/js/game-05.js?v=1.0.7.22"></script>
+-<script src="assets/js/game-06.js?v=1.0.7.22"></script><script src="assets/js/game-07.js?v=1.0.7.22"></script>
+-<script src="assets/js/game-08.js?v=1.0.7.22"></script>
+-<script src="assets/js/game-09.js?v=1.0.7.22"></script><script src="assets/js/game-10.js?v=1.0.7.22"></script><script src="assets/js/game-11.js?v=1.0.7.22"></script><script src="assets/js/game-12.js?v=1.0.7.22"></script><script src="assets/js/game-13.js?v=1.0.7.22"></script><script src="assets/js/game-14.js?v=1.0.7.22"></script><script src="assets/js/game-15.js?v=1.0.7.22"></script><script src="assets/js/game-16.js?v=1.0.7.22"></script><script src="assets/js/game-17.js?v=1.0.7.22"></script><script src="assets/js/game-18.js?v=1.0.7.22"></script><script src="assets/js/game-19.js?v=1.0.7.22"></script><script src="assets/js/game-20.js?v=1.0.7.22"></script><script src="assets/js/game-21.js?v=1.0.7.22"></script><script src="assets/js/game-22.js?v=1.0.7.22"></script><script src="assets/js/game-23.js?v=1.0.7.22"></script><script src="assets/js/game-24.js?v=1.0.7.22"></script><script src="assets/js/game-25.js?v=1.0.7.22"></script><script src="assets/js/game-26.js?v=1.0.7.22"></script><script src="assets/js/game-27.js?v=1.0.7.22"></script><script src="assets/js/game-28.js?v=1.0.7.22"></script>
+-<script src="assets/js/game-29.js?v=1.0.7.22"></script>
++<script src="assets/js/game-00.js?v=1.0.7.23"></script><script src="assets/js/game-01.js?v=1.0.7.23"></script><script src="assets/js/game-02.js?v=1.0.7.23"></script><script src="assets/js/game-03.js?v=1.0.7.23"></script><script src="assets/js/game-04.js?v=1.0.7.23"></script><script src="assets/js/game-05.js?v=1.0.7.23"></script>
++<script src="assets/js/game-06.js?v=1.0.7.23"></script><script src="assets/js/game-07.js?v=1.0.7.23"></script>
++<script src="assets/js/game-08.js?v=1.0.7.23"></script>
++<script src="assets/js/game-09.js?v=1.0.7.23"></script><script src="assets/js/game-10.js?v=1.0.7.23"></script><script src="assets/js/game-11.js?v=1.0.7.23"></script><script src="assets/js/game-12.js?v=1.0.7.23"></script><script src="assets/js/game-13.js?v=1.0.7.23"></script><script src="assets/js/game-14.js?v=1.0.7.23"></script><script src="assets/js/game-15.js?v=1.0.7.23"></script><script src="assets/js/game-16.js?v=1.0.7.23"></script><script src="assets/js/game-17.js?v=1.0.7.23"></script><script src="assets/js/game-18.js?v=1.0.7.23"></script><script src="assets/js/game-19.js?v=1.0.7.23"></script><script src="assets/js/game-20.js?v=1.0.7.23"></script><script src="assets/js/game-21.js?v=1.0.7.23"></script><script src="assets/js/game-22.js?v=1.0.7.23"></script><script src="assets/js/game-23.js?v=1.0.7.23"></script><script src="assets/js/game-24.js?v=1.0.7.23"></script><script src="assets/js/game-25.js?v=1.0.7.23"></script><script src="assets/js/game-26.js?v=1.0.7.23"></script><script src="assets/js/game-27.js?v=1.0.7.23"></script><script src="assets/js/game-28.js?v=1.0.7.23"></script>
++<script src="assets/js/game-29.js?v=1.0.7.23"></script>
+ </body></html>
