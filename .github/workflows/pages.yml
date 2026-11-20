@@ -3,7 +3,7 @@ name: Publish Tashi to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: [.github/workflows/pages.yml, patches/school-dialogue.patch, patches/cinema-cashier.patch, patches/location-labels.patch, patches/object-labels.patch, patches/purchases.patch, patches/dining-room.patch]
+    paths: [.github/workflows/pages.yml, patches/school-dialogue.patch, patches/cinema-cashier.patch, patches/location-labels.patch, patches/object-labels.patch, patches/purchases.patch, patches/dining-room.patch, patches/venues.patch]
   workflow_dispatch:
 
 permissions:
@@ -13,11 +13,11 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: ${{ github.event_name == 'push' && github.event.before == '910ed55ef6809d8d62f27299e0e51dc2c9809e46' }}
+  cancel-in-progress: ${{ github.event_name == 'push' && github.event.before == 'a92ff1e3119c3e4ad5e2018562e16efac9f8d248' }}
 
 jobs:
   deploy:
-    if: github.event_name != 'push' || github.event.before != '910ed55ef6809d8d62f27299e0e51dc2c9809e46'
+    if: github.event_name != 'push' || github.event.before != 'a92ff1e3119c3e4ad5e2018562e16efac9f8d248'
     runs-on: macos-15
     environment:
       name: github-pages
@@ -710,6 +710,23 @@ jobs:
               assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
           PYVERIFY
 
+      - name: Apply and verify shop shelves and dining tables
+        working-directory: dist
+        run: |
+          git apply --unidiff-zero --whitespace=nowarn ../school-update/patches/venues.patch
+          python - <<'PYVERIFY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('assets/manifest.json')
+          data=json.loads(p.read_text())
+          data['htmlBytes']=Path('index.html').stat().st_size
+          data['scriptBytes']=sum(p.stat().st_size for p in Path('assets/js').glob('game-[0-9][0-9].js'))
+          p.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
+          expected={'assets/js/game-08.js': '52340cb25995592cab618115026dca8457b2789b5df093cf32c51ae0da1d1031', 'assets/js/game-09.js': '11a3c3895b235fd9a5b99749dd6fba35675dfaba28d8d6f797f4f7b6799dc13c', 'assets/js/game-16.js': 'ed7da680f0e0ccab89fd3a5137ff462d3aa8e422bb6124e1608770a13d35611b', 'assets/js/game-29.js': 'a812215f556308a2ee6075016ce0c42b9a7e746c2ad50244da389963586e945c', 'assets/manifest.json': '98e4a7ee0379fa63ee5e48ffd5fe9cd1dcd718e2cac8f98e336110f6732143b3', 'assets/styles.css': '71b5fc6a5c1de4e29dc5f513a2944e2fb96911ce20c59637991d2c6de85edcb6', 'characters-preview.html': '97c9c5dc98fad3b85a18d845e4f097ae45ed2c819733180e57460a7348a64ec7', 'index.html': '88eb3251500c88088c6208dead437b79d342c3785bf359c3156e91da6c684cea'}
+          for name,digest in expected.items():
+              assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
+          PYVERIFY
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
@@ -723,7 +740,7 @@ jobs:
         uses: actions/deploy-pages@v5
 
   publish-verified-scene:
-    if: github.event_name == 'push' && github.event.before == '910ed55ef6809d8d62f27299e0e51dc2c9809e46'
+    if: github.event_name == 'push' && github.event.before == 'a92ff1e3119c3e4ad5e2018562e16efac9f8d248'
     permissions:
       actions: read
       contents: read
@@ -752,14 +769,14 @@ jobs:
           curl --retry 3 --fail --silent --show-error --location -H 'Cache-Control: no-cache' "$url" -o "$RUNNER_TEMP/tashi-public-index"
           digest=$(sha256sum "$RUNNER_TEMP/tashi-public-index" | cut -d' ' -f1)
           case "$digest" in
-            e284d891532516739a91162d7bd985695715ae68b3ee956d925134fe16d45c8c) echo 'deploy=false' >> "$GITHUB_OUTPUT" ;;
-            cc1e9e48a45cfc642d4bb2dc75e06bb75cbd09494681e771e239f58eeac6a684) echo 'deploy=true' >> "$GITHUB_OUTPUT" ;;
+            88eb3251500c88088c6208dead437b79d342c3785bf359c3156e91da6c684cea) echo 'deploy=false' >> "$GITHUB_OUTPUT" ;;
+            e284d891532516739a91162d7bd985695715ae68b3ee956d925134fe16d45c8c) echo 'deploy=true' >> "$GITHUB_OUTPUT" ;;
             *) echo "Unexpected published index digest $digest" >&2; exit 1 ;;
           esac
           CHECK_PUBLIC
           bash "$RUNNER_TEMP/fallback/guard.sh"
 
-      - name: Check out the dining scene patch
+      - name: Check out the venue layout patch
         if: steps.current.outputs.deploy == 'true'
         uses: actions/checkout@v4
         with:
@@ -777,9 +794,9 @@ jobs:
           artifact="$RUNNER_TEMP/previous-pages.zip"
           curl --retry 3 --fail --silent --show-error --location \
             --header "Authorization: Bearer $GH_TOKEN" \
-            "https://api.github.com/repos/monsheri12-ui/tashi-in-tibet/actions/artifacts/14553530214/zip" \
+            "https://api.github.com/repos/monsheri12-ui/tashi-in-tibet/actions/artifacts/14575417598/zip" \
             -o "$artifact"
-          echo "060822bd8290d33113cccdbc66094619cdba2c3be6ef8695466367e897d83307  $artifact" | sha256sum -c -
+          echo "9c831d9205d54ff1343304fa240b8cd570cae66211757b0320bd02586936a3c1  $artifact" | sha256sum -c -
           python3 - <<'RESTORE'
           import os, shutil, tarfile, zipfile
           from pathlib import Path, PurePosixPath
@@ -822,13 +839,13 @@ jobs:
               raise SystemExit(f'Wrong release inventory: {len(inventory)} files, {digest}')
           print(f'Verified {len(inventory)} release files: {digest}')
           INVENTORY
-          python3 "$RUNNER_TEMP/fallback/inventory.py" 5ee65d229a9f0239f5320e06a5a27e9574645a15b2c154ed7a5bc47909f62ced
+          python3 "$RUNNER_TEMP/fallback/inventory.py" 97ed5e0e6308c447e44c0aaa946c00e11833691aac5ffb66329fedbb8174defc
 
-      - name: Apply and verify the regional dining scene
+      - name: Apply and verify shop shelves and dining tables
         if: steps.current.outputs.deploy == 'true'
         working-directory: dist
         run: |
-          git apply --unidiff-zero --whitespace=nowarn ../school-update/patches/dining-room.patch
+          git apply --unidiff-zero --whitespace=nowarn ../school-update/patches/venues.patch
           python - <<'PYVERIFY'
           import hashlib,json
           from pathlib import Path
@@ -837,14 +854,14 @@ jobs:
           data['htmlBytes']=Path('index.html').stat().st_size
           data['scriptBytes']=sum(p.stat().st_size for p in Path('assets/js').glob('game-[0-9][0-9].js'))
           p.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
-          expected={'assets/js/game-29.js': '41a5ce42b23287e794f9e14c0e823d8e931aecb37c93062f02a3f1364afd79d8', 'assets/manifest.json': '4c30add380bb806278b538a2ce26ade2427592743ee76cf46cc0e3cf190fccef', 'assets/styles.css': 'a3233884e91441720b84db719201dc1c888e2e33acfea106ba788168df68ebe8', 'characters-preview.html': '2abfcdee428c1a4976dfc4e99ad2224067cd29b89c4677f164e3f3d4f08d986c', 'index.html': 'e284d891532516739a91162d7bd985695715ae68b3ee956d925134fe16d45c8c'}
+          expected={'assets/js/game-08.js': '52340cb25995592cab618115026dca8457b2789b5df093cf32c51ae0da1d1031', 'assets/js/game-09.js': '11a3c3895b235fd9a5b99749dd6fba35675dfaba28d8d6f797f4f7b6799dc13c', 'assets/js/game-16.js': 'ed7da680f0e0ccab89fd3a5137ff462d3aa8e422bb6124e1608770a13d35611b', 'assets/js/game-29.js': 'a812215f556308a2ee6075016ce0c42b9a7e746c2ad50244da389963586e945c', 'assets/manifest.json': '98e4a7ee0379fa63ee5e48ffd5fe9cd1dcd718e2cac8f98e336110f6732143b3', 'assets/styles.css': '71b5fc6a5c1de4e29dc5f513a2944e2fb96911ce20c59637991d2c6de85edcb6', 'characters-preview.html': '97c9c5dc98fad3b85a18d845e4f097ae45ed2c819733180e57460a7348a64ec7', 'index.html': '88eb3251500c88088c6208dead437b79d342c3785bf359c3156e91da6c684cea'}
           for name,digest in expected.items():
               assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
           PYVERIFY
 
       - name: Verify all files before upload
         if: steps.current.outputs.deploy == 'true'
-        run: python3 "$RUNNER_TEMP/fallback/inventory.py" 97ed5e0e6308c447e44c0aaa946c00e11833691aac5ffb66329fedbb8174defc
+        run: python3 "$RUNNER_TEMP/fallback/inventory.py" 6acfd1eee50c576f57cd3bab2e3de208bf08a52821c36bfcf879ff40294515db
 
       - name: Configure Pages
         if: steps.current.outputs.deploy == 'true'
